@@ -1,0 +1,932 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "1784eca5-7b8b-4178-9c62-9b7313dc0823")
+	(paper "A4")
+	(lib_symbols)
+	(rectangle
+		(start 58.42 71.12)
+		(end 83.82 78.74)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3d301fbe-4449-4da5-9c1f-6184b59cf810)
+	)
+	(rectangle
+		(start 172.72 96.52)
+		(end 198.12 124.46)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ce8c7fa1-065f-4a2b-ba10-7c2391dee79f)
+	)
+	(text "PHY Wakeup circuitry"
+		(exclude_from_sim no)
+		(at 226.06 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "03e1c469-a6bf-443f-9fea-cffc3aae2ba0")
+	)
+	(text "PCIe Switch"
+		(exclude_from_sim no)
+		(at 226.06 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "05c166ec-b814-4d7e-aa62-5e2831c79a2c")
+	)
+	(text "676mA"
+		(exclude_from_sim no)
+		(at 213.36 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "136ed9af-6d32-469c-a9c8-181833eea40e")
+	)
+	(text "VBUS"
+		(exclude_from_sim no)
+		(at 86.36 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1572f71a-c403-4cf9-9f88-cb530eb257b6")
+	)
+	(text "<100mA"
+		(exclude_from_sim no)
+		(at 213.36 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "307cb754-1ff8-4513-ade0-66a319e6e8ce")
+	)
+	(text "3V3"
+		(exclude_from_sim no)
+		(at 200.66 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "332e0b23-2b4d-4339-b1ea-da2277961eb7")
+	)
+	(text "<300mA"
+		(exclude_from_sim no)
+		(at 213.36 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3dc9b019-d3b8-4732-9093-10af76d9a024")
+	)
+	(text "6uA"
+		(exclude_from_sim no)
+		(at 213.36 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "40ef3e2a-b76b-4835-8726-99f15a07c5ac")
+	)
+	(text "3V3_M2"
+		(exclude_from_sim no)
+		(at 200.66 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4e6ee074-5fa9-45cb-92a9-b6945afc4812")
+	)
+	(text "LAN7431"
+		(exclude_from_sim no)
+		(at 226.06 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5034425c-44f7-4950-a5f3-9fb4228ee614")
+	)
+	(text "1V1"
+		(exclude_from_sim no)
+		(at 200.66 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5ea6ae13-fb20-4071-8c50-25982c64bf7a")
+	)
+	(text "CM5IO"
+		(exclude_from_sim no)
+		(at 58.42 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5f62b85c-2a9d-458d-a21b-aea6f4121305")
+	)
+	(text "<5mA"
+		(exclude_from_sim no)
+		(at 213.36 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6d6b0972-1fdd-4b2e-8667-9351dc1804e3")
+	)
+	(text "5V"
+		(exclude_from_sim no)
+		(at 137.16 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7507003f-0407-40bf-8941-ccbc258baa61")
+	)
+	(text "1000BASE-T1"
+		(exclude_from_sim no)
+		(at 226.06 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7511457b-1f0f-4262-94bd-2d270f51ddcf")
+	)
+	(text "188mA"
+		(exclude_from_sim no)
+		(at 213.36 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "76721f81-e607-457b-b614-bec05055e416")
+	)
+	(text "M.2 E-Key connector"
+		(exclude_from_sim no)
+		(at 226.06 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "776f5f1a-eb36-40e7-b14b-8a080e83c87b")
+	)
+	(text "LAN7431"
+		(exclude_from_sim no)
+		(at 226.06 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "96ef6615-70fa-4f21-8229-799e6a15fa29")
+	)
+	(text "6uA"
+		(exclude_from_sim no)
+		(at 213.36 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9f656644-6234-4eeb-ac80-158503e6ad67")
+	)
+	(text "3V3_PCIE"
+		(exclude_from_sim no)
+		(at 200.66 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a1115716-b06f-4037-a2f2-3ceb9d0e36ad")
+	)
+	(text "M.2 SUSCLK"
+		(exclude_from_sim no)
+		(at 226.06 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a66969cb-d66d-414c-8959-8e9b9adb7014")
+	)
+	(text "<10mA"
+		(exclude_from_sim no)
+		(at 213.36 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b39fbde9-ee66-4f9e-87b9-2bc069508237")
+	)
+	(text "VIN (12V-24V)"
+		(exclude_from_sim no)
+		(at 86.36 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c4d143e9-65d9-4b3a-a0cc-d99ba6e8d6b4")
+	)
+	(text "<500mA"
+		(exclude_from_sim no)
+		(at 213.36 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c877eabe-0056-4706-be37-4d2bc2cc6451")
+	)
+	(text "1V8"
+		(exclude_from_sim no)
+		(at 200.66 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cd66db8a-8234-43df-9642-dfb17ea13b0b")
+	)
+	(text "<3000mA"
+		(exclude_from_sim no)
+		(at 213.36 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cdf9a02e-5902-4308-bb7d-4f80e75d8f7e")
+	)
+	(text "1000BASE-T1"
+		(exclude_from_sim no)
+		(at 226.06 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cf1b1057-85be-4876-b767-c5a2896e2697")
+	)
+	(text "<300mA"
+		(exclude_from_sim no)
+		(at 213.36 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cfe3f394-f6cf-4d81-a04c-4936f354c96a")
+	)
+	(text "1000BASE-T1"
+		(exclude_from_sim no)
+		(at 226.06 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d3c828c5-b4c7-454c-8533-26b66586d81c")
+	)
+	(text "PCIe Switch"
+		(exclude_from_sim no)
+		(at 226.06 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e085d1bd-409a-49d5-a743-0a7c14543285")
+	)
+	(text "CM5 VBAT"
+		(exclude_from_sim no)
+		(at 226.06 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e2c1a75f-3b5b-4369-870d-80ba06d77560")
+	)
+	(text "3V3_AON"
+		(exclude_from_sim no)
+		(at 200.66 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e8b5c31a-3130-4b78-bae0-b28001ad0b27")
+	)
+	(text "1V0"
+		(exclude_from_sim no)
+		(at 200.66 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eb0720f9-88ef-47e5-b86f-a44116481552")
+	)
+	(text "390mA"
+		(exclude_from_sim no)
+		(at 213.36 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f2d149ea-663c-4d52-9818-a89abb252d6e")
+	)
+	(text "CM5"
+		(exclude_from_sim no)
+		(at 172.72 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f4cc0ba6-4610-4404-85bf-d2d7bd0e00c8")
+	)
+	(text "MIPI Power"
+		(exclude_from_sim no)
+		(at 226.06 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f64b8598-90bf-4949-9cab-6b791e4258b6")
+	)
+	(no_connect
+		(at 170.18 68.58)
+		(uuid "c143551b-e67a-4155-a3bb-2cf36d91bea0")
+	)
+	(polyline
+		(pts
+			(xy 198.12 73.66) (xy 223.52 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03f4929e-2b68-442c-9ef8-acf8559fda73")
+	)
+	(wire
+		(pts
+			(xy 106.68 66.04) (xy 109.22 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09ec1409-5015-456f-a5ad-e2993c44769a")
+	)
+	(polyline
+		(pts
+			(xy 134.62 63.5) (xy 172.72 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b2b12ff-ab41-4b09-9670-116c5c246f02")
+	)
+	(polyline
+		(pts
+			(xy 210.82 73.66) (xy 210.82 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d2fabed-58a7-4706-99ef-85fa135b8900")
+	)
+	(polyline
+		(pts
+			(xy 210.82 45.72) (xy 210.82 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16daf04e-a256-4023-a28c-ef51aafe5d4b")
+	)
+	(polyline
+		(pts
+			(xy 198.12 63.5) (xy 223.52 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cf7d5d7-13f6-4a25-a14c-a4b52c6f4259")
+	)
+	(polyline
+		(pts
+			(xy 223.52 55.88) (xy 210.82 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f0dc39a-2d4f-43c3-89c6-84a41a7a6cdd")
+	)
+	(polyline
+		(pts
+			(xy 210.82 50.8) (xy 210.82 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "269e9237-dee2-4cdd-b0c2-33220358941e")
+	)
+	(polyline
+		(pts
+			(xy 198.12 116.84) (xy 223.52 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d108291-5b32-41b2-9b74-b814e97981da")
+	)
+	(polyline
+		(pts
+			(xy 83.82 45.72) (xy 172.72 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c3cdf8f-b4ee-414f-9c4f-b8fcda430f91")
+	)
+	(polyline
+		(pts
+			(xy 223.52 50.8) (xy 210.82 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a2b42ca-b2bd-4f7e-a560-834739942371")
+	)
+	(polyline
+		(pts
+			(xy 198.12 137.16) (xy 223.52 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a0d5dec-0deb-494d-aaa1-9c343835d7d5")
+	)
+	(polyline
+		(pts
+			(xy 147.32 99.06) (xy 172.72 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e04cbcc-72e4-4b3b-849c-fde9221ce341")
+	)
+	(polyline
+		(pts
+			(xy 83.82 73.66) (xy 109.22 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "803a8716-1ec3-468e-9cf2-802917204a93")
+	)
+	(polyline
+		(pts
+			(xy 210.82 78.74) (xy 210.82 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86c07ddd-420b-4497-b5dc-ff94a6cd4809")
+	)
+	(polyline
+		(pts
+			(xy 96.52 45.72) (xy 96.52 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c4ee472-6d52-4114-a367-ddfb0f8ea0d2")
+	)
+	(polyline
+		(pts
+			(xy 147.32 63.5) (xy 147.32 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9380ed55-cdce-40fb-abc4-08bc9405d3e1")
+	)
+	(polyline
+		(pts
+			(xy 223.52 83.82) (xy 210.82 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c605fa8-11d6-4b21-91cd-84c262ccb1ef")
+	)
+	(polyline
+		(pts
+			(xy 223.52 78.74) (xy 210.82 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4ba5435-3872-481e-a8b2-665ba807c406")
+	)
+	(polyline
+		(pts
+			(xy 198.12 45.72) (xy 223.52 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a79e973a-0877-4a21-b3a0-c7e5cddf11c1")
+	)
+	(polyline
+		(pts
+			(xy 210.82 116.84) (xy 210.82 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8955b8e-5b50-4f0a-ab26-dcb2981381b7")
+	)
+	(polyline
+		(pts
+			(xy 198.12 99.06) (xy 223.52 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d08973ff-461a-46fe-a7c2-6c6c1134fc4b")
+	)
+	(polyline
+		(pts
+			(xy 96.52 63.5) (xy 109.22 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da7a28cf-4489-488e-895c-75f66c8c0def")
+	)
+	(wire
+		(pts
+			(xy 170.18 68.58) (xy 172.72 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db2f07a8-ce0f-49ce-bb18-812c391d00f1")
+	)
+	(polyline
+		(pts
+			(xy 198.12 144.78) (xy 223.52 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb1d1d4e-d398-48ac-b775-355c3bcf03db")
+	)
+	(polyline
+		(pts
+			(xy 147.32 137.16) (xy 172.72 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec2a31d3-abd7-4147-b18f-5cdee38e4d45")
+	)
+	(polyline
+		(pts
+			(xy 223.52 121.92) (xy 210.82 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9d03a68-305b-4a65-b6fc-12e164e4b42c")
+	)
+	(wire
+		(pts
+			(xy 170.18 66.04) (xy 172.72 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa68c4bf-58f1-48d2-8041-9f17b763b8cb")
+	)
+	(hierarchical_label "3V3_M2_EN"
+		(shape input)
+		(at 170.18 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "58db6893-4a4d-4c9d-8ed1-76c6584c8712")
+	)
+	(hierarchical_label "INH"
+		(shape input)
+		(at 106.68 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f64d8bd1-40d5-4c43-b4d5-9ac8fb8a2cb5")
+	)
+	(sheet
+		(at 172.72 134.62)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "313ad2b1-6281-4d61-a8a6-55e55641e36c")
+		(property "Sheetname" "1V0 & 1V1 Regulators"
+			(at 172.72 133.9084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "1v0-1v1-regulators.kicad_sch"
+			(at 172.72 147.9046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "jabr-control-v1"
+				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 172.72 40.64)
+		(size 25.4 45.72)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "52a41b87-8503-44b7-832c-aae66b3851bb")
+		(property "Sheetname" "3V3 Regulators"
+			(at 172.72 39.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "3v3-regulators.kicad_sch"
+			(at 172.72 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3V3_M2_EN" input
+			(at 172.72 66.04 180)
+			(uuid "447f0a21-2604-4558-85d9-79ba1aeb069d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3V3_M2_MODE" input
+			(at 172.72 68.58 180)
+			(uuid "59072a80-4ae3-4598-879e-ddbde33f39e8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "jabr-control-v1"
+				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 109.22 60.96)
+		(size 25.4 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a1f2745a-98e5-40f5-b635-cc8a6d17ac78")
+		(property "Sheetname" "5V Regulator"
+			(at 109.22 60.2484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "5v-regulator.kicad_sch"
+			(at 109.22 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "INH" input
+			(at 109.22 66.04 180)
+			(uuid "06818203-d75f-4ff5-a914-7187a8dd2a85")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "jabr-control-v1"
+				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 58.42 40.64)
+		(size 25.4 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c8847476-18c7-4518-a86a-3cbd7effb778")
+		(property "Sheetname" "Power In"
+			(at 58.42 39.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power-in.kicad_sch"
+			(at 58.42 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "jabr-control-v1"
+				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844"
+					(page "12")
+				)
+			)
+		)
+	)
+)
