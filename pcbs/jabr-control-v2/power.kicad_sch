@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "1784eca5-7b8b-4178-9c62-9b7313dc0823")
 	(paper "A4")
 	(lib_symbols)
@@ -15,7 +15,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 3d301fbe-4449-4da5-9c1f-6184b59cf810)
+		(uuid "3d301fbe-4449-4da5-9c1f-6184b59cf810")
 	)
 	(rectangle
 		(start 172.72 96.52)
@@ -27,7 +27,7 @@
 		(fill
 			(type none)
 		)
-		(uuid ce8c7fa1-065f-4a2b-ba10-7c2391dee79f)
+		(uuid "ce8c7fa1-065f-4a2b-ba10-7c2391dee79f")
 	)
 	(text "PHY Wakeup circuitry"
 		(exclude_from_sim no)
@@ -42,7 +42,7 @@
 	)
 	(text "PCIe Switch"
 		(exclude_from_sim no)
-		(at 226.06 83.82 0)
+		(at 226.06 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50,17 +50,6 @@
 			(justify left)
 		)
 		(uuid "05c166ec-b814-4d7e-aa62-5e2831c79a2c")
-	)
-	(text "676mA"
-		(exclude_from_sim no)
-		(at 213.36 142.24 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "136ed9af-6d32-469c-a9c8-181833eea40e")
 	)
 	(text "VBUS"
 		(exclude_from_sim no)
@@ -128,7 +117,7 @@
 		)
 		(uuid "4e6ee074-5fa9-45cb-92a9-b6945afc4812")
 	)
-	(text "LAN7431"
+	(text "PCIe Switch"
 		(exclude_from_sim no)
 		(at 226.06 121.92 0)
 		(effects
@@ -194,7 +183,7 @@
 		)
 		(uuid "7511457b-1f0f-4262-94bd-2d270f51ddcf")
 	)
-	(text "188mA"
+	(text "???"
 		(exclude_from_sim no)
 		(at 213.36 119.38 0)
 		(effects
@@ -216,16 +205,16 @@
 		)
 		(uuid "776f5f1a-eb36-40e7-b14b-8a080e83c87b")
 	)
-	(text "LAN7431"
+	(text "???"
 		(exclude_from_sim no)
-		(at 226.06 78.74 0)
+		(at 213.36 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "96ef6615-70fa-4f21-8229-799e6a15fa29")
+		(uuid "7bbe0c74-78c1-4a87-8ea8-cf6ba764ed6d")
 	)
 	(text "6uA"
 		(exclude_from_sim no)
@@ -259,17 +248,6 @@
 			(justify left)
 		)
 		(uuid "a66969cb-d66d-414c-8959-8e9b9adb7014")
-	)
-	(text "<10mA"
-		(exclude_from_sim no)
-		(at 213.36 76.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b39fbde9-ee66-4f9e-87b9-2bc069508237")
 	)
 	(text "VIN (12V-24V)"
 		(exclude_from_sim no)
@@ -350,7 +328,7 @@
 	)
 	(text "PCIe Switch"
 		(exclude_from_sim no)
-		(at 226.06 144.78 0)
+		(at 226.06 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -381,20 +359,9 @@
 		)
 		(uuid "e8b5c31a-3130-4b78-bae0-b28001ad0b27")
 	)
-	(text "1V0"
+	(text "???"
 		(exclude_from_sim no)
-		(at 200.66 142.24 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "eb0720f9-88ef-47e5-b86f-a44116481552")
-	)
-	(text "390mA"
-		(exclude_from_sim no)
-		(at 213.36 81.28 0)
+		(at 213.36 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -571,7 +538,7 @@
 	)
 	(polyline
 		(pts
-			(xy 210.82 78.74) (xy 210.82 83.82)
+			(xy 210.82 78.74) (xy 210.82 78.74)
 		)
 		(stroke
 			(width 0)
@@ -601,23 +568,13 @@
 	)
 	(polyline
 		(pts
-			(xy 223.52 83.82) (xy 210.82 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c605fa8-11d6-4b21-91cd-84c262ccb1ef")
-	)
-	(polyline
-		(pts
 			(xy 223.52 78.74) (xy 210.82 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a4ba5435-3872-481e-a8b2-665ba807c406")
+		(uuid "9c605fa8-11d6-4b21-91cd-84c262ccb1ef")
 	)
 	(polyline
 		(pts
@@ -628,6 +585,16 @@
 			(type default)
 		)
 		(uuid "a79e973a-0877-4a21-b3a0-c7e5cddf11c1")
+	)
+	(polyline
+		(pts
+			(xy 210.82 137.16) (xy 210.82 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aecdf639-ec85-41eb-a0a0-2e5ee6696f07")
 	)
 	(polyline
 		(pts
@@ -671,7 +638,7 @@
 	)
 	(polyline
 		(pts
-			(xy 198.12 144.78) (xy 223.52 144.78)
+			(xy 210.82 142.24) (xy 223.52 142.24)
 		)
 		(stroke
 			(width 0)
@@ -733,7 +700,7 @@
 	)
 	(sheet
 		(at 172.72 134.62)
-		(size 25.4 12.7)
+		(size 25.4 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -744,11 +711,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "313ad2b1-6281-4d61-a8a6-55e55641e36c")
-		(property "Sheetname" "1V0 & 1V1 Regulators"
+		(property "Sheetname" "1V1 Regulator"
 			(at 172.72 133.9084 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -756,8 +725,10 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "1v0-1v1-regulators.kicad_sch"
-			(at 172.72 147.9046 0)
+		(property "Sheetfile" "1v1-regulator.kicad_sch"
+			(at 172.72 140.2846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -766,7 +737,7 @@
 			)
 		)
 		(instances
-			(project "jabr-control-v1"
+			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844"
 					(page "15")
 				)
@@ -786,11 +757,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "52a41b87-8503-44b7-832c-aae66b3851bb")
 		(property "Sheetname" "3V3 Regulators"
 			(at 172.72 39.9284 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -800,6 +773,8 @@
 		)
 		(property "Sheetfile" "3v3-regulators.kicad_sch"
 			(at 172.72 86.9446 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -828,7 +803,7 @@
 			)
 		)
 		(instances
-			(project "jabr-control-v1"
+			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844"
 					(page "14")
 				)
@@ -848,11 +823,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "a1f2745a-98e5-40f5-b635-cc8a6d17ac78")
 		(property "Sheetname" "5V Regulator"
 			(at 109.22 60.2484 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -862,6 +839,8 @@
 		)
 		(property "Sheetfile" "5v-regulator.kicad_sch"
 			(at 109.22 76.7846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -880,7 +859,7 @@
 			)
 		)
 		(instances
-			(project "jabr-control-v1"
+			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844"
 					(page "13")
 				)
@@ -900,11 +879,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "c8847476-18c7-4518-a86a-3cbd7effb778")
 		(property "Sheetname" "Power In"
 			(at 58.42 39.9284 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -914,6 +895,8 @@
 		)
 		(property "Sheetfile" "power-in.kicad_sch"
 			(at 58.42 51.3846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -922,7 +905,7 @@
 			)
 		)
 		(instances
-			(project "jabr-control-v1"
+			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844"
 					(page "12")
 				)

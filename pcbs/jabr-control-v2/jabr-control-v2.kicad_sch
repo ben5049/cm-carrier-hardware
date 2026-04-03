@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "f91ec272-d09a-4038-bbbb-962739a92c51")
 	(paper "A4")
 	(lib_symbols
@@ -16,8 +16,12 @@
 			(exclude_from_sim yes)
 			(in_bom no)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "H"
 				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -26,6 +30,8 @@
 			)
 			(property "Value" "MountingHole_Pad"
 				(at 0 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -34,47 +40,57 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Mounting Hole with connection"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "mounting hole"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "MountingHole*Pad*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "MountingHole_Pad_0_1"
@@ -113,28 +129,39 @@
 			(embedded_fonts no)
 		)
 	)
-	(bus_alias "MIPI"
-		(members "CLK_P" "CLK_N" "D0_P" "D0_N" "D1_P" "D1_N" "D2_P" "D2_N" "D3_P"
-			"D3_N"
+	(text_box "Add M2.5 standoffs for CM5 (note those screws must go in through the bottom)"
+		(exclude_from_sim no)
+		(at 68.58 172.72 0)
+		(size 25.4 10.0822)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 0 0 1)
 		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "c0a4c6e0-c254-4d7c-9978-82bd2ba7a929")
 	)
 	(junction
-		(at 210.82 76.2)
+		(at 152.4 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "00caaa70-4afa-4008-a63b-d46dc98fa616")
+		(uuid "c9e3bea3-de7b-4981-a11f-614df267fb86")
 	)
 	(junction
-		(at 152.4 68.58)
+		(at 154.94 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "15d93bfb-e66b-4657-a7e9-cd9476ff4abb")
-	)
-	(junction
-		(at 208.28 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1c2a7974-d79a-4603-b8d3-99088120a935")
+		(uuid "fe6ff6ae-2a97-4ba9-b06d-f76dd7669037")
 	)
 	(no_connect
 		(at 109.22 170.18)
@@ -152,15 +179,15 @@
 		(at 129.54 187.96)
 		(uuid "fcd12dd6-e852-4116-9774-690d22f5a696")
 	)
-	(wire
+	(bus
 		(pts
-			(xy 208.28 78.74) (xy 215.9 78.74)
+			(xy 139.7 68.58) (xy 215.9 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "036ab37a-bb75-4910-b49f-5604c2f7c7c6")
+		(uuid "029f2a4b-cd04-479a-96e3-0b2e27fa89e4")
 	)
 	(bus
 		(pts
@@ -184,13 +211,33 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 106.68) (xy 165.1 106.68)
+			(xy 139.7 81.28) (xy 152.4 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0d972d24-0955-4aef-bfdd-03fd97e081d3")
+	)
+	(wire
+		(pts
+			(xy 154.94 78.74) (xy 215.9 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17bbe44d-6240-48d3-952c-71d8a5e9c563")
+	)
+	(wire
+		(pts
+			(xy 154.94 91.44) (xy 154.94 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "199ed339-a213-4d43-9270-f7f897ba620b")
 	)
 	(bus
 		(pts
@@ -242,6 +289,16 @@
 		)
 		(uuid "2c7aeb9d-2c67-440a-a773-ee560431a3c8")
 	)
+	(wire
+		(pts
+			(xy 165.1 93.98) (xy 152.4 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f441d2b-38f6-45aa-9a19-3ca9ec61faa8")
+	)
 	(bus
 		(pts
 			(xy 88.9 99.06) (xy 114.3 99.06)
@@ -251,16 +308,6 @@
 			(type default)
 		)
 		(uuid "34197787-48e1-404a-9ab2-dfc6d6131e63")
-	)
-	(bus
-		(pts
-			(xy 165.1 101.6) (xy 152.4 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36024bdd-e912-4f4a-a9bc-1c294a2d7cee")
 	)
 	(wire
 		(pts
@@ -274,17 +321,17 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 139.7) (xy 215.9 139.7)
+			(xy 165.1 88.9) (xy 157.48 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "40b40c8d-83cf-4b9b-a232-e3c9df62cb68")
+		(uuid "3d5bf145-1e84-460e-ba99-464d098df51f")
 	)
 	(wire
 		(pts
-			(xy 139.7 76.2) (xy 210.82 76.2)
+			(xy 139.7 76.2) (xy 157.48 76.2)
 		)
 		(stroke
 			(width 0)
@@ -302,26 +349,6 @@
 		)
 		(uuid "56220b5d-1da3-46df-b8ac-e55e4b7be070")
 	)
-	(wire
-		(pts
-			(xy 190.5 91.44) (xy 215.9 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "598b42a8-f472-48bd-a5fe-857c01af33ce")
-	)
-	(wire
-		(pts
-			(xy 208.28 78.74) (xy 208.28 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5991fdb7-72f3-4cc7-887b-7f82c55de478")
-	)
 	(bus
 		(pts
 			(xy 88.9 83.82) (xy 114.3 83.82)
@@ -331,26 +358,6 @@
 			(type default)
 		)
 		(uuid "6afdcc1b-b47a-4fdd-86f9-c2d019d07245")
-	)
-	(bus
-		(pts
-			(xy 139.7 68.58) (xy 152.4 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70d3aee3-c9c0-4e10-acbb-28ad196ba302")
-	)
-	(wire
-		(pts
-			(xy 215.9 116.84) (xy 208.28 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78ed1d3b-7ac8-4c50-b2d0-ca3ff66a0ab5")
 	)
 	(wire
 		(pts
@@ -384,33 +391,33 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 114.3) (xy 210.82 76.2)
+			(xy 157.48 88.9) (xy 157.48 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "81532308-30ba-49dc-8b6e-58ed12fb59a3")
+		(uuid "807c4a3e-0fa3-4565-81ed-79a1cad0c046")
 	)
 	(bus
 		(pts
-			(xy 190.5 124.46) (xy 215.9 124.46)
+			(xy 190.5 119.38) (xy 215.9 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8959948c-f218-4079-bd3f-c0ac701905f7")
+		(uuid "8304418e-5c34-443c-b266-cce6646f25de")
 	)
-	(bus
+	(wire
 		(pts
-			(xy 152.4 101.6) (xy 152.4 68.58)
+			(xy 152.4 93.98) (xy 152.4 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8b7efb19-e38f-4212-b6c8-25200314966d")
+		(uuid "880cd39d-a979-478e-815d-3339c4a96e4c")
 	)
 	(bus
 		(pts
@@ -422,15 +429,15 @@
 		)
 		(uuid "90eb9d1f-3140-4027-beb3-28ecd0503783")
 	)
-	(wire
+	(bus
 		(pts
-			(xy 215.9 114.3) (xy 210.82 114.3)
+			(xy 190.5 114.3) (xy 215.9 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9ec69d1b-4fd8-4f38-89f9-5874cc850266")
+		(uuid "9f3a2bb1-cc35-404d-955c-563764bf4740")
 	)
 	(bus
 		(pts
@@ -464,13 +471,23 @@
 	)
 	(bus
 		(pts
-			(xy 190.5 93.98) (xy 215.9 93.98)
+			(xy 190.5 99.06) (xy 215.9 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a8140ade-5c37-41b0-8bbc-c81e745a7ca0")
+	)
+	(wire
+		(pts
+			(xy 165.1 91.44) (xy 154.94 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8c83e9d-afbd-44f7-96cc-6f504a739eaf")
 	)
 	(bus
 		(pts
@@ -482,16 +499,6 @@
 		)
 		(uuid "a9660e5a-7716-4d0b-89b6-758c4b927f19")
 	)
-	(bus
-		(pts
-			(xy 152.4 68.58) (xy 215.9 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa60010e-914e-4cc8-b001-6f40eecd7ba9")
-	)
 	(wire
 		(pts
 			(xy 190.5 121.92) (xy 215.9 121.92)
@@ -500,7 +507,17 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "d9445dcc-ae84-48db-acb6-6d6741c18265")
+		(uuid "b80b5825-bb4d-4af1-a4ec-4f83e49d8a43")
+	)
+	(wire
+		(pts
+			(xy 190.5 124.46) (xy 215.9 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4aa72e2-2510-4ebc-afe1-9eed3073f71a")
 	)
 	(wire
 		(pts
@@ -511,6 +528,16 @@
 			(type default)
 		)
 		(uuid "db65a0e7-90eb-4328-93a0-f1d5b274f6fb")
+	)
+	(wire
+		(pts
+			(xy 152.4 81.28) (xy 215.9 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df3abe14-8341-43b4-acbf-b184ac367e7a")
 	)
 	(wire
 		(pts
@@ -532,19 +559,19 @@
 		)
 		(uuid "e08929c1-1f81-4f2c-9c17-51eb9c15a3f6")
 	)
-	(wire
+	(bus
 		(pts
-			(xy 210.82 76.2) (xy 215.9 76.2)
+			(xy 139.7 104.14) (xy 165.1 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f8641eda-1418-4ab7-b769-1fb6be2f0e17")
+		(uuid "e4e5d74d-b75c-4740-a9ad-15bfe7637ec5")
 	)
 	(wire
 		(pts
-			(xy 139.7 78.74) (xy 208.28 78.74)
+			(xy 139.7 78.74) (xy 154.94 78.74)
 		)
 		(stroke
 			(width 0)
@@ -556,14 +583,18 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 109.22 167.64 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c926a08-cafa-4580-bd45-b31e57b610b6")
 		(property "Reference" "H101"
 			(at 111.76 165.0999 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -573,6 +604,8 @@
 		)
 		(property "Value" "M2.5"
 			(at 111.76 167.6399 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -582,63 +615,75 @@
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad"
 			(at 109.22 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 109.22 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 109.22 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Field6" ""
 			(at 109.22 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Field7" ""
 			(at 109.22 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Part Description" ""
 			(at 109.22 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "9f7931bb-0044-43d6-9a53-98b60be01467")
 		)
 		(instances
-			(project "jabr-control-v1"
+			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51"
 					(reference "H101")
 					(unit 1)
@@ -650,14 +695,18 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 129.54 185.42 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9fda8472-93fe-444d-ab3b-827613d33fac")
-		(property "Reference" "H102"
+		(property "Reference" "H104"
 			(at 132.08 182.8799 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -667,6 +716,8 @@
 		)
 		(property "Value" "M2.5"
 			(at 132.08 185.4199 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -676,65 +727,77 @@
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad"
 			(at 129.54 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 129.54 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 129.54 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Field6" ""
 			(at 129.54 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Field7" ""
 			(at 129.54 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Part Description" ""
 			(at 129.54 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "0b03b2c2-6acb-4e9e-b452-e76753e92ca9")
 		)
 		(instances
-			(project "jabr-control-v1"
+			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51"
-					(reference "H102")
+					(reference "H104")
 					(unit 1)
 				)
 			)
@@ -744,14 +807,18 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 109.22 185.42 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5f5c1b1-8157-4837-b073-5f2ed3875d1d")
-		(property "Reference" "H105"
+		(property "Reference" "H102"
 			(at 111.76 182.8799 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -761,6 +828,8 @@
 		)
 		(property "Value" "M2.5"
 			(at 111.76 185.4199 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -770,65 +839,77 @@
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad"
 			(at 109.22 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 109.22 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 109.22 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Field6" ""
 			(at 109.22 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Field7" ""
 			(at 109.22 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Part Description" ""
 			(at 109.22 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "36181cc1-53cf-425a-9cbe-9c678c58d601")
 		)
 		(instances
-			(project "jabr-control-v1"
+			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51"
-					(reference "H105")
+					(reference "H102")
 					(unit 1)
 				)
 			)
@@ -838,14 +919,18 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 129.54 167.64 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f78daabb-ecf9-4f1c-9858-71787fa41a84")
 		(property "Reference" "H103"
 			(at 132.08 165.0999 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -855,6 +940,8 @@
 		)
 		(property "Value" "M2.5"
 			(at 132.08 167.6399 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -864,63 +951,75 @@
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad"
 			(at 129.54 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 129.54 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 129.54 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Field6" ""
 			(at 129.54 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Field7" ""
 			(at 129.54 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Part Description" ""
 			(at 129.54 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "f5c715d5-9cf1-46db-8f07-ae324f0293e8")
 		)
 		(instances
-			(project "jabr-control-v1"
+			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51"
 					(reference "H103")
 					(unit 1)
@@ -930,7 +1029,7 @@
 	)
 	(sheet
 		(at 215.9 38.1)
-		(size 25.4 60.96)
+		(size 25.4 63.5)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -941,11 +1040,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "1d5b5326-5e18-44b7-8507-f118df052f59")
 		(property "Sheetname" "M.2 E-Key"
 			(at 215.9 37.3884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -954,7 +1055,9 @@
 			)
 		)
 		(property "Sheetfile" "m-2-e-key.kicad_sch"
-			(at 215.9 99.6446 0)
+			(at 215.9 102.1846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -963,7 +1066,7 @@
 			)
 		)
 		(pin "{PCIE}" bidirectional
-			(at 215.9 93.98 180)
+			(at 215.9 99.06 180)
 			(uuid "c73b9134-93a4-4e2d-a261-f972b47ebe40")
 			(effects
 				(font
@@ -973,7 +1076,7 @@
 			)
 		)
 		(pin "~{PCIE_RST}" input
-			(at 215.9 91.44 180)
+			(at 215.9 81.28 180)
 			(uuid "fc5eced7-c5b5-4f70-b76f-c5493af9f730")
 			(effects
 				(font
@@ -993,7 +1096,7 @@
 			)
 		)
 		(pin "~{PCIE_CLKREQ}" output
-			(at 215.9 76.2 180)
+			(at 215.9 96.52 180)
 			(uuid "456508f3-2419-4e3f-87c7-7afeeff960b9")
 			(effects
 				(font
@@ -1093,111 +1196,9 @@
 			)
 		)
 		(instances
-			(project "jabr-control-v1"
+			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51"
 					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 215.9 111.76)
-		(size 25.4 43.18)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "3124e188-7d93-47d9-82c9-cb765ca396d3")
-		(property "Sheetname" "PCIe to 1000BASE-T1"
-			(at 215.9 111.0484 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "pcie-to-1000base-t1.kicad_sch"
-			(at 215.9 155.5246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "{PCIE}" bidirectional
-			(at 215.9 124.46 180)
-			(uuid "e5ae1406-eb19-4124-9cd7-fe19d06781e8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "~{PCIE_CLKREQ}" output
-			(at 215.9 114.3 180)
-			(uuid "e89beca8-a2fc-44d8-a65e-ffa9784d89cb")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "~{PCIE_WAKE}" output
-			(at 215.9 116.84 180)
-			(uuid "3f86c4ab-ab17-4d54-bebf-51c0188fa0bd")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "~{PCIE_RST}" input
-			(at 215.9 121.92 180)
-			(uuid "7cb925b0-4df3-4bae-be76-5038b11c1735")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "~{RST}" input
-			(at 215.9 139.7 180)
-			(uuid "5015e4a4-62a9-4d76-aa2d-143caf205aa8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "INH" output
-			(at 215.9 152.4 180)
-			(uuid "cfd24134-0593-4cb4-9aa6-a9af046aca31")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "jabr-control-v1"
-				(path "/f91ec272-d09a-4038-bbbb-962739a92c51"
-					(page "11")
 				)
 			)
 		)
@@ -1215,11 +1216,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "3f551047-3bb0-4f63-99e0-34fd9061d844")
 		(property "Sheetname" "Power"
 			(at 63.5 128.8284 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1229,6 +1232,8 @@
 		)
 		(property "Sheetfile" "power.kicad_sch"
 			(at 63.5 155.5246 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1257,7 +1262,7 @@
 			)
 		)
 		(instances
-			(project "jabr-control-v1"
+			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51"
 					(page "9")
 				)
@@ -1277,11 +1282,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "5b6fcd2f-5b5d-4692-aafc-a1fc45c87a5b")
 		(property "Sheetname" "PCIe Switch"
 			(at 165.1 85.6484 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1291,6 +1298,8 @@
 		)
 		(property "Sheetfile" "pcie-switch.kicad_sch"
 			(at 165.1 130.1246 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1309,7 +1318,7 @@
 			)
 		)
 		(pin "PORT1{PCIE}" bidirectional
-			(at 190.5 93.98 0)
+			(at 190.5 99.06 0)
 			(uuid "eca74e7e-781c-4b99-b3c7-cb42f02622c2")
 			(effects
 				(font
@@ -1318,48 +1327,8 @@
 				(justify right)
 			)
 		)
-		(pin "PORT2{PCIE}" bidirectional
-			(at 190.5 124.46 0)
-			(uuid "1a9314ef-3dc5-4350-9a0b-91b7af2a4e7d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "~{PORT1_RST}" output
-			(at 190.5 91.44 0)
-			(uuid "33af4072-9858-44a5-80bb-60dbd484761b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "~{PORT2_RST}" output
-			(at 190.5 121.92 0)
-			(uuid "307070af-333f-4583-a683-392fac4d0c36")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "~{RST}" input
-			(at 165.1 106.68 180)
-			(uuid "f503a7df-e944-4c14-874a-2ea975ee8a06")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "SMB{I2C}" bidirectional
-			(at 165.1 101.6 180)
+			(at 165.1 104.14 180)
 			(uuid "fa452d8a-ea56-4096-b52a-2c0b27805580")
 			(effects
 				(font
@@ -1368,8 +1337,108 @@
 				(justify left)
 			)
 		)
+		(pin "{RGMII}" bidirectional
+			(at 190.5 114.3 0)
+			(uuid "be3b55fe-dec3-4a7a-abf5-659aad9bcf86")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{SMI}" bidirectional
+			(at 190.5 119.38 0)
+			(uuid "521fb5a8-b141-41c7-898f-4b36fbd32547")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{PCIE_CLKREQ}" output
+			(at 165.1 88.9 180)
+			(uuid "2c536ce1-3724-4ab1-a961-27063a0e6f6f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{PCIE_RST}" input
+			(at 165.1 93.98 180)
+			(uuid "536f8ed0-139f-4e8b-a16f-f1a3fd675100")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{PCIE_WAKE}" output
+			(at 165.1 91.44 180)
+			(uuid "6c7e83d1-470c-4635-b42f-520261ced8d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{PHY_INT}" input
+			(at 190.5 124.46 0)
+			(uuid "e1cf5ae8-36d4-4aa9-8a94-8f25e8746825")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{PHY_RST}" output
+			(at 190.5 121.92 0)
+			(uuid "889c571e-4c87-438f-9359-3b3190be263c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{LINK}" input
+			(at 190.5 127 0)
+			(uuid "53a619c3-8586-441b-8199-7caac1b2b036")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{PORT1_CLKREQ}" input
+			(at 190.5 96.52 0)
+			(uuid "84cb5f68-7a59-4f1d-8341-ccd376929829")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{RST_5V}" input
+			(at 165.1 127 180)
+			(uuid "663b566a-4a1a-4b53-baba-1927ce62a670")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
-			(project "jabr-control-v1"
+			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51"
 					(page "3")
 				)
@@ -1389,11 +1458,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "6befb881-6ab4-49eb-a195-35f4f02473c7")
 		(property "Sheetname" "CM5"
 			(at 114.3 37.3884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1403,6 +1474,8 @@
 		)
 		(property "Sheetfile" "cm5.kicad_sch"
 			(at 114.3 142.8246 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1431,7 +1504,7 @@
 			)
 		)
 		(pin "~{PCIE_RST}" output
-			(at 139.7 106.68 0)
+			(at 139.7 81.28 0)
 			(uuid "9f3ad3ec-e8e4-4f90-a6d6-2068340dab46")
 			(effects
 				(font
@@ -1511,7 +1584,7 @@
 			)
 		)
 		(pin "I2C2{I2C}" bidirectional
-			(at 139.7 68.58 0)
+			(at 139.7 104.14 0)
 			(uuid "2904eb0a-41b9-49e9-ba18-d48d6dfcc5e5")
 			(effects
 				(font
@@ -1630,10 +1703,116 @@
 				(justify left)
 			)
 		)
+		(pin "I2C3{I2C}" bidirectional
+			(at 139.7 68.58 0)
+			(uuid "065fc3b5-e808-4d67-b835-012268d8159b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
-			(project "jabr-control-v1"
+			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 215.9 111.76)
+		(size 25.4 43.18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "760d12ad-9269-4cb7-9058-d98dd001df15")
+		(property "Sheetname" "1000BASE-T1 PHY"
+			(at 215.9 111.0484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "1000base-t1-phy.kicad_sch"
+			(at 215.9 155.5246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{RGMII}" bidirectional
+			(at 215.9 114.3 180)
+			(uuid "304428b0-e4d5-4225-bf08-b2740163b11b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{SMI}" bidirectional
+			(at 215.9 119.38 180)
+			(uuid "e43ba133-c53d-4953-a765-8cd18e8d4853")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{INT}" output
+			(at 215.9 124.46 180)
+			(uuid "5b16f210-44a9-427e-a611-114dc5965204")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{RST}" input
+			(at 215.9 121.92 180)
+			(uuid "68dc84e5-e8e7-4da8-b003-38fbce9ed33b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INH" output
+			(at 215.9 152.4 180)
+			(uuid "804ecb9f-5e40-4fdd-a094-9801c416d711")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "jabr-control-v2"
+				(path "/f91ec272-d09a-4038-bbbb-962739a92c51"
+					(page "7")
 				)
 			)
 		)
@@ -1651,11 +1830,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "80b60915-5ccb-4842-b09a-a259b4f355b7")
 		(property "Sheetname" "MIPI Connectors"
 			(at 63.5 37.3884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1665,6 +1846,8 @@
 		)
 		(property "Sheetfile" "mipi-connectors.kicad_sch"
 			(at 63.5 69.1646 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1723,7 +1906,7 @@
 			)
 		)
 		(instances
-			(project "jabr-control-v1"
+			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51"
 					(page "15")
 				)
@@ -1743,11 +1926,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "adc0b005-3094-4656-96e7-4ee9fb2ab719")
 		(property "Sheetname" "CM5IO"
 			(at 63.5 78.0284 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1757,6 +1942,8 @@
 		)
 		(property "Sheetfile" "cm5io.kicad_sch"
 			(at 63.5 117.4246 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1825,7 +2012,7 @@
 			)
 		)
 		(instances
-			(project "jabr-control-v1"
+			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51"
 					(page "10")
 				)
