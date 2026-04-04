@@ -640,6 +640,9 @@
       "/1000BASE-T1 PHY/{RGMII}": [
         "xMII"
       ],
+      "/CM5/ETH.MDI": [
+        "MDI"
+      ],
       "/CM5/ETH.TD_A_N": [
         "MDI"
       ],
@@ -1142,7 +1145,8 @@
       ],
       "I2C": [
         "SCL",
-        "SDA"
+        "SDA",
+        "~{INT}"
       ],
       "MDI": [
         "TD_A_P",
@@ -1208,7 +1212,9 @@
         "CLK",
         "CS",
         "MOSI",
-        "MISO"
+        "MISO",
+        "~{RST}",
+        "~{INT}"
       ],
       "SWD": [
         "SWCLK",
@@ -1290,7 +1296,7 @@
         "uuid": "f91ec272-d09a-4038-bbbb-962739a92c51"
       }
     ],
-    "used_designators": "U402",
+    "used_designators": "#PWR303,R302,R712,TP304",
     "variants": []
   },
   "sheets": [
@@ -1309,6 +1315,10 @@
     [
       "1d5b5326-5e18-44b7-8507-f118df052f59",
       "M.2 E-Key"
+    ],
+    [
+      "514d6e66-0461-4596-b5e9-7a6057b0867a",
+      "M.2 Buffers"
     ],
     [
       "760d12ad-9269-4cb7-9058-d98dd001df15",

@@ -7359,6 +7359,16 @@
 		)
 		(uuid "7f7ba3a6-d7c8-4e5c-9de0-3562633a6848")
 	)
+	(label "LINK_LED"
+		(at 147.32 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8cecc5fe-a5d4-4a86-b5a7-2fdc1daace8d")
+	)
 	(label "MDIO"
 		(at 129.54 119.38 0)
 		(effects
@@ -7440,22 +7450,22 @@
 		(uuid "f57c366a-3609-4d4d-a201-6465f3926c45")
 	)
 	(label "OSC_OUT"
-		(at 137.16 137.16 180)
+		(at 129.54 137.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "f814c513-97b9-463b-9f6e-d2242cddb80c")
 	)
 	(label "OSC_IN"
-		(at 137.16 127 180)
+		(at 129.54 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "f83314cc-be66-4c6b-8c80-23d3ea02a782")
 	)
@@ -7568,76 +7578,6 @@
 		)
 		(property "Component Class" ""
 			(at -163.83 -48.26 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 137.16 127 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "63c27cef-0029-4c87-8cb4-6af0bcc8aa03")
-		(property "Net Class" "50Ω"
-			(at 136.4615 129.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Component Class" ""
-			(at 317.5 40.64 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 137.16 137.16 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a5b980c6-3c47-4f31-a758-42d6d2e8047a")
-		(property "Net Class" "50Ω"
-			(at 136.4615 139.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Component Class" ""
-			(at 317.5 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8298,7 +8238,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32c49e2a-e86a-41c3-84f0-1ae3bd9e2aa5")
-		(property "Reference" "D704"
+		(property "Reference" "D701"
 			(at 144.7165 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8371,7 +8311,7 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/760d12ad-9269-4cb7-9058-d98dd001df15"
-					(reference "D704")
+					(reference "D701")
 					(unit 1)
 				)
 			)
@@ -9418,7 +9358,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6663d6de-0ba1-4320-8114-1aba12dc0de2")
-		(property "Reference" "D702"
+		(property "Reference" "D703"
 			(at 228.6 72.39 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9577,7 +9517,7 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/760d12ad-9269-4cb7-9058-d98dd001df15"
-					(reference "D702")
+					(reference "D703")
 					(unit 1)
 				)
 			)
@@ -9979,7 +9919,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "794178d2-9e16-40c1-9db6-373bece49f37")
-		(property "Reference" "R711"
+		(property "Reference" "R709"
 			(at 142.24 90.1699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10076,7 +10016,7 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/760d12ad-9269-4cb7-9058-d98dd001df15"
-					(reference "R711")
+					(reference "R709")
 					(unit 1)
 				)
 			)
@@ -10094,7 +10034,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7a3632b6-6f7b-490b-bfb1-5e4ed36ff671")
-		(property "Reference" "R709"
+		(property "Reference" "R711"
 			(at 193.04 130.8099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10191,7 +10131,7 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/760d12ad-9269-4cb7-9058-d98dd001df15"
-					(reference "R709")
+					(reference "R711")
 					(unit 1)
 				)
 			)
@@ -10451,7 +10391,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "904c8d07-15a5-4ffa-8d03-8faa53f367c5")
-		(property "Reference" "TP704"
+		(property "Reference" "TP702"
 			(at 157.48 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10545,7 +10485,7 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/760d12ad-9269-4cb7-9058-d98dd001df15"
-					(reference "TP704")
+					(reference "TP702")
 					(unit 1)
 				)
 			)
@@ -10841,7 +10781,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aac7c550-e9af-458f-a266-d11518c8606c")
-		(property "Reference" "#PWR0706"
+		(property "Reference" "#PWR0705"
 			(at 129.54 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -10901,7 +10841,7 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/760d12ad-9269-4cb7-9058-d98dd001df15"
-					(reference "#PWR0706")
+					(reference "#PWR0705")
 					(unit 1)
 				)
 			)
@@ -11076,7 +11016,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b2a9966c-f7f4-4837-b9d4-50dcf243f098")
-		(property "Reference" "TP703"
+		(property "Reference" "TP705"
 			(at 273.05 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11170,7 +11110,7 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/760d12ad-9269-4cb7-9058-d98dd001df15"
-					(reference "TP703")
+					(reference "TP705")
 					(unit 1)
 				)
 			)
@@ -11188,7 +11128,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b4457e1f-f117-4a25-815a-bd14e8cdf1a1")
-		(property "Reference" "TP705"
+		(property "Reference" "TP704"
 			(at 157.48 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11282,7 +11222,7 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/760d12ad-9269-4cb7-9058-d98dd001df15"
-					(reference "TP705")
+					(reference "TP704")
 					(unit 1)
 				)
 			)
@@ -11555,7 +11495,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb00ea09-f2ff-4a79-a9fa-131e168a4354")
-		(property "Reference" "D701"
+		(property "Reference" "D702"
 			(at 177.8 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11724,7 +11664,7 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/760d12ad-9269-4cb7-9058-d98dd001df15"
-					(reference "D701")
+					(reference "D702")
 					(unit 1)
 				)
 			)
@@ -11820,7 +11760,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c1cd6a8f-e0b4-4ef7-a0ec-276957699a8a")
-		(property "Reference" "TP702"
+		(property "Reference" "TP703"
 			(at 157.48 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11914,7 +11854,7 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/760d12ad-9269-4cb7-9058-d98dd001df15"
-					(reference "TP702")
+					(reference "TP703")
 					(unit 1)
 				)
 			)
@@ -11931,7 +11871,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c2e52c4e-ddfa-4592-9f14-7311cf33122c")
-		(property "Reference" "D703"
+		(property "Reference" "D704"
 			(at 238.76 72.39 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12090,7 +12030,7 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/760d12ad-9269-4cb7-9058-d98dd001df15"
-					(reference "D703")
+					(reference "D704")
 					(unit 1)
 				)
 			)
@@ -12410,7 +12350,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6c4383b-3a24-417f-9eb0-310e981d967d")
-		(property "Reference" "#PWR0705"
+		(property "Reference" "#PWR0706"
 			(at 139.7 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -12470,7 +12410,7 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/760d12ad-9269-4cb7-9058-d98dd001df15"
-					(reference "#PWR0705")
+					(reference "#PWR0706")
 					(unit 1)
 				)
 			)
