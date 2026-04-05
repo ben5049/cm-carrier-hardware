@@ -259,7 +259,18 @@
   },
   "boards": [],
   "component_class_settings": {
-    "assignments": [],
+    "assignments": [
+      {
+        "component_class": "Taller than 1mm",
+        "conditions": {
+          "FOOTPRINT_FIELD": {
+            "primary": "Height",
+            "secondary": "0.2"
+          }
+        },
+        "conditions_operator": "ALL"
+      }
+    ],
     "meta": {
       "version": 0
     },
@@ -1308,7 +1319,7 @@
         "uuid": "f91ec272-d09a-4038-bbbb-962739a92c51"
       }
     ],
-    "used_designators": "U1303,U1405,U1501-1503,D1301-1304,L1301,L1403-1404,L1502-1503,#PWR901-902,#PWR1305,#PWR1307-1308,#PWR1310-1311,#PWR1316-1322,#PWR1401-1402,#PWR1425-1430,#PWR1501-1502,#PWR1504,#PWR1507,#PWR1514-1525,C1314-1317,C1422-1429,C1501-1502,C1509-1524,R901-902,R1205,R1301,R1303-1306,R1309-1316,R1401-1402,R1408-1409,R1501,R1504-1507,TP1301-1302,TP1404,TP1502-1503,Q1301-1304",
+    "used_designators": "D205,D302-303,#PWR219,#PWR301,#PWR307-308,#PWR311,#PWR319,#PWR401,#PWR408,#PWR1303,#PWR1323,#PWR1508,R302,R316-321,TP304-307",
     "variants": []
   },
   "sheets": [
@@ -1329,8 +1340,8 @@
       "M.2 E-Key"
     ],
     [
-      "514d6e66-0461-4596-b5e9-7a6057b0867a",
-      "M.2 Buffers"
+      "25c588fa-eee6-4ec0-9367-0f9042b543c0",
+      "Breakout"
     ],
     [
       "760d12ad-9269-4cb7-9058-d98dd001df15",

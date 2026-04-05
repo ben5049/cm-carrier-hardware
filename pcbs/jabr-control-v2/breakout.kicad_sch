@@ -1,0 +1,175 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "b6c8bca9-e30d-4161-a7fa-60a29b411a49")
+	(paper "A4")
+	(lib_symbols)
+	(bus_entry
+		(at 142.24 96.52)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28fc6e6d-88af-47e7-936a-b25dc1c11597")
+	)
+	(bus_entry
+		(at 142.24 91.44)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65003098-f8ce-47cd-9fe3-ce83e9a374b3")
+	)
+	(bus_entry
+		(at 142.24 93.98)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "825ac15e-3cd7-4279-aace-5cb57e717acf")
+	)
+	(bus_entry
+		(at 142.24 99.06)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9942d887-6da1-4bd8-afc8-9878ee340b9a")
+	)
+	(wire
+		(pts
+			(xy 144.78 93.98) (xy 162.56 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01abd167-ec87-465b-b09a-130c0769792d")
+	)
+	(bus
+		(pts
+			(xy 139.7 91.44) (xy 142.24 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "579af25f-eb54-4bf8-b6bb-2957b3ee065a")
+	)
+	(bus
+		(pts
+			(xy 142.24 96.52) (xy 142.24 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69e0fc22-3fc2-4a6b-ac6c-90899574eee4")
+	)
+	(bus
+		(pts
+			(xy 142.24 93.98) (xy 142.24 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a086dd94-37b1-4a00-ac8d-3b4c3d945c67")
+	)
+	(wire
+		(pts
+			(xy 144.78 101.6) (xy 162.56 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a509b2eb-3c0f-4bd8-8a13-730b427eaacf")
+	)
+	(bus
+		(pts
+			(xy 142.24 91.44) (xy 142.24 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6cc51c3-015f-4d71-af04-fe409901c346")
+	)
+	(wire
+		(pts
+			(xy 144.78 99.06) (xy 162.56 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1f81dce-6395-464a-91fd-ea07184fa777")
+	)
+	(wire
+		(pts
+			(xy 144.78 96.52) (xy 162.56 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1be4a61-c415-41cc-8af3-89713bbbe1ef")
+	)
+	(label "CLK"
+		(at 147.32 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "017a3d9e-ee04-4584-96e2-dcb0035f6f7c")
+	)
+	(label "MISO"
+		(at 147.32 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "97e00d0a-7d43-4f11-ba06-0e9cc46e6ac6")
+	)
+	(label "MOSI"
+		(at 147.32 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f1061950-37bd-4306-ac69-ca048f23ff19")
+	)
+	(label "CS"
+		(at 147.32 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f3779dd6-c9b3-4e6b-9432-32b3c5bdaeec")
+	)
+	(hierarchical_label "{SPI}"
+		(shape bidirectional)
+		(at 139.7 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c1e4446f-395c-4483-b546-5566437a2ef4")
+	)
+)

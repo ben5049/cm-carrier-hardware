@@ -1087,6 +1087,28 @@
 		)
 		(uuid "7b49792e-b662-437d-8bc2-1cd7f78b49e5")
 	)
+	(text_box "GPIO?"
+		(exclude_from_sim no)
+		(at 248.92 111.76 0)
+		(size 17.78 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "d900136c-0f41-4afa-8461-db341c8fc18a")
+	)
 	(junction
 		(at 86.36 86.36)
 		(diameter 0)

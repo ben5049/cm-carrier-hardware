@@ -356,7 +356,7 @@
 				)
 			)
 			(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/ssio/ssio_pcie_m2.pdf"
-				(at 95.25 -189.84 0)
+				(at 0 -111.76 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -364,7 +364,6 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
 			(property "Description" "PCIe M.2 Connectors, Storage and Server Connector, P=0.5mm, H=4.20mm, Key E,30&mu;in Au Plating"
@@ -1635,7 +1634,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PWR-SYM:+3V3_M2"
+		(symbol "PWR-SYM:+3V3_PCIE"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -1660,7 +1659,7 @@
 					)
 				)
 			)
-			(property "Value" "+3V3_M2"
+			(property "Value" "+3V3_PCIE"
 				(at 0 3.556 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1692,7 +1691,7 @@
 					)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3V3_M2\""
+			(property "Description" "Power symbol creates a global label with name \"+3V3_PCIE\""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1714,7 +1713,7 @@
 					)
 				)
 			)
-			(symbol "+3V3_M2_0_1"
+			(symbol "+3V3_PCIE_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -1752,7 +1751,7 @@
 					)
 				)
 			)
-			(symbol "+3V3_M2_1_1"
+			(symbol "+3V3_PCIE_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -2074,6 +2073,10 @@
 		(uuid "53a651b0-93eb-4cca-aa80-20f7a9aa0260")
 	)
 	(no_connect
+		(at 101.6 142.24)
+		(uuid "606808e6-1734-43fc-a72c-9e7acc650411")
+	)
+	(no_connect
 		(at 157.48 147.32)
 		(uuid "70cc821b-9409-4751-a634-d15d76d4cd68")
 	)
@@ -2305,15 +2308,6 @@
 		(uuid "8e76648c-ef3c-4211-a733-61f1131009f8")
 	)
 	(bus_entry
-		(at 81.28 139.7)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a22a85cc-221f-49a4-a288-46acc772807c")
-	)
-	(bus_entry
 		(at 81.28 147.32)
 		(size 2.54 2.54)
 		(stroke
@@ -2369,16 +2363,6 @@
 			(type default)
 		)
 		(uuid "120ef53d-a40e-4fae-bae4-5e95329a9de5")
-	)
-	(wire
-		(pts
-			(xy 83.82 142.24) (xy 101.6 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d92f46c-31f9-48ee-b8bc-51efd1b6e35f")
 	)
 	(wire
 		(pts
@@ -2640,6 +2624,16 @@
 		)
 		(uuid "9882a26a-5142-4749-bc90-37ff24c68320")
 	)
+	(bus
+		(pts
+			(xy 81.28 121.92) (xy 81.28 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b1099df-9e78-43de-b3fa-f51a05edc6c5")
+	)
 	(wire
 		(pts
 			(xy 236.22 71.12) (xy 236.22 73.66)
@@ -2772,16 +2766,6 @@
 	)
 	(bus
 		(pts
-			(xy 81.28 121.92) (xy 81.28 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e48fb475-d124-4e8b-a8d3-c3d0c6f6f64c")
-	)
-	(bus
-		(pts
 			(xy 180.34 66.04) (xy 177.8 66.04)
 		)
 		(stroke
@@ -2871,7 +2855,7 @@
 		(uuid "1732ada4-1ef5-4fe4-b77c-5df7e8a4aec3")
 	)
 	(label "M2_UART.TX"
-		(at 160.02 121.92 0)
+		(at 160.02 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3010,16 +2994,6 @@
 		)
 		(uuid "c2e4cdb1-e78e-4eaf-bf2a-43baf523912d")
 	)
-	(label "M2_SPI.~{RST}"
-		(at 86.36 142.24 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d6e5fd8f-946b-4577-ab26-5b5b0c08ed21")
-	)
 	(label "SUSCLK"
 		(at 165.1 137.16 0)
 		(effects
@@ -3031,7 +3005,7 @@
 		(uuid "dde91d7e-06a1-4bc1-a8dc-fa4cbcf41d12")
 	)
 	(label "M2_UART.RX"
-		(at 160.02 124.46 0)
+		(at 160.02 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3170,7 +3144,7 @@
 				)
 			)
 		)
-		(property "Value" "MDT320E0X001"
+		(property "Value" "MDT420E0X001"
 			(at 129.54 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3192,7 +3166,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/ssio/ssio_pcie_m2.pdf"
-			(at 224.79 240.64 0)
+			(at 129.54 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3200,7 +3174,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 			)
 		)
 		(property "Description" "PCIe M.2 Connectors, Storage and Server Connector, P=0.5mm, H=4.20mm, Key E,30&mu;in Au Plating"
@@ -3626,7 +3599,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PWR-SYM:+3V3_M2")
+		(lib_id "PWR-SYM:+3V3_PCIE")
 		(at 160.02 50.8 0)
 		(unit 1)
 		(body_style 1)
@@ -3636,8 +3609,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4543bb95-3e32-41f5-92dd-9b81b9cfbc59")
-		(property "Reference" "#PWR0401"
+		(uuid "4ccdbca9-1233-4af1-92f1-84f424d3df2c")
+		(property "Reference" "#PWR0408"
 			(at 160.02 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -3648,7 +3621,7 @@
 				)
 			)
 		)
-		(property "Value" "+3V3_M2"
+		(property "Value" "+3V3_PCIE"
 			(at 160.02 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3680,7 +3653,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3_M2\""
+		(property "Description" "Power symbol creates a global label with name \"+3V3_PCIE\""
 			(at 160.02 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -3692,7 +3665,85 @@
 			)
 		)
 		(pin "1"
-			(uuid "e35af40a-0960-4a52-9048-b5bc8a52b5d9")
+			(uuid "515a3a73-e89e-4af2-b277-c8d6c66e344c")
+		)
+		(instances
+			(project "jabr-control-v2"
+				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/1d5b5326-5e18-44b7-8507-f118df052f59"
+					(reference "#PWR0408")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PWR-SYM:+3V3_PCIE")
+		(at 215.9 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61f6731d-7e61-49ae-bc6f-afe3b8cabe10")
+		(property "Reference" "#PWR0401"
+			(at 215.9 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3_PCIE"
+			(at 215.9 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3_PCIE\""
+			(at 215.9 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6b04eb0d-87b8-4667-ba7a-d8f7516bfe81")
 		)
 		(instances
 			(project "jabr-control-v2"
@@ -3813,84 +3864,6 @@
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/1d5b5326-5e18-44b7-8507-f118df052f59"
 					(reference "C401")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PWR-SYM:+3V3_M2")
-		(at 215.9 134.62 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7f03fad9-3600-414f-a03f-b62a308a65af")
-		(property "Reference" "#PWR0404"
-			(at 215.9 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3_M2"
-			(at 215.9 129.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 215.9 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 215.9 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3_M2\""
-			(at 215.9 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5e2a1bbb-e86d-4acf-bfda-eac1734f809a")
-		)
-		(instances
-			(project "jabr-control-v2"
-				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/1d5b5326-5e18-44b7-8507-f118df052f59"
-					(reference "#PWR0404")
 					(unit 1)
 				)
 			)
