@@ -371,6 +371,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 144.78) (xy 88.9 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e61f8d1-60e1-42ac-9ccd-2e1cc88df82e")
+	)
+	(wire
+		(pts
 			(xy 139.7 76.2) (xy 154.94 76.2)
 		)
 		(stroke
@@ -411,7 +421,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 137.16) (xy 165.1 137.16)
+			(xy 139.7 132.08) (xy 165.1 132.08)
 		)
 		(stroke
 			(width 0)
@@ -511,6 +521,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 134.62) (xy 152.4 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6171e93-1730-4de6-bc75-7d3b0dfbf6d6")
+	)
+	(wire
+		(pts
 			(xy 88.9 91.44) (xy 114.3 91.44)
 		)
 		(stroke
@@ -558,6 +578,16 @@
 			(type default)
 		)
 		(uuid "ad30adfb-aaa9-4eb9-a9e2-ff98e5c7bdf9")
+	)
+	(wire
+		(pts
+			(xy 152.4 134.62) (xy 152.4 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b13acea8-a543-4ad7-9a76-f727cc0574a0")
 	)
 	(wire
 		(pts
@@ -1271,9 +1301,9 @@
 				(justify left top)
 			)
 		)
-		(pin "3V3_M2_EN" input
-			(at 88.9 132.08 0)
-			(uuid "4d46a761-13db-41d7-8a4a-5d8a484a1fa0")
+		(pin "INH" input
+			(at 88.9 149.86 0)
+			(uuid "db598e01-6d84-4c76-a563-de85668baf8c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1281,9 +1311,19 @@
 				(justify right)
 			)
 		)
-		(pin "INH" input
-			(at 88.9 149.86 0)
-			(uuid "db598e01-6d84-4c76-a563-de85668baf8c")
+		(pin "PCIE_PG" output
+			(at 88.9 144.78 0)
+			(uuid "788c636c-a320-443b-84be-1c9ae9e73d21")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCIE_PWR_EN" input
+			(at 88.9 132.08 0)
+			(uuid "1fcc243a-8efc-48d3-9245-74b70dd629cb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1594,7 +1634,7 @@
 			)
 		)
 		(pin "~{RST_5V}" input
-			(at 165.1 137.16 180)
+			(at 165.1 132.08 180)
 			(uuid "663b566a-4a1a-4b53-baba-1927ce62a670")
 			(effects
 				(font
@@ -1613,6 +1653,16 @@
 				(justify left)
 			)
 		)
+		(pin "~{PCIE_PG}" input
+			(at 165.1 134.62 180)
+			(uuid "1c494c02-156c-4863-af7a-42b4feb6194d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51"
@@ -1623,7 +1673,7 @@
 	)
 	(sheet
 		(at 114.3 38.1)
-		(size 25.4 101.6)
+		(size 25.4 96.52)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1649,7 +1699,7 @@
 			)
 		)
 		(property "Sheetfile" "cm5.kicad_sch"
-			(at 114.3 140.2846 0)
+			(at 114.3 135.2046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1740,7 +1790,7 @@
 			)
 		)
 		(pin "~{RST_5V}" output
-			(at 139.7 137.16 0)
+			(at 139.7 132.08 0)
 			(uuid "016f28ab-0032-4926-b6b8-f740631b64a4")
 			(effects
 				(font

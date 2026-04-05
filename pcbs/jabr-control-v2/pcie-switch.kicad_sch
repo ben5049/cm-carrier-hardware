@@ -6724,12 +6724,6 @@
 		(uuid "b8fc6504-0d37-4017-ae9f-5170fba9d382")
 	)
 	(junction
-		(at 360.68 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "baee368e-e204-4b2e-97ee-fe8e93d21492")
-	)
-	(junction
 		(at 208.28 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6746,6 +6740,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cf4508ea-17eb-4909-b278-12ffd3310aa0")
+	)
+	(junction
+		(at 370.84 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dcc698db-212e-43c3-b122-2ba897361ebd")
 	)
 	(junction
 		(at 297.18 114.3)
@@ -6770,6 +6770,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f1603d2a-72d7-4231-8c13-92af3714b8c9")
+	)
+	(junction
+		(at 360.68 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa7670b8-4871-495f-b291-d69447488037")
 	)
 	(junction
 		(at 297.18 137.16)
@@ -7369,7 +7375,7 @@
 	)
 	(wire
 		(pts
-			(xy 360.68 142.24) (xy 360.68 144.78)
+			(xy 360.68 144.78) (xy 360.68 147.32)
 		)
 		(stroke
 			(width 0)
@@ -7436,6 +7442,16 @@
 			(type default)
 		)
 		(uuid "2439f0fe-821b-47c4-8a68-c8a7b539c129")
+	)
+	(wire
+		(pts
+			(xy 370.84 139.7) (xy 370.84 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24ca77da-41dd-4bee-9c55-5fde9232d9aa")
 	)
 	(wire
 		(pts
@@ -8309,6 +8325,16 @@
 	)
 	(wire
 		(pts
+			(xy 381 139.7) (xy 370.84 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9058a5e9-fab2-40a8-9d0b-b0fb9c1c8a56")
+	)
+	(wire
+		(pts
 			(xy 347.98 101.6) (xy 347.98 104.14)
 		)
 		(stroke
@@ -8489,7 +8515,7 @@
 	)
 	(wire
 		(pts
-			(xy 375.92 134.62) (xy 378.46 134.62)
+			(xy 378.46 134.62) (xy 381 134.62)
 		)
 		(stroke
 			(width 0)
@@ -8599,7 +8625,7 @@
 	)
 	(wire
 		(pts
-			(xy 360.68 134.62) (xy 360.68 137.16)
+			(xy 360.68 134.62) (xy 360.68 139.7)
 		)
 		(stroke
 			(width 0)
@@ -9227,6 +9253,16 @@
 		)
 		(uuid "ecf9cb2e-a651-4784-bfea-30a11ad96191")
 	)
+	(wire
+		(pts
+			(xy 370.84 134.62) (xy 373.38 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef087670-63ff-4c95-96a8-31d6d45f58e5")
+	)
 	(polyline
 		(pts
 			(xy 48.26 157.48) (xy 45.72 154.94)
@@ -9849,7 +9885,7 @@
 	)
 	(hierarchical_label "~{RST_5V}"
 		(shape input)
-		(at 378.46 134.62 0)
+		(at 381 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9857,6 +9893,17 @@
 			(justify left)
 		)
 		(uuid "9202e879-f548-4fc6-b4de-08d506222119")
+	)
+	(hierarchical_label "~{PCIE_PG}"
+		(shape input)
+		(at 381 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "964aef36-8933-4528-ac0e-3c2c7cfb88d4")
 	)
 	(hierarchical_label "~{PORT1_CLKREQ}"
 		(shape input)
@@ -14072,7 +14119,7 @@
 	)
 	(symbol
 		(lib_id "DEV:C_SMALL")
-		(at 360.68 139.7 0)
+		(at 360.68 142.24 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14082,17 +14129,6 @@
 		(dnp no)
 		(uuid "c7025782-91ed-46f8-bc6a-74932919a9fb")
 		(property "Reference" "C305"
-			(at 363.22 138.4362 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1n"
 			(at 363.22 140.9762 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14103,8 +14139,19 @@
 				(justify left)
 			)
 		)
+		(property "Value" "1n"
+			(at 363.22 143.5162 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" "project_footprints:C_0402"
-			(at 360.68 139.7 0)
+			(at 360.68 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14115,7 +14162,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 360.68 139.7 0)
+			(at 360.68 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14126,7 +14173,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 360.68 139.7 0)
+			(at 360.68 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14137,7 +14184,7 @@
 			)
 		)
 		(property "Field6" ""
-			(at 360.68 139.7 0)
+			(at 360.68 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14148,7 +14195,7 @@
 			)
 		)
 		(property "Field7" ""
-			(at 360.68 139.7 0)
+			(at 360.68 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14159,7 +14206,7 @@
 			)
 		)
 		(property "Part Description" ""
-			(at 360.68 139.7 0)
+			(at 360.68 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14498,7 +14545,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 360.68 144.78 0)
+		(at 360.68 147.32 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14509,7 +14556,7 @@
 		(fields_autoplaced yes)
 		(uuid "eb56353e-c025-4f75-9605-f1c1dfb576d6")
 		(property "Reference" "#PWR0315"
-			(at 360.68 151.13 0)
+			(at 360.68 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14520,7 +14567,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 360.68 149.86 0)
+			(at 360.68 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14530,7 +14577,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 360.68 144.78 0)
+			(at 360.68 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14541,7 +14588,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 360.68 144.78 0)
+			(at 360.68 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14552,7 +14599,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 360.68 144.78 0)
+			(at 360.68 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14768,7 +14815,7 @@
 	)
 	(symbol
 		(lib_id "DIODE:PMEG4002EL-QYL")
-		(at 373.38 134.62 0)
+		(at 375.92 134.62 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -14779,7 +14826,7 @@
 		(dnp no)
 		(uuid "f48a0df2-af00-413c-8cd3-fffa74597b87")
 		(property "Reference" "D301"
-			(at 373.38 132.08 0)
+			(at 375.92 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14789,7 +14836,7 @@
 			)
 		)
 		(property "Value" "PMEG4002EL-QYL"
-			(at 373.38 129.54 0)
+			(at 375.92 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14799,7 +14846,7 @@
 			)
 		)
 		(property "Footprint" "project_footprints:PMEG4002EL-QYL"
-			(at 373.38 134.62 0)
+			(at 375.92 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14810,7 +14857,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG4002EL-Q.pdf"
-			(at 373.38 134.62 90)
+			(at 375.92 134.62 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14821,7 +14868,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 373.38 134.62 0)
+			(at 375.92 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14832,7 +14879,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 373.38 134.62 0)
+			(at 375.92 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14843,7 +14890,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 373.38 134.62 0)
+			(at 375.92 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14854,7 +14901,7 @@
 			)
 		)
 		(property "Field6" ""
-			(at 373.38 134.62 0)
+			(at 375.92 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14865,7 +14912,7 @@
 			)
 		)
 		(property "Field7" ""
-			(at 373.38 134.62 0)
+			(at 375.92 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14876,7 +14923,7 @@
 			)
 		)
 		(property "Part Description" ""
-			(at 373.38 134.62 0)
+			(at 375.92 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

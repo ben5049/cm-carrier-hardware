@@ -831,45 +831,45 @@
           "show": true
         },
         {
-          "group_by": false,
-          "label": "Qty",
-          "name": "${QUANTITY}",
-          "show": true
-        },
-        {
           "group_by": true,
           "label": "Value",
           "name": "Value",
           "show": true
         },
         {
-          "group_by": true,
-          "label": "DNP",
-          "name": "${DNP}",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "Exclude from BOM",
-          "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "Exclude from Board",
-          "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
+          "group_by": false,
+          "label": "Datasheet",
+          "name": "Datasheet",
+          "show": false
         },
         {
           "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Do Not Place",
+          "name": "${DNP}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Exclude from BOM",
+          "name": "${EXCLUDE_FROM_BOM}",
           "show": true
         },
         {
           "group_by": false,
-          "label": "Datasheet",
-          "name": "Datasheet",
+          "label": "Exclude from Board",
+          "name": "${EXCLUDE_FROM_BOARD}",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Exclude from Simulation",
+          "name": "${EXCLUDE_FROM_SIM}",
           "show": true
         },
         {
@@ -1129,9 +1129,21 @@
           "label": "IRP,40K (A)",
           "name": "IRP,40K (A)",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Inductance",
+          "name": "Inductance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
+          "show": false
         }
       ],
-      "filter_string": "TP",
+      "filter_string": "R",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
@@ -1296,7 +1308,7 @@
         "uuid": "f91ec272-d09a-4038-bbbb-962739a92c51"
       }
     ],
-    "used_designators": "#PWR303,R302,R712,TP304",
+    "used_designators": "U1303,U1405,U1501-1503,D1301-1304,L1301,L1403-1404,L1502-1503,#PWR901-902,#PWR1305,#PWR1307-1308,#PWR1310-1311,#PWR1316-1322,#PWR1401-1402,#PWR1425-1430,#PWR1501-1502,#PWR1504,#PWR1507,#PWR1514-1525,C1314-1317,C1422-1429,C1501-1502,C1509-1524,R901-902,R1205,R1301,R1303-1306,R1309-1316,R1401-1402,R1408-1409,R1501,R1504-1507,TP1301-1302,TP1404,TP1502-1503,Q1301-1304",
     "variants": []
   },
   "sheets": [
@@ -1342,7 +1354,7 @@
     ],
     [
       "52a41b87-8503-44b7-832c-aae66b3851bb",
-      "3V3 Regulators"
+      "3V3 Always On"
     ],
     [
       "80b60915-5ccb-4842-b09a-a259b4f355b7",
@@ -1350,7 +1362,7 @@
     ],
     [
       "313ad2b1-6281-4d61-a8a6-55e55641e36c",
-      "1V1 Regulator"
+      "PCIe Power"
     ]
   ],
   "text_variables": {},

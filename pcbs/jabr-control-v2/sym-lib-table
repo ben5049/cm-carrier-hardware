@@ -26,4 +26,5 @@
 	(lib (name "CONN-FPC") (type "KiCad") (uri "${KIPRJMOD}/../component-library/project_symbols/CONN-FPC.kicad_sym") (options "") (descr ""))
 	(lib (name "CLK-BUF") (type "KiCad") (uri "${KIPRJMOD}/../component-library/project_symbols/CLK-BUF.kicad_sym") (options "") (descr ""))
 	(lib (name "NET-TIE") (type "KiCad") (uri "${KIPRJMOD}/../component-library/project_symbols/NET-TIE.kicad_sym") (options "") (descr ""))
+	(lib (name "COMP") (type "KiCad") (uri "${KIPRJMOD}/../component-library/project_symbols/COMP.kicad_sym") (options "") (descr ""))
 )
