@@ -1,0 +1,1841 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "f91ec272-d09a-4038-bbbb-962739a92c51")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(bus_alias "MIPI"
+		(members "CLK_P" "CLK_N" "D0_P" "D0_N" "D1_P" "D1_N" "D2_P" "D2_N" "D3_P"
+			"D3_N"
+		)
+	)
+	(junction
+		(at 210.82 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00caaa70-4afa-4008-a63b-d46dc98fa616")
+	)
+	(junction
+		(at 152.4 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "15d93bfb-e66b-4657-a7e9-cd9476ff4abb")
+	)
+	(junction
+		(at 208.28 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c2a7974-d79a-4603-b8d3-99088120a935")
+	)
+	(no_connect
+		(at 109.22 170.18)
+		(uuid "851d9840-05cc-4566-ad86-6fedcc4b643d")
+	)
+	(no_connect
+		(at 129.54 170.18)
+		(uuid "cbddbc8a-4a34-4627-a21d-413f4846bd6c")
+	)
+	(no_connect
+		(at 109.22 187.96)
+		(uuid "d70272ce-1570-474d-a218-5c2f60343c0f")
+	)
+	(no_connect
+		(at 129.54 187.96)
+		(uuid "fcd12dd6-e852-4116-9774-690d22f5a696")
+	)
+	(wire
+		(pts
+			(xy 208.28 78.74) (xy 215.9 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "036ab37a-bb75-4910-b49f-5604c2f7c7c6")
+	)
+	(bus
+		(pts
+			(xy 88.9 81.28) (xy 114.3 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06a7054d-0606-4f5f-b6e0-9d1b560d028c")
+	)
+	(bus
+		(pts
+			(xy 88.9 58.42) (xy 114.3 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08d089ef-72f7-46b5-a6ed-2f1fedb75c7b")
+	)
+	(wire
+		(pts
+			(xy 139.7 106.68) (xy 165.1 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d972d24-0955-4aef-bfdd-03fd97e081d3")
+	)
+	(bus
+		(pts
+			(xy 139.7 109.22) (xy 165.1 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20280898-e4f7-4df9-9a07-08e74a0e5e50")
+	)
+	(bus
+		(pts
+			(xy 88.9 96.52) (xy 114.3 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20da2f6b-bc9b-4b8e-93cf-25b421b26551")
+	)
+	(bus
+		(pts
+			(xy 139.7 40.64) (xy 215.9 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2291d431-39b0-4452-94e7-0d04864cf803")
+	)
+	(bus
+		(pts
+			(xy 88.9 91.44) (xy 114.3 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "279ebcfe-3034-4598-a4f2-1da06da2ce35")
+	)
+	(bus
+		(pts
+			(xy 177.8 53.34) (xy 215.9 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c7aeb9d-2c67-440a-a773-ee560431a3c8")
+	)
+	(bus
+		(pts
+			(xy 88.9 99.06) (xy 114.3 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34197787-48e1-404a-9ab2-dfc6d6131e63")
+	)
+	(bus
+		(pts
+			(xy 165.1 101.6) (xy 152.4 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36024bdd-e912-4f4a-a9bc-1c294a2d7cee")
+	)
+	(wire
+		(pts
+			(xy 139.7 48.26) (xy 215.9 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c62dc73-be06-44f0-b09d-42cf6cfb64cf")
+	)
+	(wire
+		(pts
+			(xy 139.7 139.7) (xy 215.9 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40b40c8d-83cf-4b9b-a232-e3c9df62cb68")
+	)
+	(wire
+		(pts
+			(xy 139.7 76.2) (xy 210.82 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4320d526-1962-49d2-b1eb-3e82d11b3d88")
+	)
+	(bus
+		(pts
+			(xy 177.8 63.5) (xy 215.9 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56220b5d-1da3-46df-b8ac-e55e4b7be070")
+	)
+	(wire
+		(pts
+			(xy 190.5 91.44) (xy 215.9 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "598b42a8-f472-48bd-a5fe-857c01af33ce")
+	)
+	(wire
+		(pts
+			(xy 208.28 78.74) (xy 208.28 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5991fdb7-72f3-4cc7-887b-7f82c55de478")
+	)
+	(bus
+		(pts
+			(xy 88.9 83.82) (xy 114.3 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6afdcc1b-b47a-4fdd-86f9-c2d019d07245")
+	)
+	(bus
+		(pts
+			(xy 139.7 68.58) (xy 152.4 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70d3aee3-c9c0-4e10-acbb-28ad196ba302")
+	)
+	(wire
+		(pts
+			(xy 215.9 116.84) (xy 208.28 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78ed1d3b-7ac8-4c50-b2d0-ca3ff66a0ab5")
+	)
+	(wire
+		(pts
+			(xy 88.9 132.08) (xy 114.3 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "796f17a7-299b-4236-8310-165e7643dcec")
+	)
+	(bus
+		(pts
+			(xy 88.9 50.8) (xy 114.3 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b6541c4-f2c9-4c28-abae-051b157c6784")
+	)
+	(wire
+		(pts
+			(xy 139.7 45.72) (xy 215.9 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ba2d000-5a1b-4d60-ad58-b225ac3b2e74")
+	)
+	(wire
+		(pts
+			(xy 210.82 114.3) (xy 210.82 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81532308-30ba-49dc-8b6e-58ed12fb59a3")
+	)
+	(bus
+		(pts
+			(xy 190.5 124.46) (xy 215.9 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8959948c-f218-4079-bd3f-c0ac701905f7")
+	)
+	(bus
+		(pts
+			(xy 152.4 101.6) (xy 152.4 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b7efb19-e38f-4212-b6c8-25200314966d")
+	)
+	(bus
+		(pts
+			(xy 88.9 60.96) (xy 114.3 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90eb9d1f-3140-4027-beb3-28ecd0503783")
+	)
+	(wire
+		(pts
+			(xy 215.9 114.3) (xy 210.82 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ec69d1b-4fd8-4f38-89f9-5874cc850266")
+	)
+	(bus
+		(pts
+			(xy 88.9 48.26) (xy 114.3 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a18fcf72-ce27-46bd-9c9c-d5a1d6aab4d0")
+	)
+	(wire
+		(pts
+			(xy 177.8 71.12) (xy 215.9 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a25406d3-6d08-42b2-9866-ae11576b815a")
+	)
+	(wire
+		(pts
+			(xy 88.9 86.36) (xy 114.3 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7833333-7953-426c-97a1-8c3d3e48797b")
+	)
+	(bus
+		(pts
+			(xy 190.5 93.98) (xy 215.9 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8140ade-5c37-41b0-8bbc-c81e745a7ca0")
+	)
+	(bus
+		(pts
+			(xy 88.9 45.72) (xy 114.3 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9660e5a-7716-4d0b-89b6-758c4b927f19")
+	)
+	(bus
+		(pts
+			(xy 152.4 68.58) (xy 215.9 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa60010e-914e-4cc8-b001-6f40eecd7ba9")
+	)
+	(wire
+		(pts
+			(xy 190.5 121.92) (xy 215.9 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9445dcc-ae84-48db-acb6-6d6741c18265")
+	)
+	(wire
+		(pts
+			(xy 139.7 55.88) (xy 215.9 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db65a0e7-90eb-4328-93a0-f1d5b274f6fb")
+	)
+	(wire
+		(pts
+			(xy 88.9 152.4) (xy 215.9 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e067e56d-8177-42bb-b50b-8098f65fe33f")
+	)
+	(wire
+		(pts
+			(xy 177.8 58.42) (xy 215.9 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e08929c1-1f81-4f2c-9c17-51eb9c15a3f6")
+	)
+	(wire
+		(pts
+			(xy 210.82 76.2) (xy 215.9 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8641eda-1418-4ab7-b769-1fb6be2f0e17")
+	)
+	(wire
+		(pts
+			(xy 139.7 78.74) (xy 208.28 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd5950d1-ba66-4f53-9d25-b5966b90467a")
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 109.22 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c926a08-cafa-4580-bd45-b31e57b610b6")
+		(property "Reference" "H101"
+			(at 111.76 165.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M2.5"
+			(at 111.76 167.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad"
+			(at 109.22 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 109.22 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 109.22 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 109.22 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
+			(at 109.22 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f7931bb-0044-43d6-9a53-98b60be01467")
+		)
+		(instances
+			(project "jabr-control-v1"
+				(path "/f91ec272-d09a-4038-bbbb-962739a92c51"
+					(reference "H101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 129.54 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9fda8472-93fe-444d-ab3b-827613d33fac")
+		(property "Reference" "H102"
+			(at 132.08 182.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M2.5"
+			(at 132.08 185.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad"
+			(at 129.54 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 129.54 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 129.54 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 129.54 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
+			(at 129.54 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b03b2c2-6acb-4e9e-b452-e76753e92ca9")
+		)
+		(instances
+			(project "jabr-control-v1"
+				(path "/f91ec272-d09a-4038-bbbb-962739a92c51"
+					(reference "H102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 109.22 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5f5c1b1-8157-4837-b073-5f2ed3875d1d")
+		(property "Reference" "H105"
+			(at 111.76 182.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M2.5"
+			(at 111.76 185.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad"
+			(at 109.22 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 109.22 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 109.22 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 109.22 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
+			(at 109.22 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36181cc1-53cf-425a-9cbe-9c678c58d601")
+		)
+		(instances
+			(project "jabr-control-v1"
+				(path "/f91ec272-d09a-4038-bbbb-962739a92c51"
+					(reference "H105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 129.54 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f78daabb-ecf9-4f1c-9858-71787fa41a84")
+		(property "Reference" "H103"
+			(at 132.08 165.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M2.5"
+			(at 132.08 167.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad"
+			(at 129.54 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 129.54 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 129.54 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 129.54 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
+			(at 129.54 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f5c715d5-9cf1-46db-8f07-ae324f0293e8")
+		)
+		(instances
+			(project "jabr-control-v1"
+				(path "/f91ec272-d09a-4038-bbbb-962739a92c51"
+					(reference "H103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 215.9 38.1)
+		(size 25.4 60.96)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1d5b5326-5e18-44b7-8507-f118df052f59")
+		(property "Sheetname" "M.2 E-Key"
+			(at 215.9 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "m-2-e-key.kicad_sch"
+			(at 215.9 99.6446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{PCIE}" bidirectional
+			(at 215.9 93.98 180)
+			(uuid "c73b9134-93a4-4e2d-a261-f972b47ebe40")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{PCIE_RST}" input
+			(at 215.9 91.44 180)
+			(uuid "fc5eced7-c5b5-4f70-b76f-c5493af9f730")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{PCIE_WAKE}" output
+			(at 215.9 78.74 180)
+			(uuid "8f1b9aae-c501-4c44-9c35-3ea57c272ac6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{PCIE_CLKREQ}" output
+			(at 215.9 76.2 180)
+			(uuid "456508f3-2419-4e3f-87c7-7afeeff960b9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{SPI}" bidirectional
+			(at 215.9 53.34 180)
+			(uuid "d9d56c7f-644a-424f-86ea-e48c0df233ce")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{I2C}" bidirectional
+			(at 215.9 68.58 180)
+			(uuid "1ffeada1-cf67-447c-9b3e-2ceb86983689")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{UART}" bidirectional
+			(at 215.9 63.5 180)
+			(uuid "fe8d10ed-7e0e-4990-918c-06dc12cb6e30")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{I2C_INT}" output
+			(at 215.9 71.12 180)
+			(uuid "87f036c3-ac96-4dea-847a-3d39726812b2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{SPI_INT}" output
+			(at 215.9 58.42 180)
+			(uuid "8498f44a-e3a9-44dc-9fbd-612b3d37cda4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{SPI_RST}" input
+			(at 215.9 55.88 180)
+			(uuid "affcd919-9fd2-435b-b8ea-913859d70518")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{USB}" bidirectional
+			(at 215.9 40.64 180)
+			(uuid "4f6d0dfd-fa54-412e-b6aa-15bf46972153")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BT_EN" input
+			(at 215.9 45.72 180)
+			(uuid "985a4cfd-0c82-4d15-bd5a-ad47fc7a558f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "WL_EN" input
+			(at 215.9 48.26 180)
+			(uuid "70aa6104-d85a-4f98-917b-f55998fc25fe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "jabr-control-v1"
+				(path "/f91ec272-d09a-4038-bbbb-962739a92c51"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 215.9 111.76)
+		(size 25.4 43.18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3124e188-7d93-47d9-82c9-cb765ca396d3")
+		(property "Sheetname" "PCIe to 1000BASE-T1"
+			(at 215.9 111.0484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pcie-to-1000base-t1.kicad_sch"
+			(at 215.9 155.5246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{PCIE}" bidirectional
+			(at 215.9 124.46 180)
+			(uuid "e5ae1406-eb19-4124-9cd7-fe19d06781e8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{PCIE_CLKREQ}" output
+			(at 215.9 114.3 180)
+			(uuid "e89beca8-a2fc-44d8-a65e-ffa9784d89cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{PCIE_WAKE}" output
+			(at 215.9 116.84 180)
+			(uuid "3f86c4ab-ab17-4d54-bebf-51c0188fa0bd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{PCIE_RST}" input
+			(at 215.9 121.92 180)
+			(uuid "7cb925b0-4df3-4bae-be76-5038b11c1735")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{RST}" input
+			(at 215.9 139.7 180)
+			(uuid "5015e4a4-62a9-4d76-aa2d-143caf205aa8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INH" output
+			(at 215.9 152.4 180)
+			(uuid "cfd24134-0593-4cb4-9aa6-a9af046aca31")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "jabr-control-v1"
+				(path "/f91ec272-d09a-4038-bbbb-962739a92c51"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 129.54)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3f551047-3bb0-4f63-99e0-34fd9061d844")
+		(property "Sheetname" "Power"
+			(at 63.5 128.8284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 63.5 155.5246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3V3_M2_EN" input
+			(at 88.9 132.08 0)
+			(uuid "4d46a761-13db-41d7-8a4a-5d8a484a1fa0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "INH" input
+			(at 88.9 152.4 0)
+			(uuid "db598e01-6d84-4c76-a563-de85668baf8c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "jabr-control-v1"
+				(path "/f91ec272-d09a-4038-bbbb-962739a92c51"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 165.1 86.36)
+		(size 25.4 43.18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5b6fcd2f-5b5d-4692-aafc-a1fc45c87a5b")
+		(property "Sheetname" "PCIe Switch"
+			(at 165.1 85.6484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pcie-switch.kicad_sch"
+			(at 165.1 130.1246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PORT0{PCIE}" bidirectional
+			(at 165.1 109.22 180)
+			(uuid "e25349fe-b634-4b66-adbe-71aa2fccfe20")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PORT1{PCIE}" bidirectional
+			(at 190.5 93.98 0)
+			(uuid "eca74e7e-781c-4b99-b3c7-cb42f02622c2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PORT2{PCIE}" bidirectional
+			(at 190.5 124.46 0)
+			(uuid "1a9314ef-3dc5-4350-9a0b-91b7af2a4e7d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{PORT1_RST}" output
+			(at 190.5 91.44 0)
+			(uuid "33af4072-9858-44a5-80bb-60dbd484761b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{PORT2_RST}" output
+			(at 190.5 121.92 0)
+			(uuid "307070af-333f-4583-a683-392fac4d0c36")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{RST}" input
+			(at 165.1 106.68 180)
+			(uuid "f503a7df-e944-4c14-874a-2ea975ee8a06")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SMB{I2C}" bidirectional
+			(at 165.1 101.6 180)
+			(uuid "fa452d8a-ea56-4096-b52a-2c0b27805580")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "jabr-control-v1"
+				(path "/f91ec272-d09a-4038-bbbb-962739a92c51"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 38.1)
+		(size 25.4 104.14)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6befb881-6ab4-49eb-a195-35f4f02473c7")
+		(property "Sheetname" "CM5"
+			(at 114.3 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cm5.kicad_sch"
+			(at 114.3 142.8246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{PCIE}" bidirectional
+			(at 139.7 109.22 0)
+			(uuid "4df17612-f77c-4b64-abd1-6b96c94ade48")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{PCIE_CLKREQ}" input
+			(at 139.7 76.2 0)
+			(uuid "f8984c03-25cc-4ff1-9d3a-09490db0de04")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{PCIE_RST}" output
+			(at 139.7 106.68 0)
+			(uuid "9f3ad3ec-e8e4-4f90-a6d6-2068340dab46")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCIE_PWR_EN" output
+			(at 114.3 132.08 180)
+			(uuid "905c75a8-4708-47ec-b4f2-84c9ad8fc59d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{PCIE_WAKE}" input
+			(at 139.7 78.74 0)
+			(uuid "07fa324e-e543-4e63-8fc8-37b87ad575ec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ETH_LED[2..3]" output
+			(at 114.3 99.06 180)
+			(uuid "2fcf9ae6-0f94-4a4d-86e7-28694c2a4946")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ETH{MDI}" bidirectional
+			(at 114.3 96.52 180)
+			(uuid "85cc4cc7-1ad9-4bd7-b858-b6568f0f2c26")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VBUS_EN" output
+			(at 114.3 86.36 180)
+			(uuid "112ded3d-50eb-42d8-a6de-9cc254d33475")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{RST_5V}" output
+			(at 139.7 139.7 0)
+			(uuid "016f28ab-0032-4926-b6b8-f740631b64a4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{RST_3V3}" output
+			(at 139.7 55.88 0)
+			(uuid "fb0e0f94-22f7-43fa-b05a-e4e6ead8e3d2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C2{I2C}" bidirectional
+			(at 139.7 68.58 0)
+			(uuid "2904eb0a-41b9-49e9-ba18-d48d6dfcc5e5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB2_DEV{USB}" bidirectional
+			(at 114.3 91.44 180)
+			(uuid "e36ad476-4ceb-4d53-8a68-2a523ebbdb7c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB2_HOST{USB}" bidirectional
+			(at 139.7 40.64 0)
+			(uuid "b3235b0d-3bda-4f34-aff2-ed5c31e7550f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAM_GPIO[0..1]" bidirectional
+			(at 114.3 50.8 180)
+			(uuid "e865b974-3f72-4e84-a404-2c177497b4bc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C0{I2C}" bidirectional
+			(at 114.3 48.26 180)
+			(uuid "6a4049e1-9267-4854-a740-b8fd1f6dec58")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C1{I2C}" bidirectional
+			(at 114.3 60.96 180)
+			(uuid "c9c39df4-6d81-4c42-9305-55aef5c6286f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MIPI0{MIPI}" bidirectional
+			(at 114.3 45.72 180)
+			(uuid "db425bb4-bdaf-44d0-8485-b37df68c35f9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MIPI1{MIPI}" bidirectional
+			(at 114.3 58.42 180)
+			(uuid "402e6275-1554-491d-bebd-acc04f716596")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BT_EN" output
+			(at 139.7 45.72 0)
+			(uuid "ec32145b-0eb1-4417-9d14-428fc4b70741")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "WL_EN" output
+			(at 139.7 48.26 0)
+			(uuid "2b2391ec-be3f-45d4-bfbe-9afa42900a9c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB3_0{USB3}" bidirectional
+			(at 114.3 81.28 180)
+			(uuid "6757cf81-d6b1-499b-bed5-2c87064fb2db")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB3_1{USB3}" bidirectional
+			(at 114.3 83.82 180)
+			(uuid "a9b6794a-f338-450b-8177-50bfe1397ba0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "jabr-control-v1"
+				(path "/f91ec272-d09a-4038-bbbb-962739a92c51"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 38.1)
+		(size 25.4 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "80b60915-5ccb-4842-b09a-a259b4f355b7")
+		(property "Sheetname" "MIPI Connectors"
+			(at 63.5 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mipi-connectors.kicad_sch"
+			(at 63.5 69.1646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CAM_GPIO[0..1]" bidirectional
+			(at 88.9 50.8 0)
+			(uuid "22ffb185-d73c-4e98-a275-84c67ee373d9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C0{I2C}" bidirectional
+			(at 88.9 48.26 0)
+			(uuid "b65363e3-7621-4bf1-a4ca-4d188af920ad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C1{I2C}" bidirectional
+			(at 88.9 60.96 0)
+			(uuid "10f97837-50ff-4319-a93c-5621a855fe83")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MIPI0{MIPI}" bidirectional
+			(at 88.9 45.72 0)
+			(uuid "871a862a-f5a8-46c1-876d-37cfeab82c53")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MIPI1{MIPI}" bidirectional
+			(at 88.9 58.42 0)
+			(uuid "d326750b-2a18-4ac3-99a8-7f297d8d0178")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "jabr-control-v1"
+				(path "/f91ec272-d09a-4038-bbbb-962739a92c51"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 78.74)
+		(size 25.4 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "adc0b005-3094-4656-96e7-4ee9fb2ab719")
+		(property "Sheetname" "CM5IO"
+			(at 63.5 78.0284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cm5io.kicad_sch"
+			(at 63.5 117.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ETH_LED[2..3]" input
+			(at 88.9 99.06 0)
+			(uuid "63dfdccb-f8a5-4543-ab8b-4c0aa068d43b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ETH{MDI}" bidirectional
+			(at 88.9 96.52 0)
+			(uuid "8e47ab3e-c146-4b4a-9b6e-1ef9426ee7cd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB{USB}" bidirectional
+			(at 88.9 91.44 0)
+			(uuid "e4b39588-3275-4772-866a-2e5275500a98")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB3_0{USB3}" bidirectional
+			(at 88.9 81.28 0)
+			(uuid "e82423aa-c123-4c52-a457-25811184b400")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB3_1{USB3}" bidirectional
+			(at 88.9 83.82 0)
+			(uuid "9859c4d7-5995-4830-91d3-9d9030d5aa78")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBUS_EN" input
+			(at 88.9 86.36 0)
+			(uuid "a3a80dbb-4da5-4c27-9648-430ff313c2eb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "jabr-control-v1"
+				(path "/f91ec272-d09a-4038-bbbb-962739a92c51"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
