@@ -267,6 +267,32 @@
 		(uuid "5d714b3f-6c50-4759-8c18-a2e2f15bf858")
 	)
 	(arc
+		(start 134.62 173.99)
+		(mid 133.8761 175.7861)
+		(end 132.08 176.53)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "61b3171d-be96-4ce8-a733-fa513196e8c6")
+	)
+	(arc
+		(start 132.08 146.05)
+		(mid 133.8761 146.7939)
+		(end 134.62 148.59)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "629b5fa6-a7b2-43b3-904a-7969ae8a1f5f")
+	)
+	(arc
 		(start 109.22 181.61)
 		(mid 109.9639 179.8139)
 		(end 111.76 179.07)
@@ -344,6 +370,16 @@
 		)
 		(uuid "f16ce329-31c9-40ce-84ab-2599f1d0fb0b")
 	)
+	(text "IO"
+		(exclude_from_sim no)
+		(at 132.08 185.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0c1e552b-a9e4-4422-8fe3-128c4eb53922")
+	)
 	(text "Can be broken off\nif IO isn't needed"
 		(exclude_from_sim no)
 		(at 50.8 78.74 0)
@@ -353,6 +389,46 @@
 			)
 		)
 		(uuid "63a685ba-9cee-4e68-8139-ac485c699f49")
+	)
+	(text "CM5"
+		(exclude_from_sim no)
+		(at 121.92 161.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "63b14236-6f6c-4142-ae32-4134c4f1abcd")
+	)
+	(text "M.2"
+		(exclude_from_sim no)
+		(at 144.78 161.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fe120449-9673-484a-a07d-31d4550288d3")
+	)
+	(text_box "This is a carrier board for a Raspberry Pi Compute Module 5.\n\nIt features the standard CM5 IO of USB, Ethernet and MIPI, as well as an M.2 E-key slot and a 1000BASE-T1 single pair Ethernet PHY.\n\nIn order to have a second Ethernet port and an M.2 slot the single PCIe gen2/3 lane connects to a PCI11010C switch which includes an Ethernet MAC.\n\nThe power tree is designed to be robust and handle the worst case consumption of all peripherals."
+		(exclude_from_sim no)
+		(at 35.56 152.4 0)
+		(size 50.8 33.02)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c20e3b06-dd07-4890-923d-e7cede60b53f")
 	)
 	(junction
 		(at 152.4 55.88)
@@ -1058,6 +1134,16 @@
 		)
 		(uuid "b077d1fa-d17f-4f07-b1fc-8f40369b1bca")
 	)
+	(polyline
+		(pts
+			(xy 113.03 176.53) (xy 130.81 176.53)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "b273f9e1-1eb2-4c46-848c-ca7c678fc368")
+	)
 	(wire
 		(pts
 			(xy 190.5 121.92) (xy 215.9 121.92)
@@ -1207,6 +1293,16 @@
 			(type default)
 		)
 		(uuid "e067e56d-8177-42bb-b50b-8098f65fe33f")
+	)
+	(polyline
+		(pts
+			(xy 134.62 148.59) (xy 134.62 173.99)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "e13f004f-6d0b-4f84-9071-67d342dc44e2")
 	)
 	(bus
 		(pts
@@ -1363,7 +1459,7 @@
 			(uuid "b6c69318-25e5-4e6c-ba59-5101cda05de5")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51"
 					(reference "H105")
 					(unit 1)
@@ -1662,7 +1758,7 @@
 			(uuid "9f7931bb-0044-43d6-9a53-98b60be01467")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51"
 					(reference "H107")
 					(unit 1)
@@ -1755,7 +1851,7 @@
 			(uuid "6c6f1673-5ef6-4217-bed0-d8e23c244a05")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51"
 					(reference "H102")
 					(unit 1)
@@ -1848,7 +1944,7 @@
 			(uuid "8d31e04a-06c6-44d6-9e79-95b548b24f7b")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51"
 					(reference "H101")
 					(unit 1)
@@ -2147,7 +2243,7 @@
 			(uuid "0b03b2c2-6acb-4e9e-b452-e76753e92ca9")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51"
 					(reference "H106")
 					(unit 1)
@@ -2240,7 +2336,7 @@
 			(uuid "e32a98b0-7350-4021-9c9b-1fa478351071")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51"
 					(reference "H104")
 					(unit 1)
@@ -2539,7 +2635,7 @@
 			(uuid "36181cc1-53cf-425a-9cbe-9c678c58d601")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51"
 					(reference "H103")
 					(unit 1)
@@ -2838,7 +2934,7 @@
 			(uuid "f5c715d5-9cf1-46db-8f07-ae324f0293e8")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51"
 					(reference "H108")
 					(unit 1)
@@ -2965,7 +3061,7 @@
 			)
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51"
 					(page "12")
 				)
@@ -3041,7 +3137,7 @@
 			)
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51"
 					(page "2")
 				)
@@ -3267,7 +3363,7 @@
 			)
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51"
 					(page "10")
 				)
@@ -3513,7 +3609,7 @@
 			)
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51"
 					(page "7")
 				)
@@ -3619,7 +3715,7 @@
 			)
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51"
 					(page "11")
 				)
@@ -3715,7 +3811,7 @@
 			)
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51"
 					(page "9")
 				)
@@ -3821,7 +3917,7 @@
 			)
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51"
 					(page "8")
 				)

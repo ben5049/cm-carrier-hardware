@@ -293,7 +293,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
 				(at 0 5.08 0)
 				(show_name no)
@@ -389,46 +389,8 @@
 					)
 				)
 				(pin passive line
-					(at 10.16 -2.54 180)
-					(length 5.08)
-					(hide yes)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 10.16 -5.08 180)
 					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -5.08 180)
-					(length 5.08)
-					(hide yes)
 					(name "2"
 						(effects
 							(font
@@ -463,25 +425,6 @@
 					)
 				)
 				(pin passive line
-					(at 10.16 -7.62 180)
-					(length 5.08)
-					(hide yes)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 10.16 -10.16 180)
 					(length 5.08)
 					(name "4"
@@ -500,46 +443,8 @@
 					)
 				)
 				(pin passive line
-					(at 10.16 -10.16 180)
-					(length 5.08)
-					(hide yes)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 10.16 -12.7 180)
 					(length 5.08)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -12.7 180)
-					(length 5.08)
-					(hide yes)
 					(name "5"
 						(effects
 							(font
@@ -7384,7 +7289,7 @@
 	)
 	(text "Fan Connector"
 		(exclude_from_sim no)
-		(at 233.68 231.14 0)
+		(at 213.36 231.14 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -7544,7 +7449,7 @@
 	)
 	(text_box "Pullup for fans with weak internal pullup."
 		(exclude_from_sim no)
-		(at 251.46 259.08 0)
+		(at 231.14 259.08 0)
 		(size 17.78 7.62)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -8121,7 +8026,7 @@
 		(uuid "424c0d71-0d1f-42f0-8e04-995816c8eae5")
 	)
 	(no_connect
-		(at 210.82 256.54)
+		(at 190.5 256.54)
 		(uuid "459bd00c-b4c7-4dc1-9912-24582af49722")
 	)
 	(no_connect
@@ -8185,7 +8090,7 @@
 		(uuid "7a946f11-31f3-46b7-adfa-f7e4696df969")
 	)
 	(no_connect
-		(at 210.82 259.08)
+		(at 190.5 259.08)
 		(uuid "7f01ba35-7503-4049-900e-6071dfe24d6e")
 	)
 	(no_connect
@@ -8998,7 +8903,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 259.08) (xy 246.38 259.08)
+			(xy 210.82 259.08) (xy 226.06 259.08)
 		)
 		(stroke
 			(width 0)
@@ -9038,7 +8943,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 254) (xy 248.92 254)
+			(xy 210.82 254) (xy 228.6 254)
 		)
 		(stroke
 			(width 0)
@@ -9358,7 +9263,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 248.92) (xy 233.68 251.46)
+			(xy 213.36 248.92) (xy 213.36 251.46)
 		)
 		(stroke
 			(width 0)
@@ -9658,7 +9563,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 251.46) (xy 248.92 254)
+			(xy 228.6 251.46) (xy 228.6 254)
 		)
 		(stroke
 			(width 0)
@@ -10298,7 +10203,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 251.46) (xy 233.68 251.46)
+			(xy 210.82 251.46) (xy 213.36 251.46)
 		)
 		(stroke
 			(width 0)
@@ -10568,7 +10473,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 256.54) (xy 233.68 261.62)
+			(xy 213.36 256.54) (xy 213.36 261.62)
 		)
 		(stroke
 			(width 0)
@@ -11318,7 +11223,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 256.54) (xy 231.14 256.54)
+			(xy 213.36 256.54) (xy 210.82 256.54)
 		)
 		(stroke
 			(width 0)
@@ -12248,7 +12153,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 243.84) (xy 248.92 246.38)
+			(xy 228.6 243.84) (xy 228.6 246.38)
 		)
 		(stroke
 			(width 0)
@@ -12557,7 +12462,7 @@
 		(uuid "31012b74-5242-4c32-9201-c9ccf65bd9e1")
 	)
 	(label "FAN_TACHO"
-		(at 246.38 259.08 180)
+		(at 226.06 259.08 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13147,7 +13052,7 @@
 		(uuid "dcb18e5b-4ac2-40ca-b546-833af8063a2d")
 	)
 	(label "FAN_PWM"
-		(at 246.38 254 180)
+		(at 226.06 254 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13730,7 +13635,7 @@
 			(uuid "4d2577ee-6ea5-46bc-9359-7215c6f974dd")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/6befb881-6ab4-49eb-a195-35f4f02473c7"
 					(reference "#PWR0719")
 					(unit 1)
@@ -13808,7 +13713,7 @@
 			(uuid "c877297b-55f8-4ff9-95ce-dbf79a9790ae")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/6befb881-6ab4-49eb-a195-35f4f02473c7"
 					(reference "#PWR0718")
 					(unit 1)
@@ -14218,7 +14123,7 @@
 			(uuid "1ab3c9f3-7547-4aca-b228-49aacbcc66dc")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/6befb881-6ab4-49eb-a195-35f4f02473c7"
 					(reference "Q701")
 					(unit 1)
@@ -14228,7 +14133,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 233.68 261.62 0)
+		(at 213.36 261.62 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14239,7 +14144,7 @@
 		(fields_autoplaced yes)
 		(uuid "29adaa46-6964-45c7-a0ce-7d63407c6b06")
 		(property "Reference" "#PWR0712"
-			(at 233.68 267.97 0)
+			(at 213.36 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14250,7 +14155,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 233.68 266.7 0)
+			(at 213.36 266.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14260,7 +14165,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 233.68 261.62 0)
+			(at 213.36 261.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14271,7 +14176,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 233.68 261.62 0)
+			(at 213.36 261.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14282,7 +14187,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 233.68 261.62 0)
+			(at 213.36 261.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14296,7 +14201,7 @@
 			(uuid "bb6c7b65-843d-4487-9782-0ee6fa9e8066")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/6befb881-6ab4-49eb-a195-35f4f02473c7"
 					(reference "#PWR0712")
 					(unit 1)
@@ -15212,7 +15117,7 @@
 			(uuid "61be5050-1b6a-4307-a1f2-a713138a2d9d")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/6befb881-6ab4-49eb-a195-35f4f02473c7"
 					(reference "SOM701")
 					(unit 2)
@@ -15296,9 +15201,6 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "645892b6-eabc-4e77-a8b8-d0477881b490")
-		)
 		(pin "3"
 			(uuid "1579cca2-f668-436a-813e-49e8e21295f8")
 		)
@@ -15311,23 +15213,11 @@
 		(pin "5"
 			(uuid "21edece5-d49a-4f5a-8cad-abe0bc809f2a")
 		)
-		(pin "4"
-			(uuid "4a714b04-d195-4d7a-a7e0-7da3d4193ab0")
-		)
 		(pin "2"
 			(uuid "ea30cddc-a682-414f-9aa3-d6b9458eb210")
 		)
-		(pin "1"
-			(uuid "f9ca7406-2f9b-489c-9b6a-caf256116656")
-		)
-		(pin "5"
-			(uuid "b374ed8a-cc29-4229-937d-eb7cbdec1327")
-		)
-		(pin "3"
-			(uuid "0f70ef59-d8e7-45b3-86a8-3d6134f69c9a")
-		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/6befb881-6ab4-49eb-a195-35f4f02473c7"
 					(reference "J701")
 					(unit 1)
@@ -15624,7 +15514,7 @@
 			(uuid "f398318e-e6a2-4a7b-a488-9b6c234c643b")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/6befb881-6ab4-49eb-a195-35f4f02473c7"
 					(reference "TP705")
 					(unit 1)
@@ -15634,7 +15524,7 @@
 	)
 	(symbol
 		(lib_id "JST:JST-SH-4-Vertical")
-		(at 220.98 248.92 0)
+		(at 200.66 248.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15645,7 +15535,7 @@
 		(fields_autoplaced yes)
 		(uuid "3a7dfa95-c7f9-4938-8530-d531f6d1be63")
 		(property "Reference" "J702"
-			(at 220.98 243.84 0)
+			(at 200.66 243.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15655,7 +15545,7 @@
 			)
 		)
 		(property "Value" "JST-SH-4-Vertical"
-			(at 220.98 246.38 0)
+			(at 200.66 246.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15665,7 +15555,7 @@
 			)
 		)
 		(property "Footprint" "project_footprints:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical"
-			(at 220.98 264.16 0)
+			(at 200.66 264.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15676,7 +15566,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 248.92 0)
+			(at 200.66 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15687,7 +15577,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 220.98 248.92 0)
+			(at 200.66 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15698,7 +15588,7 @@
 			)
 		)
 		(property "Field6" ""
-			(at 220.98 248.92 0)
+			(at 200.66 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15709,7 +15599,7 @@
 			)
 		)
 		(property "Field7" ""
-			(at 220.98 248.92 0)
+			(at 200.66 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15720,7 +15610,7 @@
 			)
 		)
 		(property "Part Description" ""
-			(at 220.98 248.92 0)
+			(at 200.66 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15731,7 +15621,7 @@
 			)
 		)
 		(property "Critical Parameter" ""
-			(at 220.98 248.92 0)
+			(at 200.66 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15742,7 +15632,7 @@
 			)
 		)
 		(property "IRP,40K (A)" ""
-			(at 220.98 248.92 0)
+			(at 200.66 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15753,7 +15643,7 @@
 			)
 		)
 		(property "ISAT,10% (A)" ""
-			(at 220.98 248.92 0)
+			(at 200.66 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15764,7 +15654,7 @@
 			)
 		)
 		(property "ISAT,30% (A)" ""
-			(at 220.98 248.92 0)
+			(at 200.66 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15775,7 +15665,7 @@
 			)
 		)
 		(property "L (µH)" ""
-			(at 220.98 248.92 0)
+			(at 200.66 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15786,7 +15676,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 220.98 248.92 0)
+			(at 200.66 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15797,7 +15687,7 @@
 			)
 		)
 		(property "Manufacturer URL" ""
-			(at 220.98 248.92 0)
+			(at 200.66 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15808,7 +15698,7 @@
 			)
 		)
 		(property "Match Code" ""
-			(at 220.98 248.92 0)
+			(at 200.66 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15819,7 +15709,7 @@
 			)
 		)
 		(property "Mounting Technology" ""
-			(at 220.98 248.92 0)
+			(at 200.66 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15830,7 +15720,7 @@
 			)
 		)
 		(property "Part Number" ""
-			(at 220.98 248.92 0)
+			(at 200.66 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15841,7 +15731,7 @@
 			)
 		)
 		(property "Published Date" ""
-			(at 220.98 248.92 0)
+			(at 200.66 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15852,7 +15742,7 @@
 			)
 		)
 		(property "RDC max. (mΩ)" ""
-			(at 220.98 248.92 0)
+			(at 200.66 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15863,7 +15753,7 @@
 			)
 		)
 		(property "RDC typ. (mΩ)" ""
-			(at 220.98 248.92 0)
+			(at 200.66 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15874,7 +15764,7 @@
 			)
 		)
 		(property "Size" ""
-			(at 220.98 248.92 0)
+			(at 200.66 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15885,7 +15775,7 @@
 			)
 		)
 		(property "Type/Size" ""
-			(at 220.98 248.92 0)
+			(at 200.66 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15896,7 +15786,7 @@
 			)
 		)
 		(property "VOP (V)" ""
-			(at 220.98 248.92 0)
+			(at 200.66 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15907,7 +15797,7 @@
 			)
 		)
 		(property "fres (MHz)" ""
-			(at 220.98 248.92 0)
+			(at 200.66 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15936,7 +15826,7 @@
 			(uuid "2853ae75-635a-40b3-b61e-b3bbf2e6cb6a")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/6befb881-6ab4-49eb-a195-35f4f02473c7"
 					(reference "J702")
 					(unit 1)
@@ -16015,7 +15905,7 @@
 			(uuid "4126f25f-98cd-4fc9-a73d-f25bebdcc6a3")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/6befb881-6ab4-49eb-a195-35f4f02473c7"
 					(reference "#PWR0707")
 					(unit 1)
@@ -16314,7 +16204,7 @@
 			(uuid "e847a548-9f45-40e3-8ad2-ae729954f13d")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/6befb881-6ab4-49eb-a195-35f4f02473c7"
 					(reference "TP707")
 					(unit 1)
@@ -16392,7 +16282,7 @@
 			(uuid "325f8a26-d541-4b96-9303-799601d55002")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/6befb881-6ab4-49eb-a195-35f4f02473c7"
 					(reference "#PWR0708")
 					(unit 1)
@@ -16716,7 +16606,7 @@
 			(uuid "568b680f-9b1a-431a-993e-cfd902dffa42")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/6befb881-6ab4-49eb-a195-35f4f02473c7"
 					(reference "D704")
 					(unit 1)
@@ -16794,7 +16684,7 @@
 			(uuid "5257692e-5991-4e75-9337-95e378ad0227")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/6befb881-6ab4-49eb-a195-35f4f02473c7"
 					(reference "#PWR0717")
 					(unit 1)
@@ -16872,7 +16762,7 @@
 			(uuid "51acb9c7-1c2a-4f27-9010-7aea51a7f863")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/6befb881-6ab4-49eb-a195-35f4f02473c7"
 					(reference "#PWR0705")
 					(unit 1)
@@ -17258,7 +17148,7 @@
 			(uuid "60c32bb6-3e64-4785-a50b-57685ba2ea35")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/6befb881-6ab4-49eb-a195-35f4f02473c7"
 					(reference "U701")
 					(unit 1)
@@ -17560,7 +17450,7 @@
 			(uuid "83b21f2a-621c-4618-b157-ed88418bd72d")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/6befb881-6ab4-49eb-a195-35f4f02473c7"
 					(reference "R703")
 					(unit 1)
@@ -17929,7 +17819,7 @@
 			(uuid "f0bdbdc9-c6b5-41ed-80cd-22ddea2d2d7e")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/6befb881-6ab4-49eb-a195-35f4f02473c7"
 					(reference "SW701")
 					(unit 1)
@@ -17939,7 +17829,7 @@
 	)
 	(symbol
 		(lib_id "DEV:R_SMALL")
-		(at 248.92 248.92 0)
+		(at 228.6 248.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17949,7 +17839,7 @@
 		(dnp no)
 		(uuid "57cdbcd1-59df-4fa3-81df-52ac871ee556")
 		(property "Reference" "R702"
-			(at 251.46 247.6499 0)
+			(at 231.14 247.6499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17960,7 +17850,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 251.46 250.1899 0)
+			(at 231.14 250.1899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17971,7 +17861,7 @@
 			)
 		)
 		(property "Footprint" "project_footprints:R_0402"
-			(at 248.92 248.92 0)
+			(at 228.6 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17982,7 +17872,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.92 248.92 0)
+			(at 228.6 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17993,7 +17883,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 248.92 248.92 0)
+			(at 228.6 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18004,7 +17894,7 @@
 			)
 		)
 		(property "Field6" ""
-			(at 248.92 248.92 0)
+			(at 228.6 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18015,7 +17905,7 @@
 			)
 		)
 		(property "Field7" ""
-			(at 248.92 248.92 0)
+			(at 228.6 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18026,7 +17916,7 @@
 			)
 		)
 		(property "Part Description" ""
-			(at 248.92 248.92 0)
+			(at 228.6 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18037,7 +17927,7 @@
 			)
 		)
 		(property "Critical Parameter" ""
-			(at 248.92 248.92 0)
+			(at 228.6 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18048,7 +17938,7 @@
 			)
 		)
 		(property "IRP,40K (A)" ""
-			(at 248.92 248.92 0)
+			(at 228.6 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18059,7 +17949,7 @@
 			)
 		)
 		(property "ISAT,10% (A)" ""
-			(at 248.92 248.92 0)
+			(at 228.6 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18070,7 +17960,7 @@
 			)
 		)
 		(property "ISAT,30% (A)" ""
-			(at 248.92 248.92 0)
+			(at 228.6 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18081,7 +17971,7 @@
 			)
 		)
 		(property "L (µH)" ""
-			(at 248.92 248.92 0)
+			(at 228.6 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18092,7 +17982,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 248.92 248.92 0)
+			(at 228.6 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18103,7 +17993,7 @@
 			)
 		)
 		(property "Manufacturer URL" ""
-			(at 248.92 248.92 0)
+			(at 228.6 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18114,7 +18004,7 @@
 			)
 		)
 		(property "Match Code" ""
-			(at 248.92 248.92 0)
+			(at 228.6 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18125,7 +18015,7 @@
 			)
 		)
 		(property "Mounting Technology" ""
-			(at 248.92 248.92 0)
+			(at 228.6 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18136,7 +18026,7 @@
 			)
 		)
 		(property "Part Number" ""
-			(at 248.92 248.92 0)
+			(at 228.6 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18147,7 +18037,7 @@
 			)
 		)
 		(property "Published Date" ""
-			(at 248.92 248.92 0)
+			(at 228.6 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18158,7 +18048,7 @@
 			)
 		)
 		(property "RDC max. (mΩ)" ""
-			(at 248.92 248.92 0)
+			(at 228.6 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18169,7 +18059,7 @@
 			)
 		)
 		(property "RDC typ. (mΩ)" ""
-			(at 248.92 248.92 0)
+			(at 228.6 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18180,7 +18070,7 @@
 			)
 		)
 		(property "Size" ""
-			(at 248.92 248.92 0)
+			(at 228.6 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18191,7 +18081,7 @@
 			)
 		)
 		(property "Type/Size" ""
-			(at 248.92 248.92 0)
+			(at 228.6 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18202,7 +18092,7 @@
 			)
 		)
 		(property "VOP (V)" ""
-			(at 248.92 248.92 0)
+			(at 228.6 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18213,7 +18103,7 @@
 			)
 		)
 		(property "fres (MHz)" ""
-			(at 248.92 248.92 0)
+			(at 228.6 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18230,7 +18120,7 @@
 			(uuid "319b25ae-2d95-4f41-9835-0c39637698eb")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/6befb881-6ab4-49eb-a195-35f4f02473c7"
 					(reference "R702")
 					(unit 1)
@@ -18308,7 +18198,7 @@
 			(uuid "6de27668-e581-4768-a292-3e06c6acc2db")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/6befb881-6ab4-49eb-a195-35f4f02473c7"
 					(reference "#PWR0709")
 					(unit 1)
@@ -18386,7 +18276,7 @@
 			(uuid "94f62574-6ecc-488b-955f-0994cdf44cb7")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/6befb881-6ab4-49eb-a195-35f4f02473c7"
 					(reference "#PWR0704")
 					(unit 1)
@@ -18464,7 +18354,7 @@
 			(uuid "38be0489-be10-40a6-a9d7-d9a972d99cc8")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/6befb881-6ab4-49eb-a195-35f4f02473c7"
 					(reference "#PWR0702")
 					(unit 1)
@@ -18792,7 +18682,7 @@
 			(uuid "6dd57990-27a9-4c09-94d6-67586b68c2a6")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/6befb881-6ab4-49eb-a195-35f4f02473c7"
 					(reference "S701")
 					(unit 1)
@@ -18802,7 +18692,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 233.68 248.92 0)
+		(at 213.36 248.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18813,7 +18703,7 @@
 		(fields_autoplaced yes)
 		(uuid "7023fe73-3f54-46e2-9ca8-b80a2d5841df")
 		(property "Reference" "#PWR0711"
-			(at 233.68 252.73 0)
+			(at 213.36 252.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18824,7 +18714,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 233.68 243.84 0)
+			(at 213.36 243.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18834,7 +18724,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 233.68 248.92 0)
+			(at 213.36 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18845,7 +18735,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 233.68 248.92 0)
+			(at 213.36 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18856,7 +18746,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 233.68 248.92 0)
+			(at 213.36 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18870,7 +18760,7 @@
 			(uuid "8f287371-7256-4195-82e0-73758281ca7c")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/6befb881-6ab4-49eb-a195-35f4f02473c7"
 					(reference "#PWR0711")
 					(unit 1)
@@ -19167,7 +19057,7 @@
 			(uuid "146c882e-9605-44c8-8ace-3a07ac1a9416")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/6befb881-6ab4-49eb-a195-35f4f02473c7"
 					(reference "TP702")
 					(unit 1)
@@ -19469,7 +19359,7 @@
 			(uuid "6c2d3c5e-b833-4fac-ad84-c32ad211718f")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/6befb881-6ab4-49eb-a195-35f4f02473c7"
 					(reference "R704")
 					(unit 1)
@@ -19793,7 +19683,7 @@
 			(uuid "2412583a-cfb8-4623-8f39-ead973161b96")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/6befb881-6ab4-49eb-a195-35f4f02473c7"
 					(reference "D705")
 					(unit 1)
@@ -20092,7 +19982,7 @@
 			(uuid "37c0ba5b-6c78-4b4c-bd3d-1cfff4cb0bc7")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/6befb881-6ab4-49eb-a195-35f4f02473c7"
 					(reference "TP708")
 					(unit 1)
@@ -20388,7 +20278,7 @@
 			(uuid "fe1156dc-c967-45a7-8994-8b7508c255dd")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/6befb881-6ab4-49eb-a195-35f4f02473c7"
 					(reference "TP701")
 					(unit 1)
@@ -21304,7 +21194,7 @@
 			(uuid "61be5050-1b6a-4307-a1f2-a713138a2d9e")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/6befb881-6ab4-49eb-a195-35f4f02473c7"
 					(reference "SOM701")
 					(unit 1)
@@ -21382,7 +21272,7 @@
 			(uuid "cfb5817e-dc84-4c09-88ad-68850cad4a25")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/6befb881-6ab4-49eb-a195-35f4f02473c7"
 					(reference "#PWR0716")
 					(unit 1)
@@ -22298,7 +22188,7 @@
 			(uuid "61be5050-1b6a-4307-a1f2-a713138a2d9f")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/6befb881-6ab4-49eb-a195-35f4f02473c7"
 					(reference "SOM701")
 					(unit 4)
@@ -22376,7 +22266,7 @@
 			(uuid "e7346fdd-e0c7-47b2-9138-bdb47127e00c")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/6befb881-6ab4-49eb-a195-35f4f02473c7"
 					(reference "#PWR0715")
 					(unit 1)
@@ -22454,7 +22344,7 @@
 			(uuid "2ab401a3-9e2f-4ff4-9500-0737a35872ac")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/6befb881-6ab4-49eb-a195-35f4f02473c7"
 					(reference "#PWR0703")
 					(unit 1)
@@ -22464,7 +22354,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 248.92 243.84 0)
+		(at 228.6 243.84 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22475,7 +22365,7 @@
 		(fields_autoplaced yes)
 		(uuid "a130f7b2-b141-4390-91cf-4c8ddd1563a9")
 		(property "Reference" "#PWR0713"
-			(at 248.92 247.65 0)
+			(at 228.6 247.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22486,7 +22376,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 248.92 238.76 0)
+			(at 228.6 238.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22496,7 +22386,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 248.92 243.84 0)
+			(at 228.6 243.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22507,7 +22397,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.92 243.84 0)
+			(at 228.6 243.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22518,7 +22408,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 248.92 243.84 0)
+			(at 228.6 243.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22532,7 +22422,7 @@
 			(uuid "6ee962e6-5ff4-413b-b53e-45d9c4634a3c")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/6befb881-6ab4-49eb-a195-35f4f02473c7"
 					(reference "#PWR0713")
 					(unit 1)
@@ -22870,7 +22760,7 @@
 			(uuid "3843957d-830e-4fa1-a079-3bf5b5c91c3e")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/6befb881-6ab4-49eb-a195-35f4f02473c7"
 					(reference "U702")
 					(unit 1)
@@ -23166,7 +23056,7 @@
 			(uuid "cd1f8664-339f-4638-8e35-8a5334ce04e3")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/6befb881-6ab4-49eb-a195-35f4f02473c7"
 					(reference "TP706")
 					(unit 1)
@@ -23468,7 +23358,7 @@
 			(uuid "6458e043-c299-4ed7-88c4-b8b68dbe03cb")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/6befb881-6ab4-49eb-a195-35f4f02473c7"
 					(reference "C701")
 					(unit 1)
@@ -23764,7 +23654,7 @@
 			(uuid "cbad13d2-8007-4290-9eea-ad8422df9545")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/6befb881-6ab4-49eb-a195-35f4f02473c7"
 					(reference "TP704")
 					(unit 1)
@@ -23842,7 +23732,7 @@
 			(uuid "50bcfd98-fb8b-4138-add0-8b41c6aae084")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/6befb881-6ab4-49eb-a195-35f4f02473c7"
 					(reference "#PWR0706")
 					(unit 1)
@@ -24139,7 +24029,7 @@
 			(uuid "e90d27e8-c0bc-4bff-a392-6288cfa67787")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/6befb881-6ab4-49eb-a195-35f4f02473c7"
 					(reference "TP703")
 					(unit 1)
@@ -25055,7 +24945,7 @@
 			(uuid "61be5050-1b6a-4307-a1f2-a713138a2da0")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/6befb881-6ab4-49eb-a195-35f4f02473c7"
 					(reference "SOM701")
 					(unit 3)
@@ -25133,7 +25023,7 @@
 			(uuid "ef9c5635-5fbe-4c6b-984c-b9b7a22d36d9")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/6befb881-6ab4-49eb-a195-35f4f02473c7"
 					(reference "#PWR0701")
 					(unit 1)
@@ -25434,7 +25324,7 @@
 			(uuid "db8e28ef-4d58-4d4e-90a7-018b6bbc15cf")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/6befb881-6ab4-49eb-a195-35f4f02473c7"
 					(reference "R701")
 					(unit 1)
@@ -25756,7 +25646,7 @@
 			(uuid "30ac5df3-a3c9-43f7-813a-8728cad37769")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/6befb881-6ab4-49eb-a195-35f4f02473c7"
 					(reference "D701")
 					(unit 1)
@@ -25834,7 +25724,7 @@
 			(uuid "2afe8135-867b-450b-8d62-1209b910858a")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/6befb881-6ab4-49eb-a195-35f4f02473c7"
 					(reference "#PWR0720")
 					(unit 1)
@@ -25912,7 +25802,7 @@
 			(uuid "997925e8-0d49-46ef-8e6f-cd483a8c8531")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/6befb881-6ab4-49eb-a195-35f4f02473c7"
 					(reference "#PWR0710")
 					(unit 1)
@@ -26236,7 +26126,7 @@
 			(uuid "190663fd-c8f8-432d-aae2-3dc545a6543a")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/6befb881-6ab4-49eb-a195-35f4f02473c7"
 					(reference "D703")
 					(unit 1)
@@ -26558,7 +26448,7 @@
 			(uuid "8ad34b7d-6336-4e60-bcec-7590e1abe5cc")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/6befb881-6ab4-49eb-a195-35f4f02473c7"
 					(reference "D702")
 					(unit 1)
@@ -26636,7 +26526,7 @@
 			(uuid "04b899b7-1fff-4c0c-a109-fda997fe4557")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/6befb881-6ab4-49eb-a195-35f4f02473c7"
 					(reference "#PWR0714")
 					(unit 1)

@@ -548,7 +548,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "jabr-control-v2.kicad_pro",
+    "filename": "jabrj-control-v2.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -1488,18 +1488,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "jabr-control-v2.kicad_sch",
-        "name": "jabr-control-v2",
+        "filename": "jabrj-control-v2.kicad_sch",
+        "name": "jabrj-control-v2",
         "uuid": "f91ec272-d09a-4038-bbbb-962739a92c51"
       }
     ],
-    "used_designators": "FL801,FL1101,H101-108,H401-402,H1201-1202,L401,L601-602,D301-302,D401-404,D701-705,D801-804,D901-902,D1001,D1101-1104,#PWR301-356,#PWR401-429,#PWR501-509,#PWR601-616,#PWR701-720,#PWR801-828,#PWR901-918,#PWR1001-1052,#PWR1101-1128,#PWR1201-1207,C301-354,C401-418,C501-502,C601-620,C701,C801-825,C901-907,C1001-1053,C1101-1125,C1201,J301,J401,J701-702,J801-803,J901-903,J1001-1002,J1101,J1201,Q401-403,Q701,R301-326,R401-416,R501-502,R601-605,R701-704,R801-811,R901-903,R1001-1021,R1101-1111,S701,SOM701,SW701,TP301-311,TP401-402,TP501,TP601-602,TP701-708,TP801-805,TP1001-1011,TP1101-1105,U301-305,U401-403,U501-502,U601-603,U701-702,U801-807,U901-907,U1001-1003,U1101,Y301,Y401,Y801,Y1001,Y1101,Y1201",
+    "used_designators": "L402",
     "variants": []
   },
   "sheets": [
     [
       "f91ec272-d09a-4038-bbbb-962739a92c51",
-      "jabr-control-v2"
+      "jabrj-control-v2"
     ],
     [
       "3f551047-3bb0-4f63-99e0-34fd9061d844",

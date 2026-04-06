@@ -3656,7 +3656,7 @@
 			(uuid "934a64ad-747b-425a-8909-80c61eaed42c")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/1d5b5326-5e18-44b7-8507-f118df052f59"
 					(reference "J1201")
 					(unit 1)
@@ -3734,7 +3734,7 @@
 			(uuid "aaecc2ee-d160-45c9-b03e-fd032f3d0d46")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/1d5b5326-5e18-44b7-8507-f118df052f59"
 					(reference "#PWR01202")
 					(unit 1)
@@ -3812,7 +3812,7 @@
 			(uuid "79124289-e384-48a4-947b-901b63f5889b")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/1d5b5326-5e18-44b7-8507-f118df052f59"
 					(reference "#PWR01205")
 					(unit 1)
@@ -3890,7 +3890,7 @@
 			(uuid "515a3a73-e89e-4af2-b277-c8d6c66e344c")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/1d5b5326-5e18-44b7-8507-f118df052f59"
 					(reference "#PWR01201")
 					(unit 1)
@@ -3968,7 +3968,7 @@
 			(uuid "6b04eb0d-87b8-4667-ba7a-d8f7516bfe81")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/1d5b5326-5e18-44b7-8507-f118df052f59"
 					(reference "#PWR01204")
 					(unit 1)
@@ -4270,7 +4270,7 @@
 			(uuid "5add0126-dc90-4bda-88aa-c566360d1336")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/1d5b5326-5e18-44b7-8507-f118df052f59"
 					(reference "C1201")
 					(unit 1)
@@ -4588,7 +4588,7 @@
 			(uuid "fe085660-fad4-4650-b9d5-ec408ff1d5ba")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/1d5b5326-5e18-44b7-8507-f118df052f59"
 					(reference "Y1201")
 					(unit 1)
@@ -4666,7 +4666,7 @@
 			(uuid "91f938b6-1184-4265-a9b2-78bde2d9e21d")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/1d5b5326-5e18-44b7-8507-f118df052f59"
 					(reference "#PWR01206")
 					(unit 1)
@@ -4744,7 +4744,7 @@
 			(uuid "ba367827-fe03-481e-81a8-3ea5e2871c73")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/1d5b5326-5e18-44b7-8507-f118df052f59"
 					(reference "#PWR01207")
 					(unit 1)
@@ -4822,7 +4822,7 @@
 			(uuid "ee683318-9a4e-416d-a33e-54c351a4775b")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/1d5b5326-5e18-44b7-8507-f118df052f59"
 					(reference "#PWR01203")
 					(unit 1)
@@ -5135,7 +5135,7 @@
 			(uuid "1688e59e-e880-48cb-8c5d-fc7a7235927a")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/1d5b5326-5e18-44b7-8507-f118df052f59"
 					(reference "H1202")
 					(unit 1)
@@ -5448,7 +5448,7 @@
 			(uuid "6359dd99-1316-41ff-97d9-4985a9f6fd66")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/1d5b5326-5e18-44b7-8507-f118df052f59"
 					(reference "H1201")
 					(unit 1)

@@ -1368,7 +1368,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PWR-IND:784325078"
+		(symbol "PWR-IND:4020_7443844020010"
 			(pin_names
 				(hide yes)
 			)
@@ -1378,7 +1378,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "L"
-				(at 0 8.89 0)
+				(at 0 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1387,8 +1387,8 @@
 					)
 				)
 			)
-			(property "Value" "784325078"
-				(at 0 6.35 0)
+			(property "Value" "7443844020010"
+				(at 0 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1397,8 +1397,32 @@
 					)
 				)
 			)
-			(property "Footprint" "project_footprints:784325078"
-				(at 0 -5.08 0)
+			(property "Footprint" "project_footprints:L_Wurth_WE-MXGI-4020"
+				(at 12.7 20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "https://www.we-online.com/catalog/datasheet/7443844020010.pdf?ki"
+				(at 12.7 17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "SMT Power Inductor  NEW"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1408,8 +1432,174 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.we-online.com/catalog/datasheet/784325078.pdf"
-				(at 0 -7.62 0)
+			(property "Manufacturer" "Wurth Elektronik"
+				(at 12.7 15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Manufacturer URL" "https://www.we-online.com"
+				(at 12.7 12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Published Date" "20250604"
+				(at 12.7 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Match Code" "WE-MXGI"
+				(at 12.7 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Part Number" "7443844020010"
+				(at 12.7 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Size" "4020"
+				(at 12.7 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Mounting Technology" "SMT"
+				(at 12.7 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "L (µH)" "1.0"
+				(at 12.7 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "IRP,40K (A)" "12.1"
+				(at 12.7 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "ISAT,30% (A)" "9.8"
+				(at 12.7 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "RDC typ. (mΩ)" "6.9"
+				(at 12.7 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "fres (MHz)" "59"
+				(at 12.7 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "VOP (V)" "80"
+				(at 12.7 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Critical Parameter" "1u"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "SMT"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1419,8 +1609,8 @@
 					)
 				)
 			)
-			(property "Description" "WE-HCIA SMT Flat Wire High Current Inductor Automo Size 1050; L = 7.8 H +/-20%; IR =  A; Isat = 12 A; RDC = 13.1 m"
-				(at 0 -2.54 0)
+			(property "ki_fp_filters" "*WE-MXGI*4020*"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1430,28 +1620,7 @@
 					)
 				)
 			)
-			(property "Height" "4.7"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Inductance" "7u8"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "784325078_0_1"
+			(symbol "4020_7443844020010_0_1"
 				(polyline
 					(pts
 						(xy -2.54 1.016) (xy -0.508 1.016)
@@ -1513,7 +1682,7 @@
 					)
 				)
 			)
-			(symbol "784325078_1_1"
+			(symbol "4020_7443844020010_1_1"
 				(circle
 					(center -2.794 0.762)
 					(radius 0.0001)
@@ -3085,10 +3254,10 @@
 		)
 		(uuid "2022a1f4-4334-4a89-be14-34e54492aa88")
 	)
-	(text_box "L_{MIN} = 7.5uH for 24V -> 5V, 8A at 2.2MHz. Chose 7.8uH"
+	(text_box "L_{MIN} = 0.75uH & L_{MAX} = 1.5uH for 24V -> 5V, 8A at 2.2MHz. Chose 1uH"
 		(exclude_from_sim no)
 		(at 200.66 30.48 0)
-		(size 17.78 10.16)
+		(size 22.86 10.0822)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -3166,7 +3335,7 @@
 	)
 	(text_box "32uF of output capacitance required for 2A load change to cause a 100mV droop"
 		(exclude_from_sim no)
-		(at 223.52 30.48 0)
+		(at 228.6 30.48 0)
 		(size 25.4 10.16)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -5364,7 +5533,7 @@
 			(uuid "43822d80-1f02-4d3c-9617-0195142f3552")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/a1f2745a-98e5-40f5-b635-cc8a6d17ac78"
 					(reference "#PWR0418")
 					(unit 1)
@@ -5666,7 +5835,7 @@
 			(uuid "e8ad5336-f82d-4fb3-9101-2c9b32d02685")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/a1f2745a-98e5-40f5-b635-cc8a6d17ac78"
 					(reference "C414")
 					(unit 1)
@@ -5968,7 +6137,7 @@
 			(uuid "22dd94d1-4a71-4f1f-b169-b58a8cb5a6e7")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/a1f2745a-98e5-40f5-b635-cc8a6d17ac78"
 					(reference "R401")
 					(unit 1)
@@ -6046,7 +6215,7 @@
 			(uuid "b2e549f4-6992-4f87-823e-4365ac18d81d")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/a1f2745a-98e5-40f5-b635-cc8a6d17ac78"
 					(reference "#PWR0405")
 					(unit 1)
@@ -6348,7 +6517,7 @@
 			(uuid "a9133333-2007-4f89-a8ba-a978f70f1567")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/a1f2745a-98e5-40f5-b635-cc8a6d17ac78"
 					(reference "C409")
 					(unit 1)
@@ -6426,7 +6595,7 @@
 			(uuid "5b8c1c13-1db9-4241-9ff3-fede484509f4")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/a1f2745a-98e5-40f5-b635-cc8a6d17ac78"
 					(reference "#PWR0408")
 					(unit 1)
@@ -6728,7 +6897,7 @@
 			(uuid "4b911aa4-6f48-4946-9344-d7df6942c03b")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/a1f2745a-98e5-40f5-b635-cc8a6d17ac78"
 					(reference "R411")
 					(unit 1)
@@ -7008,7 +7177,7 @@
 			(uuid "9cc028a9-ff22-44d9-aa60-8eb5608a759a")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/a1f2745a-98e5-40f5-b635-cc8a6d17ac78"
 					(reference "D403")
 					(unit 1)
@@ -7310,7 +7479,7 @@
 			(uuid "c6a985a8-c6e1-48ba-8d30-3d9227fe7886")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/a1f2745a-98e5-40f5-b635-cc8a6d17ac78"
 					(reference "R414")
 					(unit 1)
@@ -7657,7 +7826,7 @@
 			(uuid "3fd07379-5939-4af0-9fd9-94c11695c8af")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/a1f2745a-98e5-40f5-b635-cc8a6d17ac78"
 					(reference "U402")
 					(unit 1)
@@ -7959,7 +8128,7 @@
 			(uuid "26aefc90-76ff-446d-ab3b-db2e4623c367")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/a1f2745a-98e5-40f5-b635-cc8a6d17ac78"
 					(reference "R406")
 					(unit 1)
@@ -8037,7 +8206,7 @@
 			(uuid "bac86d9f-5113-43db-9477-7df782b57be9")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/a1f2745a-98e5-40f5-b635-cc8a6d17ac78"
 					(reference "#PWR0422")
 					(unit 1)
@@ -8115,297 +8284,9 @@
 			(uuid "cf6a4b3a-dcd6-4e64-b62d-18c9c780a29d")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/a1f2745a-98e5-40f5-b635-cc8a6d17ac78"
 					(reference "#PWR0411")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PWR-IND:784325078")
-		(at 205.74 55.88 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "48634343-94e1-471f-84c9-fde321935cb4")
-		(property "Reference" "L401"
-			(at 205.5177 46.99 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "784325078"
-			(at 205.5177 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "project_footprints:784325078"
-			(at 205.74 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/784325078.pdf"
-			(at 205.74 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "WE-HCIA SMT Flat Wire High Current Inductor Automo Size 1050; L = 7.8 H +/-20%; IR =  A; Isat = 12 A; RDC = 13.1 m"
-			(at 205.74 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "4.7"
-			(at 205.74 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Inductance" "7u8"
-			(at 205.5177 52.07 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Critical Parameter" ""
-			(at 205.74 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "IRP,40K (A)" ""
-			(at 205.74 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ISAT,10% (A)" ""
-			(at 205.74 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ISAT,30% (A)" ""
-			(at 205.74 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "L (µH)" ""
-			(at 205.74 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 205.74 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer URL" ""
-			(at 205.74 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Match Code" ""
-			(at 205.74 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mounting Technology" ""
-			(at 205.74 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" ""
-			(at 205.74 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Published Date" ""
-			(at 205.74 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "RDC max. (mΩ)" ""
-			(at 205.74 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "RDC typ. (mΩ)" ""
-			(at 205.74 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Size" ""
-			(at 205.74 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Type/Size" ""
-			(at 205.74 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VOP (V)" ""
-			(at 205.74 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "fres (MHz)" ""
-			(at 205.74 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ba073edc-cda5-486c-b912-f7126bcc50d1")
-		)
-		(pin "2"
-			(uuid "7d4aa5ed-7095-4f59-8262-3f2f4dca4fc4")
-		)
-		(instances
-			(project "jabr-control-v2"
-				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/a1f2745a-98e5-40f5-b635-cc8a6d17ac78"
-					(reference "L401")
 					(unit 1)
 				)
 			)
@@ -8712,7 +8593,7 @@
 			(uuid "50f7b888-8892-4a34-9916-e45b399d7217")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/a1f2745a-98e5-40f5-b635-cc8a6d17ac78"
 					(reference "C411")
 					(unit 1)
@@ -8790,7 +8671,7 @@
 			(uuid "c8a5ba2e-3020-4d0b-bee2-ccbae11caad6")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/a1f2745a-98e5-40f5-b635-cc8a6d17ac78"
 					(reference "#PWR0406")
 					(unit 1)
@@ -9092,7 +8973,7 @@
 			(uuid "d6bfc9c0-18b4-4011-bd68-73155bb9af29")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/a1f2745a-98e5-40f5-b635-cc8a6d17ac78"
 					(reference "R407")
 					(unit 1)
@@ -9170,7 +9051,7 @@
 			(uuid "c84b0c1f-9b27-4424-b25f-ad97c2067694")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/a1f2745a-98e5-40f5-b635-cc8a6d17ac78"
 					(reference "#PWR0419")
 					(unit 1)
@@ -9597,7 +9478,7 @@
 			(uuid "fcc7636d-8a6b-456d-9fdf-a84a6ec29756")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/a1f2745a-98e5-40f5-b635-cc8a6d17ac78"
 					(reference "U403")
 					(unit 1)
@@ -9899,9 +9780,257 @@
 			(uuid "f9ac7509-c41c-42b2-a7dd-eadfd5167a25")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/a1f2745a-98e5-40f5-b635-cc8a6d17ac78"
 					(reference "R416")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PWR-IND:4020_7443844020010")
+		(at 205.74 55.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b90c8ca-afa3-4a4b-8847-2a8fbd3434e2")
+		(property "Reference" "L402"
+			(at 205.5177 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "7443844020010"
+			(at 205.5177 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "project_footprints:L_Wurth_WE-MXGI-4020"
+			(at 218.44 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/7443844020010.pdf?ki"
+			(at 218.44 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "SMT Power Inductor  NEW"
+			(at 205.74 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 218.44 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer URL" "https://www.we-online.com"
+			(at 218.44 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Published Date" "20250604"
+			(at 218.44 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Match Code" "WE-MXGI"
+			(at 218.44 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Part Number" "7443844020010"
+			(at 218.44 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Size" "4020"
+			(at 218.44 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Mounting Technology" "SMT"
+			(at 218.44 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "L (µH)" "1.0"
+			(at 218.44 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "IRP,40K (A)" "12.1"
+			(at 218.44 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "ISAT,30% (A)" "9.8"
+			(at 218.44 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "RDC typ. (mΩ)" "6.9"
+			(at 218.44 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "fres (MHz)" "59"
+			(at 218.44 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VOP (V)" "80"
+			(at 218.44 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Critical Parameter" "1u"
+			(at 205.5177 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5e18ff3b-bbed-434c-9ac8-b65e0a48aafd")
+		)
+		(pin "1"
+			(uuid "1ddc80f4-7b81-4557-99e6-bee5dd0bc99f")
+		)
+		(instances
+			(project "jabrj-control-v2"
+				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/a1f2745a-98e5-40f5-b635-cc8a6d17ac78"
+					(reference "L402")
 					(unit 1)
 				)
 			)
@@ -10201,7 +10330,7 @@
 			(uuid "9a40399b-095a-4925-ad5b-4ef23bd95859")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/a1f2745a-98e5-40f5-b635-cc8a6d17ac78"
 					(reference "R415")
 					(unit 1)
@@ -10611,7 +10740,7 @@
 			(uuid "b2886453-8270-4a02-a9ca-e997a7604960")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/a1f2745a-98e5-40f5-b635-cc8a6d17ac78"
 					(reference "Q403")
 					(unit 1)
@@ -10689,7 +10818,7 @@
 			(uuid "7decccf4-1ee5-430e-9197-591c855a3d0c")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/a1f2745a-98e5-40f5-b635-cc8a6d17ac78"
 					(reference "#PWR0416")
 					(unit 1)
@@ -11010,7 +11139,7 @@
 			(uuid "8878c9cf-d531-46bd-b000-715c8a9d98ca")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/a1f2745a-98e5-40f5-b635-cc8a6d17ac78"
 					(reference "D401")
 					(unit 1)
@@ -11312,7 +11441,7 @@
 			(uuid "28b0e23c-93bf-412f-9a78-de705afb0b6f")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/a1f2745a-98e5-40f5-b635-cc8a6d17ac78"
 					(reference "R403")
 					(unit 1)
@@ -11390,7 +11519,7 @@
 			(uuid "d320c0c1-7e59-49d1-ba5a-3bf5771480fe")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/a1f2745a-98e5-40f5-b635-cc8a6d17ac78"
 					(reference "#PWR0407")
 					(unit 1)
@@ -11468,7 +11597,7 @@
 			(uuid "06c11682-6c10-470a-8564-9f2a14b7ccf6")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/a1f2745a-98e5-40f5-b635-cc8a6d17ac78"
 					(reference "#PWR0417")
 					(unit 1)
@@ -11770,7 +11899,7 @@
 			(uuid "71db61fc-f694-4c05-a4d6-54515b60e383")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/a1f2745a-98e5-40f5-b635-cc8a6d17ac78"
 					(reference "R405")
 					(unit 1)
@@ -11848,7 +11977,7 @@
 			(uuid "ae1f7821-5800-459d-b152-b38e32557a36")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/a1f2745a-98e5-40f5-b635-cc8a6d17ac78"
 					(reference "#PWR0409")
 					(unit 1)
@@ -12150,7 +12279,7 @@
 			(uuid "ff845f31-7728-466f-8ad2-dd8e46dc8e6a")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/a1f2745a-98e5-40f5-b635-cc8a6d17ac78"
 					(reference "R402")
 					(unit 1)
@@ -12452,7 +12581,7 @@
 			(uuid "94fd264f-1d7b-4661-9b6c-c0d6728eb7b0")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/a1f2745a-98e5-40f5-b635-cc8a6d17ac78"
 					(reference "R408")
 					(unit 1)
@@ -12754,7 +12883,7 @@
 			(uuid "30a9a304-a138-43cc-9afe-45875aad3a1b")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/a1f2745a-98e5-40f5-b635-cc8a6d17ac78"
 					(reference "R412")
 					(unit 1)
@@ -13056,7 +13185,7 @@
 			(uuid "78b6af31-fe9e-40b0-aab1-b8d3fa35aa88")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/a1f2745a-98e5-40f5-b635-cc8a6d17ac78"
 					(reference "R404")
 					(unit 1)
@@ -13368,7 +13497,7 @@
 			(uuid "deaeba0c-9462-45a9-a722-37bdb2b2f7cc")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/a1f2745a-98e5-40f5-b635-cc8a6d17ac78"
 					(reference "C402")
 					(unit 1)
@@ -13446,7 +13575,7 @@
 			(uuid "e469cb41-fb61-4a5c-8b2f-f8d008998da1")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/a1f2745a-98e5-40f5-b635-cc8a6d17ac78"
 					(reference "#PWR0415")
 					(unit 1)
@@ -13856,7 +13985,7 @@
 			(uuid "864618da-c5fb-48d2-93ee-f29d3ca93685")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/a1f2745a-98e5-40f5-b635-cc8a6d17ac78"
 					(reference "Q401")
 					(unit 1)
@@ -14158,7 +14287,7 @@
 			(uuid "16a90539-5287-4095-bb0c-bc3a5f7e4d5f")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/a1f2745a-98e5-40f5-b635-cc8a6d17ac78"
 					(reference "C408")
 					(unit 1)
@@ -14236,7 +14365,7 @@
 			(uuid "00dbb0dd-b5f0-4f52-bd56-2bf8e3222e88")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/a1f2745a-98e5-40f5-b635-cc8a6d17ac78"
 					(reference "#PWR0413")
 					(unit 1)
@@ -14314,7 +14443,7 @@
 			(uuid "e3d98a5c-b69b-40c2-abc6-7416ceea01ba")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/a1f2745a-98e5-40f5-b635-cc8a6d17ac78"
 					(reference "#PWR0412")
 					(unit 1)
@@ -14611,7 +14740,7 @@
 			(uuid "f2ce7208-7ee1-4ba3-b5cf-6192a4154751")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/a1f2745a-98e5-40f5-b635-cc8a6d17ac78"
 					(reference "TP402")
 					(unit 1)
@@ -14903,7 +15032,7 @@
 			(uuid "5368acda-4332-479e-a2db-f6783b3e44eb")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/a1f2745a-98e5-40f5-b635-cc8a6d17ac78"
 					(reference "U401")
 					(unit 1)
@@ -14981,7 +15110,7 @@
 			(uuid "873b07d6-de06-4767-ad8b-4cedebdad6f6")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/a1f2745a-98e5-40f5-b635-cc8a6d17ac78"
 					(reference "#PWR0401")
 					(unit 1)
@@ -15283,7 +15412,7 @@
 			(uuid "dbdfb992-e8e0-439d-8559-5b51c2d7077e")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/a1f2745a-98e5-40f5-b635-cc8a6d17ac78"
 					(reference "R413")
 					(unit 1)
@@ -15585,7 +15714,7 @@
 			(uuid "244b07e3-c3be-46db-b4dc-b3dea38c57b7")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/a1f2745a-98e5-40f5-b635-cc8a6d17ac78"
 					(reference "C412")
 					(unit 1)
@@ -15897,7 +16026,7 @@
 			(uuid "501ec121-e42b-47fa-82fb-dd101ca3359c")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/a1f2745a-98e5-40f5-b635-cc8a6d17ac78"
 					(reference "C406")
 					(unit 1)
@@ -15975,7 +16104,7 @@
 			(uuid "ec586d7f-374f-4aff-9c05-e4edabf6e673")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/a1f2745a-98e5-40f5-b635-cc8a6d17ac78"
 					(reference "#PWR0403")
 					(unit 1)
@@ -16277,7 +16406,7 @@
 			(uuid "bf495670-1486-42b5-b1a1-b9091e043da2")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/a1f2745a-98e5-40f5-b635-cc8a6d17ac78"
 					(reference "C415")
 					(unit 1)
@@ -16589,7 +16718,7 @@
 			(uuid "2f2783cf-a30e-4fa5-b14f-7aeb8ef8c7da")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/a1f2745a-98e5-40f5-b635-cc8a6d17ac78"
 					(reference "C403")
 					(unit 1)
@@ -16891,7 +17020,7 @@
 			(uuid "4faec7a5-5c7d-4598-b2cc-37ff068aa733")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/a1f2745a-98e5-40f5-b635-cc8a6d17ac78"
 					(reference "C410")
 					(unit 1)
@@ -17193,7 +17322,7 @@
 			(uuid "20cd3232-19de-491f-9c36-773f7404f7be")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/a1f2745a-98e5-40f5-b635-cc8a6d17ac78"
 					(reference "R409")
 					(unit 1)
@@ -17271,7 +17400,7 @@
 			(uuid "8e13d103-9f3a-4d4a-b300-99e70197f492")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/a1f2745a-98e5-40f5-b635-cc8a6d17ac78"
 					(reference "#PWR0410")
 					(unit 1)
@@ -17592,7 +17721,7 @@
 			(uuid "ee0ae830-8913-4102-b450-ef4e97326ac5")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/a1f2745a-98e5-40f5-b635-cc8a6d17ac78"
 					(reference "D402")
 					(unit 1)
@@ -17889,7 +18018,7 @@
 			(uuid "752ff694-0f27-4208-a73a-38af24768f27")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/a1f2745a-98e5-40f5-b635-cc8a6d17ac78"
 					(reference "TP401")
 					(unit 1)
@@ -18191,7 +18320,7 @@
 			(uuid "39a4b214-05c2-4eeb-9657-d4f5daffa693")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/a1f2745a-98e5-40f5-b635-cc8a6d17ac78"
 					(reference "R410")
 					(unit 1)
@@ -18269,7 +18398,7 @@
 			(uuid "e6539aa8-2e12-47e1-b9b8-5b27d9038da0")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/a1f2745a-98e5-40f5-b635-cc8a6d17ac78"
 					(reference "#PWR0420")
 					(unit 1)
@@ -18549,7 +18678,7 @@
 			(uuid "7deb1212-6935-491a-95d5-f425b948ed9d")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/a1f2745a-98e5-40f5-b635-cc8a6d17ac78"
 					(reference "D404")
 					(unit 1)
@@ -18851,7 +18980,7 @@
 			(uuid "4dc6e311-864e-4fac-add5-40250c2dd94a")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/a1f2745a-98e5-40f5-b635-cc8a6d17ac78"
 					(reference "C413")
 					(unit 1)
@@ -19163,7 +19292,7 @@
 			(uuid "c230e0ca-7904-4afd-93c8-5f5352dd822b")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/a1f2745a-98e5-40f5-b635-cc8a6d17ac78"
 					(reference "C405")
 					(unit 1)
@@ -19241,7 +19370,7 @@
 			(uuid "c60b740b-3fe6-45c3-9358-30182bb9d3c7")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/a1f2745a-98e5-40f5-b635-cc8a6d17ac78"
 					(reference "#PWR0404")
 					(unit 1)
@@ -19651,7 +19780,7 @@
 			(uuid "2b1c1fda-776f-4786-a87d-57f7521679f3")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/a1f2745a-98e5-40f5-b635-cc8a6d17ac78"
 					(reference "Q402")
 					(unit 1)
@@ -19963,7 +20092,7 @@
 			(uuid "41ea245c-199c-4487-b42e-4fce43737542")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/a1f2745a-98e5-40f5-b635-cc8a6d17ac78"
 					(reference "C404")
 					(unit 1)
@@ -20041,7 +20170,7 @@
 			(uuid "4c924d39-0c26-40e4-8e77-62885fc276db")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/a1f2745a-98e5-40f5-b635-cc8a6d17ac78"
 					(reference "#PWR0402")
 					(unit 1)
@@ -20343,7 +20472,7 @@
 			(uuid "09b79fdd-1db7-4b27-a85a-822015dce314")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/a1f2745a-98e5-40f5-b635-cc8a6d17ac78"
 					(reference "C417")
 					(unit 1)
@@ -20622,7 +20751,7 @@
 			(uuid "c4608a51-d689-4d24-a07a-b48f6c42a8d1")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/a1f2745a-98e5-40f5-b635-cc8a6d17ac78"
 					(reference "C407")
 					(unit 1)
@@ -20700,7 +20829,7 @@
 			(uuid "3d667e7f-9b28-43eb-805f-47565ce9877c")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/a1f2745a-98e5-40f5-b635-cc8a6d17ac78"
 					(reference "#PWR0421")
 					(unit 1)
@@ -20778,7 +20907,7 @@
 			(uuid "1bf817dd-ece0-4b06-858e-fa27f6061475")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/a1f2745a-98e5-40f5-b635-cc8a6d17ac78"
 					(reference "#PWR0414")
 					(unit 1)
@@ -21080,7 +21209,7 @@
 			(uuid "619fdcf6-ba7b-4348-bbf8-0fbe6949347c")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/a1f2745a-98e5-40f5-b635-cc8a6d17ac78"
 					(reference "C401")
 					(unit 1)
@@ -21382,7 +21511,7 @@
 			(uuid "1f77171e-6305-4da3-a91b-7219163e0758")
 		)
 		(instances
-			(project "jabr-control-v2"
+			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/a1f2745a-98e5-40f5-b635-cc8a6d17ac78"
 					(reference "C416")
 					(unit 1)
