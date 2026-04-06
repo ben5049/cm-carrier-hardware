@@ -205,7 +205,7 @@
 		)
 		(uuid "15988744-9ec3-4034-ac29-f9eca0c0ea87")
 	)
-	(text "<77uA"
+	(text "<74uA"
 		(exclude_from_sim no)
 		(at 180.34 43.18 0)
 		(effects
@@ -734,7 +734,7 @@
 		)
 		(uuid "cfe3f394-f6cf-4d81-a04c-4936f354c96a")
 	)
-	(text "<120uA"
+	(text "<116uA"
 		(exclude_from_sim no)
 		(at 180.34 53.34 0)
 		(effects

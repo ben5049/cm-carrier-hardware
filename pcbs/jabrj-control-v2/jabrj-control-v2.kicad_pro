@@ -657,19 +657,37 @@
       "/1000BASE-T1 PHY/RX_CLK": [
         "xMII"
       ],
+      "/1000BASE-T1 PHY/RX_CLK_R": [
+        "xMII"
+      ],
       "/1000BASE-T1 PHY/RX_CTL": [
+        "xMII"
+      ],
+      "/1000BASE-T1 PHY/RX_CTL_R": [
         "xMII"
       ],
       "/1000BASE-T1 PHY/RX_D0": [
         "xMII"
       ],
+      "/1000BASE-T1 PHY/RX_D0_R": [
+        "xMII"
+      ],
       "/1000BASE-T1 PHY/RX_D1": [
+        "xMII"
+      ],
+      "/1000BASE-T1 PHY/RX_D1_R": [
         "xMII"
       ],
       "/1000BASE-T1 PHY/RX_D2": [
         "xMII"
       ],
+      "/1000BASE-T1 PHY/RX_D2_R": [
+        "xMII"
+      ],
       "/1000BASE-T1 PHY/RX_D3": [
+        "xMII"
+      ],
+      "/1000BASE-T1 PHY/RX_D3_R": [
         "xMII"
       ],
       "/1000BASE-T1 PHY/TRXN": [
@@ -1493,7 +1511,7 @@
         "uuid": "f91ec272-d09a-4038-bbbb-962739a92c51"
       }
     ],
-    "used_designators": "L402",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

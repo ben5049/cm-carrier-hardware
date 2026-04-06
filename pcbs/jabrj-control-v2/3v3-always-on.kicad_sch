@@ -1513,7 +1513,7 @@
 		)
 		(uuid "5ad5eb81-67fc-430f-a058-8f46ce5f45eb")
 	)
-	(text_box "PR1 > 1V => VOUT = VIN1\nPR1 < 1V => VOUT = VIN2\n\nTherefore LDO only used when +3V3 rail < 3.14V"
+	(text_box "PR1 > 1V => VOUT = VIN1\nPR1 < 1V => VOUT = VIN2\n\nTherefore LDO only used when +3V3 rail < 2.8V"
 		(exclude_from_sim no)
 		(at 167.64 122.4932 0)
 		(size 30.48 12.1268)
@@ -1938,7 +1938,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "47k"
+		(property "Value" "100k"
 			(at 160.02 102.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2792,7 +2792,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "22k"
+		(property "Value" "56k"
 			(at 160.02 113.0299 0)
 			(show_name no)
 			(do_not_autoplace no)

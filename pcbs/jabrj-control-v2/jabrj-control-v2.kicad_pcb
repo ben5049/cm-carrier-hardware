@@ -93369,7 +93369,7 @@
 	(footprint "project_footprints:L_Wurth_WE-MXGI-4020"
 		(layer "F.Cu")
 		(uuid "a72ff948-5bc3-41a1-8e4f-62281641b9ca")
-		(at 214 85 180)
+		(at 97.35 126 180)
 		(descr "Shielded Power Inductor, body 4.1x4.1x2.1mm, https://www.we-online.com/en/components/products/WE-MXGI#/articles/WE-MXGI_SIZE_4020")
 		(tags "SMT")
 		(property "Reference" "L402"
@@ -93778,7 +93778,7 @@
 			)
 			(polygon
 				(pts
-					(xy 214.695 82.7) (xy 213.305 82.7) (xy 213.305 87.3) (xy 214.695 87.3)
+					(xy 98.045 123.7) (xy 96.655 123.7) (xy 96.655 128.3) (xy 98.045 128.3)
 				)
 			)
 		)
@@ -108644,7 +108644,7 @@
 	(footprint "project_footprints:MAX20004AFOC_VY+"
 		(layer "F.Cu")
 		(uuid "c4f50cab-deac-451a-9d91-17d20b36a5e0")
-		(at 214 80)
+		(at 97.35 121)
 		(descr "MAX20004AFOA/VY+T-2")
 		(tags "Integrated Circuit")
 		(property "Reference" "U403"
