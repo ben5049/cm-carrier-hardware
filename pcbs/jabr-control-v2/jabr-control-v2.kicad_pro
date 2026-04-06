@@ -282,7 +282,44 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "no_connect_connected|508000|1041400|412d93d0-8741-4589-a0d4-959349289f87|6517027d-842f-4c03-9299-e379afbd1315|/f91ec272-d09a-4038-bbbb-962739a92c51/6befb881-6ab4-49eb-a195-35f4f02473c7|/f91ec272-d09a-4038-bbbb-962739a92c51/6befb881-6ab4-49eb-a195-35f4f02473c7|",
+        ""
+      ],
+      [
+        "no_connect_connected|508000|1041400|8fa5c111-9c9a-41ef-a5c0-460a49bd060d|6517027d-842f-4c03-9299-e379afbd1315|/f91ec272-d09a-4038-bbbb-962739a92c51/6befb881-6ab4-49eb-a195-35f4f02473c7|/f91ec272-d09a-4038-bbbb-962739a92c51/6befb881-6ab4-49eb-a195-35f4f02473c7|",
+        ""
+      ],
+      [
+        "pin_not_driven|1016000|1244600|da056a93-6fd1-43be-9e24-0d24dc4bbd48|00000000-0000-0000-0000-000000000000|/f91ec272-d09a-4038-bbbb-962739a92c51/1d5b5326-5e18-44b7-8507-f118df052f59|/f91ec272-d09a-4038-bbbb-962739a92c51/1d5b5326-5e18-44b7-8507-f118df052f59|",
+        ""
+      ],
+      [
+        "pin_not_driven|1574800|1244600|21dafdb7-2820-4c6c-8c68-d40242b13038|00000000-0000-0000-0000-000000000000|/f91ec272-d09a-4038-bbbb-962739a92c51/1d5b5326-5e18-44b7-8507-f118df052f59|/f91ec272-d09a-4038-bbbb-962739a92c51/1d5b5326-5e18-44b7-8507-f118df052f59|",
+        ""
+      ],
+      [
+        "pin_to_pin|2108200|558800|7d4aa5ed-7095-4f59-8262-3f2f4dca4fc4|95665c5c-a7a9-481c-8f94-c4872eb1defd|/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/a1f2745a-98e5-40f5-b635-cc8a6d17ac78|/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/a1f2745a-98e5-40f5-b635-cc8a6d17ac78|/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/a1f2745a-98e5-40f5-b635-cc8a6d17ac78",
+        ""
+      ],
+      [
+        "power_pin_not_driven|1219200|787400|9c63661f-18b5-4d20-819b-b5f62900c674|00000000-0000-0000-0000-000000000000|/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/c8847476-18c7-4518-a86a-3cbd7effb778|/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/c8847476-18c7-4518-a86a-3cbd7effb778|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|2362200|711200|6359dd99-1316-41ff-97d9-4985a9f6fd66|00000000-0000-0000-0000-000000000000|/f91ec272-d09a-4038-bbbb-962739a92c51/1d5b5326-5e18-44b7-8507-f118df052f59|/f91ec272-d09a-4038-bbbb-962739a92c51/1d5b5326-5e18-44b7-8507-f118df052f59|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|2540000|1270000|ba55910c-e502-4947-b9cf-68e1488a2f8a|00000000-0000-0000-0000-000000000000|/f91ec272-d09a-4038-bbbb-962739a92c51/760d12ad-9269-4cb7-9058-d98dd001df15|/f91ec272-d09a-4038-bbbb-962739a92c51/760d12ad-9269-4cb7-9058-d98dd001df15|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|939800|1346200|fcdd2d76-76de-44d0-9c23-ccc1a62279f1|00000000-0000-0000-0000-000000000000|/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/a1f2745a-98e5-40f5-b635-cc8a6d17ac78|/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/a1f2745a-98e5-40f5-b635-cc8a6d17ac78|",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -489,7 +526,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "error",
+      "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -536,37 +573,48 @@
         "wire_width": 6
       },
       {
-        "clearance": 0.11,
-        "name": "50Ω",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.1565,
-        "tuning_profile": "",
-        "via_diameter": 0.35,
-        "via_drill": 0.2
-      },
-      {
-        "clearance": 0.25,
-        "name": "CLEARANCE",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
-        "tuning_profile": "",
-        "via_diameter": 0.35,
-        "via_drill": 0.2
-      },
-      {
+        "bus_width": 12,
         "clearance": 0.11,
         "diff_pair_gap": 0.15,
         "diff_pair_width": 0.108,
+        "line_style": 0,
         "name": "MDI",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.108,
+        "tuning_profile": "",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "PCIe",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": "",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "USB2",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.108,
-        "tuning_profile": ""
+        "tuning_profile": "",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "USB3",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": "",
+        "wire_width": 6
       },
       {
         "bus_width": 12,
@@ -574,7 +622,7 @@
         "line_style": 0,
         "name": "xMII",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1565,
         "tuning_profile": "",
@@ -651,6 +699,18 @@
       "/1000BASE-T1 PHY/{RGMII}": [
         "xMII"
       ],
+      "/CM5/CLK_N": [
+        "PCIe"
+      ],
+      "/CM5/CLK_P": [
+        "PCIe"
+      ],
+      "/CM5/DN": [
+        "USB2"
+      ],
+      "/CM5/DP": [
+        "USB2"
+      ],
       "/CM5/ETH.MDI": [
         "MDI"
       ],
@@ -681,11 +741,125 @@
       "/CM5/ETH{MDI}": [
         "MDI"
       ],
+      "/CM5/RX_N": [
+        "PCIe"
+      ],
+      "/CM5/RX_P": [
+        "PCIe"
+      ],
+      "/CM5/TX_N": [
+        "PCIe"
+      ],
+      "/CM5/TX_P": [
+        "PCIe"
+      ],
+      "/CM5/USB2_DEV.CC1": [
+        "USB2"
+      ],
+      "/CM5/USB2_DEV.CC2": [
+        "USB2"
+      ],
+      "/CM5/USB2_DEV.DN": [
+        "USB2"
+      ],
+      "/CM5/USB2_DEV.DP": [
+        "USB2"
+      ],
+      "/CM5/USB2_DEV{USB}": [
+        "USB2"
+      ],
+      "/CM5/USB2_HOST.CC1": [
+        "USB2"
+      ],
+      "/CM5/USB2_HOST.CC2": [
+        "USB2"
+      ],
+      "/CM5/USB2_HOST.DN": [
+        "USB2"
+      ],
+      "/CM5/USB2_HOST.DP": [
+        "USB2"
+      ],
+      "/CM5/USB2_HOST{USB}": [
+        "USB2"
+      ],
+      "/CM5/USB3_0.DN": [
+        "USB2"
+      ],
+      "/CM5/USB3_0.DP": [
+        "USB2"
+      ],
+      "/CM5/USB3_0.RX_N": [
+        "USB3"
+      ],
+      "/CM5/USB3_0.RX_P": [
+        "USB3"
+      ],
+      "/CM5/USB3_0.TX_N": [
+        "USB3"
+      ],
+      "/CM5/USB3_0.TX_P": [
+        "USB3"
+      ],
+      "/CM5/USB3_1.DN": [
+        "USB2"
+      ],
+      "/CM5/USB3_1.DP": [
+        "USB2"
+      ],
+      "/CM5/USB3_1.RX_N": [
+        "USB3"
+      ],
+      "/CM5/USB3_1.RX_P": [
+        "USB3"
+      ],
+      "/CM5/USB3_1.TX_N": [
+        "USB3"
+      ],
+      "/CM5/USB3_1.TX_P": [
+        "USB3"
+      ],
+      "/CM5/{PCIE}": [
+        "PCIe"
+      ],
+      "/M.2 E-Key/CLK_N": [
+        "PCIe"
+      ],
+      "/M.2 E-Key/CLK_P": [
+        "PCIe"
+      ],
+      "/M.2 E-Key/RX_N": [
+        "PCIe"
+      ],
+      "/M.2 E-Key/RX_P": [
+        "PCIe"
+      ],
+      "/M.2 E-Key/TX_N": [
+        "PCIe"
+      ],
+      "/M.2 E-Key/TX_P": [
+        "PCIe"
+      ],
+      "/M.2 E-Key/{PCIE}": [
+        "PCIe"
+      ],
       "/PCIe Switch/OSC_IN": [
         "50Ω"
       ],
       "/PCIe Switch/OSC_OUT": [
         "50Ω"
+      ],
+      "/PCIe Switch/P0_TXN": [
+        "PCIe"
+      ],
+      "/PCIe Switch/P0_TXP": [
+        "PCIe"
+      ],
+      "/PCIe Switch/P1_TXN": [
+        "PCIe"
+      ],
+      "/PCIe Switch/P1_TXP": [
+        "PCIe"
       ],
       "/PCIe Switch/RX_CLK": [
         "xMII"
@@ -795,7 +969,7 @@
     },
     "netclass_patterns": [
       {
-        "netclass": "CLEARANCE",
+        "netclass": "Default",
         "pattern": "SHIELD"
       }
     ]
@@ -1154,12 +1328,12 @@
           "show": false
         }
       ],
-      "filter_string": "",
+      "filter_string": "c",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Value"
     },
     "bus_aliases": {
       "CAN": [
@@ -1319,7 +1493,7 @@
         "uuid": "f91ec272-d09a-4038-bbbb-962739a92c51"
       }
     ],
-    "used_designators": "J201,J401,J501,J701,J1001-1003,J1201,J1501-1502,L1301,L1501-1502,D201-205,D301-302,D701-704,D1001-1002,D1201,D1301-1304,#PWR201-218,#PWR301-321,#PWR401-407,#PWR701-715,#PWR1001-1019,#PWR1201-1204,#PWR1301-1322,#PWR1401-1409,#PWR1501-1522,C201,C301-307,C401,C701-704,C1001-1005,C1201,C1301-1317,C1401-1402,C1501-1520,H101-104,H401-402,FL701,Q201,Q1301-1303,R201-205,R301-321,R701-711,R1001-1003,R1201-1205,R1301-1316,R1401-1402,R1501-1505,S201,SOM201,SW201,TP201-206,TP301-307,TP701-705,TP1301-1302,TP1401,TP1501-1502,U201,U301-302,U701,U1001-1007,U1201-1202,U1301-1303,U1401-1402,U1501-1503,Y301,Y401,Y701",
+    "used_designators": "FL801,FL1101,H101-108,H401-402,H1201-1202,L401,L601-602,D301-302,D401-404,D701-705,D801-804,D901-902,D1001,D1101-1104,#PWR301-356,#PWR401-429,#PWR501-509,#PWR601-616,#PWR701-720,#PWR801-828,#PWR901-918,#PWR1001-1052,#PWR1101-1128,#PWR1201-1207,C301-354,C401-418,C501-502,C601-620,C701,C801-825,C901-907,C1001-1053,C1101-1125,C1201,J301,J401,J701-702,J801-803,J901-903,J1001-1002,J1101,J1201,Q401-403,Q701,R301-326,R401-416,R501-502,R601-605,R701-704,R801-811,R901-903,R1001-1021,R1101-1111,S701,SOM701,SW701,TP301-311,TP401-402,TP501,TP601-602,TP701-708,TP801-805,TP1001-1011,TP1101-1105,U301-305,U401-403,U501-502,U601-603,U701-702,U801-807,U901-907,U1001-1003,U1101,Y301,Y401,Y801,Y1001,Y1101,Y1201",
     "variants": []
   },
   "sheets": [
@@ -1328,32 +1502,8 @@
       "jabr-control-v2"
     ],
     [
-      "6befb881-6ab4-49eb-a195-35f4f02473c7",
-      "CM5"
-    ],
-    [
-      "5b6fcd2f-5b5d-4692-aafc-a1fc45c87a5b",
-      "PCIe Switch"
-    ],
-    [
-      "1d5b5326-5e18-44b7-8507-f118df052f59",
-      "M.2 E-Key"
-    ],
-    [
-      "25c588fa-eee6-4ec0-9367-0f9042b543c0",
-      "Breakout"
-    ],
-    [
-      "760d12ad-9269-4cb7-9058-d98dd001df15",
-      "1000BASE-T1 PHY"
-    ],
-    [
       "3f551047-3bb0-4f63-99e0-34fd9061d844",
       "Power"
-    ],
-    [
-      "adc0b005-3094-4656-96e7-4ee9fb2ab719",
-      "CM5IO"
     ],
     [
       "c8847476-18c7-4518-a86a-3cbd7effb778",
@@ -1368,12 +1518,32 @@
       "3V3 Always On"
     ],
     [
+      "313ad2b1-6281-4d61-a8a6-55e55641e36c",
+      "PCIe Power"
+    ],
+    [
+      "6befb881-6ab4-49eb-a195-35f4f02473c7",
+      "CM5"
+    ],
+    [
+      "adc0b005-3094-4656-96e7-4ee9fb2ab719",
+      "CM5IO"
+    ],
+    [
       "80b60915-5ccb-4842-b09a-a259b4f355b7",
       "MIPI Connectors"
     ],
     [
-      "313ad2b1-6281-4d61-a8a6-55e55641e36c",
-      "PCIe Power"
+      "5b6fcd2f-5b5d-4692-aafc-a1fc45c87a5b",
+      "PCIe Switch"
+    ],
+    [
+      "760d12ad-9269-4cb7-9058-d98dd001df15",
+      "1000BASE-T1 PHY"
+    ],
+    [
+      "1d5b5326-5e18-44b7-8507-f118df052f59",
+      "M.2 E-Key"
     ]
   ],
   "text_variables": {},

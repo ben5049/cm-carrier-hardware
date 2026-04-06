@@ -606,7 +606,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PWR-SMPS:TPS62824DMQR"
+		(symbol "PWR-SMPS:TPS62825DMQR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -622,7 +622,7 @@
 					)
 				)
 			)
-			(property "Value" "TPS62824DMQR"
+			(property "Value" "TPS62825DMQR"
 				(at 0 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -654,7 +654,7 @@
 					)
 				)
 			)
-			(property "Description" "TPS6282x 2.4-V to 5.5-V Input, 1A Step-down Converter with 1% Output Accuracy"
+			(property "Description" "TPS6282x 2.4-V to 5.5-V Input, 2A Step-down Converter with 1% Output Accuracy"
 				(at 0 -27.94 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -676,7 +676,200 @@
 					)
 				)
 			)
-			(symbol "TPS62824DMQR_1_1"
+			(symbol "TPS62825DMQR_1_1"
+				(rectangle
+					(start -10.16 0)
+					(end 10.16 -25.4)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -15.24 -12.7 0)
+					(length 5.08)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 15.24 -22.86 180)
+					(length 5.08)
+					(name "PG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -12.7 180)
+					(length 5.08)
+					(name "FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 -22.86 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 15.24 -2.54 180)
+					(length 5.08)
+					(name "SW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -15.24 -2.54 0)
+					(length 5.08)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PWR-SMPS:TPS62827DMQR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TPS62827DMQR"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "project_footprints:TPS6282xDMQR"
+				(at 0 -30.48 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps62827a.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1676881516978&ref_url=https%253A%252F%252Fwww.mouser.in%252F"
+				(at 0 -33.02 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "TPS6282x 2.4-V to 5.5-V Input, 4A Step-down Converter with 1% Output Accuracy"
+				(at 0 -27.94 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "1"
+				(at 0 -35.56 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TPS62827DMQR_1_1"
 				(rectangle
 					(start -10.16 0)
 					(end 10.16 -25.4)
@@ -836,7 +1029,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.digikey.ph/en/products/detail/texas-instruments/TPS22991CNRAAR/26812478"
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps22991.pdf?ts=1754895049192&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTPS22991%252Fpart-details%252FTPS22991BNRAAR"
 				(at 1.27 -22.86 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1767,7 +1960,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "1V1 Regulator"
+	(text "1V1 Regulator (2A)"
 		(exclude_from_sim no)
 		(at 106.68 125.73 0)
 		(effects
@@ -1777,7 +1970,7 @@
 		)
 		(uuid "05b461fe-c5d3-4b5d-8fd8-7beb28f17fb3")
 	)
-	(text "3V3 Regulator"
+	(text "3V3 Regulator (4A)"
 		(exclude_from_sim no)
 		(at 106.68 63.5 0)
 		(effects
@@ -1787,9 +1980,9 @@
 		)
 		(uuid "62a4501f-1827-41f9-90f8-f2e30242a46b")
 	)
-	(text "1V8 Load Switch"
+	(text "1V8 Load Switch (3A)"
 		(exclude_from_sim no)
-		(at 156.21 38.1 0)
+		(at 160.02 38.1 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -1880,10 +2073,10 @@
 		(uuid "1cc88e7d-36cc-4eaf-a204-e85901493103")
 	)
 	(junction
-		(at 195.58 78.74)
+		(at 83.82 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "22c1172b-744d-4e84-a915-3d651acb06dd")
+		(uuid "20b861ed-cc04-439d-bb63-0290fef930f1")
 	)
 	(junction
 		(at 58.42 88.9)
@@ -1892,7 +2085,7 @@
 		(uuid "26851d1a-8f3a-4dae-9880-1431917386b9")
 	)
 	(junction
-		(at 233.68 78.74)
+		(at 259.08 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2f39eb96-8ec3-4041-9372-7c05633b0566")
@@ -1910,13 +2103,19 @@
 		(uuid "3ea93728-ca4d-4852-afda-a4becd63124f")
 	)
 	(junction
+		(at 233.68 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45070217-8f79-463b-bb18-38efc22e1158")
+	)
+	(junction
 		(at 129.54 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "45f3f79e-9ff1-4faf-b4a1-d2778c895dae")
 	)
 	(junction
-		(at 228.6 78.74)
+		(at 254 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "46643d47-05f3-490a-bc22-ca0e4d3b93e3")
@@ -1932,6 +2131,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "54e5b181-d8aa-4f34-8945-fe108d8b3cca")
+	)
+	(junction
+		(at 233.68 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55fa0616-0633-45be-abc9-4d51a4c560f3")
 	)
 	(junction
 		(at 157.48 91.44)
@@ -1952,7 +2157,7 @@
 		(uuid "6e989f03-3eae-46c0-bcad-abe699bb9290")
 	)
 	(junction
-		(at 220.98 88.9)
+		(at 246.38 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "71a7be7a-6b3a-4365-95ef-fee6a491c817")
@@ -1962,6 +2167,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "777783dd-9230-41af-ba37-d2838b9ab6e5")
+	)
+	(junction
+		(at 208.28 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7abef407-0fce-4066-bd26-0a5d84c37d57")
 	)
 	(junction
 		(at 157.48 142.24)
@@ -1982,16 +2193,16 @@
 		(uuid "7e3a17ad-921f-4f5a-a37f-4508e803450c")
 	)
 	(junction
-		(at 208.28 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "883c1c03-0802-4990-a30b-a68cdc51c647")
-	)
-	(junction
 		(at 124.46 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8ce48eae-d8c5-48da-81f0-64382c7e4a72")
+	)
+	(junction
+		(at 220.98 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e8e9f8e-14bf-44ee-8251-cf7ca7796e1f")
 	)
 	(junction
 		(at 170.18 78.74)
@@ -2000,7 +2211,7 @@
 		(uuid "912433e8-d1df-4e80-a051-5a16eb5eef65")
 	)
 	(junction
-		(at 220.98 78.74)
+		(at 246.38 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a2addbea-7015-4296-bf2d-23e3235f9be2")
@@ -2010,6 +2221,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "abce3184-2108-4af6-a0d5-f9760a5bc05a")
+	)
+	(junction
+		(at 195.58 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "adc9d8a8-6aa2-4ee7-9193-5606aca77861")
+	)
+	(junction
+		(at 83.82 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9cfa5cc-cba3-4539-936f-271e84187ce3")
 	)
 	(junction
 		(at 157.48 152.4)
@@ -2028,6 +2251,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d42316a3-1e9f-495e-b7d3-70f60dbaa744")
+	)
+	(junction
+		(at 220.98 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dbd5ec5e-7213-4b21-b1ad-12a6fe3ede66")
 	)
 	(junction
 		(at 71.12 142.24)
@@ -2089,7 +2318,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 78.74) (xy 233.68 81.28)
+			(xy 259.08 78.74) (xy 259.08 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2109,7 +2338,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 162.56) (xy 88.9 165.1)
+			(xy 83.82 162.56) (xy 83.82 165.1)
 		)
 		(stroke
 			(width 0)
@@ -2159,13 +2388,33 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 78.74) (xy 238.76 78.74)
+			(xy 259.08 78.74) (xy 264.16 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0b275b07-e69a-4f73-9b0c-a2d781186747")
+	)
+	(wire
+		(pts
+			(xy 83.82 152.4) (xy 83.82 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fbdefbb-03a4-401c-8671-fcbff29a96bb")
+	)
+	(wire
+		(pts
+			(xy 233.68 86.36) (xy 233.68 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11834d09-ca62-4e75-a931-72c35bf5150f")
 	)
 	(wire
 		(pts
@@ -2349,7 +2598,17 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 78.74) (xy 228.6 78.74)
+			(xy 233.68 78.74) (xy 233.68 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c87d44d-a8a1-4f8b-9593-f9570c7c1328")
+	)
+	(wire
+		(pts
+			(xy 195.58 78.74) (xy 254 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2386,6 +2645,16 @@
 			(type default)
 		)
 		(uuid "36afc77f-2802-4d1c-92d8-0cf9519ee2e4")
+	)
+	(wire
+		(pts
+			(xy 220.98 86.36) (xy 220.98 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37b501e7-1793-4df6-bef4-5bb6fba286f0")
 	)
 	(wire
 		(pts
@@ -2439,7 +2708,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 88.9) (xy 233.68 88.9)
+			(xy 246.38 88.9) (xy 259.08 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2469,7 +2738,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 86.36) (xy 233.68 88.9)
+			(xy 259.08 86.36) (xy 259.08 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2486,6 +2755,16 @@
 			(type default)
 		)
 		(uuid "4a14799b-a2fe-480c-9a39-0c685f090387")
+	)
+	(wire
+		(pts
+			(xy 220.98 78.74) (xy 220.98 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bdca5b9-fc4b-4fe1-9a31-7b8d05745a6a")
 	)
 	(wire
 		(pts
@@ -2579,7 +2858,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 78.74) (xy 233.68 78.74)
+			(xy 254 78.74) (xy 259.08 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2739,7 +3018,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 88.9) (xy 220.98 88.9)
+			(xy 208.28 88.9) (xy 246.38 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2779,7 +3058,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 76.2) (xy 228.6 78.74)
+			(xy 254 76.2) (xy 254 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2909,6 +3188,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 160.02) (xy 83.82 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b24f1f6b-fc4e-4f3f-b588-ad4f3801baa1")
+	)
+	(wire
+		(pts
 			(xy 58.42 91.44) (xy 58.42 88.9)
 		)
 		(stroke
@@ -3019,7 +3308,17 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 78.74) (xy 220.98 81.28)
+			(xy 83.82 162.56) (xy 91.44 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d579a94d-e9d8-4f29-ab39-58bf2eac3a28")
+	)
+	(wire
+		(pts
+			(xy 246.38 78.74) (xy 246.38 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3046,16 +3345,6 @@
 			(type default)
 		)
 		(uuid "d8baede7-bf10-47a7-90fd-568ef19cd145")
-	)
-	(wire
-		(pts
-			(xy 88.9 162.56) (xy 91.44 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dba27b53-aa0b-4192-925c-cde0547a2138")
 	)
 	(wire
 		(pts
@@ -3119,7 +3408,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 86.36) (xy 220.98 88.9)
+			(xy 246.38 86.36) (xy 246.38 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3231,7 +3520,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02b5b7f8-9e33-45f5-bfdc-1568e8a37420")
-		(property "Reference" "R1502"
+		(property "Reference" "R603"
 			(at 161.29 95.2499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3319,6 +3608,193 @@
 				)
 			)
 		)
+		(property "Critical Parameter" ""
+			(at 157.48 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IRP,40K (A)" ""
+			(at 157.48 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ISAT,10% (A)" ""
+			(at 157.48 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ISAT,30% (A)" ""
+			(at 157.48 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L (µH)" ""
+			(at 157.48 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 157.48 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer URL" ""
+			(at 157.48 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Match Code" ""
+			(at 157.48 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mounting Technology" ""
+			(at 157.48 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 157.48 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Published Date" ""
+			(at 157.48 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RDC max. (mΩ)" ""
+			(at 157.48 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RDC typ. (mΩ)" ""
+			(at 157.48 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Size" ""
+			(at 157.48 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type/Size" ""
+			(at 157.48 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOP (V)" ""
+			(at 157.48 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "fres (MHz)" ""
+			(at 157.48 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "5053f6c9-6632-4d52-afda-24b484bf25ff")
 		)
@@ -3328,7 +3804,7 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/313ad2b1-6281-4d61-a8a6-55e55641e36c"
-					(reference "R1502")
+					(reference "R603")
 					(unit 1)
 				)
 			)
@@ -3346,7 +3822,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "088dc772-695a-489c-b38d-6a8063186f7d")
-		(property "Reference" "#PWR01516"
+		(property "Reference" "#PWR0613"
 			(at 182.88 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -3406,7 +3882,7 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/313ad2b1-6281-4d61-a8a6-55e55641e36c"
-					(reference "#PWR01516")
+					(reference "#PWR0613")
 					(unit 1)
 				)
 			)
@@ -3424,7 +3900,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "092af03a-4713-4bd2-9a04-aa56c2426248")
-		(property "Reference" "C1514"
+		(property "Reference" "C613"
 			(at 210.82 82.5562 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3512,6 +3988,193 @@
 				)
 			)
 		)
+		(property "Critical Parameter" ""
+			(at 208.28 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IRP,40K (A)" ""
+			(at 208.28 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ISAT,10% (A)" ""
+			(at 208.28 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ISAT,30% (A)" ""
+			(at 208.28 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L (µH)" ""
+			(at 208.28 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 208.28 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer URL" ""
+			(at 208.28 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Match Code" ""
+			(at 208.28 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mounting Technology" ""
+			(at 208.28 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 208.28 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Published Date" ""
+			(at 208.28 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RDC max. (mΩ)" ""
+			(at 208.28 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RDC typ. (mΩ)" ""
+			(at 208.28 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Size" ""
+			(at 208.28 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type/Size" ""
+			(at 208.28 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOP (V)" ""
+			(at 208.28 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "fres (MHz)" ""
+			(at 208.28 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "44804754-2d1d-4566-80b5-dc2973d6b6cf")
 		)
@@ -3521,7 +4184,7 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/313ad2b1-6281-4d61-a8a6-55e55641e36c"
-					(reference "C1514")
+					(reference "C613")
 					(unit 1)
 				)
 			)
@@ -3539,7 +4202,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "133d57dc-f768-40ce-950c-274d961dd758")
-		(property "Reference" "R1501"
+		(property "Reference" "R602"
 			(at 161.29 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3627,6 +4290,193 @@
 				)
 			)
 		)
+		(property "Critical Parameter" ""
+			(at 157.48 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IRP,40K (A)" ""
+			(at 157.48 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ISAT,10% (A)" ""
+			(at 157.48 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ISAT,30% (A)" ""
+			(at 157.48 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L (µH)" ""
+			(at 157.48 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 157.48 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer URL" ""
+			(at 157.48 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Match Code" ""
+			(at 157.48 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mounting Technology" ""
+			(at 157.48 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 157.48 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Published Date" ""
+			(at 157.48 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RDC max. (mΩ)" ""
+			(at 157.48 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RDC typ. (mΩ)" ""
+			(at 157.48 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Size" ""
+			(at 157.48 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type/Size" ""
+			(at 157.48 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOP (V)" ""
+			(at 157.48 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "fres (MHz)" ""
+			(at 157.48 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "648d49a3-7aec-4fe7-b67b-5b3f6348c8be")
 		)
@@ -3636,7 +4486,7 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/313ad2b1-6281-4d61-a8a6-55e55641e36c"
-					(reference "R1501")
+					(reference "R602")
 					(unit 1)
 				)
 			)
@@ -3654,7 +4504,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14ae31e8-c160-421b-a843-6ae00302d344")
-		(property "Reference" "#PWR01503"
+		(property "Reference" "#PWR0603"
 			(at 58.42 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -3714,7 +4564,7 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/313ad2b1-6281-4d61-a8a6-55e55641e36c"
-					(reference "#PWR01503")
+					(reference "#PWR0603")
 					(unit 1)
 				)
 			)
@@ -3731,7 +4581,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1840930e-359b-4b5a-8f40-015204dfc0e5")
-		(property "Reference" "TP1502"
+		(property "Reference" "TP601"
 			(at 240.03 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3819,13 +4669,200 @@
 				)
 			)
 		)
+		(property "Critical Parameter" ""
+			(at 238.76 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IRP,40K (A)" ""
+			(at 238.76 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ISAT,10% (A)" ""
+			(at 238.76 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ISAT,30% (A)" ""
+			(at 238.76 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L (µH)" ""
+			(at 238.76 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 238.76 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer URL" ""
+			(at 238.76 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Match Code" ""
+			(at 238.76 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mounting Technology" ""
+			(at 238.76 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 238.76 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Published Date" ""
+			(at 238.76 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RDC max. (mΩ)" ""
+			(at 238.76 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RDC typ. (mΩ)" ""
+			(at 238.76 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Size" ""
+			(at 238.76 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type/Size" ""
+			(at 238.76 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOP (V)" ""
+			(at 238.76 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "fres (MHz)" ""
+			(at 238.76 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "37988c64-6840-432a-b594-80e98b099d41")
 		)
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/313ad2b1-6281-4d61-a8a6-55e55641e36c"
-					(reference "TP1502")
+					(reference "TP601")
 					(unit 1)
 				)
 			)
@@ -3843,7 +4880,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "227b8a33-f07c-40c3-9ee3-5c673ffb6455")
-		(property "Reference" "#PWR01507"
+		(property "Reference" "#PWR0607"
 			(at 88.9 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -3903,110 +4940,7 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/313ad2b1-6281-4d61-a8a6-55e55641e36c"
-					(reference "#PWR01507")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PWR-SMPS:TPS62824DMQR")
-		(at 106.68 76.2 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2478e89a-c815-4f91-bcef-1474f083709f")
-		(property "Reference" "U1502"
-			(at 106.68 71.12 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TPS62824DMQR"
-			(at 106.68 73.66 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "project_footprints:TPS6282xDMQR"
-			(at 106.68 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps62827a.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1676881516978&ref_url=https%253A%252F%252Fwww.mouser.in%252F"
-			(at 106.68 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "TPS6282x 2.4-V to 5.5-V Input, 1A Step-down Converter with 1% Output Accuracy"
-			(at 106.68 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "1"
-			(at 106.68 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c56a8c71-a859-4075-9f00-c0d413b1cb51")
-		)
-		(pin "6"
-			(uuid "8048a710-1818-423e-af67-adceacdd6c7d")
-		)
-		(pin "5"
-			(uuid "e8d972d3-f724-4587-b290-e530d5e09deb")
-		)
-		(pin "4"
-			(uuid "313154bb-77d6-4620-80f3-2018a10441cb")
-		)
-		(pin "1"
-			(uuid "f9c57768-4515-49d0-8c85-743aa01faf4d")
-		)
-		(pin "3"
-			(uuid "cf3900c2-1c6f-48c9-87c5-9081bd014a8a")
-		)
-		(instances
-			(project "jabr-control-v2"
-				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/313ad2b1-6281-4d61-a8a6-55e55641e36c"
-					(reference "U1502")
+					(reference "#PWR0607")
 					(unit 1)
 				)
 			)
@@ -4023,7 +4957,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "33abb71e-675a-41a0-8d8c-42d3c88b00e8")
-		(property "Reference" "C1501"
+		(property "Reference" "C601"
 			(at 60.96 82.5562 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4111,6 +5045,193 @@
 				)
 			)
 		)
+		(property "Critical Parameter" ""
+			(at 58.42 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IRP,40K (A)" ""
+			(at 58.42 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ISAT,10% (A)" ""
+			(at 58.42 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ISAT,30% (A)" ""
+			(at 58.42 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L (µH)" ""
+			(at 58.42 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 58.42 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer URL" ""
+			(at 58.42 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Match Code" ""
+			(at 58.42 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mounting Technology" ""
+			(at 58.42 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 58.42 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Published Date" ""
+			(at 58.42 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RDC max. (mΩ)" ""
+			(at 58.42 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RDC typ. (mΩ)" ""
+			(at 58.42 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Size" ""
+			(at 58.42 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type/Size" ""
+			(at 58.42 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOP (V)" ""
+			(at 58.42 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "fres (MHz)" ""
+			(at 58.42 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0ea6a101-b70e-46a4-b49b-3fa18858457f")
 		)
@@ -4120,7 +5241,7 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/313ad2b1-6281-4d61-a8a6-55e55641e36c"
-					(reference "C1501")
+					(reference "C601")
 					(unit 1)
 				)
 			)
@@ -4138,7 +5259,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "377a9994-73c5-4d63-b06b-426228d473aa")
-		(property "Reference" "#PWR01506"
+		(property "Reference" "#PWR0606"
 			(at 88.9 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -4198,7 +5319,7 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/313ad2b1-6281-4d61-a8a6-55e55641e36c"
-					(reference "#PWR01506")
+					(reference "#PWR0606")
 					(unit 1)
 				)
 			)
@@ -4216,7 +5337,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38b3a1ff-a427-4077-aeed-1ceb6a66d76f")
-		(property "Reference" "R1504"
+		(property "Reference" "R605"
 			(at 160.02 158.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4304,6 +5425,193 @@
 				)
 			)
 		)
+		(property "Critical Parameter" ""
+			(at 157.48 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IRP,40K (A)" ""
+			(at 157.48 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ISAT,10% (A)" ""
+			(at 157.48 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ISAT,30% (A)" ""
+			(at 157.48 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L (µH)" ""
+			(at 157.48 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 157.48 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer URL" ""
+			(at 157.48 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Match Code" ""
+			(at 157.48 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mounting Technology" ""
+			(at 157.48 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 157.48 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Published Date" ""
+			(at 157.48 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RDC max. (mΩ)" ""
+			(at 157.48 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RDC typ. (mΩ)" ""
+			(at 157.48 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Size" ""
+			(at 157.48 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type/Size" ""
+			(at 157.48 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOP (V)" ""
+			(at 157.48 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "fres (MHz)" ""
+			(at 157.48 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "89d6326f-2e75-420d-8610-028bc3d223b1")
 		)
@@ -4313,7 +5621,297 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/313ad2b1-6281-4d61-a8a6-55e55641e36c"
-					(reference "R1504")
+					(reference "R605")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PWR-SMPS:TPS62827DMQR")
+		(at 106.68 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d1fa25e-ed51-4d53-a67f-1f1e002ef713")
+		(property "Reference" "U602"
+			(at 106.68 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS62827DMQR"
+			(at 106.68 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "project_footprints:TPS6282xDMQR"
+			(at 106.68 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps62827a.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1676881516978&ref_url=https%253A%252F%252Fwww.mouser.in%252F"
+			(at 106.68 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "TPS6282x 2.4-V to 5.5-V Input, 4A Step-down Converter with 1% Output Accuracy"
+			(at 106.68 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1"
+			(at 106.68 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Critical Parameter" ""
+			(at 106.68 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IRP,40K (A)" ""
+			(at 106.68 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ISAT,10% (A)" ""
+			(at 106.68 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ISAT,30% (A)" ""
+			(at 106.68 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L (µH)" ""
+			(at 106.68 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 106.68 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer URL" ""
+			(at 106.68 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Match Code" ""
+			(at 106.68 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mounting Technology" ""
+			(at 106.68 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 106.68 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Published Date" ""
+			(at 106.68 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RDC max. (mΩ)" ""
+			(at 106.68 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RDC typ. (mΩ)" ""
+			(at 106.68 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Size" ""
+			(at 106.68 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type/Size" ""
+			(at 106.68 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOP (V)" ""
+			(at 106.68 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "fres (MHz)" ""
+			(at 106.68 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "06c59ffa-c4d7-425f-b001-d6f349e53670")
+		)
+		(pin "5"
+			(uuid "3405476d-d4cf-4b86-8ec2-e168a676216c")
+		)
+		(pin "2"
+			(uuid "d76ec5cf-4d0b-434c-96af-1a7456f325eb")
+		)
+		(pin "3"
+			(uuid "5b7335a6-25f2-4caf-abc6-c31c505973fb")
+		)
+		(pin "4"
+			(uuid "6913fdd0-be9e-499d-b1cc-d51e3d247c36")
+		)
+		(pin "6"
+			(uuid "c07402af-c540-484e-9e9e-8ccde9883f9e")
+		)
+		(instances
+			(project "jabr-control-v2"
+				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/313ad2b1-6281-4d61-a8a6-55e55641e36c"
+					(reference "U602")
 					(unit 1)
 				)
 			)
@@ -4330,7 +5928,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3ef6b882-fd2d-4419-904e-d5409f56b681")
-		(property "Reference" "C1508"
+		(property "Reference" "C607"
 			(at 172.72 82.5562 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4418,6 +6016,193 @@
 				)
 			)
 		)
+		(property "Critical Parameter" ""
+			(at 170.18 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IRP,40K (A)" ""
+			(at 170.18 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ISAT,10% (A)" ""
+			(at 170.18 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ISAT,30% (A)" ""
+			(at 170.18 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L (µH)" ""
+			(at 170.18 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 170.18 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer URL" ""
+			(at 170.18 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Match Code" ""
+			(at 170.18 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mounting Technology" ""
+			(at 170.18 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 170.18 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Published Date" ""
+			(at 170.18 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RDC max. (mΩ)" ""
+			(at 170.18 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RDC typ. (mΩ)" ""
+			(at 170.18 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Size" ""
+			(at 170.18 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type/Size" ""
+			(at 170.18 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOP (V)" ""
+			(at 170.18 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "fres (MHz)" ""
+			(at 170.18 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "31591503-3460-403e-8d15-948a51b952bc")
 		)
@@ -4427,7 +6212,7 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/313ad2b1-6281-4d61-a8a6-55e55641e36c"
-					(reference "C1508")
+					(reference "C607")
 					(unit 1)
 				)
 			)
@@ -4444,7 +6229,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4354539d-d47c-44bd-adf3-8750444a4742")
-		(property "Reference" "C1503"
+		(property "Reference" "C603"
 			(at 73.66 82.5562 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4532,6 +6317,193 @@
 				)
 			)
 		)
+		(property "Critical Parameter" ""
+			(at 71.12 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IRP,40K (A)" ""
+			(at 71.12 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ISAT,10% (A)" ""
+			(at 71.12 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ISAT,30% (A)" ""
+			(at 71.12 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L (µH)" ""
+			(at 71.12 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 71.12 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer URL" ""
+			(at 71.12 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Match Code" ""
+			(at 71.12 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mounting Technology" ""
+			(at 71.12 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 71.12 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Published Date" ""
+			(at 71.12 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RDC max. (mΩ)" ""
+			(at 71.12 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RDC typ. (mΩ)" ""
+			(at 71.12 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Size" ""
+			(at 71.12 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type/Size" ""
+			(at 71.12 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOP (V)" ""
+			(at 71.12 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "fres (MHz)" ""
+			(at 71.12 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "141b8687-fca8-499e-832b-0a7a92c343aa")
 		)
@@ -4541,7 +6513,309 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/313ad2b1-6281-4d61-a8a6-55e55641e36c"
-					(reference "C1503")
+					(reference "C603")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 83.82 157.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "471e7726-e5a7-44de-9288-ab1890335cf3")
+		(property "Reference" "R601"
+			(at 86.36 156.2099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 86.36 158.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "project_footprints:R_0402"
+			(at 83.82 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 83.82 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 83.82 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field7" ""
+			(at 83.82 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Description" ""
+			(at 83.82 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Critical Parameter" ""
+			(at 83.82 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IRP,40K (A)" ""
+			(at 83.82 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ISAT,10% (A)" ""
+			(at 83.82 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ISAT,30% (A)" ""
+			(at 83.82 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L (µH)" ""
+			(at 83.82 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 83.82 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer URL" ""
+			(at 83.82 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Match Code" ""
+			(at 83.82 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mounting Technology" ""
+			(at 83.82 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 83.82 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Published Date" ""
+			(at 83.82 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RDC max. (mΩ)" ""
+			(at 83.82 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RDC typ. (mΩ)" ""
+			(at 83.82 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Size" ""
+			(at 83.82 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type/Size" ""
+			(at 83.82 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOP (V)" ""
+			(at 83.82 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "fres (MHz)" ""
+			(at 83.82 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "965c2aaa-04a5-44da-b449-7424c1fa9c12")
+		)
+		(pin "1"
+			(uuid "0a4b5bd0-6e1d-4721-998f-b30ca42a9a21")
+		)
+		(instances
+			(project "jabr-control-v2"
+				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/313ad2b1-6281-4d61-a8a6-55e55641e36c"
+					(reference "R601")
 					(unit 1)
 				)
 			)
@@ -4559,7 +6833,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4cefc374-2589-4cb2-a840-12ced99debda")
-		(property "Reference" "C1517"
+		(property "Reference" "C616"
 			(at 223.52 146.0562 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4647,6 +6921,193 @@
 				)
 			)
 		)
+		(property "Critical Parameter" ""
+			(at 220.98 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IRP,40K (A)" ""
+			(at 220.98 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ISAT,10% (A)" ""
+			(at 220.98 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ISAT,30% (A)" ""
+			(at 220.98 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L (µH)" ""
+			(at 220.98 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 220.98 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer URL" ""
+			(at 220.98 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Match Code" ""
+			(at 220.98 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mounting Technology" ""
+			(at 220.98 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 220.98 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Published Date" ""
+			(at 220.98 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RDC max. (mΩ)" ""
+			(at 220.98 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RDC typ. (mΩ)" ""
+			(at 220.98 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Size" ""
+			(at 220.98 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type/Size" ""
+			(at 220.98 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOP (V)" ""
+			(at 220.98 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "fres (MHz)" ""
+			(at 220.98 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8baccf57-2f4f-4344-a0f3-3ce62bfcf2f9")
 		)
@@ -4656,7 +7117,7 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/313ad2b1-6281-4d61-a8a6-55e55641e36c"
-					(reference "C1517")
+					(reference "C616")
 					(unit 1)
 				)
 			)
@@ -4674,7 +7135,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "500ef3d6-b2f5-4c1f-9e27-ecdefdfc45b1")
-		(property "Reference" "C1511"
+		(property "Reference" "C610"
 			(at 185.42 146.0562 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4762,6 +7223,193 @@
 				)
 			)
 		)
+		(property "Critical Parameter" ""
+			(at 182.88 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IRP,40K (A)" ""
+			(at 182.88 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ISAT,10% (A)" ""
+			(at 182.88 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ISAT,30% (A)" ""
+			(at 182.88 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L (µH)" ""
+			(at 182.88 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 182.88 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer URL" ""
+			(at 182.88 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Match Code" ""
+			(at 182.88 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mounting Technology" ""
+			(at 182.88 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 182.88 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Published Date" ""
+			(at 182.88 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RDC max. (mΩ)" ""
+			(at 182.88 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RDC typ. (mΩ)" ""
+			(at 182.88 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Size" ""
+			(at 182.88 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type/Size" ""
+			(at 182.88 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOP (V)" ""
+			(at 182.88 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "fres (MHz)" ""
+			(at 182.88 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e25613f6-22a4-4228-8f3f-1a67f295db63")
 		)
@@ -4771,7 +7419,7 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/313ad2b1-6281-4d61-a8a6-55e55641e36c"
-					(reference "C1511")
+					(reference "C610")
 					(unit 1)
 				)
 			)
@@ -4789,7 +7437,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "555a32bf-1efe-4a3b-9641-0a1c96c4401d")
-		(property "Reference" "L1502"
+		(property "Reference" "L602"
 			(at 147.32 134.62 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4854,6 +7502,193 @@
 				)
 			)
 		)
+		(property "Critical Parameter" ""
+			(at 147.32 142.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IRP,40K (A)" ""
+			(at 147.32 142.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ISAT,10% (A)" ""
+			(at 147.32 142.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ISAT,30% (A)" ""
+			(at 147.32 142.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L (µH)" ""
+			(at 147.32 142.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 147.32 142.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer URL" ""
+			(at 147.32 142.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Match Code" ""
+			(at 147.32 142.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mounting Technology" ""
+			(at 147.32 142.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 147.32 142.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Published Date" ""
+			(at 147.32 142.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RDC max. (mΩ)" ""
+			(at 147.32 142.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RDC typ. (mΩ)" ""
+			(at 147.32 142.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Size" ""
+			(at 147.32 142.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type/Size" ""
+			(at 147.32 142.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOP (V)" ""
+			(at 147.32 142.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "fres (MHz)" ""
+			(at 147.32 142.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a36c2c99-e64c-413d-b7d3-27e817e4d9c1")
 		)
@@ -4863,7 +7698,7 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/313ad2b1-6281-4d61-a8a6-55e55641e36c"
-					(reference "L1502")
+					(reference "L602")
 					(unit 1)
 				)
 			)
@@ -4881,7 +7716,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d8f14de-7c44-4f6d-a1ea-95e19389a38b")
-		(property "Reference" "#PWR01501"
+		(property "Reference" "#PWR0601"
 			(at 58.42 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -4941,7 +7776,7 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/313ad2b1-6281-4d61-a8a6-55e55641e36c"
-					(reference "#PWR01501")
+					(reference "#PWR0601")
 					(unit 1)
 				)
 			)
@@ -4959,7 +7794,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5fb1972e-eaa4-4214-9239-ba62f5e95f32")
-		(property "Reference" "C1512"
+		(property "Reference" "C611"
 			(at 198.12 82.5562 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5047,6 +7882,193 @@
 				)
 			)
 		)
+		(property "Critical Parameter" ""
+			(at 195.58 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IRP,40K (A)" ""
+			(at 195.58 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ISAT,10% (A)" ""
+			(at 195.58 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ISAT,30% (A)" ""
+			(at 195.58 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L (µH)" ""
+			(at 195.58 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 195.58 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer URL" ""
+			(at 195.58 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Match Code" ""
+			(at 195.58 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mounting Technology" ""
+			(at 195.58 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 195.58 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Published Date" ""
+			(at 195.58 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RDC max. (mΩ)" ""
+			(at 195.58 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RDC typ. (mΩ)" ""
+			(at 195.58 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Size" ""
+			(at 195.58 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type/Size" ""
+			(at 195.58 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOP (V)" ""
+			(at 195.58 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "fres (MHz)" ""
+			(at 195.58 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d5817679-d7be-40ac-b7a9-9bf55b225e4d")
 		)
@@ -5056,7 +8078,7 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/313ad2b1-6281-4d61-a8a6-55e55641e36c"
-					(reference "C1512")
+					(reference "C611")
 					(unit 1)
 				)
 			)
@@ -5074,7 +8096,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d5650a0-03dd-4c38-8684-66046abffa6f")
-		(property "Reference" "#PWR01510"
+		(property "Reference" "#PWR0609"
 			(at 124.46 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -5134,14 +8156,14 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/313ad2b1-6281-4d61-a8a6-55e55641e36c"
-					(reference "#PWR01510")
+					(reference "#PWR0609")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "PWR-SMPS:TPS62824DMQR")
+		(lib_id "PWR-SMPS:TPS62825DMQR")
 		(at 106.68 139.7 0)
 		(unit 1)
 		(body_style 1)
@@ -5152,7 +8174,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6fd26534-3816-47df-88c4-1bb58d60edea")
-		(property "Reference" "U1503"
+		(property "Reference" "U603"
 			(at 106.68 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5162,7 +8184,7 @@
 				)
 			)
 		)
-		(property "Value" "TPS62824DMQR"
+		(property "Value" "TPS62825DMQR"
 			(at 106.68 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5194,7 +8216,7 @@
 				)
 			)
 		)
-		(property "Description" "TPS6282x 2.4-V to 5.5-V Input, 1A Step-down Converter with 1% Output Accuracy"
+		(property "Description" "TPS6282x 2.4-V to 5.5-V Input, 2A Step-down Converter with 1% Output Accuracy"
 			(at 106.68 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -5207,6 +8229,193 @@
 		)
 		(property "Height" "1"
 			(at 106.68 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Critical Parameter" ""
+			(at 106.68 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IRP,40K (A)" ""
+			(at 106.68 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ISAT,10% (A)" ""
+			(at 106.68 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ISAT,30% (A)" ""
+			(at 106.68 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L (µH)" ""
+			(at 106.68 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 106.68 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer URL" ""
+			(at 106.68 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Match Code" ""
+			(at 106.68 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mounting Technology" ""
+			(at 106.68 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 106.68 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Published Date" ""
+			(at 106.68 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RDC max. (mΩ)" ""
+			(at 106.68 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RDC typ. (mΩ)" ""
+			(at 106.68 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Size" ""
+			(at 106.68 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type/Size" ""
+			(at 106.68 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOP (V)" ""
+			(at 106.68 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "fres (MHz)" ""
+			(at 106.68 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5237,7 +8446,7 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/313ad2b1-6281-4d61-a8a6-55e55641e36c"
-					(reference "U1503")
+					(reference "U603")
 					(unit 1)
 				)
 			)
@@ -5255,7 +8464,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70e103d7-9c15-4a39-916e-8000ba4e17df")
-		(property "Reference" "#PWR01515"
+		(property "Reference" "#PWR0612"
 			(at 157.48 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -5315,7 +8524,7 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/313ad2b1-6281-4d61-a8a6-55e55641e36c"
-					(reference "#PWR01515")
+					(reference "#PWR0612")
 					(unit 1)
 				)
 			)
@@ -5333,7 +8542,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b354fb4-3d09-4d04-8903-7a09ba2231b0")
-		(property "Reference" "C1506"
+		(property "Reference" "C606"
 			(at 127 36.8362 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5421,6 +8630,193 @@
 				)
 			)
 		)
+		(property "Critical Parameter" ""
+			(at 124.46 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IRP,40K (A)" ""
+			(at 124.46 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ISAT,10% (A)" ""
+			(at 124.46 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ISAT,30% (A)" ""
+			(at 124.46 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L (µH)" ""
+			(at 124.46 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 124.46 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer URL" ""
+			(at 124.46 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Match Code" ""
+			(at 124.46 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mounting Technology" ""
+			(at 124.46 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 124.46 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Published Date" ""
+			(at 124.46 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RDC max. (mΩ)" ""
+			(at 124.46 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RDC typ. (mΩ)" ""
+			(at 124.46 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Size" ""
+			(at 124.46 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type/Size" ""
+			(at 124.46 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOP (V)" ""
+			(at 124.46 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "fres (MHz)" ""
+			(at 124.46 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "97af3cf9-c2bb-4c40-9f59-5afb3732618c")
 		)
@@ -5430,7 +8826,7 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/313ad2b1-6281-4d61-a8a6-55e55641e36c"
-					(reference "C1506")
+					(reference "C606")
 					(unit 1)
 				)
 			)
@@ -5448,7 +8844,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b7350fa-d042-4660-a154-346049b025a8")
-		(property "Reference" "U1501"
+		(property "Reference" "U601"
 			(at 106.68 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5479,7 +8875,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.ph/en/products/detail/texas-instruments/TPS22991CNRAAR/26812478"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps22991.pdf?ts=1754895049192&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTPS22991%252Fpart-details%252FTPS22991BNRAAR"
 			(at 107.95 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -5512,6 +8908,193 @@
 				)
 			)
 		)
+		(property "Critical Parameter" ""
+			(at 106.68 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IRP,40K (A)" ""
+			(at 106.68 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ISAT,10% (A)" ""
+			(at 106.68 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ISAT,30% (A)" ""
+			(at 106.68 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L (µH)" ""
+			(at 106.68 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 106.68 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer URL" ""
+			(at 106.68 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Match Code" ""
+			(at 106.68 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mounting Technology" ""
+			(at 106.68 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 106.68 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Published Date" ""
+			(at 106.68 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RDC max. (mΩ)" ""
+			(at 106.68 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RDC typ. (mΩ)" ""
+			(at 106.68 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Size" ""
+			(at 106.68 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type/Size" ""
+			(at 106.68 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOP (V)" ""
+			(at 106.68 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "fres (MHz)" ""
+			(at 106.68 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "ae28b845-bece-4202-bac3-772c468e31b6")
 		)
@@ -5527,7 +9110,7 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/313ad2b1-6281-4d61-a8a6-55e55641e36c"
-					(reference "U1501")
+					(reference "U601")
 					(unit 1)
 				)
 			)
@@ -5544,7 +9127,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7e5d8dae-edcd-409f-b5c6-0fa1864efdcb")
-		(property "Reference" "C1504"
+		(property "Reference" "C604"
 			(at 73.66 146.0562 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5632,6 +9215,193 @@
 				)
 			)
 		)
+		(property "Critical Parameter" ""
+			(at 71.12 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IRP,40K (A)" ""
+			(at 71.12 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ISAT,10% (A)" ""
+			(at 71.12 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ISAT,30% (A)" ""
+			(at 71.12 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L (µH)" ""
+			(at 71.12 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 71.12 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer URL" ""
+			(at 71.12 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Match Code" ""
+			(at 71.12 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mounting Technology" ""
+			(at 71.12 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 71.12 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Published Date" ""
+			(at 71.12 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RDC max. (mΩ)" ""
+			(at 71.12 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RDC typ. (mΩ)" ""
+			(at 71.12 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Size" ""
+			(at 71.12 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type/Size" ""
+			(at 71.12 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOP (V)" ""
+			(at 71.12 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "fres (MHz)" ""
+			(at 71.12 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "be2d39f8-6d2b-4148-8426-43894304e122")
 		)
@@ -5641,7 +9411,7 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/313ad2b1-6281-4d61-a8a6-55e55641e36c"
-					(reference "C1504")
+					(reference "C604")
 					(unit 1)
 				)
 			)
@@ -5659,7 +9429,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "813fe7b8-63fa-4ae8-8826-fff97b92982c")
-		(property "Reference" "C1515"
+		(property "Reference" "C614"
 			(at 210.82 146.0562 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5747,6 +9517,193 @@
 				)
 			)
 		)
+		(property "Critical Parameter" ""
+			(at 208.28 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IRP,40K (A)" ""
+			(at 208.28 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ISAT,10% (A)" ""
+			(at 208.28 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ISAT,30% (A)" ""
+			(at 208.28 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L (µH)" ""
+			(at 208.28 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 208.28 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer URL" ""
+			(at 208.28 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Match Code" ""
+			(at 208.28 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mounting Technology" ""
+			(at 208.28 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 208.28 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Published Date" ""
+			(at 208.28 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RDC max. (mΩ)" ""
+			(at 208.28 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RDC typ. (mΩ)" ""
+			(at 208.28 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Size" ""
+			(at 208.28 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type/Size" ""
+			(at 208.28 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOP (V)" ""
+			(at 208.28 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "fres (MHz)" ""
+			(at 208.28 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6d70ca69-a5b6-47d3-ad57-325dbd131358")
 		)
@@ -5756,7 +9713,7 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/313ad2b1-6281-4d61-a8a6-55e55641e36c"
-					(reference "C1515")
+					(reference "C614")
 					(unit 1)
 				)
 			)
@@ -5774,7 +9731,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e19edf2-1385-40a3-a4bf-35b1cb7285b9")
-		(property "Reference" "R1503"
+		(property "Reference" "R604"
 			(at 160.02 146.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5862,6 +9819,193 @@
 				)
 			)
 		)
+		(property "Critical Parameter" ""
+			(at 157.48 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IRP,40K (A)" ""
+			(at 157.48 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ISAT,10% (A)" ""
+			(at 157.48 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ISAT,30% (A)" ""
+			(at 157.48 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L (µH)" ""
+			(at 157.48 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 157.48 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer URL" ""
+			(at 157.48 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Match Code" ""
+			(at 157.48 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mounting Technology" ""
+			(at 157.48 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 157.48 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Published Date" ""
+			(at 157.48 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RDC max. (mΩ)" ""
+			(at 157.48 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RDC typ. (mΩ)" ""
+			(at 157.48 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Size" ""
+			(at 157.48 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type/Size" ""
+			(at 157.48 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOP (V)" ""
+			(at 157.48 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "fres (MHz)" ""
+			(at 157.48 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2ad86527-00c3-4947-8f7c-ac5b7ee6e49a")
 		)
@@ -5871,7 +10015,7 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/313ad2b1-6281-4d61-a8a6-55e55641e36c"
-					(reference "R1503")
+					(reference "R604")
 					(unit 1)
 				)
 			)
@@ -5889,7 +10033,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90dc4b83-f1d7-4620-96c6-d5395ac6d38b")
-		(property "Reference" "C1519"
+		(property "Reference" "C618"
 			(at 236.22 146.0562 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5977,6 +10121,193 @@
 				)
 			)
 		)
+		(property "Critical Parameter" ""
+			(at 233.68 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IRP,40K (A)" ""
+			(at 233.68 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ISAT,10% (A)" ""
+			(at 233.68 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ISAT,30% (A)" ""
+			(at 233.68 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L (µH)" ""
+			(at 233.68 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 233.68 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer URL" ""
+			(at 233.68 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Match Code" ""
+			(at 233.68 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mounting Technology" ""
+			(at 233.68 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 233.68 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Published Date" ""
+			(at 233.68 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RDC max. (mΩ)" ""
+			(at 233.68 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RDC typ. (mΩ)" ""
+			(at 233.68 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Size" ""
+			(at 233.68 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type/Size" ""
+			(at 233.68 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOP (V)" ""
+			(at 233.68 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "fres (MHz)" ""
+			(at 233.68 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7753ab37-58d4-4f79-96c1-90acea750f17")
 		)
@@ -5986,7 +10317,309 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/313ad2b1-6281-4d61-a8a6-55e55641e36c"
-					(reference "C1519")
+					(reference "C618")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DEV:C_SMALL")
+		(at 246.38 83.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e6184fb-09c8-4963-acca-9ee408044e17")
+		(property "Reference" "C619"
+			(at 248.92 82.5562 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4u7"
+			(at 248.92 85.0962 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "project_footprints:C_0402"
+			(at 246.38 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 246.38 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 246.38 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field7" ""
+			(at 246.38 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Description" ""
+			(at 246.38 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Critical Parameter" ""
+			(at 246.38 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IRP,40K (A)" ""
+			(at 246.38 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ISAT,10% (A)" ""
+			(at 246.38 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ISAT,30% (A)" ""
+			(at 246.38 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L (µH)" ""
+			(at 246.38 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 246.38 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer URL" ""
+			(at 246.38 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Match Code" ""
+			(at 246.38 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mounting Technology" ""
+			(at 246.38 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 246.38 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Published Date" ""
+			(at 246.38 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RDC max. (mΩ)" ""
+			(at 246.38 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RDC typ. (mΩ)" ""
+			(at 246.38 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Size" ""
+			(at 246.38 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type/Size" ""
+			(at 246.38 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOP (V)" ""
+			(at 246.38 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "fres (MHz)" ""
+			(at 246.38 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6d4eec21-2901-4c8b-a197-67933d6a3104")
+		)
+		(pin "2"
+			(uuid "38dde669-7159-4920-b6ed-8d376a5d88ec")
+		)
+		(instances
+			(project "jabr-control-v2"
+				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/313ad2b1-6281-4d61-a8a6-55e55641e36c"
+					(reference "C619")
 					(unit 1)
 				)
 			)
@@ -6003,8 +10636,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9e6184fb-09c8-4963-acca-9ee408044e17")
-		(property "Reference" "C1516"
+		(uuid "a273daa5-6fc1-4087-992b-c1ea5aabd1af")
+		(property "Reference" "C615"
 			(at 223.52 82.5562 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6092,16 +10725,203 @@
 				)
 			)
 		)
+		(property "Critical Parameter" ""
+			(at 220.98 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IRP,40K (A)" ""
+			(at 220.98 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ISAT,10% (A)" ""
+			(at 220.98 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ISAT,30% (A)" ""
+			(at 220.98 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L (µH)" ""
+			(at 220.98 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 220.98 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer URL" ""
+			(at 220.98 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Match Code" ""
+			(at 220.98 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mounting Technology" ""
+			(at 220.98 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 220.98 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Published Date" ""
+			(at 220.98 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RDC max. (mΩ)" ""
+			(at 220.98 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RDC typ. (mΩ)" ""
+			(at 220.98 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Size" ""
+			(at 220.98 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type/Size" ""
+			(at 220.98 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOP (V)" ""
+			(at 220.98 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "fres (MHz)" ""
+			(at 220.98 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
-			(uuid "6d4eec21-2901-4c8b-a197-67933d6a3104")
+			(uuid "13ce834e-02a3-48d2-87d0-50cef8ce1465")
 		)
 		(pin "2"
-			(uuid "38dde669-7159-4920-b6ed-8d376a5d88ec")
+			(uuid "98d1fd82-6d9f-4990-8b55-f239db424359")
 		)
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/313ad2b1-6281-4d61-a8a6-55e55641e36c"
-					(reference "C1516")
+					(reference "C615")
 					(unit 1)
 				)
 			)
@@ -6119,7 +10939,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a45ab4eb-e50b-49bb-bd3d-bed259669497")
-		(property "Reference" "C1505"
+		(property "Reference" "C605"
 			(at 91.44 36.8362 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6207,6 +11027,193 @@
 				)
 			)
 		)
+		(property "Critical Parameter" ""
+			(at 88.9 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IRP,40K (A)" ""
+			(at 88.9 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ISAT,10% (A)" ""
+			(at 88.9 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ISAT,30% (A)" ""
+			(at 88.9 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L (µH)" ""
+			(at 88.9 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 88.9 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer URL" ""
+			(at 88.9 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Match Code" ""
+			(at 88.9 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mounting Technology" ""
+			(at 88.9 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 88.9 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Published Date" ""
+			(at 88.9 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RDC max. (mΩ)" ""
+			(at 88.9 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RDC typ. (mΩ)" ""
+			(at 88.9 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Size" ""
+			(at 88.9 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type/Size" ""
+			(at 88.9 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOP (V)" ""
+			(at 88.9 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "fres (MHz)" ""
+			(at 88.9 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ba620de6-c6ac-4bd8-8602-60205d54e0fd")
 		)
@@ -6216,7 +11223,7 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/313ad2b1-6281-4d61-a8a6-55e55641e36c"
-					(reference "C1505")
+					(reference "C605")
 					(unit 1)
 				)
 			)
@@ -6234,7 +11241,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aee21237-2188-4c78-8a52-7dc3005dabee")
-		(property "Reference" "#PWR01511"
+		(property "Reference" "#PWR0610"
 			(at 124.46 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -6294,7 +11301,7 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/313ad2b1-6281-4d61-a8a6-55e55641e36c"
-					(reference "#PWR01511")
+					(reference "#PWR0610")
 					(unit 1)
 				)
 			)
@@ -6302,7 +11309,7 @@
 	)
 	(symbol
 		(lib_id "PWR-SYM:+3V3_PCIE")
-		(at 228.6 76.2 0)
+		(at 254 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6312,8 +11319,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b12ecbcb-13a0-4556-b5eb-3e298f61b7e2")
-		(property "Reference" "#PWR01519"
-			(at 228.6 80.01 0)
+		(property "Reference" "#PWR0616"
+			(at 254 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6324,7 +11331,7 @@
 			)
 		)
 		(property "Value" "+3V3_PCIE"
-			(at 228.6 71.12 0)
+			(at 254 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6334,7 +11341,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 228.6 76.2 0)
+			(at 254 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6345,7 +11352,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 76.2 0)
+			(at 254 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6356,7 +11363,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3_PCIE\""
-			(at 228.6 76.2 0)
+			(at 254 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6372,7 +11379,7 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/313ad2b1-6281-4d61-a8a6-55e55641e36c"
-					(reference "#PWR01519")
+					(reference "#PWR0616")
 					(unit 1)
 				)
 			)
@@ -6390,7 +11397,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b22aecbf-b4a5-4673-ae52-6a776f24a288")
-		(property "Reference" "C1510"
+		(property "Reference" "C609"
 			(at 185.42 82.5562 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6478,6 +11485,193 @@
 				)
 			)
 		)
+		(property "Critical Parameter" ""
+			(at 182.88 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IRP,40K (A)" ""
+			(at 182.88 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ISAT,10% (A)" ""
+			(at 182.88 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ISAT,30% (A)" ""
+			(at 182.88 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L (µH)" ""
+			(at 182.88 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 182.88 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer URL" ""
+			(at 182.88 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Match Code" ""
+			(at 182.88 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mounting Technology" ""
+			(at 182.88 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 182.88 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Published Date" ""
+			(at 182.88 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RDC max. (mΩ)" ""
+			(at 182.88 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RDC typ. (mΩ)" ""
+			(at 182.88 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Size" ""
+			(at 182.88 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type/Size" ""
+			(at 182.88 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOP (V)" ""
+			(at 182.88 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "fres (MHz)" ""
+			(at 182.88 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bd50b255-27b1-4431-8fa4-4595edf00321")
 		)
@@ -6487,7 +11681,7 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/313ad2b1-6281-4d61-a8a6-55e55641e36c"
-					(reference "C1510")
+					(reference "C609")
 					(unit 1)
 				)
 			)
@@ -6505,7 +11699,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b992f06f-b538-47a4-9aa5-c1e096f6db00")
-		(property "Reference" "L1501"
+		(property "Reference" "L601"
 			(at 147.32 71.12 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6570,6 +11764,193 @@
 				)
 			)
 		)
+		(property "Critical Parameter" ""
+			(at 147.32 78.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IRP,40K (A)" ""
+			(at 147.32 78.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ISAT,10% (A)" ""
+			(at 147.32 78.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ISAT,30% (A)" ""
+			(at 147.32 78.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L (µH)" ""
+			(at 147.32 78.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 147.32 78.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer URL" ""
+			(at 147.32 78.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Match Code" ""
+			(at 147.32 78.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mounting Technology" ""
+			(at 147.32 78.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 147.32 78.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Published Date" ""
+			(at 147.32 78.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RDC max. (mΩ)" ""
+			(at 147.32 78.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RDC typ. (mΩ)" ""
+			(at 147.32 78.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Size" ""
+			(at 147.32 78.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type/Size" ""
+			(at 147.32 78.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOP (V)" ""
+			(at 147.32 78.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "fres (MHz)" ""
+			(at 147.32 78.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5a76fe22-63a2-4503-b3ac-5f70a9fd5a5a")
 		)
@@ -6579,7 +11960,7 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/313ad2b1-6281-4d61-a8a6-55e55641e36c"
-					(reference "L1501")
+					(reference "L601")
 					(unit 1)
 				)
 			)
@@ -6597,7 +11978,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9ef5323-a682-4c73-83f8-c429f5d3a913")
-		(property "Reference" "#PWR01520"
+		(property "Reference" "#PWR0615"
 			(at 228.6 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -6657,236 +12038,7 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/313ad2b1-6281-4d61-a8a6-55e55641e36c"
-					(reference "#PWR01520")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DEV:C_SMALL")
-		(at 195.58 147.32 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bd3d6aa7-eb99-4082-83a9-2f658cf111d0")
-		(property "Reference" "C1513"
-			(at 198.12 146.0562 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4u7"
-			(at 198.12 148.5962 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "project_footprints:C_0402"
-			(at 195.58 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 195.58 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field6" ""
-			(at 195.58 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field7" ""
-			(at 195.58 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Description" ""
-			(at 195.58 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fa704e1c-8dd7-4bd1-88ed-6dae56323dda")
-		)
-		(pin "2"
-			(uuid "d3258e61-9174-4a23-be8b-26db94695074")
-		)
-		(instances
-			(project "jabr-control-v2"
-				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/313ad2b1-6281-4d61-a8a6-55e55641e36c"
-					(reference "C1513")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DEV:C_SMALL")
-		(at 170.18 147.32 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c3f55e07-9a66-4000-ac34-795576494243")
-		(property "Reference" "C1509"
-			(at 172.72 146.0562 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220p"
-			(at 172.72 148.5962 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "project_footprints:C_0402"
-			(at 170.18 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 170.18 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field6" ""
-			(at 170.18 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field7" ""
-			(at 170.18 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Description" ""
-			(at 170.18 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bcadd75c-3c9d-4ff6-b9f3-7dc985cae0fa")
-		)
-		(pin "2"
-			(uuid "868fb525-f658-4e88-aed8-2f552c91bf16")
-		)
-		(instances
-			(project "jabr-control-v2"
-				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/313ad2b1-6281-4d61-a8a6-55e55641e36c"
-					(reference "C1509")
+					(reference "#PWR0615")
 					(unit 1)
 				)
 			)
@@ -6903,8 +12055,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d18da3e3-17da-4cd3-8cb1-1b9c0a4588b6")
-		(property "Reference" "C1518"
+		(uuid "bbad79c5-835b-40a8-bc15-3c3701026812")
+		(property "Reference" "C617"
 			(at 236.22 82.5562 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6992,6 +12144,1098 @@
 				)
 			)
 		)
+		(property "Critical Parameter" ""
+			(at 233.68 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IRP,40K (A)" ""
+			(at 233.68 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ISAT,10% (A)" ""
+			(at 233.68 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ISAT,30% (A)" ""
+			(at 233.68 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L (µH)" ""
+			(at 233.68 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 233.68 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer URL" ""
+			(at 233.68 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Match Code" ""
+			(at 233.68 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mounting Technology" ""
+			(at 233.68 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 233.68 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Published Date" ""
+			(at 233.68 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RDC max. (mΩ)" ""
+			(at 233.68 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RDC typ. (mΩ)" ""
+			(at 233.68 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Size" ""
+			(at 233.68 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type/Size" ""
+			(at 233.68 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOP (V)" ""
+			(at 233.68 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "fres (MHz)" ""
+			(at 233.68 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "624c4603-757a-4f45-9c14-3bd223b76ccd")
+		)
+		(pin "2"
+			(uuid "c559f326-9ffa-4c62-8cda-1cf2e635dc1a")
+		)
+		(instances
+			(project "jabr-control-v2"
+				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/313ad2b1-6281-4d61-a8a6-55e55641e36c"
+					(reference "C617")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DEV:C_SMALL")
+		(at 195.58 147.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd3d6aa7-eb99-4082-83a9-2f658cf111d0")
+		(property "Reference" "C612"
+			(at 198.12 146.0562 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4u7"
+			(at 198.12 148.5962 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "project_footprints:C_0402"
+			(at 195.58 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 195.58 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 195.58 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field7" ""
+			(at 195.58 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Description" ""
+			(at 195.58 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Critical Parameter" ""
+			(at 195.58 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IRP,40K (A)" ""
+			(at 195.58 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ISAT,10% (A)" ""
+			(at 195.58 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ISAT,30% (A)" ""
+			(at 195.58 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L (µH)" ""
+			(at 195.58 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 195.58 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer URL" ""
+			(at 195.58 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Match Code" ""
+			(at 195.58 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mounting Technology" ""
+			(at 195.58 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 195.58 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Published Date" ""
+			(at 195.58 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RDC max. (mΩ)" ""
+			(at 195.58 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RDC typ. (mΩ)" ""
+			(at 195.58 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Size" ""
+			(at 195.58 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type/Size" ""
+			(at 195.58 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOP (V)" ""
+			(at 195.58 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "fres (MHz)" ""
+			(at 195.58 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fa704e1c-8dd7-4bd1-88ed-6dae56323dda")
+		)
+		(pin "2"
+			(uuid "d3258e61-9174-4a23-be8b-26db94695074")
+		)
+		(instances
+			(project "jabr-control-v2"
+				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/313ad2b1-6281-4d61-a8a6-55e55641e36c"
+					(reference "C612")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DEV:C_SMALL")
+		(at 170.18 147.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c3f55e07-9a66-4000-ac34-795576494243")
+		(property "Reference" "C608"
+			(at 172.72 146.0562 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220p"
+			(at 172.72 148.5962 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "project_footprints:C_0402"
+			(at 170.18 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 170.18 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 170.18 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field7" ""
+			(at 170.18 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Description" ""
+			(at 170.18 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Critical Parameter" ""
+			(at 170.18 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IRP,40K (A)" ""
+			(at 170.18 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ISAT,10% (A)" ""
+			(at 170.18 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ISAT,30% (A)" ""
+			(at 170.18 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L (µH)" ""
+			(at 170.18 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 170.18 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer URL" ""
+			(at 170.18 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Match Code" ""
+			(at 170.18 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mounting Technology" ""
+			(at 170.18 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 170.18 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Published Date" ""
+			(at 170.18 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RDC max. (mΩ)" ""
+			(at 170.18 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RDC typ. (mΩ)" ""
+			(at 170.18 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Size" ""
+			(at 170.18 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type/Size" ""
+			(at 170.18 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOP (V)" ""
+			(at 170.18 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "fres (MHz)" ""
+			(at 170.18 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bcadd75c-3c9d-4ff6-b9f3-7dc985cae0fa")
+		)
+		(pin "2"
+			(uuid "868fb525-f658-4e88-aed8-2f552c91bf16")
+		)
+		(instances
+			(project "jabr-control-v2"
+				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/313ad2b1-6281-4d61-a8a6-55e55641e36c"
+					(reference "C608")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DEV:C_SMALL")
+		(at 259.08 83.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d18da3e3-17da-4cd3-8cb1-1b9c0a4588b6")
+		(property "Reference" "C620"
+			(at 261.62 82.5562 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4u7"
+			(at 261.62 85.0962 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "project_footprints:C_0402"
+			(at 259.08 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 259.08 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 259.08 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field7" ""
+			(at 259.08 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Description" ""
+			(at 259.08 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Critical Parameter" ""
+			(at 259.08 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IRP,40K (A)" ""
+			(at 259.08 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ISAT,10% (A)" ""
+			(at 259.08 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ISAT,30% (A)" ""
+			(at 259.08 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L (µH)" ""
+			(at 259.08 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 259.08 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer URL" ""
+			(at 259.08 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Match Code" ""
+			(at 259.08 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mounting Technology" ""
+			(at 259.08 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 259.08 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Published Date" ""
+			(at 259.08 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RDC max. (mΩ)" ""
+			(at 259.08 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RDC typ. (mΩ)" ""
+			(at 259.08 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Size" ""
+			(at 259.08 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type/Size" ""
+			(at 259.08 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOP (V)" ""
+			(at 259.08 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "fres (MHz)" ""
+			(at 259.08 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "49fbd364-1298-474d-b887-52c51c0b0bb8")
 		)
@@ -7001,7 +13245,7 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/313ad2b1-6281-4d61-a8a6-55e55641e36c"
-					(reference "C1518")
+					(reference "C620")
 					(unit 1)
 				)
 			)
@@ -7020,7 +13264,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1e3a31d-f18b-4453-b68d-d2531c79a185")
-		(property "Reference" "#PWR01504"
+		(property "Reference" "#PWR0604"
 			(at 58.42 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -7080,7 +13324,7 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/313ad2b1-6281-4d61-a8a6-55e55641e36c"
-					(reference "#PWR01504")
+					(reference "#PWR0604")
 					(unit 1)
 				)
 			)
@@ -7088,7 +13332,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Small")
-		(at 238.76 78.74 0)
+		(at 264.16 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7097,8 +13341,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d46bb816-5bad-4805-9261-c3d738458bb1")
-		(property "Reference" "TP1501"
-			(at 240.03 78.74 0)
+		(property "Reference" "TP602"
+			(at 265.43 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7109,7 +13353,7 @@
 			)
 		)
 		(property "Value" "1.5mm"
-			(at 247.65 78.74 0)
+			(at 273.05 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7120,7 +13364,7 @@
 			)
 		)
 		(property "Footprint" "project_footprints:TestPoint_Pad_D1.5mm"
-			(at 243.84 78.74 0)
+			(at 269.24 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7131,7 +13375,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 243.84 78.74 0)
+			(at 269.24 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7142,7 +13386,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 238.76 78.74 0)
+			(at 264.16 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7153,7 +13397,7 @@
 			)
 		)
 		(property "Field6" ""
-			(at 238.76 78.74 0)
+			(at 264.16 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7164,7 +13408,7 @@
 			)
 		)
 		(property "Field7" ""
-			(at 238.76 78.74 0)
+			(at 264.16 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7175,7 +13419,194 @@
 			)
 		)
 		(property "Part Description" ""
-			(at 238.76 78.74 0)
+			(at 264.16 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Critical Parameter" ""
+			(at 264.16 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IRP,40K (A)" ""
+			(at 264.16 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ISAT,10% (A)" ""
+			(at 264.16 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ISAT,30% (A)" ""
+			(at 264.16 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L (µH)" ""
+			(at 264.16 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 264.16 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer URL" ""
+			(at 264.16 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Match Code" ""
+			(at 264.16 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mounting Technology" ""
+			(at 264.16 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 264.16 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Published Date" ""
+			(at 264.16 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RDC max. (mΩ)" ""
+			(at 264.16 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RDC typ. (mΩ)" ""
+			(at 264.16 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Size" ""
+			(at 264.16 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type/Size" ""
+			(at 264.16 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOP (V)" ""
+			(at 264.16 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "fres (MHz)" ""
+			(at 264.16 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7191,7 +13622,7 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/313ad2b1-6281-4d61-a8a6-55e55641e36c"
-					(reference "TP1501")
+					(reference "TP602")
 					(unit 1)
 				)
 			)
@@ -7209,7 +13640,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4f026ca-326c-4382-abe8-c5bbd0abd6e6")
-		(property "Reference" "#PWR01514"
+		(property "Reference" "#PWR0611"
 			(at 157.48 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -7269,7 +13700,7 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/313ad2b1-6281-4d61-a8a6-55e55641e36c"
-					(reference "#PWR01514")
+					(reference "#PWR0611")
 					(unit 1)
 				)
 			)
@@ -7288,7 +13719,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8961168-1ebb-447b-93a8-bfa6bf5c03c7")
-		(property "Reference" "#PWR01502"
+		(property "Reference" "#PWR0602"
 			(at 58.42 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -7348,7 +13779,7 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/313ad2b1-6281-4d61-a8a6-55e55641e36c"
-					(reference "#PWR01502")
+					(reference "#PWR0602")
 					(unit 1)
 				)
 			)
@@ -7365,7 +13796,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "db0c6df6-a9b3-4b47-9c0a-9ef409462ae6")
-		(property "Reference" "C1502"
+		(property "Reference" "C602"
 			(at 60.96 146.0562 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7453,6 +13884,193 @@
 				)
 			)
 		)
+		(property "Critical Parameter" ""
+			(at 58.42 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IRP,40K (A)" ""
+			(at 58.42 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ISAT,10% (A)" ""
+			(at 58.42 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ISAT,30% (A)" ""
+			(at 58.42 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L (µH)" ""
+			(at 58.42 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 58.42 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer URL" ""
+			(at 58.42 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Match Code" ""
+			(at 58.42 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mounting Technology" ""
+			(at 58.42 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 58.42 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Published Date" ""
+			(at 58.42 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RDC max. (mΩ)" ""
+			(at 58.42 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RDC typ. (mΩ)" ""
+			(at 58.42 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Size" ""
+			(at 58.42 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type/Size" ""
+			(at 58.42 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOP (V)" ""
+			(at 58.42 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "fres (MHz)" ""
+			(at 58.42 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "51c5bb47-e70c-40dc-b9c0-2556f541facb")
 		)
@@ -7462,7 +14080,7 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/313ad2b1-6281-4d61-a8a6-55e55641e36c"
-					(reference "C1502")
+					(reference "C602")
 					(unit 1)
 				)
 			)
@@ -7480,7 +14098,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ddd616e0-d7f1-4fd7-87e8-8c43399dc8ae")
-		(property "Reference" "#PWR01517"
+		(property "Reference" "#PWR0614"
 			(at 182.88 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -7540,7 +14158,7 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/313ad2b1-6281-4d61-a8a6-55e55641e36c"
-					(reference "#PWR01517")
+					(reference "#PWR0614")
 					(unit 1)
 				)
 			)
@@ -7558,7 +14176,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de76be78-c50e-45d1-86c7-7719b118f790")
-		(property "Reference" "#PWR01508"
+		(property "Reference" "#PWR0608"
 			(at 88.9 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -7618,7 +14236,7 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/313ad2b1-6281-4d61-a8a6-55e55641e36c"
-					(reference "#PWR01508")
+					(reference "#PWR0608")
 					(unit 1)
 				)
 			)
@@ -7626,7 +14244,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 88.9 165.1 0)
+		(at 83.82 165.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7636,8 +14254,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb5a1878-aade-4517-b3bd-f729f82ecf66")
-		(property "Reference" "#PWR01509"
-			(at 88.9 171.45 0)
+		(property "Reference" "#PWR0605"
+			(at 83.82 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7648,7 +14266,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 88.9 170.18 0)
+			(at 83.82 170.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7658,7 +14276,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 165.1 0)
+			(at 83.82 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7669,7 +14287,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 165.1 0)
+			(at 83.82 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7680,7 +14298,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 88.9 165.1 0)
+			(at 83.82 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7696,7 +14314,7 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844/313ad2b1-6281-4d61-a8a6-55e55641e36c"
-					(reference "#PWR01509")
+					(reference "#PWR0605")
 					(unit 1)
 				)
 			)

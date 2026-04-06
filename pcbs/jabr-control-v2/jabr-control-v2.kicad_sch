@@ -128,60 +128,279 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "STANDOFF:9774015951R"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "9774015951R"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Mounting_Wuerth:Mounting_Wuerth_WA-SMST-2.7mm_H1.5mm_9774015951"
+				(at 16.51 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774015951R.pdf"
+				(at 16.51 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "M2 WA-SMSI SMT Steel Spacer"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "1.5"
+				(at 16.51 -394.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "9774015951R_0_1"
+				(circle
+					(center 0 -1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "9774015951R_1_1"
+				(pin input line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
-	(text_box "Add M2.5 standoffs for CM5 (note those screws must go in through the bottom)"
-		(exclude_from_sim no)
-		(at 68.58 172.72 0)
-		(size 25.4 10.0822)
-		(margins 0.9525 0.9525 0.9525 0.9525)
+	(arc
+		(start 152.4 179.07)
+		(mid 154.1961 179.8139)
+		(end 154.94 181.61)
 		(stroke
 			(width 0)
-			(type solid)
-			(color 255 0 0 1)
+			(type default)
 		)
 		(fill
 			(type none)
 		)
+		(uuid "1f6555c1-fd08-4dd9-84da-1c22aee3927d")
+	)
+	(arc
+		(start 109.22 148.59)
+		(mid 109.9639 146.7939)
+		(end 111.76 146.05)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "5d714b3f-6c50-4759-8c18-a2e2f15bf858")
+	)
+	(arc
+		(start 109.22 181.61)
+		(mid 109.9639 179.8139)
+		(end 111.76 179.07)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "a481db31-9e6e-47ba-8058-db5dd215f703")
+	)
+	(arc
+		(start 111.76 191.77)
+		(mid 109.9639 191.0261)
+		(end 109.22 189.23)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "a56d1223-0bfc-4fba-b364-669b995e66f4")
+	)
+	(arc
+		(start 111.76 176.53)
+		(mid 109.9639 175.7861)
+		(end 109.22 173.99)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "ac40e04b-2d7f-4932-ac03-421a0d641d70")
+	)
+	(arc
+		(start 152.4 146.05)
+		(mid 154.1961 146.7939)
+		(end 154.94 148.59)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "cb85a701-c53d-469b-8fbe-e01baada7987")
+	)
+	(arc
+		(start 154.94 189.23)
+		(mid 154.1961 191.0261)
+		(end 152.4 191.77)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "d5d5497e-36eb-475c-a978-fc5fa2b28a36")
+	)
+	(arc
+		(start 154.94 173.99)
+		(mid 154.1961 175.7861)
+		(end 152.4 176.53)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "f16ce329-31c9-40ce-84ab-2599f1d0fb0b")
+	)
+	(text "Can be broken off\nif IO isn't needed"
+		(exclude_from_sim no)
+		(at 50.8 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
-				(color 255 0 0 1)
 			)
-			(justify left top)
 		)
-		(uuid "c0a4c6e0-c254-4d7c-9978-82bd2ba7a929")
+		(uuid "63a685ba-9cee-4e68-8139-ac485c699f49")
 	)
 	(junction
-		(at 152.4 73.66)
+		(at 152.4 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "51c2cf09-3736-43d8-b05e-57a2c20c0dbc")
 	)
 	(junction
-		(at 154.94 71.12)
+		(at 154.94 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "580cb45c-8dbb-4cde-bda3-aa7529fe5f49")
 	)
 	(no_connect
-		(at 109.22 170.18)
+		(at 111.76 152.4)
+		(uuid "7a5f7fa0-70b5-4aae-babc-51d7539ef7c9")
+	)
+	(no_connect
+		(at 132.08 177.8)
+		(uuid "7e36fa53-5542-45ec-a820-9dacd76cc8d1")
+	)
+	(no_connect
+		(at 152.4 152.4)
 		(uuid "851d9840-05cc-4566-ad86-6fedcc4b643d")
 	)
 	(no_connect
-		(at 129.54 170.18)
+		(at 152.4 177.8)
 		(uuid "cbddbc8a-4a34-4627-a21d-413f4846bd6c")
 	)
 	(no_connect
-		(at 109.22 187.96)
+		(at 111.76 193.04)
 		(uuid "d70272ce-1570-474d-a218-5c2f60343c0f")
 	)
 	(no_connect
-		(at 129.54 187.96)
+		(at 111.76 177.8)
+		(uuid "e6d98c75-4033-4238-89ad-61ddb9cd133e")
+	)
+	(no_connect
+		(at 132.08 152.4)
+		(uuid "faaf6fc6-7b01-4861-9c62-c80d6cc73de9")
+	)
+	(no_connect
+		(at 144.78 193.04)
 		(uuid "fcd12dd6-e852-4116-9774-690d22f5a696")
 	)
 	(bus
 		(pts
-			(xy 88.9 86.36) (xy 114.3 86.36)
+			(xy 88.9 66.04) (xy 114.3 66.04)
 		)
 		(stroke
 			(width 0)
@@ -189,285 +408,15 @@
 		)
 		(uuid "06a7054d-0606-4f5f-b6e0-9d1b560d028c")
 	)
-	(bus
-		(pts
-			(xy 88.9 55.88) (xy 114.3 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08d089ef-72f7-46b5-a6ed-2f1fedb75c7b")
-	)
 	(polyline
 		(pts
-			(xy 185.928 123.698) (xy 186.69 124.46)
+			(xy 109.22 148.59) (xy 109.22 173.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1b97b9b8-975d-4dd2-a6ba-234894b4ed85")
-	)
-	(polyline
-		(pts
-			(xy 180.34 116.84) (xy 186.69 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1bbb7a7e-e5db-4b2d-a0b1-5ae033584385")
-	)
-	(bus
-		(pts
-			(xy 139.7 116.84) (xy 165.1 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20280898-e4f7-4df9-9a07-08e74a0e5e50")
-	)
-	(bus
-		(pts
-			(xy 88.9 106.68) (xy 114.3 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20da2f6b-bc9b-4b8e-93cf-25b421b26551")
-	)
-	(bus
-		(pts
-			(xy 139.7 50.8) (xy 215.9 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2291d431-39b0-4452-94e7-0d04864cf803")
-	)
-	(bus
-		(pts
-			(xy 88.9 99.06) (xy 114.3 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "279ebcfe-3034-4598-a4f2-1da06da2ce35")
-	)
-	(wire
-		(pts
-			(xy 154.94 71.12) (xy 215.9 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29b00aa7-5d53-4cf5-97dc-8a105ba28dd1")
-	)
-	(bus
-		(pts
-			(xy 88.9 109.22) (xy 114.3 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34197787-48e1-404a-9ab2-dfc6d6131e63")
-	)
-	(polyline
-		(pts
-			(xy 185.928 109.982) (xy 186.69 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3538cce5-7740-49be-83bb-0e583766002d")
-	)
-	(wire
-		(pts
-			(xy 165.1 96.52) (xy 154.94 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d5bf145-1e84-460e-ba99-464d098df51f")
-	)
-	(wire
-		(pts
-			(xy 139.7 114.3) (xy 165.1 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4320d526-1962-49d2-b1eb-3e82d11b3d88")
-	)
-	(wire
-		(pts
-			(xy 190.5 139.7) (xy 215.9 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48660b6f-f5b9-4672-8f90-bb9c22fdb326")
-	)
-	(polyline
-		(pts
-			(xy 186.69 124.46) (xy 187.452 123.698)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5fde425a-46bc-490c-b8d5-6a7f7a555b48")
-	)
-	(bus
-		(pts
-			(xy 88.9 71.12) (xy 114.3 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6601f304-3020-4ac4-9742-797340d9e909")
-	)
-	(wire
-		(pts
-			(xy 152.4 73.66) (xy 215.9 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "675b341d-ce9e-47fc-a4d5-50defad252c9")
-	)
-	(wire
-		(pts
-			(xy 154.94 71.12) (xy 154.94 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6add4ac7-ed30-4f2e-b227-e5ff0f5af8e4")
-	)
-	(bus
-		(pts
-			(xy 88.9 88.9) (xy 114.3 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6afdcc1b-b47a-4fdd-86f9-c2d019d07245")
-	)
-	(wire
-		(pts
-			(xy 88.9 139.7) (xy 165.1 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e61f8d1-60e1-42ac-9ccd-2e1cc88df82e")
-	)
-	(wire
-		(pts
-			(xy 139.7 71.12) (xy 154.94 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ffdcdb4-b429-4a73-9fef-bc20c7119cc5")
-	)
-	(wire
-		(pts
-			(xy 88.9 129.54) (xy 114.3 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "796f17a7-299b-4236-8310-165e7643dcec")
-	)
-	(bus
-		(pts
-			(xy 88.9 45.72) (xy 114.3 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b6541c4-f2c9-4c28-abae-051b157c6784")
-	)
-	(bus
-		(pts
-			(xy 190.5 132.08) (xy 215.9 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8304418e-5c34-443c-b266-cce6646f25de")
-	)
-	(bus
-		(pts
-			(xy 88.9 58.42) (xy 114.3 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90eb9d1f-3140-4027-beb3-28ecd0503783")
-	)
-	(bus
-		(pts
-			(xy 190.5 86.36) (xy 215.9 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9be8ac00-e4f3-428c-bae4-21925aed2ada")
-	)
-	(wire
-		(pts
-			(xy 190.5 104.14) (xy 215.9 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d23f1a9-8622-4c07-b7ed-095aa0595ef1")
-	)
-	(wire
-		(pts
-			(xy 152.4 73.66) (xy 152.4 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d390395-5d3d-41ec-a972-0aa370efcd2f")
-	)
-	(bus
-		(pts
-			(xy 190.5 127) (xy 215.9 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f3a2bb1-cc35-404d-955c-563764bf4740")
+		(uuid "07343245-1065-4470-aaf9-86732d039946")
 	)
 	(bus
 		(pts
@@ -477,11 +426,561 @@
 			(width 0)
 			(type default)
 		)
+		(uuid "08d089ef-72f7-46b5-a6ed-2f1fedb75c7b")
+	)
+	(polyline
+		(pts
+			(xy 118.11 179.07) (xy 118.11 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b34c06c-e5bd-4fed-ab21-5a8aacd5a884")
+	)
+	(polyline
+		(pts
+			(xy 125.73 176.53) (xy 125.73 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e435a87-95e6-4e81-9a52-b2ab7199497d")
+	)
+	(polyline
+		(pts
+			(xy 111.76 191.77) (xy 152.4 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f12c30c-b293-4cbb-9ac2-ec344241ace1")
+	)
+	(polyline
+		(pts
+			(xy 128.27 179.07) (xy 128.27 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "137db635-7429-40c1-8da3-4cb60ec9688d")
+	)
+	(polyline
+		(pts
+			(xy 185.928 110.998) (xy 186.69 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b97b9b8-975d-4dd2-a6ba-234894b4ed85")
+	)
+	(polyline
+		(pts
+			(xy 180.34 104.14) (xy 186.69 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bbb7a7e-e5db-4b2d-a0b1-5ae033584385")
+	)
+	(bus
+		(pts
+			(xy 139.7 104.14) (xy 165.1 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20280898-e4f7-4df9-9a07-08e74a0e5e50")
+	)
+	(bus
+		(pts
+			(xy 88.9 86.36) (xy 114.3 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20da2f6b-bc9b-4b8e-93cf-25b421b26551")
+	)
+	(bus
+		(pts
+			(xy 139.7 38.1) (xy 215.9 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2291d431-39b0-4452-94e7-0d04864cf803")
+	)
+	(wire
+		(pts
+			(xy 139.7 116.84) (xy 165.1 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22deaf31-327c-47a0-9a20-6e0628b3090c")
+	)
+	(polyline
+		(pts
+			(xy 115.57 176.53) (xy 115.57 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "241a2900-ba5d-4a95-a041-f3808daab109")
+	)
+	(bus
+		(pts
+			(xy 88.9 78.74) (xy 114.3 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "279ebcfe-3034-4598-a4f2-1da06da2ce35")
+	)
+	(wire
+		(pts
+			(xy 154.94 53.34) (xy 215.9 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29b00aa7-5d53-4cf5-97dc-8a105ba28dd1")
+	)
+	(polyline
+		(pts
+			(xy 151.13 176.53) (xy 152.4 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2be2e3c1-bc7e-4933-99cf-9872228a2225")
+	)
+	(polyline
+		(pts
+			(xy 109.22 181.61) (xy 109.22 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ca6f26c-f438-455d-bcf9-ff6a688cc80d")
+	)
+	(polyline
+		(pts
+			(xy 58.42 99.06) (xy 93.98 99.06)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "2cbffaf8-3aa4-469e-aa4b-07b4c0c46e3a")
+	)
+	(wire
+		(pts
+			(xy 139.7 114.3) (xy 165.1 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e42349a-7a93-4238-b291-947297117dc5")
+	)
+	(polyline
+		(pts
+			(xy 111.76 146.05) (xy 152.4 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2efc1fb5-2120-47fa-939d-acc06b571ed5")
+	)
+	(polyline
+		(pts
+			(xy 130.81 176.53) (xy 133.35 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ff7048f-9812-460d-b0c6-3bd7383ca28a")
+	)
+	(bus
+		(pts
+			(xy 88.9 88.9) (xy 114.3 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34197787-48e1-404a-9ab2-dfc6d6131e63")
+	)
+	(polyline
+		(pts
+			(xy 185.928 97.282) (xy 186.69 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3538cce5-7740-49be-83bb-0e583766002d")
+	)
+	(wire
+		(pts
+			(xy 165.1 83.82) (xy 154.94 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d5bf145-1e84-460e-ba99-464d098df51f")
+	)
+	(polyline
+		(pts
+			(xy 133.35 179.07) (xy 133.35 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e7997fd-3d77-4e4d-8128-048cb680c2a5")
+	)
+	(wire
+		(pts
+			(xy 139.7 101.6) (xy 165.1 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4320d526-1962-49d2-b1eb-3e82d11b3d88")
+	)
+	(polyline
+		(pts
+			(xy 130.81 176.53) (xy 130.81 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44979774-ac73-4149-a34d-d90c2fe43b94")
+	)
+	(wire
+		(pts
+			(xy 190.5 127) (xy 215.9 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48660b6f-f5b9-4672-8f90-bb9c22fdb326")
+	)
+	(polyline
+		(pts
+			(xy 146.05 176.53) (xy 148.59 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a953b0f-4b5b-437a-901e-4193df1027ca")
+	)
+	(polyline
+		(pts
+			(xy 151.13 176.53) (xy 151.13 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50c718c9-68d8-4f1c-9b21-f7480bd25aef")
+	)
+	(polyline
+		(pts
+			(xy 143.51 179.07) (xy 143.51 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "514c127f-4c02-4634-af91-b72aa71410e4")
+	)
+	(polyline
+		(pts
+			(xy 123.19 179.07) (xy 123.19 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "566abad8-bc8a-41aa-8e75-931ec6cc5b45")
+	)
+	(polyline
+		(pts
+			(xy 130.81 179.07) (xy 133.35 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59f0ac70-f9fd-4c4e-808c-d74890fb85f8")
+	)
+	(polyline
+		(pts
+			(xy 113.03 179.07) (xy 113.03 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ca109f8-30da-421c-808c-78b8dcb92953")
+	)
+	(polyline
+		(pts
+			(xy 186.69 111.76) (xy 187.452 110.998)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fde425a-46bc-490c-b8d5-6a7f7a555b48")
+	)
+	(wire
+		(pts
+			(xy 152.4 55.88) (xy 215.9 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "675b341d-ce9e-47fc-a4d5-50defad252c9")
+	)
+	(wire
+		(pts
+			(xy 154.94 53.34) (xy 154.94 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6add4ac7-ed30-4f2e-b227-e5ff0f5af8e4")
+	)
+	(bus
+		(pts
+			(xy 88.9 68.58) (xy 114.3 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6afdcc1b-b47a-4fdd-86f9-c2d019d07245")
+	)
+	(polyline
+		(pts
+			(xy 120.65 179.07) (xy 123.19 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e0ecbca-fbfc-480e-82e1-378c08f7a0fa")
+	)
+	(wire
+		(pts
+			(xy 88.9 127) (xy 165.1 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e61f8d1-60e1-42ac-9ccd-2e1cc88df82e")
+	)
+	(wire
+		(pts
+			(xy 139.7 53.34) (xy 154.94 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ffdcdb4-b429-4a73-9fef-bc20c7119cc5")
+	)
+	(wire
+		(pts
+			(xy 88.9 111.76) (xy 114.3 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "796f17a7-299b-4236-8310-165e7643dcec")
+	)
+	(bus
+		(pts
+			(xy 88.9 33.02) (xy 114.3 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b6541c4-f2c9-4c28-abae-051b157c6784")
+	)
+	(bus
+		(pts
+			(xy 190.5 119.38) (xy 215.9 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8304418e-5c34-443c-b266-cce6646f25de")
+	)
+	(polyline
+		(pts
+			(xy 140.97 179.07) (xy 143.51 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "880c45c5-aeb2-49ce-a1ec-55dcbaa1d50c")
+	)
+	(polyline
+		(pts
+			(xy 120.65 176.53) (xy 120.65 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "880f0e77-507f-4d6c-9a60-f5aba4756086")
+	)
+	(polyline
+		(pts
+			(xy 111.76 179.07) (xy 113.03 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89258941-fb22-4f7f-95c9-bb15038da911")
+	)
+	(polyline
+		(pts
+			(xy 140.97 176.53) (xy 143.51 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fc1b444-3ed6-400e-bc42-7ebe2fe878f9")
+	)
+	(bus
+		(pts
+			(xy 88.9 45.72) (xy 114.3 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90eb9d1f-3140-4027-beb3-28ecd0503783")
+	)
+	(polyline
+		(pts
+			(xy 135.89 176.53) (xy 135.89 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94d41051-76b9-4767-85c0-498006ae8b0b")
+	)
+	(polyline
+		(pts
+			(xy 58.42 55.88) (xy 93.98 55.88)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "978d5460-883f-434f-b4d6-f7360ef91f2a")
+	)
+	(bus
+		(pts
+			(xy 190.5 73.66) (xy 215.9 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9be8ac00-e4f3-428c-bae4-21925aed2ada")
+	)
+	(wire
+		(pts
+			(xy 190.5 91.44) (xy 215.9 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d23f1a9-8622-4c07-b7ed-095aa0595ef1")
+	)
+	(wire
+		(pts
+			(xy 152.4 55.88) (xy 152.4 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d390395-5d3d-41ec-a972-0aa370efcd2f")
+	)
+	(bus
+		(pts
+			(xy 190.5 114.3) (xy 215.9 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f3a2bb1-cc35-404d-955c-563764bf4740")
+	)
+	(polyline
+		(pts
+			(xy 111.76 176.53) (xy 113.03 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a16a23a4-eb49-44e1-9981-0d0dcca894c6")
+	)
+	(bus
+		(pts
+			(xy 88.9 30.48) (xy 114.3 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
 		(uuid "a18fcf72-ce27-46bd-9c9c-d5a1d6aab4d0")
 	)
 	(wire
 		(pts
-			(xy 88.9 91.44) (xy 114.3 91.44)
+			(xy 88.9 71.12) (xy 114.3 71.12)
 		)
 		(stroke
 			(width 0)
@@ -489,9 +988,19 @@
 		)
 		(uuid "a7833333-7953-426c-97a1-8c3d3e48797b")
 	)
+	(polyline
+		(pts
+			(xy 140.97 176.53) (xy 140.97 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8090efa-4c6b-44f5-a491-8aa5216f5325")
+	)
 	(bus
 		(pts
-			(xy 190.5 106.68) (xy 215.9 106.68)
+			(xy 190.5 93.98) (xy 215.9 93.98)
 		)
 		(stroke
 			(width 0)
@@ -501,7 +1010,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 99.06) (xy 152.4 99.06)
+			(xy 165.1 86.36) (xy 152.4 86.36)
 		)
 		(stroke
 			(width 0)
@@ -509,9 +1018,19 @@
 		)
 		(uuid "a8c83e9d-afbd-44f7-96cc-6f504a739eaf")
 	)
+	(polyline
+		(pts
+			(xy 125.73 179.07) (xy 128.27 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a90f6304-43d8-4bc7-8563-2046638bf3bf")
+	)
 	(bus
 		(pts
-			(xy 88.9 40.64) (xy 114.3 40.64)
+			(xy 88.9 27.94) (xy 114.3 27.94)
 		)
 		(stroke
 			(width 0)
@@ -521,7 +1040,7 @@
 	)
 	(bus
 		(pts
-			(xy 190.5 91.44) (xy 215.9 91.44)
+			(xy 190.5 78.74) (xy 215.9 78.74)
 		)
 		(stroke
 			(width 0)
@@ -529,9 +1048,19 @@
 		)
 		(uuid "ad30adfb-aaa9-4eb9-a9e2-ff98e5c7bdf9")
 	)
+	(polyline
+		(pts
+			(xy 146.05 179.07) (xy 148.59 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b077d1fa-d17f-4f07-b1fc-8f40369b1bca")
+	)
 	(wire
 		(pts
-			(xy 190.5 134.62) (xy 215.9 134.62)
+			(xy 190.5 121.92) (xy 215.9 121.92)
 		)
 		(stroke
 			(width 0)
@@ -539,9 +1068,29 @@
 		)
 		(uuid "b80b5825-bb4d-4af1-a4ec-4f83e49d8a43")
 	)
+	(polyline
+		(pts
+			(xy 115.57 179.07) (xy 118.11 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8b9c0b4-1107-49b3-93b5-78129333f44b")
+	)
+	(polyline
+		(pts
+			(xy 125.73 176.53) (xy 128.27 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b905ac3b-9c7e-48ca-b022-365d8f83e26e")
+	)
 	(bus
 		(pts
-			(xy 190.5 88.9) (xy 215.9 88.9)
+			(xy 190.5 76.2) (xy 215.9 76.2)
 		)
 		(stroke
 			(width 0)
@@ -549,9 +1098,19 @@
 		)
 		(uuid "c10032f2-7f62-460b-a479-abb661cff99a")
 	)
+	(polyline
+		(pts
+			(xy 115.57 176.53) (xy 118.11 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1ba877b-21d6-4f6a-bb05-4b9180a44dee")
+	)
 	(wire
 		(pts
-			(xy 190.5 137.16) (xy 215.9 137.16)
+			(xy 190.5 124.46) (xy 215.9 124.46)
 		)
 		(stroke
 			(width 0)
@@ -561,7 +1120,27 @@
 	)
 	(polyline
 		(pts
-			(xy 186.69 109.22) (xy 186.69 116.84)
+			(xy 154.94 181.61) (xy 154.94 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5986d1e-b5e0-4628-aad3-2598a27f847d")
+	)
+	(polyline
+		(pts
+			(xy 138.43 179.07) (xy 138.43 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7c71721-49af-4f3c-8fa3-5618c5fa3fd1")
+	)
+	(polyline
+		(pts
+			(xy 186.69 96.52) (xy 186.69 104.14)
 		)
 		(stroke
 			(width 0)
@@ -571,7 +1150,17 @@
 	)
 	(polyline
 		(pts
-			(xy 186.69 109.22) (xy 187.452 109.982)
+			(xy 135.89 179.07) (xy 138.43 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbbb6951-bab6-4dd8-971e-3d3a70f4fcb7")
+	)
+	(polyline
+		(pts
+			(xy 186.69 96.52) (xy 187.452 97.282)
 		)
 		(stroke
 			(width 0)
@@ -579,9 +1168,39 @@
 		)
 		(uuid "dc6d8c57-da51-4170-99e6-506014182461")
 	)
+	(polyline
+		(pts
+			(xy 120.65 176.53) (xy 123.19 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd6eab9b-5ff3-442f-9b2f-3cd6613100cb")
+	)
+	(polyline
+		(pts
+			(xy 148.59 179.07) (xy 148.59 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd9f231c-88b0-4bde-a226-ebf98dd0bf06")
+	)
+	(polyline
+		(pts
+			(xy 154.94 148.59) (xy 154.94 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de1085f5-5d32-497c-87cd-a2b29cb90959")
+	)
 	(wire
 		(pts
-			(xy 88.9 149.86) (xy 215.9 149.86)
+			(xy 88.9 137.16) (xy 215.9 137.16)
 		)
 		(stroke
 			(width 0)
@@ -591,7 +1210,7 @@
 	)
 	(bus
 		(pts
-			(xy 139.7 121.92) (xy 165.1 121.92)
+			(xy 139.7 109.22) (xy 165.1 109.22)
 		)
 		(stroke
 			(width 0)
@@ -601,7 +1220,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 73.66) (xy 152.4 73.66)
+			(xy 139.7 55.88) (xy 152.4 55.88)
 		)
 		(stroke
 			(width 0)
@@ -611,7 +1230,17 @@
 	)
 	(polyline
 		(pts
-			(xy 186.69 116.84) (xy 186.69 124.46)
+			(xy 93.98 55.88) (xy 93.98 99.06)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "ea35b2cc-a126-4caf-a4c3-1b6319a3a8b9")
+	)
+	(polyline
+		(pts
+			(xy 186.69 104.14) (xy 186.69 111.76)
 		)
 		(stroke
 			(width 0)
@@ -619,9 +1248,132 @@
 		)
 		(uuid "ec78c0aa-399a-4225-b296-cffece509402")
 	)
+	(polyline
+		(pts
+			(xy 151.13 179.07) (xy 152.4 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee6f865f-9dae-4ac6-8f80-1d4d679c4aad")
+	)
+	(polyline
+		(pts
+			(xy 135.89 176.53) (xy 138.43 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f03eb857-38db-43f7-9f0c-f30cf63e8c75")
+	)
+	(polyline
+		(pts
+			(xy 146.05 176.53) (xy 146.05 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb12e019-0b07-4c80-97ab-a9e46ed87a47")
+	)
+	(symbol
+		(lib_id "STANDOFF:9774015951R")
+		(at 132.08 172.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10f41850-596e-4f1b-bf69-5a5f999ac2fb")
+		(property "Reference" "H105"
+			(at 134.62 172.7199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "9774015951R"
+			(at 134.62 175.2599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Mounting_Wuerth:Mounting_Wuerth_WA-SMST-2.7mm_H1.5mm_9774015951"
+			(at 148.59 267.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774015951R.pdf"
+			(at 148.59 367.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "M2 WA-SMSI SMT Steel Spacer"
+			(at 132.08 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1.5"
+			(at 148.59 567.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1"
+			(uuid "b6c69318-25e5-4e6c-ba59-5101cda05de5")
+		)
+		(instances
+			(project "jabr-control-v2"
+				(path "/f91ec272-d09a-4038-bbbb-962739a92c51"
+					(reference "H105")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 109.22 167.64 0)
+		(at 152.4 149.86 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -631,8 +1383,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c926a08-cafa-4580-bd45-b31e57b610b6")
-		(property "Reference" "H101"
-			(at 111.76 165.0999 0)
+		(property "Reference" "H107"
+			(at 154.94 147.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -643,7 +1395,7 @@
 			)
 		)
 		(property "Value" "M2.5"
-			(at 111.76 167.6399 0)
+			(at 154.94 149.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -654,7 +1406,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad"
-			(at 109.22 167.64 0)
+			(at 152.4 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -665,7 +1417,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 167.64 0)
+			(at 152.4 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -676,7 +1428,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 109.22 167.64 0)
+			(at 152.4 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -687,7 +1439,7 @@
 			)
 		)
 		(property "Field6" ""
-			(at 109.22 167.64 0)
+			(at 152.4 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -698,7 +1450,7 @@
 			)
 		)
 		(property "Field7" ""
-			(at 109.22 167.64 0)
+			(at 152.4 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -709,7 +1461,194 @@
 			)
 		)
 		(property "Part Description" ""
-			(at 109.22 167.64 0)
+			(at 152.4 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Critical Parameter" ""
+			(at 152.4 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IRP,40K (A)" ""
+			(at 152.4 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ISAT,10% (A)" ""
+			(at 152.4 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ISAT,30% (A)" ""
+			(at 152.4 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L (µH)" ""
+			(at 152.4 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 152.4 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer URL" ""
+			(at 152.4 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Match Code" ""
+			(at 152.4 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mounting Technology" ""
+			(at 152.4 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 152.4 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Published Date" ""
+			(at 152.4 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RDC max. (mΩ)" ""
+			(at 152.4 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RDC typ. (mΩ)" ""
+			(at 152.4 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Size" ""
+			(at 152.4 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type/Size" ""
+			(at 152.4 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOP (V)" ""
+			(at 152.4 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "fres (MHz)" ""
+			(at 152.4 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -725,6 +1664,192 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51"
+					(reference "H107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STANDOFF:9774015951R")
+		(at 111.76 172.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87291319-2956-4c2d-948f-f4afa4e6c15f")
+		(property "Reference" "H102"
+			(at 114.3 172.7199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "9774015951R"
+			(at 114.3 175.2599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Mounting_Wuerth:Mounting_Wuerth_WA-SMST-2.7mm_H1.5mm_9774015951"
+			(at 128.27 267.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774015951R.pdf"
+			(at 128.27 367.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "M2 WA-SMSI SMT Steel Spacer"
+			(at 111.76 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1.5"
+			(at 128.27 567.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1"
+			(uuid "6c6f1673-5ef6-4217-bed0-d8e23c244a05")
+		)
+		(instances
+			(project "jabr-control-v2"
+				(path "/f91ec272-d09a-4038-bbbb-962739a92c51"
+					(reference "H102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STANDOFF:9774015951R")
+		(at 111.76 147.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8914473f-09b6-4ad1-a41d-ea0a81be1d58")
+		(property "Reference" "H101"
+			(at 114.3 147.3199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "9774015951R"
+			(at 114.3 149.8599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Mounting_Wuerth:Mounting_Wuerth_WA-SMST-2.7mm_H1.5mm_9774015951"
+			(at 128.27 242.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774015951R.pdf"
+			(at 128.27 342.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "M2 WA-SMSI SMT Steel Spacer"
+			(at 111.76 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1.5"
+			(at 128.27 542.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1"
+			(uuid "8d31e04a-06c6-44d6-9e79-95b548b24f7b")
+		)
+		(instances
+			(project "jabr-control-v2"
+				(path "/f91ec272-d09a-4038-bbbb-962739a92c51"
 					(reference "H101")
 					(unit 1)
 				)
@@ -733,7 +1858,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 129.54 185.42 0)
+		(at 144.78 190.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -743,8 +1868,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9fda8472-93fe-444d-ab3b-827613d33fac")
-		(property "Reference" "H104"
-			(at 132.08 182.8799 0)
+		(property "Reference" "H106"
+			(at 147.32 187.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -755,7 +1880,7 @@
 			)
 		)
 		(property "Value" "M2.5"
-			(at 132.08 185.4199 0)
+			(at 147.32 190.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -766,7 +1891,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad"
-			(at 129.54 185.42 0)
+			(at 144.78 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -777,7 +1902,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 185.42 0)
+			(at 144.78 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -788,7 +1913,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 129.54 185.42 0)
+			(at 144.78 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -799,7 +1924,7 @@
 			)
 		)
 		(property "Field6" ""
-			(at 129.54 185.42 0)
+			(at 144.78 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -810,7 +1935,7 @@
 			)
 		)
 		(property "Field7" ""
-			(at 129.54 185.42 0)
+			(at 144.78 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -821,7 +1946,194 @@
 			)
 		)
 		(property "Part Description" ""
-			(at 129.54 185.42 0)
+			(at 144.78 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Critical Parameter" ""
+			(at 144.78 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IRP,40K (A)" ""
+			(at 144.78 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ISAT,10% (A)" ""
+			(at 144.78 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ISAT,30% (A)" ""
+			(at 144.78 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L (µH)" ""
+			(at 144.78 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 144.78 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer URL" ""
+			(at 144.78 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Match Code" ""
+			(at 144.78 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mounting Technology" ""
+			(at 144.78 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 144.78 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Published Date" ""
+			(at 144.78 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RDC max. (mΩ)" ""
+			(at 144.78 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RDC typ. (mΩ)" ""
+			(at 144.78 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Size" ""
+			(at 144.78 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type/Size" ""
+			(at 144.78 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOP (V)" ""
+			(at 144.78 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "fres (MHz)" ""
+			(at 144.78 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -837,6 +2149,99 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51"
+					(reference "H106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STANDOFF:9774015951R")
+		(at 132.08 147.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a365eedc-ebc2-4f55-9d22-295d5f738789")
+		(property "Reference" "H104"
+			(at 134.62 147.3199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "9774015951R"
+			(at 134.62 149.8599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Mounting_Wuerth:Mounting_Wuerth_WA-SMST-2.7mm_H1.5mm_9774015951"
+			(at 148.59 242.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774015951R.pdf"
+			(at 148.59 342.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "M2 WA-SMSI SMT Steel Spacer"
+			(at 132.08 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1.5"
+			(at 148.59 542.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1"
+			(uuid "e32a98b0-7350-4021-9c9b-1fa478351071")
+		)
+		(instances
+			(project "jabr-control-v2"
+				(path "/f91ec272-d09a-4038-bbbb-962739a92c51"
 					(reference "H104")
 					(unit 1)
 				)
@@ -845,7 +2250,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 109.22 185.42 0)
+		(at 111.76 190.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -855,8 +2260,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5f5c1b1-8157-4837-b073-5f2ed3875d1d")
-		(property "Reference" "H102"
-			(at 111.76 182.8799 0)
+		(property "Reference" "H103"
+			(at 114.3 187.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -867,7 +2272,7 @@
 			)
 		)
 		(property "Value" "M2.5"
-			(at 111.76 185.4199 0)
+			(at 114.3 190.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -878,7 +2283,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad"
-			(at 109.22 185.42 0)
+			(at 111.76 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -889,7 +2294,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 185.42 0)
+			(at 111.76 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -900,7 +2305,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 109.22 185.42 0)
+			(at 111.76 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -911,7 +2316,7 @@
 			)
 		)
 		(property "Field6" ""
-			(at 109.22 185.42 0)
+			(at 111.76 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -922,7 +2327,7 @@
 			)
 		)
 		(property "Field7" ""
-			(at 109.22 185.42 0)
+			(at 111.76 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -933,7 +2338,194 @@
 			)
 		)
 		(property "Part Description" ""
-			(at 109.22 185.42 0)
+			(at 111.76 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Critical Parameter" ""
+			(at 111.76 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IRP,40K (A)" ""
+			(at 111.76 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ISAT,10% (A)" ""
+			(at 111.76 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ISAT,30% (A)" ""
+			(at 111.76 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L (µH)" ""
+			(at 111.76 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 111.76 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer URL" ""
+			(at 111.76 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Match Code" ""
+			(at 111.76 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mounting Technology" ""
+			(at 111.76 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 111.76 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Published Date" ""
+			(at 111.76 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RDC max. (mΩ)" ""
+			(at 111.76 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RDC typ. (mΩ)" ""
+			(at 111.76 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Size" ""
+			(at 111.76 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type/Size" ""
+			(at 111.76 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOP (V)" ""
+			(at 111.76 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "fres (MHz)" ""
+			(at 111.76 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -949,7 +2541,7 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51"
-					(reference "H102")
+					(reference "H103")
 					(unit 1)
 				)
 			)
@@ -957,7 +2549,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 129.54 167.64 0)
+		(at 152.4 175.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -967,8 +2559,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f78daabb-ecf9-4f1c-9858-71787fa41a84")
-		(property "Reference" "H103"
-			(at 132.08 165.0999 0)
+		(property "Reference" "H108"
+			(at 154.94 172.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -979,7 +2571,7 @@
 			)
 		)
 		(property "Value" "M2.5"
-			(at 132.08 167.6399 0)
+			(at 154.94 175.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -990,7 +2582,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad"
-			(at 129.54 167.64 0)
+			(at 152.4 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1001,7 +2593,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 167.64 0)
+			(at 152.4 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1012,7 +2604,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 129.54 167.64 0)
+			(at 152.4 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1023,7 +2615,7 @@
 			)
 		)
 		(property "Field6" ""
-			(at 129.54 167.64 0)
+			(at 152.4 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1034,7 +2626,7 @@
 			)
 		)
 		(property "Field7" ""
-			(at 129.54 167.64 0)
+			(at 152.4 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1045,7 +2637,194 @@
 			)
 		)
 		(property "Part Description" ""
-			(at 129.54 167.64 0)
+			(at 152.4 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Critical Parameter" ""
+			(at 152.4 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IRP,40K (A)" ""
+			(at 152.4 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ISAT,10% (A)" ""
+			(at 152.4 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ISAT,30% (A)" ""
+			(at 152.4 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L (µH)" ""
+			(at 152.4 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 152.4 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer URL" ""
+			(at 152.4 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Match Code" ""
+			(at 152.4 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mounting Technology" ""
+			(at 152.4 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 152.4 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Published Date" ""
+			(at 152.4 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RDC max. (mΩ)" ""
+			(at 152.4 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RDC typ. (mΩ)" ""
+			(at 152.4 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Size" ""
+			(at 152.4 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type/Size" ""
+			(at 152.4 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOP (V)" ""
+			(at 152.4 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "fres (MHz)" ""
+			(at 152.4 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1061,14 +2840,14 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51"
-					(reference "H103")
+					(reference "H108")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(sheet
-		(at 215.9 38.1)
+		(at 215.9 25.4)
 		(size 25.4 71.12)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1084,7 +2863,7 @@
 		)
 		(uuid "1d5b5326-5e18-44b7-8507-f118df052f59")
 		(property "Sheetname" "M.2 E-Key"
-			(at 215.9 37.3884 0)
+			(at 215.9 24.6884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1095,7 +2874,7 @@
 			)
 		)
 		(property "Sheetfile" "m-2-e-key.kicad_sch"
-			(at 215.9 109.8046 0)
+			(at 215.9 97.1046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1106,7 +2885,7 @@
 			)
 		)
 		(pin "{PCIE}" bidirectional
-			(at 215.9 106.68 180)
+			(at 215.9 93.98 180)
 			(uuid "c73b9134-93a4-4e2d-a261-f972b47ebe40")
 			(effects
 				(font
@@ -1116,7 +2895,7 @@
 			)
 		)
 		(pin "~{PCIE_RST}" input
-			(at 215.9 73.66 180)
+			(at 215.9 55.88 180)
 			(uuid "fc5eced7-c5b5-4f70-b76f-c5493af9f730")
 			(effects
 				(font
@@ -1126,7 +2905,7 @@
 			)
 		)
 		(pin "~{PCIE_WAKE}" output
-			(at 215.9 71.12 180)
+			(at 215.9 53.34 180)
 			(uuid "8f1b9aae-c501-4c44-9c35-3ea57c272ac6")
 			(effects
 				(font
@@ -1136,7 +2915,7 @@
 			)
 		)
 		(pin "~{PCIE_CLKREQ}" output
-			(at 215.9 104.14 180)
+			(at 215.9 91.44 180)
 			(uuid "456508f3-2419-4e3f-87c7-7afeeff960b9")
 			(effects
 				(font
@@ -1146,7 +2925,7 @@
 			)
 		)
 		(pin "{USB}" bidirectional
-			(at 215.9 50.8 180)
+			(at 215.9 38.1 180)
 			(uuid "4f6d0dfd-fa54-412e-b6aa-15bf46972153")
 			(effects
 				(font
@@ -1156,7 +2935,7 @@
 			)
 		)
 		(pin "M2_I2C{I2C}" bidirectional
-			(at 215.9 91.44 180)
+			(at 215.9 78.74 180)
 			(uuid "6e97e4da-040c-46f0-9e05-f642cb037536")
 			(effects
 				(font
@@ -1166,7 +2945,7 @@
 			)
 		)
 		(pin "M2_SPI{SPI}" bidirectional
-			(at 215.9 86.36 180)
+			(at 215.9 73.66 180)
 			(uuid "c4c96778-fd07-4a70-bed9-4c0b9b77d76d")
 			(effects
 				(font
@@ -1176,7 +2955,7 @@
 			)
 		)
 		(pin "M2_UART{UART}" bidirectional
-			(at 215.9 88.9 180)
+			(at 215.9 76.2 180)
 			(uuid "de1ff49d-20c1-4c3c-9ea8-123526738742")
 			(effects
 				(font
@@ -1188,70 +2967,14 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51"
-					(page "4")
+					(page "12")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 63.5 68.58)
-		(size 25.4 7.62)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "25c588fa-eee6-4ec0-9367-0f9042b543c0")
-		(property "Sheetname" "Breakout"
-			(at 63.5 67.8684 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "breakout.kicad_sch"
-			(at 63.5 76.7846 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "{SPI}" bidirectional
-			(at 88.9 71.12 0)
-			(uuid "ae88222d-84cd-4328-9b03-d528fdac9675")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "jabr-control-v2"
-				(path "/f91ec272-d09a-4038-bbbb-962739a92c51"
-					(page "5")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 63.5 127)
-		(size 25.4 25.4)
+		(at 63.5 106.68)
+		(size 25.4 33.02)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1266,7 +2989,7 @@
 		)
 		(uuid "3f551047-3bb0-4f63-99e0-34fd9061d844")
 		(property "Sheetname" "Power"
-			(at 63.5 126.2884 0)
+			(at 63.5 105.9684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1277,7 +3000,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 63.5 152.9846 0)
+			(at 63.5 140.2846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1288,7 +3011,7 @@
 			)
 		)
 		(pin "INH" input
-			(at 88.9 149.86 0)
+			(at 88.9 137.16 0)
 			(uuid "db598e01-6d84-4c76-a563-de85668baf8c")
 			(effects
 				(font
@@ -1298,7 +3021,7 @@
 			)
 		)
 		(pin "PCIE_PG" output
-			(at 88.9 139.7 0)
+			(at 88.9 127 0)
 			(uuid "788c636c-a320-443b-84be-1c9ae9e73d21")
 			(effects
 				(font
@@ -1308,8 +3031,682 @@
 			)
 		)
 		(pin "PCIE_PWR_EN" input
-			(at 88.9 129.54 0)
+			(at 88.9 111.76 0)
 			(uuid "1fcc243a-8efc-48d3-9245-74b70dd629cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "jabr-control-v2"
+				(path "/f91ec272-d09a-4038-bbbb-962739a92c51"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 165.1 71.12)
+		(size 25.4 58.42)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "5b6fcd2f-5b5d-4692-aafc-a1fc45c87a5b")
+		(property "Sheetname" "PCIe Switch"
+			(at 165.1 70.4084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pcie-switch.kicad_sch"
+			(at 165.1 130.1246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PORT0{PCIE}" bidirectional
+			(at 165.1 104.14 180)
+			(uuid "e25349fe-b634-4b66-adbe-71aa2fccfe20")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PORT1{PCIE}" bidirectional
+			(at 190.5 93.98 0)
+			(uuid "eca74e7e-781c-4b99-b3c7-cb42f02622c2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SMB{I2C}" bidirectional
+			(at 165.1 109.22 180)
+			(uuid "fa452d8a-ea56-4096-b52a-2c0b27805580")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{RGMII}" bidirectional
+			(at 190.5 114.3 0)
+			(uuid "be3b55fe-dec3-4a7a-abf5-659aad9bcf86")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{SMI}" bidirectional
+			(at 190.5 119.38 0)
+			(uuid "521fb5a8-b141-41c7-898f-4b36fbd32547")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{PCIE_RST}" input
+			(at 165.1 86.36 180)
+			(uuid "536f8ed0-139f-4e8b-a16f-f1a3fd675100")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{PCIE_WAKE}" output
+			(at 165.1 83.82 180)
+			(uuid "6c7e83d1-470c-4635-b42f-520261ced8d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{PHY_INT}" input
+			(at 190.5 124.46 0)
+			(uuid "e1cf5ae8-36d4-4aa9-8a94-8f25e8746825")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{PHY_RST}" output
+			(at 190.5 121.92 0)
+			(uuid "889c571e-4c87-438f-9359-3b3190be263c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{LINK}" input
+			(at 190.5 127 0)
+			(uuid "53a619c3-8586-441b-8199-7caac1b2b036")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{PORT1_CLKREQ}" input
+			(at 190.5 91.44 0)
+			(uuid "84cb5f68-7a59-4f1d-8341-ccd376929829")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{PORT0_CLKREQ}" output
+			(at 165.1 101.6 180)
+			(uuid "efb70484-e9eb-4cbf-a45b-696c956ad8a0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "M2_I2C{I2C}" bidirectional
+			(at 190.5 78.74 0)
+			(uuid "1061ed29-c9ff-4a36-a1dc-e8bfc675db3f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "M2_SPI{SPI}" bidirectional
+			(at 190.5 73.66 0)
+			(uuid "3093c193-31f4-4ee9-ba5e-e70936ba9f86")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "M2_UART{UART}" bidirectional
+			(at 190.5 76.2 0)
+			(uuid "be11ea37-b957-411e-9ce3-0fd0cb3c43c0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PTP_IO7" input
+			(at 165.1 116.84 180)
+			(uuid "4f8c82fe-8ecc-4837-a682-3278de3fb4a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PTP_IO6" output
+			(at 165.1 114.3 180)
+			(uuid "c8685f30-72c7-422f-b304-f2c2d9b741d1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{RST}" input
+			(at 165.1 127 180)
+			(uuid "6513a6e6-9704-400e-902e-37c6384004e6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "jabr-control-v2"
+				(path "/f91ec272-d09a-4038-bbbb-962739a92c51"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 25.4)
+		(size 25.4 93.98)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "6befb881-6ab4-49eb-a195-35f4f02473c7")
+		(property "Sheetname" "CM5"
+			(at 114.3 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cm5.kicad_sch"
+			(at 114.3 119.9646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{PCIE}" bidirectional
+			(at 139.7 104.14 0)
+			(uuid "4df17612-f77c-4b64-abd1-6b96c94ade48")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{PCIE_CLKREQ}" input
+			(at 139.7 101.6 0)
+			(uuid "f8984c03-25cc-4ff1-9d3a-09490db0de04")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{PCIE_RST}" output
+			(at 139.7 55.88 0)
+			(uuid "9f3ad3ec-e8e4-4f90-a6d6-2068340dab46")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCIE_PWR_EN" output
+			(at 114.3 111.76 180)
+			(uuid "905c75a8-4708-47ec-b4f2-84c9ad8fc59d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{PCIE_WAKE}" input
+			(at 139.7 53.34 0)
+			(uuid "07fa324e-e543-4e63-8fc8-37b87ad575ec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ETH_LED[2..3]" output
+			(at 114.3 88.9 180)
+			(uuid "2fcf9ae6-0f94-4a4d-86e7-28694c2a4946")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ETH{MDI}" bidirectional
+			(at 114.3 86.36 180)
+			(uuid "85cc4cc7-1ad9-4bd7-b858-b6568f0f2c26")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VBUS_EN" output
+			(at 114.3 71.12 180)
+			(uuid "112ded3d-50eb-42d8-a6de-9cc254d33475")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C2{I2C}" bidirectional
+			(at 139.7 109.22 0)
+			(uuid "2904eb0a-41b9-49e9-ba18-d48d6dfcc5e5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB2_DEV{USB}" bidirectional
+			(at 114.3 78.74 180)
+			(uuid "e36ad476-4ceb-4d53-8a68-2a523ebbdb7c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB2_HOST{USB}" bidirectional
+			(at 139.7 38.1 0)
+			(uuid "b3235b0d-3bda-4f34-aff2-ed5c31e7550f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAM_GPIO[0..1]" bidirectional
+			(at 114.3 33.02 180)
+			(uuid "e865b974-3f72-4e84-a404-2c177497b4bc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MIPI0{MIPI}" bidirectional
+			(at 114.3 27.94 180)
+			(uuid "db425bb4-bdaf-44d0-8485-b37df68c35f9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MIPI1{MIPI}" bidirectional
+			(at 114.3 43.18 180)
+			(uuid "402e6275-1554-491d-bebd-acc04f716596")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB3_0{USB3}" bidirectional
+			(at 114.3 66.04 180)
+			(uuid "6757cf81-d6b1-499b-bed5-2c87064fb2db")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB3_1{USB3}" bidirectional
+			(at 114.3 68.58 180)
+			(uuid "a9b6794a-f338-450b-8177-50bfe1397ba0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MIPI0{I2C}" bidirectional
+			(at 114.3 30.48 180)
+			(uuid "44138993-0de0-4e6b-9987-52deed8b427e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MIPI1{I2C}" bidirectional
+			(at 114.3 45.72 180)
+			(uuid "7c4a9888-84ef-4a5a-aca1-0aedc41f0aff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ETH_SYNC_OUT" output
+			(at 139.7 116.84 0)
+			(uuid "31bc9a91-e459-47a7-b295-81aed4442cab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO27" input
+			(at 139.7 114.3 0)
+			(uuid "89a2f36d-e9ba-4cb7-b7f0-3174103100ab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "jabr-control-v2"
+				(path "/f91ec272-d09a-4038-bbbb-962739a92c51"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 215.9 109.22)
+		(size 25.4 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "760d12ad-9269-4cb7-9058-d98dd001df15")
+		(property "Sheetname" "1000BASE-T1 PHY"
+			(at 215.9 108.5084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "1000base-t1-phy.kicad_sch"
+			(at 215.9 140.2846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{RGMII}" bidirectional
+			(at 215.9 114.3 180)
+			(uuid "304428b0-e4d5-4225-bf08-b2740163b11b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{SMI}" bidirectional
+			(at 215.9 119.38 180)
+			(uuid "e43ba133-c53d-4953-a765-8cd18e8d4853")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{INT}" output
+			(at 215.9 124.46 180)
+			(uuid "5b16f210-44a9-427e-a611-114dc5965204")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{RST}" input
+			(at 215.9 121.92 180)
+			(uuid "68dc84e5-e8e7-4da8-b003-38fbce9ed33b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INH" output
+			(at 215.9 137.16 180)
+			(uuid "804ecb9f-5e40-4fdd-a094-9801c416d711")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{LINK}" output
+			(at 215.9 127 180)
+			(uuid "d5f052e7-dd85-4ef7-aea1-a27233f99567")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "jabr-control-v2"
+				(path "/f91ec272-d09a-4038-bbbb-962739a92c51"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 25.4)
+		(size 25.4 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "80b60915-5ccb-4842-b09a-a259b4f355b7")
+		(property "Sheetname" "MIPI Connectors"
+			(at 63.5 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mipi-connectors.kicad_sch"
+			(at 63.5 48.8446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CAM_GPIO[0..1]" bidirectional
+			(at 88.9 33.02 0)
+			(uuid "22ffb185-d73c-4e98-a275-84c67ee373d9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MIPI0{MIPI}" bidirectional
+			(at 88.9 27.94 0)
+			(uuid "871a862a-f5a8-46c1-876d-37cfeab82c53")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MIPI1{MIPI}" bidirectional
+			(at 88.9 43.18 0)
+			(uuid "d326750b-2a18-4ac3-99a8-7f297d8d0178")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MIPI0{I2C}" bidirectional
+			(at 88.9 30.48 0)
+			(uuid "21dc0462-c25c-49c8-84db-f024db479082")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MIPI1{I2C}" bidirectional
+			(at 88.9 45.72 0)
+			(uuid "f92c7e03-2bea-448a-8583-7f788bd41f58")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1326,662 +3723,8 @@
 		)
 	)
 	(sheet
-		(at 165.1 83.82)
-		(size 25.4 58.42)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "5b6fcd2f-5b5d-4692-aafc-a1fc45c87a5b")
-		(property "Sheetname" "PCIe Switch"
-			(at 165.1 83.1084 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "pcie-switch.kicad_sch"
-			(at 165.1 142.8246 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "PORT0{PCIE}" bidirectional
-			(at 165.1 116.84 180)
-			(uuid "e25349fe-b634-4b66-adbe-71aa2fccfe20")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "PORT1{PCIE}" bidirectional
-			(at 190.5 106.68 0)
-			(uuid "eca74e7e-781c-4b99-b3c7-cb42f02622c2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SMB{I2C}" bidirectional
-			(at 165.1 121.92 180)
-			(uuid "fa452d8a-ea56-4096-b52a-2c0b27805580")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "{RGMII}" bidirectional
-			(at 190.5 127 0)
-			(uuid "be3b55fe-dec3-4a7a-abf5-659aad9bcf86")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "{SMI}" bidirectional
-			(at 190.5 132.08 0)
-			(uuid "521fb5a8-b141-41c7-898f-4b36fbd32547")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "~{PCIE_RST}" input
-			(at 165.1 99.06 180)
-			(uuid "536f8ed0-139f-4e8b-a16f-f1a3fd675100")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "~{PCIE_WAKE}" output
-			(at 165.1 96.52 180)
-			(uuid "6c7e83d1-470c-4635-b42f-520261ced8d7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "~{PHY_INT}" input
-			(at 190.5 137.16 0)
-			(uuid "e1cf5ae8-36d4-4aa9-8a94-8f25e8746825")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "~{PHY_RST}" output
-			(at 190.5 134.62 0)
-			(uuid "889c571e-4c87-438f-9359-3b3190be263c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "~{LINK}" input
-			(at 190.5 139.7 0)
-			(uuid "53a619c3-8586-441b-8199-7caac1b2b036")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "~{PORT1_CLKREQ}" input
-			(at 190.5 104.14 0)
-			(uuid "84cb5f68-7a59-4f1d-8341-ccd376929829")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "~{PORT0_CLKREQ}" output
-			(at 165.1 114.3 180)
-			(uuid "efb70484-e9eb-4cbf-a45b-696c956ad8a0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "~{PCIE_PG}" input
-			(at 165.1 139.7 180)
-			(uuid "1c494c02-156c-4863-af7a-42b4feb6194d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "M2_I2C{I2C}" bidirectional
-			(at 190.5 91.44 0)
-			(uuid "1061ed29-c9ff-4a36-a1dc-e8bfc675db3f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "M2_SPI{SPI}" bidirectional
-			(at 190.5 86.36 0)
-			(uuid "3093c193-31f4-4ee9-ba5e-e70936ba9f86")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "M2_UART{UART}" bidirectional
-			(at 190.5 88.9 0)
-			(uuid "be11ea37-b957-411e-9ce3-0fd0cb3c43c0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "jabr-control-v2"
-				(path "/f91ec272-d09a-4038-bbbb-962739a92c51"
-					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 114.3 38.1)
-		(size 25.4 96.52)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "6befb881-6ab4-49eb-a195-35f4f02473c7")
-		(property "Sheetname" "CM5"
-			(at 114.3 37.3884 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "cm5.kicad_sch"
-			(at 114.3 135.2046 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "{PCIE}" bidirectional
-			(at 139.7 116.84 0)
-			(uuid "4df17612-f77c-4b64-abd1-6b96c94ade48")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "~{PCIE_CLKREQ}" input
-			(at 139.7 114.3 0)
-			(uuid "f8984c03-25cc-4ff1-9d3a-09490db0de04")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "~{PCIE_RST}" output
-			(at 139.7 73.66 0)
-			(uuid "9f3ad3ec-e8e4-4f90-a6d6-2068340dab46")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "PCIE_PWR_EN" output
-			(at 114.3 129.54 180)
-			(uuid "905c75a8-4708-47ec-b4f2-84c9ad8fc59d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "~{PCIE_WAKE}" input
-			(at 139.7 71.12 0)
-			(uuid "07fa324e-e543-4e63-8fc8-37b87ad575ec")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "ETH_LED[2..3]" output
-			(at 114.3 109.22 180)
-			(uuid "2fcf9ae6-0f94-4a4d-86e7-28694c2a4946")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "ETH{MDI}" bidirectional
-			(at 114.3 106.68 180)
-			(uuid "85cc4cc7-1ad9-4bd7-b858-b6568f0f2c26")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "VBUS_EN" output
-			(at 114.3 91.44 180)
-			(uuid "112ded3d-50eb-42d8-a6de-9cc254d33475")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "I2C2{I2C}" bidirectional
-			(at 139.7 121.92 0)
-			(uuid "2904eb0a-41b9-49e9-ba18-d48d6dfcc5e5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "USB2_DEV{USB}" bidirectional
-			(at 114.3 99.06 180)
-			(uuid "e36ad476-4ceb-4d53-8a68-2a523ebbdb7c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "USB2_HOST{USB}" bidirectional
-			(at 139.7 50.8 0)
-			(uuid "b3235b0d-3bda-4f34-aff2-ed5c31e7550f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "CAM_GPIO[0..1]" bidirectional
-			(at 114.3 45.72 180)
-			(uuid "e865b974-3f72-4e84-a404-2c177497b4bc")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "I2C0{I2C}" bidirectional
-			(at 114.3 43.18 180)
-			(uuid "6a4049e1-9267-4854-a740-b8fd1f6dec58")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "I2C1{I2C}" bidirectional
-			(at 114.3 58.42 180)
-			(uuid "c9c39df4-6d81-4c42-9305-55aef5c6286f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "MIPI0{MIPI}" bidirectional
-			(at 114.3 40.64 180)
-			(uuid "db425bb4-bdaf-44d0-8485-b37df68c35f9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "MIPI1{MIPI}" bidirectional
-			(at 114.3 55.88 180)
-			(uuid "402e6275-1554-491d-bebd-acc04f716596")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "USB3_0{USB3}" bidirectional
-			(at 114.3 86.36 180)
-			(uuid "6757cf81-d6b1-499b-bed5-2c87064fb2db")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "USB3_1{USB3}" bidirectional
-			(at 114.3 88.9 180)
-			(uuid "a9b6794a-f338-450b-8177-50bfe1397ba0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "{SPI}" bidirectional
-			(at 114.3 71.12 180)
-			(uuid "ae904fc0-528a-42db-9c49-fef7c36d7af9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "~{RST_3V3}" output
-			(at 114.3 73.66 180)
-			(uuid "86977a47-d19f-426a-9cfc-d0bd776f5003")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "jabr-control-v2"
-				(path "/f91ec272-d09a-4038-bbbb-962739a92c51"
-					(page "2")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 215.9 121.92)
-		(size 25.4 30.48)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "760d12ad-9269-4cb7-9058-d98dd001df15")
-		(property "Sheetname" "1000BASE-T1 PHY"
-			(at 215.9 121.2084 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "1000base-t1-phy.kicad_sch"
-			(at 215.9 152.9846 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "{RGMII}" bidirectional
-			(at 215.9 127 180)
-			(uuid "304428b0-e4d5-4225-bf08-b2740163b11b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "{SMI}" bidirectional
-			(at 215.9 132.08 180)
-			(uuid "e43ba133-c53d-4953-a765-8cd18e8d4853")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "~{INT}" output
-			(at 215.9 137.16 180)
-			(uuid "5b16f210-44a9-427e-a611-114dc5965204")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "~{RST}" input
-			(at 215.9 134.62 180)
-			(uuid "68dc84e5-e8e7-4da8-b003-38fbce9ed33b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "INH" output
-			(at 215.9 149.86 180)
-			(uuid "804ecb9f-5e40-4fdd-a094-9801c416d711")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "~{LINK}" output
-			(at 215.9 139.7 180)
-			(uuid "d5f052e7-dd85-4ef7-aea1-a27233f99567")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "jabr-control-v2"
-				(path "/f91ec272-d09a-4038-bbbb-962739a92c51"
-					(page "7")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 63.5 38.1)
-		(size 25.4 22.86)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "80b60915-5ccb-4842-b09a-a259b4f355b7")
-		(property "Sheetname" "MIPI Connectors"
-			(at 63.5 37.3884 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "mipi-connectors.kicad_sch"
-			(at 63.5 61.5446 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "CAM_GPIO[0..1]" bidirectional
-			(at 88.9 45.72 0)
-			(uuid "22ffb185-d73c-4e98-a275-84c67ee373d9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "I2C0{I2C}" bidirectional
-			(at 88.9 43.18 0)
-			(uuid "b65363e3-7621-4bf1-a4ca-4d188af920ad")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "I2C1{I2C}" bidirectional
-			(at 88.9 58.42 0)
-			(uuid "10f97837-50ff-4319-a93c-5621a855fe83")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "MIPI0{MIPI}" bidirectional
-			(at 88.9 40.64 0)
-			(uuid "871a862a-f5a8-46c1-876d-37cfeab82c53")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "MIPI1{MIPI}" bidirectional
-			(at 88.9 55.88 0)
-			(uuid "d326750b-2a18-4ac3-99a8-7f297d8d0178")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "jabr-control-v2"
-				(path "/f91ec272-d09a-4038-bbbb-962739a92c51"
-					(page "15")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 63.5 83.82)
-		(size 25.4 27.94)
+		(at 63.5 60.96)
+		(size 25.4 33.02)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1996,7 +3739,7 @@
 		)
 		(uuid "adc0b005-3094-4656-96e7-4ee9fb2ab719")
 		(property "Sheetname" "CM5IO"
-			(at 63.5 83.1084 0)
+			(at 63.5 60.2484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2007,7 +3750,7 @@
 			)
 		)
 		(property "Sheetfile" "cm5io.kicad_sch"
-			(at 63.5 112.3446 0)
+			(at 63.5 94.5646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2018,7 +3761,7 @@
 			)
 		)
 		(pin "ETH_LED[2..3]" input
-			(at 88.9 109.22 0)
+			(at 88.9 88.9 0)
 			(uuid "63dfdccb-f8a5-4543-ab8b-4c0aa068d43b")
 			(effects
 				(font
@@ -2028,7 +3771,7 @@
 			)
 		)
 		(pin "ETH{MDI}" bidirectional
-			(at 88.9 106.68 0)
+			(at 88.9 86.36 0)
 			(uuid "8e47ab3e-c146-4b4a-9b6e-1ef9426ee7cd")
 			(effects
 				(font
@@ -2038,7 +3781,7 @@
 			)
 		)
 		(pin "USB{USB}" bidirectional
-			(at 88.9 99.06 0)
+			(at 88.9 78.74 0)
 			(uuid "e4b39588-3275-4772-866a-2e5275500a98")
 			(effects
 				(font
@@ -2048,7 +3791,7 @@
 			)
 		)
 		(pin "USB3_0{USB3}" bidirectional
-			(at 88.9 86.36 0)
+			(at 88.9 66.04 0)
 			(uuid "e82423aa-c123-4c52-a457-25811184b400")
 			(effects
 				(font
@@ -2058,7 +3801,7 @@
 			)
 		)
 		(pin "USB3_1{USB3}" bidirectional
-			(at 88.9 88.9 0)
+			(at 88.9 68.58 0)
 			(uuid "9859c4d7-5995-4830-91d3-9d9030d5aa78")
 			(effects
 				(font
@@ -2068,7 +3811,7 @@
 			)
 		)
 		(pin "VBUS_EN" input
-			(at 88.9 91.44 0)
+			(at 88.9 71.12 0)
 			(uuid "a3a80dbb-4da5-4c27-9648-430ff313c2eb")
 			(effects
 				(font
@@ -2080,7 +3823,7 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51"
-					(page "10")
+					(page "8")
 				)
 			)
 		)

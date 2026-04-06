@@ -224,7 +224,7 @@
 				(size 1.27 1.27)
 			)
 			(justify left top)
-			(href "#10")
+			(href "#8")
 		)
 		(uuid "1f7036ab-dbf3-4e6c-8eff-a7de903cc7b1")
 	)
@@ -579,7 +579,7 @@
 		)
 		(uuid "a1115716-b06f-4037-a2f2-3ceb9d0e36ad")
 	)
-	(text "<1742mA"
+	(text "<2185mA"
 		(exclude_from_sim no)
 		(at 231.14 154.94 0)
 		(effects
@@ -642,7 +642,7 @@
 				(size 1.27 1.27)
 			)
 			(justify left top)
-			(href "#2")
+			(href "#7")
 		)
 		(uuid "b414e8da-9d55-46f6-9cfe-d7a8c18c069e")
 	)
@@ -933,7 +933,7 @@
 		)
 		(uuid "36a9c5fd-2853-40d8-976a-697f410ed541")
 	)
-	(text_box "The maximum power that can be consumed by the system is 13W, and the maximum power that could be consumed by periperhals (M.2 & USB-A ports) is 20.4W. Not all sources are able to provide this power so the perhiperal power must be limited:\n\n- 5V USB (3A capable): 2W for peripherals\n- 5V USB (5A capable): 12W for peripherals\n- 12V VIN: 5W for peripherals\n- 24V VIN: 20W for peripherals\n\nNote that the USB-A ports cannot consume more than 8.5W combined."
+	(text_box "The maximum power that can be consumed by the system is 13W, and the maximum power that could be consumed by periperhals (M.2 & USB-A ports) is 20.4W. Not all sources are able to provide this power so the perhiperal power must be limited:\n\n- 5V USB (3A capable): 2W for peripherals\n- 5V USB (5A capable): 12W for peripherals\n- 12V VIN: 5W for peripherals\n- 24V VIN: 20W for peripherals\n\nNote that the USB-A ports cannot consume more than 10W combined."
 		(exclude_from_sim no)
 		(at 38.1 100.0023 0)
 		(size 76.2 24.3946)
@@ -2209,7 +2209,7 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844"
-					(page "15")
+					(page "6")
 				)
 			)
 		)
@@ -2255,7 +2255,7 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844"
-					(page "14")
+					(page "5")
 				)
 			)
 		)
@@ -2311,7 +2311,7 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844"
-					(page "13")
+					(page "4")
 				)
 			)
 		)
@@ -2357,7 +2357,7 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/3f551047-3bb0-4f63-99e0-34fd9061d844"
-					(page "12")
+					(page "3")
 				)
 			)
 		)
