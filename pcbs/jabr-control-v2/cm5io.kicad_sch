@@ -5,516 +5,6 @@
 	(uuid "1ba8258f-488f-42a9-9792-ea177bcf3314")
 	(paper "A4")
 	(lib_symbols
-		(symbol "CONN-FPC:FH12-22S-0.5SH"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "FH12-22S-0.5SH"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "project_footprints:Hirose_FH12-22S-0.5SH_1x22-1MP_P0.50mm_Horizontal"
-				(at 1.27 -63.5 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.mouser.co.uk/datasheet/3/731/1/FH12_22S_0.5SH_55_CL0586_0532_7_55_2DDrawing_0000987484.pdf"
-				(at 0 -60.96 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "FH12-22S-0.5SH_0_0"
-				(pin passive line
-					(at -10.16 -2.54 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -5.08 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -7.62 0)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -10.16 0)
-					(length 5.08)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -12.7 0)
-					(length 5.08)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -15.24 0)
-					(length 5.08)
-					(name "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -17.78 0)
-					(length 5.08)
-					(name "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -20.32 0)
-					(length 5.08)
-					(name "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -22.86 0)
-					(length 5.08)
-					(name "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -25.4 0)
-					(length 5.08)
-					(name "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -27.94 0)
-					(length 5.08)
-					(name "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -30.48 0)
-					(length 5.08)
-					(name "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -33.02 0)
-					(length 5.08)
-					(name "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -35.56 0)
-					(length 5.08)
-					(name "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -38.1 0)
-					(length 5.08)
-					(name "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -40.64 0)
-					(length 5.08)
-					(name "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -43.18 0)
-					(length 5.08)
-					(name "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -45.72 0)
-					(length 5.08)
-					(name "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -48.26 0)
-					(length 5.08)
-					(name "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -50.8 0)
-					(length 5.08)
-					(name "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -53.34 0)
-					(length 5.08)
-					(name "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -55.88 0)
-					(length 5.08)
-					(name "22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "FH12-22S-0.5SH_1_0"
-				(pin passive line
-					(at 10.16 -53.34 180)
-					(length 5.08)
-					(name "S1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -55.88 180)
-					(length 5.08)
-					(name "S2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "FH12-22S-0.5SH_1_1"
-				(rectangle
-					(start -5.08 0)
-					(end 5.08 -58.42)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "DEV:C_SMALL"
 			(pin_numbers
 				(hide yes)
@@ -8243,186 +7733,6 @@
 		)
 	)
 	(symbol
-		(lib_id "CONN-FPC:FH12-22S-0.5SH")
-		(at -17.78 88.9 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5d82a141-ea8e-4324-b204-129bed378181")
-		(property "Reference" "J1001"
-			(at -17.78 83.82 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FH12-22S-0.5SH"
-			(at -17.78 86.36 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "project_footprints:Hirose_FH12-22S-0.5SH_1x22-1MP_P0.50mm_Horizontal"
-			(at -19.05 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.co.uk/datasheet/3/731/1/FH12_22S_0.5SH_55_CL0586_0532_7_55_2DDrawing_0000987484.pdf"
-			(at -17.78 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at -17.78 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field6" ""
-			(at -17.78 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field7" ""
-			(at -17.78 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Description" ""
-			(at -17.78 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "7"
-			(uuid "c58a6ba8-6ef4-4ba3-a6c0-98395be2a4f1")
-		)
-		(pin "22"
-			(uuid "cb417544-3fbf-4c95-b9ab-683010be2349")
-		)
-		(pin "4"
-			(uuid "6009d2ce-d3b9-4012-bb89-7c965f095c14")
-		)
-		(pin "2"
-			(uuid "e12f6389-d7f2-4936-95e3-42e871f840a9")
-		)
-		(pin "15"
-			(uuid "fe87557c-0c35-4696-a399-caaa93311946")
-		)
-		(pin "S2"
-			(uuid "745189eb-cd6b-4a6c-b12c-6bd4edaf6eda")
-		)
-		(pin "12"
-			(uuid "704f1476-e182-40b9-a4a1-1ad362598ff7")
-		)
-		(pin "6"
-			(uuid "60aabcf4-b758-4157-ba62-2b74c04aaf2e")
-		)
-		(pin "1"
-			(uuid "25e4d73c-4fa4-482b-9836-5f03a5d1be20")
-		)
-		(pin "9"
-			(uuid "476f9304-8f42-4deb-84a7-7ced2cbe8d31")
-		)
-		(pin "16"
-			(uuid "2bf77aac-ed79-4cd7-bb64-26e2f3ba1308")
-		)
-		(pin "14"
-			(uuid "7a3c98e8-6d5d-4d73-9c36-ec64980c2ef4")
-		)
-		(pin "17"
-			(uuid "2aa3f198-a6c2-4a97-971e-15a2bd7426b3")
-		)
-		(pin "13"
-			(uuid "7d11a17a-608f-457a-8367-5bbd516ca28e")
-		)
-		(pin "3"
-			(uuid "d60388cb-4f7e-4965-b154-eac464388b23")
-		)
-		(pin "5"
-			(uuid "bbaa5004-7027-46c4-8cc8-f9cabdd846e7")
-		)
-		(pin "8"
-			(uuid "8abd441b-c0ba-4177-93c4-ab3dfccf3fc0")
-		)
-		(pin "18"
-			(uuid "34e3aa3b-4d13-41cd-a598-a4866cef68db")
-		)
-		(pin "11"
-			(uuid "2f982794-cddd-4318-bc85-18fafd5e6af8")
-		)
-		(pin "19"
-			(uuid "34799139-d5a1-4cf6-a119-91e93d0bb603")
-		)
-		(pin "20"
-			(uuid "aca74b24-ace3-497c-9b59-7091dc325538")
-		)
-		(pin "21"
-			(uuid "00fc9d76-0f03-459d-a333-e80cd2ed54c2")
-		)
-		(pin "10"
-			(uuid "bf133d87-90f1-4917-ab32-c9677e372134")
-		)
-		(pin "S1"
-			(uuid "f4faf36c-d267-4fc7-bdf4-52356f7a351c")
-		)
-		(instances
-			(project "jabr-control-v2"
-				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/adc0b005-3094-4656-96e7-4ee9fb2ab719"
-					(reference "J1001")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 114.3 187.96 0)
 		(unit 1)
@@ -8670,7 +7980,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "701591ff-e331-4259-9a14-ff62d2796ae1")
-		(property "Reference" "J1004"
+		(property "Reference" "J1003"
 			(at 205.74 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8868,7 +8178,7 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/adc0b005-3094-4656-96e7-4ee9fb2ab719"
-					(reference "J1004")
+					(reference "J1003")
 					(unit 1)
 				)
 			)
@@ -10019,7 +9329,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4157956-a8ca-415f-b4eb-c215b94af6b9")
-		(property "Reference" "J1003"
+		(property "Reference" "J1002"
 			(at 45.72 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10158,7 +9468,7 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/adc0b005-3094-4656-96e7-4ee9fb2ab719"
-					(reference "J1003")
+					(reference "J1002")
 					(unit 1)
 				)
 			)
@@ -10839,7 +10149,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de5fa1f0-38cf-468d-b085-93942535344c")
-		(property "Reference" "J1002"
+		(property "Reference" "J1001"
 			(at 40.64 127 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10985,7 +10295,7 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/adc0b005-3094-4656-96e7-4ee9fb2ab719"
-					(reference "J1002")
+					(reference "J1001")
 					(unit 1)
 				)
 			)
@@ -11082,7 +10392,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4bd8d3f-50a2-481d-b264-af8177ccbc38")
-		(property "Reference" "J1002"
+		(property "Reference" "J1001"
 			(at 111.76 127 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11228,7 +10538,7 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/adc0b005-3094-4656-96e7-4ee9fb2ab719"
-					(reference "J1002")
+					(reference "J1001")
 					(unit 2)
 				)
 			)

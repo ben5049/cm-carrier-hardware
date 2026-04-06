@@ -21965,7 +21965,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3f438c13-e803-4595-adce-a7ffa1bebacc")
-		(property "Reference" "D203"
+		(property "Reference" "D204"
 			(at 307.34 133.2864 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22073,7 +22073,7 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/6befb881-6ab4-49eb-a195-35f4f02473c7"
-					(reference "D203")
+					(reference "D204")
 					(unit 1)
 				)
 			)
@@ -22169,7 +22169,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43205a6d-a4d8-4bfd-89c9-6b9c5938e63a")
-		(property "Reference" "#PWR0219"
+		(property "Reference" "#PWR0202"
 			(at 154.94 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -22229,7 +22229,7 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/6befb881-6ab4-49eb-a195-35f4f02473c7"
-					(reference "#PWR0219")
+					(reference "#PWR0202")
 					(unit 1)
 				)
 			)
@@ -23481,7 +23481,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8589989f-3479-483b-9e96-cdb2cb7b7d7a")
-		(property "Reference" "D204"
+		(property "Reference" "D205"
 			(at 320.04 133.2864 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23589,7 +23589,7 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/6befb881-6ab4-49eb-a195-35f4f02473c7"
-					(reference "D204")
+					(reference "D205")
 					(unit 1)
 				)
 			)
@@ -26818,7 +26818,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e81bf8f9-0e0f-46fe-9cbf-fa3ed334f19f")
-		(property "Reference" "D202"
+		(property "Reference" "D203"
 			(at 307.34 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26935,7 +26935,7 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/6befb881-6ab4-49eb-a195-35f4f02473c7"
-					(reference "D202")
+					(reference "D203")
 					(unit 1)
 				)
 			)
@@ -27109,7 +27109,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "faac60ca-45bd-4439-a24b-d42c595bded6")
-		(property "Reference" "D201"
+		(property "Reference" "D202"
 			(at 172.72 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27228,7 +27228,7 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/6befb881-6ab4-49eb-a195-35f4f02473c7"
-					(reference "D201")
+					(reference "D202")
 					(unit 1)
 				)
 			)
@@ -27246,7 +27246,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fd510007-e823-4ebc-9c8b-2d6101f4d8f9")
-		(property "Reference" "D205"
+		(property "Reference" "D201"
 			(at 50.8 180.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27363,7 +27363,7 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/6befb881-6ab4-49eb-a195-35f4f02473c7"
-					(reference "D205")
+					(reference "D201")
 					(unit 1)
 				)
 			)

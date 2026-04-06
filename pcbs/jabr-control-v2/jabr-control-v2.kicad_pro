@@ -489,7 +489,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -857,7 +857,7 @@
           "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -1154,7 +1154,7 @@
           "show": false
         }
       ],
-      "filter_string": "R",
+      "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
@@ -1319,7 +1319,7 @@
         "uuid": "f91ec272-d09a-4038-bbbb-962739a92c51"
       }
     ],
-    "used_designators": "D205,D302-303,#PWR219,#PWR301,#PWR307-308,#PWR311,#PWR319,#PWR401,#PWR408,#PWR1303,#PWR1323,#PWR1508,R302,R316-321,TP304-307",
+    "used_designators": "J201,J401,J501,J701,J1001-1003,J1201,J1501-1502,L1301,L1501-1502,D201-205,D301-302,D701-704,D1001-1002,D1201,D1301-1304,#PWR201-218,#PWR301-321,#PWR401-407,#PWR701-715,#PWR1001-1019,#PWR1201-1204,#PWR1301-1322,#PWR1401-1409,#PWR1501-1522,C201,C301-307,C401,C701-704,C1001-1005,C1201,C1301-1317,C1401-1402,C1501-1520,H101-104,H401-402,FL701,Q201,Q1301-1303,R201-205,R301-321,R701-711,R1001-1003,R1201-1205,R1301-1316,R1401-1402,R1501-1505,S201,SOM201,SW201,TP201-206,TP301-307,TP701-705,TP1301-1302,TP1401,TP1501-1502,U201,U301-302,U701,U1001-1007,U1201-1202,U1301-1303,U1401-1402,U1501-1503,Y301,Y401,Y701",
     "variants": []
   },
   "sheets": [

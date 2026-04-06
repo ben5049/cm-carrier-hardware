@@ -409,16 +409,6 @@
 		)
 		(uuid "7b6541c4-f2c9-4c28-abae-051b157c6784")
 	)
-	(wire
-		(pts
-			(xy 139.7 129.54) (xy 165.1 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "820175d2-26eb-43ca-9077-debe97ca09ae")
-	)
 	(bus
 		(pts
 			(xy 190.5 132.08) (xy 215.9 132.08)
@@ -1483,16 +1473,6 @@
 				(justify right)
 			)
 		)
-		(pin "~{RST_5V}" input
-			(at 165.1 129.54 180)
-			(uuid "663b566a-4a1a-4b53-baba-1927ce62a670")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "~{PORT0_CLKREQ}" output
 			(at 165.1 114.3 180)
 			(uuid "efb70484-e9eb-4cbf-a45b-696c956ad8a0")
@@ -1667,16 +1647,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(pin "~{RST_5V}" output
-			(at 139.7 129.54 0)
-			(uuid "016f28ab-0032-4926-b6b8-f740631b64a4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(pin "I2C2{I2C}" bidirectional

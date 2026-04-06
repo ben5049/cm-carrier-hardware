@@ -2690,7 +2690,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e5d220c-dffd-4644-8e6a-54b5cb2dc503")
-		(property "Reference" "#PWR01505"
+		(property "Reference" "#PWR01512"
 			(at 132.08 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -2750,7 +2750,7 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/80b60915-5ccb-4842-b09a-a259b4f355b7"
-					(reference "#PWR01505")
+					(reference "#PWR01512")
 					(unit 1)
 				)
 			)
@@ -2768,7 +2768,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ce1154e-5073-4f52-9947-63fa2657c3db")
-		(property "Reference" "R1503"
+		(property "Reference" "R1505"
 			(at 231.14 106.68 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2863,7 +2863,7 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/80b60915-5ccb-4842-b09a-a259b4f355b7"
-					(reference "R1503")
+					(reference "R1505")
 					(unit 1)
 				)
 			)
@@ -2881,7 +2881,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "394e858c-b1e7-4ff1-822b-10d22818a558")
-		(property "Reference" "C1503"
+		(property "Reference" "C1507"
 			(at 134.62 128.2762 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2978,7 +2978,7 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/80b60915-5ccb-4842-b09a-a259b4f355b7"
-					(reference "C1503")
+					(reference "C1507")
 					(unit 1)
 				)
 			)
@@ -2996,7 +2996,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39ac6767-336b-4c81-b902-f3458cf055f0")
-		(property "Reference" "#PWR01506"
+		(property "Reference" "#PWR01513"
 			(at 132.08 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -3056,7 +3056,7 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/80b60915-5ccb-4842-b09a-a259b4f355b7"
-					(reference "#PWR01506")
+					(reference "#PWR01513")
 					(unit 1)
 				)
 			)
@@ -3254,7 +3254,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "666b90c2-75ea-4e34-8006-cd7975bf8d04")
-		(property "Reference" "C1508"
+		(property "Reference" "C1520"
 			(at 243.84 128.2762 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3351,7 +3351,7 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/80b60915-5ccb-4842-b09a-a259b4f355b7"
-					(reference "C1508")
+					(reference "C1520")
 					(unit 1)
 				)
 			)
@@ -3369,7 +3369,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7baecf94-2573-4082-9c76-da804aab38d8")
-		(property "Reference" "#PWR01512"
+		(property "Reference" "#PWR01521"
 			(at 241.3 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -3429,7 +3429,7 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/80b60915-5ccb-4842-b09a-a259b4f355b7"
-					(reference "#PWR01512")
+					(reference "#PWR01521")
 					(unit 1)
 				)
 			)
@@ -3447,7 +3447,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "866d8dd5-7fbe-40a4-bd39-7eda938e70ed")
-		(property "Reference" "#PWR01503"
+		(property "Reference" "#PWR01505"
 			(at 86.36 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -3507,7 +3507,7 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/80b60915-5ccb-4842-b09a-a259b4f355b7"
-					(reference "#PWR01503")
+					(reference "#PWR01505")
 					(unit 1)
 				)
 			)
@@ -3525,7 +3525,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9693ad3b-4124-441d-b1bb-187a00b604e2")
-		(property "Reference" "#PWR01509"
+		(property "Reference" "#PWR01518"
 			(at 195.58 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -3585,7 +3585,7 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/80b60915-5ccb-4842-b09a-a259b4f355b7"
-					(reference "#PWR01509")
+					(reference "#PWR01518")
 					(unit 1)
 				)
 			)
@@ -3783,7 +3783,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cdea66b5-17b7-4a43-9427-f49173c5841c")
-		(property "Reference" "#PWR01513"
+		(property "Reference" "#PWR01522"
 			(at 241.3 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -3843,7 +3843,7 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/80b60915-5ccb-4842-b09a-a259b4f355b7"
-					(reference "#PWR01513")
+					(reference "#PWR01522")
 					(unit 1)
 				)
 			)

@@ -3610,7 +3610,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ccdbca9-1233-4af1-92f1-84f424d3df2c")
-		(property "Reference" "#PWR0408"
+		(property "Reference" "#PWR0401"
 			(at 160.02 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -3670,7 +3670,7 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/1d5b5326-5e18-44b7-8507-f118df052f59"
-					(reference "#PWR0408")
+					(reference "#PWR0401")
 					(unit 1)
 				)
 			)
@@ -3688,7 +3688,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61f6731d-7e61-49ae-bc6f-afe3b8cabe10")
-		(property "Reference" "#PWR0401"
+		(property "Reference" "#PWR0404"
 			(at 215.9 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -3748,7 +3748,7 @@
 		(instances
 			(project "jabr-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/1d5b5326-5e18-44b7-8507-f118df052f59"
-					(reference "#PWR0401")
+					(reference "#PWR0404")
 					(unit 1)
 				)
 			)
