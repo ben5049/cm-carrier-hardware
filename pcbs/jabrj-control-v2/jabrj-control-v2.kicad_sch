@@ -719,7 +719,7 @@
 		(uuid "faaf6fc6-7b01-4861-9c62-c80d6cc73de9")
 	)
 	(no_connect
-		(at 144.78 193.04)
+		(at 152.4 193.04)
 		(uuid "fcd12dd6-e852-4116-9774-690d22f5a696")
 	)
 	(bus
@@ -2458,7 +2458,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 144.78 190.5 0)
+		(at 152.4 190.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2469,7 +2469,7 @@
 		(fields_autoplaced yes)
 		(uuid "9fda8472-93fe-444d-ab3b-827613d33fac")
 		(property "Reference" "H106"
-			(at 147.32 187.9599 0)
+			(at 154.94 187.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2480,7 +2480,7 @@
 			)
 		)
 		(property "Value" "M2.5"
-			(at 147.32 190.4999 0)
+			(at 154.94 190.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2491,7 +2491,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad"
-			(at 144.78 190.5 0)
+			(at 152.4 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2502,7 +2502,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 190.5 0)
+			(at 152.4 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2513,7 +2513,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 144.78 190.5 0)
+			(at 152.4 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2524,7 +2524,7 @@
 			)
 		)
 		(property "Field6" ""
-			(at 144.78 190.5 0)
+			(at 152.4 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2535,7 +2535,7 @@
 			)
 		)
 		(property "Field7" ""
-			(at 144.78 190.5 0)
+			(at 152.4 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2546,7 +2546,7 @@
 			)
 		)
 		(property "Part Description" ""
-			(at 144.78 190.5 0)
+			(at 152.4 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2557,7 +2557,7 @@
 			)
 		)
 		(property "Critical Parameter" ""
-			(at 144.78 190.5 0)
+			(at 152.4 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2568,7 +2568,7 @@
 			)
 		)
 		(property "IRP,40K (A)" ""
-			(at 144.78 190.5 0)
+			(at 152.4 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2579,7 +2579,7 @@
 			)
 		)
 		(property "ISAT,10% (A)" ""
-			(at 144.78 190.5 0)
+			(at 152.4 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2590,7 +2590,7 @@
 			)
 		)
 		(property "ISAT,30% (A)" ""
-			(at 144.78 190.5 0)
+			(at 152.4 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2601,7 +2601,7 @@
 			)
 		)
 		(property "L (µH)" ""
-			(at 144.78 190.5 0)
+			(at 152.4 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2612,7 +2612,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 144.78 190.5 0)
+			(at 152.4 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2623,7 +2623,7 @@
 			)
 		)
 		(property "Manufacturer URL" ""
-			(at 144.78 190.5 0)
+			(at 152.4 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2634,7 +2634,7 @@
 			)
 		)
 		(property "Match Code" ""
-			(at 144.78 190.5 0)
+			(at 152.4 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2645,7 +2645,7 @@
 			)
 		)
 		(property "Mounting Technology" ""
-			(at 144.78 190.5 0)
+			(at 152.4 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2656,7 +2656,7 @@
 			)
 		)
 		(property "Part Number" ""
-			(at 144.78 190.5 0)
+			(at 152.4 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2667,7 +2667,7 @@
 			)
 		)
 		(property "Published Date" ""
-			(at 144.78 190.5 0)
+			(at 152.4 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2678,7 +2678,7 @@
 			)
 		)
 		(property "RDC max. (mΩ)" ""
-			(at 144.78 190.5 0)
+			(at 152.4 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2689,7 +2689,7 @@
 			)
 		)
 		(property "RDC typ. (mΩ)" ""
-			(at 144.78 190.5 0)
+			(at 152.4 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2700,7 +2700,7 @@
 			)
 		)
 		(property "Size" ""
-			(at 144.78 190.5 0)
+			(at 152.4 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2711,7 +2711,7 @@
 			)
 		)
 		(property "Type/Size" ""
-			(at 144.78 190.5 0)
+			(at 152.4 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2722,7 +2722,7 @@
 			)
 		)
 		(property "VOP (V)" ""
-			(at 144.78 190.5 0)
+			(at 152.4 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2733,7 +2733,7 @@
 			)
 		)
 		(property "fres (MHz)" ""
-			(at 144.78 190.5 0)
+			(at 152.4 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

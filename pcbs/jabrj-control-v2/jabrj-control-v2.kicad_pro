@@ -1304,10 +1304,10 @@
           "show": false
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Voltage",
           "name": "Voltage",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -1346,7 +1346,7 @@
           "show": false
         }
       ],
-      "filter_string": "c",
+      "filter_string": "r",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",

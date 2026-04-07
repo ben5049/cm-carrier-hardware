@@ -15753,7 +15753,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "project_footprints:C_0805"
+		(property "Footprint" "project_footprints:C_0603"
 			(at 101.6 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -20511,7 +20511,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "project_footprints:C_0402"
+		(property "Footprint" "project_footprints:C_0603"
 			(at 114.3 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -20544,7 +20544,7 @@
 				)
 			)
 		)
-		(property "Voltage" "35V"
+		(property "Voltage" "100V"
 			(at 116.84 55.8738 0)
 			(show_name no)
 			(do_not_autoplace no)
