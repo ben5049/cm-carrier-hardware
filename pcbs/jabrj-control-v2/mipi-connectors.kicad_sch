@@ -2659,7 +2659,7 @@
 		)
 		(uuid "d64638b7-938d-4bd6-a036-43220ff9a66b")
 	)
-	(label "~{MIPI1_RST}"
+	(label "MIPI1_PWR_EN"
 		(at 175.26 111.76 0)
 		(effects
 			(font

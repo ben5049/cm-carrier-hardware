@@ -6939,7 +6939,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "project_footprints:C_0402"
 			(at 228.6 109.22 90)
 			(hide yes)
 			(show_name no)
@@ -18438,7 +18438,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "project_footprints:C_0402"
 			(at 254 109.22 90)
 			(hide yes)
 			(show_name no)
