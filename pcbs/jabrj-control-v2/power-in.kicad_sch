@@ -1209,7 +1209,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SURGE:TVS3301DRBR"
+		(symbol "SURGE:TVS2701DRBR"
 			(pin_names
 				(hide yes)
 			)
@@ -1228,7 +1228,7 @@
 					)
 				)
 			)
-			(property "Value" "TVS3301DRBR"
+			(property "Value" "TVS2701DRBR"
 				(at 17.78 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1250,7 +1250,7 @@
 					(justify left top)
 				)
 			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tvs3301.pdf"
+			(property "Datasheet" "http://www.ti.com/lit/ds/slvseq5a/slvseq5a.pdf"
 				(at 26.67 -194.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1273,7 +1273,67 @@
 					)
 				)
 			)
-			(symbol "TVS3301DRBR_0_0"
+			(property "Height" "1"
+				(at 26.67 -394.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "595-TVS2701DRBR"
+				(at 26.67 -494.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TVS2701DRBR?qs=byeeYqUIh0OuvTYsaTi%252BEg%3D%3D"
+				(at 26.67 -594.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Texas Instruments"
+				(at 26.67 -694.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "TVS2701DRBR"
+				(at 26.67 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "TVS2701DRBR_0_0"
 				(rectangle
 					(start -6.35 -2.54)
 					(end 0 -7.62)
@@ -1338,7 +1398,7 @@
 					)
 				)
 			)
-			(symbol "TVS3301DRBR_0_1"
+			(symbol "TVS2701DRBR_0_1"
 				(rectangle
 					(start -6.985 0)
 					(end 7.62 -10.16)
@@ -1458,8 +1518,8 @@
 					)
 				)
 			)
-			(symbol "TVS3301DRBR_1_1"
-				(pin input line
+			(symbol "TVS2701DRBR_1_1"
+				(pin passive line
 					(at 5.08 2.54 270)
 					(length 2.54)
 					(hide yes)
@@ -1478,7 +1538,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 5.08 2.54 270)
 					(length 2.54)
 					(hide yes)
@@ -1497,7 +1557,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 5.08 2.54 270)
 					(length 2.54)
 					(hide yes)
@@ -1516,7 +1576,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 5.08 2.54 270)
 					(length 2.54)
 					(name "IN"
@@ -4399,7 +4459,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SURGE:TVS3301DRBR")
+		(lib_id "SURGE:TVS2701DRBR")
 		(at 116.84 81.28 0)
 		(unit 1)
 		(body_style 1)
@@ -4421,7 +4481,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TVS3301DRBR"
+		(property "Value" "TVS2701DRBR"
 			(at 125.73 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4444,7 +4504,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tvs3301.pdf"
+		(property "Datasheet" "http://www.ti.com/lit/ds/slvseq5a/slvseq5a.pdf"
 			(at 143.51 276.2 0)
 			(hide yes)
 			(show_name no)
@@ -4467,8 +4527,8 @@
 				)
 			)
 		)
-		(property "Field6" ""
-			(at 116.84 81.28 0)
+		(property "Height" "1"
+			(at 143.51 476.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4476,10 +4536,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Field7" ""
-			(at 116.84 81.28 0)
+		(property "Mouser Part Number" "595-TVS2701DRBR"
+			(at 143.51 576.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4487,10 +4548,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Part Description" ""
-			(at 116.84 81.28 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TVS2701DRBR?qs=byeeYqUIh0OuvTYsaTi%252BEg%3D%3D"
+			(at 143.51 676.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4498,10 +4560,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Critical Parameter" ""
-			(at 116.84 81.28 0)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 143.51 776.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4509,10 +4572,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "IRP,40K (A)" ""
-			(at 116.84 81.28 0)
+		(property "Manufacturer_Part_Number" "TVS2701DRBR"
+			(at 143.51 876.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4520,171 +4584,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "ISAT,10% (A)" ""
-			(at 116.84 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ISAT,30% (A)" ""
-			(at 116.84 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "L (µH)" ""
-			(at 116.84 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 116.84 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer URL" ""
-			(at 116.84 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Match Code" ""
-			(at 116.84 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mounting Technology" ""
-			(at 116.84 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" ""
-			(at 116.84 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Published Date" ""
-			(at 116.84 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "RDC max. (mΩ)" ""
-			(at 116.84 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "RDC typ. (mΩ)" ""
-			(at 116.84 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Size" ""
-			(at 116.84 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Type/Size" ""
-			(at 116.84 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VOP (V)" ""
-			(at 116.84 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "fres (MHz)" ""
-			(at 116.84 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(justify left top)
 			)
 		)
 		(pin "9"

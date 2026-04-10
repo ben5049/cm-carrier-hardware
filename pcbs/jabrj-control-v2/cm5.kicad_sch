@@ -7429,6 +7429,26 @@
 		)
 		(uuid "ae0501a9-3d8c-4c8c-99f0-3969ead0f24e")
 	)
+	(text_box "CM5 PCIe can be either gen 2 (100Ω) or gen 3 (85Ω) so route at 90Ω as recommended by Raspberry Pi."
+		(exclude_from_sim no)
+		(at 40.64 195.58 0)
+		(size 27.94 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "b30ff1b6-68c8-48bb-8c18-020361244094")
+	)
 	(text_box "Pullup for fans with weak internal pullup."
 		(exclude_from_sim no)
 		(at 210.82 259.08 0)
@@ -13357,7 +13377,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 73.66 190.5 0)
+		(at 203.2 157.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13365,9 +13385,9 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "025b943c-b5cb-466b-a916-5d911a13304c")
-		(property "Net Class" "PCIe"
-			(at 74.3585 187.96 0)
+		(uuid "26d4faae-1e7f-4e48-9c49-e57a0b714ec6")
+		(property "Net Class" "MIPI"
+			(at 203.8985 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13378,7 +13398,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 27.94 83.82 0)
+			(at -73.66 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13497,6 +13517,41 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
+		(at 73.66 190.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b49d85ce-3247-479d-aef0-0e3b955b28d0")
+		(property "Net Class" "PCIe (90Ω)"
+			(at 74.3585 187.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -86.36 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
 		(at 175.26 60.96 0)
 		(fields_autoplaced yes)
 		(effects
@@ -13519,6 +13574,41 @@
 		)
 		(property "Component Class" ""
 			(at 129.54 -45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 203.2 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f06d6f7b-1464-4c66-bec7-a5abf0cc306e")
+		(property "Net Class" "MIPI"
+			(at 203.8985 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -73.66 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

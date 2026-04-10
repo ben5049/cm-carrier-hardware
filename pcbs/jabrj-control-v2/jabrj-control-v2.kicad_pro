@@ -50,7 +50,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -142,10 +142,10 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.15,
+        "min_through_hole_diameter": 0.3,
         "min_track_width": 0.1,
-        "min_via_annular_width": 0.075,
-        "min_via_diameter": 0.15,
+        "min_via_annular_width": 0.05,
+        "min_via_diameter": 0.3,
         "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
@@ -240,6 +240,10 @@
         {
           "diameter": 0.35,
           "drill": 0.2
+        },
+        {
+          "diameter": 0.4,
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false
@@ -538,7 +542,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -567,12 +571,12 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.11,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
-        "microvia_diameter": 0.108,
+        "microvia_diameter": 0.15,
         "microvia_drill": 0.15,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
@@ -580,66 +584,112 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
         "tuning_profile": "",
-        "via_diameter": 0.35,
-        "via_drill": 0.2,
+        "via_diameter": 0.4,
+        "via_drill": 0.3,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 0.11,
+        "clearance": 0.12,
         "diff_pair_gap": 0.15,
         "diff_pair_width": 0.108,
         "line_style": 0,
         "name": "MDI",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.108,
         "tuning_profile": "",
+        "via_diameter": 0.4,
+        "via_drill": 0.3,
         "wire_width": 6
       },
       {
         "bus_width": 12,
+        "clearance": 0.12,
+        "diff_pair_gap": 0.15,
+        "diff_pair_width": 0.108,
         "line_style": 0,
-        "name": "PCIe",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": "",
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "line_style": 0,
-        "name": "USB2",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": "",
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "line_style": 0,
-        "name": "USB3",
+        "name": "MIPI",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "tuning_profile": "",
+        "via_diameter": 0.4,
+        "via_drill": 0.3,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 0.11,
+        "clearance": 0.12,
+        "diff_pair_gap": 0.15,
+        "diff_pair_width": 0.161,
         "line_style": 0,
-        "name": "xMII",
+        "name": "PCIe (85Ω)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": "",
+        "via_diameter": 0.4,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.12,
+        "diff_pair_gap": 0.15,
+        "diff_pair_width": 0.141,
+        "line_style": 0,
+        "name": "PCIe (90Ω)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": "",
+        "via_diameter": 0.4,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.12,
+        "diff_pair_gap": 0.15,
+        "diff_pair_width": 0.141,
+        "line_style": 0,
+        "name": "USB2",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": "",
+        "via_diameter": 0.4,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.12,
+        "diff_pair_gap": 0.15,
+        "diff_pair_width": 0.141,
+        "line_style": 0,
+        "name": "USB3",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": "",
+        "via_diameter": 0.4,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.12,
+        "line_style": 0,
+        "name": "xMII",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 6,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1565,
         "tuning_profile": "",
-        "via_diameter": 0.35,
-        "via_drill": 0.2,
+        "via_diameter": 0.4,
+        "via_drill": 0.3,
         "wire_width": 6
       }
     ],
@@ -730,10 +780,10 @@
         "xMII"
       ],
       "/CM5/CLK_N": [
-        "PCIe"
+        "PCIe (90Ω)"
       ],
       "/CM5/CLK_P": [
-        "PCIe"
+        "PCIe (90Ω)"
       ],
       "/CM5/DN": [
         "USB2"
@@ -771,17 +821,83 @@
       "/CM5/ETH{MDI}": [
         "MDI"
       ],
+      "/CM5/MIPI0.CLK_N": [
+        "MIPI"
+      ],
+      "/CM5/MIPI0.CLK_P": [
+        "MIPI"
+      ],
+      "/CM5/MIPI0.D0_N": [
+        "MIPI"
+      ],
+      "/CM5/MIPI0.D0_P": [
+        "MIPI"
+      ],
+      "/CM5/MIPI0.D1_N": [
+        "MIPI"
+      ],
+      "/CM5/MIPI0.D1_P": [
+        "MIPI"
+      ],
+      "/CM5/MIPI0.D2_N": [
+        "MIPI"
+      ],
+      "/CM5/MIPI0.D2_P": [
+        "MIPI"
+      ],
+      "/CM5/MIPI0.D3_N": [
+        "MIPI"
+      ],
+      "/CM5/MIPI0.D3_P": [
+        "MIPI"
+      ],
+      "/CM5/MIPI0{MIPI}": [
+        "MIPI"
+      ],
+      "/CM5/MIPI1.CLK_N": [
+        "MIPI"
+      ],
+      "/CM5/MIPI1.CLK_P": [
+        "MIPI"
+      ],
+      "/CM5/MIPI1.D0_N": [
+        "MIPI"
+      ],
+      "/CM5/MIPI1.D0_P": [
+        "MIPI"
+      ],
+      "/CM5/MIPI1.D1_N": [
+        "MIPI"
+      ],
+      "/CM5/MIPI1.D1_P": [
+        "MIPI"
+      ],
+      "/CM5/MIPI1.D2_N": [
+        "MIPI"
+      ],
+      "/CM5/MIPI1.D2_P": [
+        "MIPI"
+      ],
+      "/CM5/MIPI1.D3_N": [
+        "MIPI"
+      ],
+      "/CM5/MIPI1.D3_P": [
+        "MIPI"
+      ],
+      "/CM5/MIPI1{MIPI}": [
+        "MIPI"
+      ],
       "/CM5/RX_N": [
-        "PCIe"
+        "PCIe (90Ω)"
       ],
       "/CM5/RX_P": [
-        "PCIe"
+        "PCIe (90Ω)"
       ],
       "/CM5/TX_N": [
-        "PCIe"
+        "PCIe (90Ω)"
       ],
       "/CM5/TX_P": [
-        "PCIe"
+        "PCIe (90Ω)"
       ],
       "/CM5/USB2_DEV.CC1": [
         "USB2"
@@ -850,28 +966,28 @@
         "USB3"
       ],
       "/CM5/{PCIE}": [
-        "PCIe"
+        "PCIe (90Ω)"
       ],
       "/M.2 E-Key/CLK_N": [
-        "PCIe"
+        "PCIe (85Ω)"
       ],
       "/M.2 E-Key/CLK_P": [
-        "PCIe"
+        "PCIe (85Ω)"
       ],
       "/M.2 E-Key/RX_N": [
-        "PCIe"
+        "PCIe (85Ω)"
       ],
       "/M.2 E-Key/RX_P": [
-        "PCIe"
+        "PCIe (85Ω)"
       ],
       "/M.2 E-Key/TX_N": [
-        "PCIe"
+        "PCIe (85Ω)"
       ],
       "/M.2 E-Key/TX_P": [
-        "PCIe"
+        "PCIe (85Ω)"
       ],
       "/M.2 E-Key/{PCIE}": [
-        "PCIe"
+        "PCIe (85Ω)"
       ],
       "/PCIe Switch/OSC_IN": [
         "50Ω"
@@ -879,17 +995,23 @@
       "/PCIe Switch/OSC_OUT": [
         "50Ω"
       ],
+      "/PCIe Switch/P0_CLK_N": [
+        "PCIe (85Ω)"
+      ],
+      "/PCIe Switch/P0_CLK_P": [
+        "PCIe (85Ω)"
+      ],
       "/PCIe Switch/P0_TXN": [
-        "PCIe"
+        "PCIe (90Ω)"
       ],
       "/PCIe Switch/P0_TXP": [
-        "PCIe"
+        "PCIe (90Ω)"
       ],
       "/PCIe Switch/P1_TXN": [
-        "PCIe"
+        "PCIe (85Ω)"
       ],
       "/PCIe Switch/P1_TXP": [
-        "PCIe"
+        "PCIe (85Ω)"
       ],
       "/PCIe Switch/RX_CLK": [
         "xMII"
@@ -912,19 +1034,37 @@
       "/PCIe Switch/TX_CLK": [
         "xMII"
       ],
+      "/PCIe Switch/TX_CLK_R": [
+        "xMII"
+      ],
       "/PCIe Switch/TX_CTL": [
+        "xMII"
+      ],
+      "/PCIe Switch/TX_CT_R": [
         "xMII"
       ],
       "/PCIe Switch/TX_D0": [
         "xMII"
       ],
+      "/PCIe Switch/TX_D0_R": [
+        "xMII"
+      ],
       "/PCIe Switch/TX_D1": [
+        "xMII"
+      ],
+      "/PCIe Switch/TX_D1_R": [
         "xMII"
       ],
       "/PCIe Switch/TX_D2": [
         "xMII"
       ],
+      "/PCIe Switch/TX_D2_R": [
+        "xMII"
+      ],
       "/PCIe Switch/TX_D3": [
+        "xMII"
+      ],
+      "/PCIe Switch/TX_D3_R": [
         "xMII"
       ],
       "/PCIe Switch/{RGMII}": [
@@ -1358,7 +1498,7 @@
           "show": false
         }
       ],
-      "filter_string": "r",
+      "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
@@ -1523,7 +1663,7 @@
         "uuid": "f91ec272-d09a-4038-bbbb-962739a92c51"
       }
     ],
-    "used_designators": "TP702-703,TP705,#PWR714",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

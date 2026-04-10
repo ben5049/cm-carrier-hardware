@@ -1459,6 +1459,16 @@
 		)
 		(uuid "010ef804-833d-40cc-a2e5-e21b3be89f3c")
 	)
+	(bus
+		(pts
+			(xy 88.9 71.12) (xy 88.9 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "026ea98a-aa55-4e07-a46a-80d347695550")
+	)
 	(wire
 		(pts
 			(xy 60.96 104.14) (xy 86.36 104.14)
@@ -1478,16 +1488,6 @@
 			(type default)
 		)
 		(uuid "035a146c-bef8-4e57-b47d-f0424607fcd3")
-	)
-	(bus
-		(pts
-			(xy 88.9 71.12) (xy 88.9 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05c93747-f218-4e32-9efb-a9d0fd86c9a1")
 	)
 	(bus
 		(pts
@@ -2329,6 +2329,16 @@
 		)
 		(uuid "e44d74a8-9fb6-4c13-a7f7-1c5f551eef93")
 	)
+	(bus
+		(pts
+			(xy 88.9 71.12) (xy 91.44 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e464e90c-1227-44b0-ab60-3ce6da1987b4")
+	)
 	(wire
 		(pts
 			(xy 215.9 119.38) (xy 231.14 119.38)
@@ -2368,16 +2378,6 @@
 			(type default)
 		)
 		(uuid "ecbb7fef-7cc1-4e93-9f1d-469ce652af6c")
-	)
-	(bus
-		(pts
-			(xy 91.44 71.12) (xy 88.9 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0794530-7e42-4803-876b-45dec68d2b99")
 	)
 	(wire
 		(pts
@@ -2773,6 +2773,76 @@
 			(justify left)
 		)
 		(uuid "e09a57bb-cd88-42e1-a542-595ade0d41e9")
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 198.12 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9e786bfb-4404-4b69-b983-1335ecd466fb")
+		(property "Net Class" "MIPI"
+			(at 198.8185 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -78.74 -25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 88.9 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fcd4ca51-846f-49ac-8410-4fffdc98d663")
+		(property "Net Class" "MIPI"
+			(at 89.5985 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -187.96 -25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+3V3")

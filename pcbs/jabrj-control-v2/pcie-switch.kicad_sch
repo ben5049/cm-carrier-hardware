@@ -6520,9 +6520,29 @@
 		)
 		(uuid "eb8ee0fa-feab-428a-be4c-d4e0cd45828f")
 	)
+	(text_box "P/N swapping to ease routing"
+		(exclude_from_sim no)
+		(at 114.3 121.0071 0)
+		(size 17.78 5.9929)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1d6866b2-1d01-493d-ad31-182ef57eb0fc")
+	)
 	(text_box "The output from the buffer is LP HSCL which is internally terminated meaning no external termination components are required."
 		(exclude_from_sim no)
-		(at 134.62 46.7886 0)
+		(at 137.16 45.72 0)
 		(size 27.94 14.1714)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -6559,6 +6579,26 @@
 			(justify left)
 		)
 		(uuid "5cf7cc3b-911b-461a-8fea-0850e9a4dbb9")
+	)
+	(text_box "P/N swapping to ease routing"
+		(exclude_from_sim no)
+		(at 114.3 45.72 0)
+		(size 17.78 5.9929)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9d1a0e7d-c2f9-4b24-812a-9bf21ed73959")
 	)
 	(text_box "ADDR=0xA0"
 		(exclude_from_sim no)
@@ -6682,6 +6722,12 @@
 		(uuid "095f970c-dc5b-42bd-8b45-ae21c0681f84")
 	)
 	(junction
+		(at 124.46 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1574765a-ccb3-4a32-9625-beee8b89552d")
+	)
+	(junction
 		(at 241.3 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6746,12 +6792,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2c06bc6c-8169-43a6-8ec6-6bd5acc0d72c")
-	)
-	(junction
-		(at 104.14 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2c389a87-4dec-43d3-920c-a642871f72a7")
 	)
 	(junction
 		(at 297.18 160.02)
@@ -10389,16 +10429,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 147.32) (xy 114.3 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "844c1739-223d-4544-a095-ed0b5a63bf51")
-	)
-	(wire
-		(pts
 			(xy 347.98 175.26) (xy 347.98 180.34)
 		)
 		(stroke
@@ -11549,16 +11579,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 147.32) (xy 104.14 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bda73b1f-9b63-4619-921c-1cf2ffa295aa")
-	)
-	(wire
-		(pts
 			(xy 373.38 134.62) (xy 375.92 134.62)
 		)
 		(stroke
@@ -11869,7 +11889,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 144.78) (xy 104.14 147.32)
+			(xy 124.46 144.78) (xy 124.46 147.32)
 		)
 		(stroke
 			(width 0)
@@ -11926,6 +11946,16 @@
 			(type default)
 		)
 		(uuid "d1873110-8655-472b-91d2-84948b7405c2")
+	)
+	(wire
+		(pts
+			(xy 104.14 147.32) (xy 124.46 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1c1dfa3-717b-4c6d-97da-0f967b401491")
 	)
 	(wire
 		(pts
@@ -12778,7 +12808,7 @@
 		(uuid "06c2f310-d081-42d2-89c9-f9c00d830053")
 	)
 	(label "PORT1.RX_P"
-		(at 63.5 137.16 0)
+		(at 63.5 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12918,7 +12948,7 @@
 		(uuid "3e0a7b76-df49-418b-9113-613aff8771ca")
 	)
 	(label "PORT1.RX_N"
-		(at 63.5 139.7 0)
+		(at 63.5 137.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12978,7 +13008,7 @@
 		(uuid "47e8a119-b68c-4c63-809e-cb241becbee6")
 	)
 	(label "P1_TXN"
-		(at 134.62 132.08 0)
+		(at 134.62 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13058,7 +13088,7 @@
 		(uuid "71b47370-28f4-4e4f-95f5-e2ae20cf6b35")
 	)
 	(label "PORT1.TX_N"
-		(at 63.5 132.08 0)
+		(at 63.5 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13088,7 +13118,7 @@
 		(uuid "74b79f82-57fd-4f2d-bfa3-e19c1e62b6f4")
 	)
 	(label "PORT1.TX_P"
-		(at 63.5 129.54 0)
+		(at 63.5 132.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13108,7 +13138,7 @@
 		(uuid "803aa340-dcb6-414c-bcc6-68c04120bf3c")
 	)
 	(label "P1_TXP"
-		(at 134.62 129.54 0)
+		(at 134.62 132.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13298,7 +13328,7 @@
 		(uuid "c5cd2822-86b3-4a45-ab8f-25d0aea93a5a")
 	)
 	(label "PORT1.CLK_N"
-		(at 129.54 60.96 180)
+		(at 129.54 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13348,7 +13378,7 @@
 		(uuid "e11fafdd-b08d-4964-810c-10bae596e69e")
 	)
 	(label "PORT1.CLK_P"
-		(at 129.54 58.42 180)
+		(at 129.54 60.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13613,7 +13643,7 @@
 		(dnp no)
 		(polyline
 			(pts
-				(xy 109.22 127) (xy 111.76 127) (xy 111.76 134.62) (xy 109.22 134.62)
+				(xy 88.9 124.46) (xy 109.22 124.46) (xy 109.22 142.24) (xy 88.9 142.24)
 			)
 			(stroke
 				(width 0)
@@ -13632,7 +13662,26 @@
 		(dnp no)
 		(polyline
 			(pts
-				(xy 109.22 91.44) (xy 111.76 91.44) (xy 111.76 99.06) (xy 109.22 99.06)
+				(xy 116.84 66.04) (xy 119.38 66.04) (xy 119.38 73.66) (xy 116.84 73.66)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "0d920c7e-8cae-4d8a-a1a3-38f271694eca")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 88.9 88.9) (xy 109.22 88.9) (xy 109.22 106.68) (xy 88.9 106.68)
 			)
 			(stroke
 				(width 0)
@@ -13644,39 +13693,23 @@
 			(uuid "25635656-0fc1-4879-bfa1-5b763d1118cd")
 		)
 	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 58.42 76.2 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 196.85 113.665) (xy 208.28 113.665) (xy 208.28 130.81) (xy 196.85 130.81)
 			)
-			(justify left bottom)
-		)
-		(uuid "0d5493cd-10b7-4a3d-ba0d-6662bd6039f3")
-		(property "Net Class" "PCIe"
-			(at 59.1185 73.66 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
+			(stroke
+				(width 0)
+				(type dash)
 			)
-		)
-		(property "Component Class" ""
-			(at 58.42 66.04 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
+			(fill
+				(type none)
 			)
+			(uuid "94c190d7-7897-433d-86bf-bd4a3376fa05")
 		)
 	)
 	(netclass_flag ""
@@ -13690,8 +13723,8 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "7f25efee-0148-48ae-97c7-610f4978d813")
-		(property "Net Class" "PCIe"
+		(uuid "1c08d3a7-7725-4e71-b297-9b995e97a81f")
+		(property "Net Class" "PCIe (85Ω)"
 			(at 59.1185 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13703,7 +13736,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 58.42 109.22 0)
+			(at -111.76 208.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13717,17 +13750,17 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 109.22 127 0)
+		(at 88.9 142.24 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "8c3bef5f-f080-46cc-be84-3ee6339d0bed")
-		(property "Net Class" "PCIe"
-			(at 109.9185 124.46 0)
+		(uuid "2e96dd46-bdaf-468d-a8a7-921f78df8c4f")
+		(property "Net Class" "PCIe (85Ω)"
+			(at 89.5985 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13738,7 +13771,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 109.22 116.84 0)
+			(at -81.28 231.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13752,17 +13785,17 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 109.22 91.44 0)
+		(at 88.9 106.68 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "cedf09cc-46e1-4501-8782-29695ac26208")
-		(property "Net Class" "PCIe"
-			(at 109.9185 88.9 0)
+		(uuid "30f8d1b7-ddf9-4c30-adb3-2f1aae8c888e")
+		(property "Net Class" "PCIe (90Ω)"
+			(at 89.5985 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13773,7 +13806,113 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 109.22 81.28 0)
+			(at -71.12 205.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 208.28 130.81 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3b0accc7-30e1-4850-8f0e-db7cb2986357")
+		(property "Net Class" "xMII"
+			(at 208.9785 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -210.82 173.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 58.42 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8d191d32-1154-4f13-97d3-13dae844951b")
+		(property "Net Class" "PCIe (90Ω)"
+			(at 59.1185 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -71.12 10.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 116.84 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f9c574c4-52a5-405d-a269-ae178dbe89fd")
+		(property "Net Class" "PCIe (85Ω)"
+			(at 117.5385 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -53.34 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38326,7 +38465,7 @@
 	)
 	(symbol
 		(lib_id "PWR-SYM:+3V3_PCIE")
-		(at 104.14 144.78 0)
+		(at 124.46 144.78 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -38336,7 +38475,7 @@
 		(dnp no)
 		(uuid "c59791ed-b12d-4848-a481-3b966bdf0ade")
 		(property "Reference" "#PWR01009"
-			(at 104.14 148.59 0)
+			(at 124.46 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38347,7 +38486,7 @@
 			)
 		)
 		(property "Value" "+3V3_PCIE"
-			(at 104.14 140.97 0)
+			(at 124.46 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38357,7 +38496,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 144.78 0)
+			(at 124.46 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38368,7 +38507,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 144.78 0)
+			(at 124.46 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38379,7 +38518,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3_PCIE\""
-			(at 104.14 144.78 0)
+			(at 124.46 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
