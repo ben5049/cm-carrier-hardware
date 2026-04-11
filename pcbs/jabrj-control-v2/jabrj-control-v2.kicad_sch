@@ -620,7 +620,7 @@
 	)
 	(text "Can be broken off\nif IO isn't needed"
 		(exclude_from_sim no)
-		(at 58.42 78.74 0)
+		(at 58.42 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -744,7 +744,7 @@
 	)
 	(bus
 		(pts
-			(xy 96.52 43.18) (xy 121.92 43.18)
+			(xy 96.52 45.72) (xy 121.92 45.72)
 		)
 		(stroke
 			(width 0)
@@ -834,7 +834,7 @@
 	)
 	(bus
 		(pts
-			(xy 147.32 38.1) (xy 223.52 38.1)
+			(xy 147.32 33.02) (xy 223.52 33.02)
 		)
 		(stroke
 			(width 0)
@@ -904,7 +904,7 @@
 	)
 	(polyline
 		(pts
-			(xy 66.04 99.06) (xy 101.6 99.06)
+			(xy 66.04 96.52) (xy 101.6 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1184,7 +1184,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 111.76) (xy 121.92 111.76)
+			(xy 96.52 109.22) (xy 121.92 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1194,7 +1194,7 @@
 	)
 	(bus
 		(pts
-			(xy 96.52 33.02) (xy 121.92 33.02)
+			(xy 96.52 27.94) (xy 121.92 27.94)
 		)
 		(stroke
 			(width 0)
@@ -1254,7 +1254,7 @@
 	)
 	(bus
 		(pts
-			(xy 96.52 45.72) (xy 121.92 45.72)
+			(xy 96.52 48.26) (xy 121.92 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1274,7 +1274,7 @@
 	)
 	(polyline
 		(pts
-			(xy 66.04 55.88) (xy 101.6 55.88)
+			(xy 66.04 58.42) (xy 101.6 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1334,7 +1334,7 @@
 	)
 	(bus
 		(pts
-			(xy 96.52 30.48) (xy 121.92 30.48)
+			(xy 96.52 40.64) (xy 121.92 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1404,7 +1404,7 @@
 	)
 	(bus
 		(pts
-			(xy 96.52 27.94) (xy 121.92 27.94)
+			(xy 96.52 38.1) (xy 121.92 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1634,7 +1634,7 @@
 	)
 	(bus
 		(pts
-			(xy 147.32 106.68) (xy 172.72 106.68)
+			(xy 147.32 104.14) (xy 172.72 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1654,7 +1654,7 @@
 	)
 	(polyline
 		(pts
-			(xy 101.6 55.88) (xy 101.6 99.06)
+			(xy 101.6 58.42) (xy 101.6 96.52)
 		)
 		(stroke
 			(width 0)
@@ -4491,7 +4491,7 @@
 			)
 		)
 		(pin "{USB}" bidirectional
-			(at 223.52 38.1 180)
+			(at 223.52 33.02 180)
 			(uuid "4f6d0dfd-fa54-412e-b6aa-15bf46972153")
 			(effects
 				(font
@@ -4539,8 +4539,8 @@
 		)
 	)
 	(sheet
-		(at 71.12 106.68)
-		(size 25.4 33.02)
+		(at 71.12 104.14)
+		(size 25.4 35.56)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4555,7 +4555,7 @@
 		)
 		(uuid "3f551047-3bb0-4f63-99e0-34fd9061d844")
 		(property "Sheetname" "Power"
-			(at 71.12 105.9684 0)
+			(at 71.12 103.4284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4597,7 +4597,7 @@
 			)
 		)
 		(pin "PCIE_PWR_EN" input
-			(at 96.52 111.76 0)
+			(at 96.52 109.22 0)
 			(uuid "1fcc243a-8efc-48d3-9245-74b70dd629cb")
 			(effects
 				(font
@@ -4673,7 +4673,7 @@
 			)
 		)
 		(pin "SMB{I2C}" bidirectional
-			(at 172.72 106.68 180)
+			(at 172.72 104.14 180)
 			(uuid "fa452d8a-ea56-4096-b52a-2c0b27805580")
 			(effects
 				(font
@@ -4919,7 +4919,7 @@
 			)
 		)
 		(pin "PCIE_PWR_EN" output
-			(at 121.92 111.76 180)
+			(at 121.92 109.22 180)
 			(uuid "905c75a8-4708-47ec-b4f2-84c9ad8fc59d")
 			(effects
 				(font
@@ -4969,7 +4969,7 @@
 			)
 		)
 		(pin "I2C2{I2C}" bidirectional
-			(at 147.32 106.68 0)
+			(at 147.32 104.14 0)
 			(uuid "2904eb0a-41b9-49e9-ba18-d48d6dfcc5e5")
 			(effects
 				(font
@@ -4989,7 +4989,7 @@
 			)
 		)
 		(pin "USB2_HOST{USB}" bidirectional
-			(at 147.32 38.1 0)
+			(at 147.32 33.02 0)
 			(uuid "b3235b0d-3bda-4f34-aff2-ed5c31e7550f")
 			(effects
 				(font
@@ -4998,18 +4998,8 @@
 				(justify right)
 			)
 		)
-		(pin "CAM_GPIO[0..1]" bidirectional
-			(at 121.92 33.02 180)
-			(uuid "e865b974-3f72-4e84-a404-2c177497b4bc")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "MIPI0{MIPI}" bidirectional
-			(at 121.92 27.94 180)
+			(at 121.92 38.1 180)
 			(uuid "db425bb4-bdaf-44d0-8485-b37df68c35f9")
 			(effects
 				(font
@@ -5019,7 +5009,7 @@
 			)
 		)
 		(pin "MIPI1{MIPI}" bidirectional
-			(at 121.92 43.18 180)
+			(at 121.92 45.72 180)
 			(uuid "402e6275-1554-491d-bebd-acc04f716596")
 			(effects
 				(font
@@ -5049,7 +5039,7 @@
 			)
 		)
 		(pin "MIPI0{I2C}" bidirectional
-			(at 121.92 30.48 180)
+			(at 121.92 40.64 180)
 			(uuid "44138993-0de0-4e6b-9987-52deed8b427e")
 			(effects
 				(font
@@ -5059,7 +5049,7 @@
 			)
 		)
 		(pin "MIPI1{I2C}" bidirectional
-			(at 121.92 45.72 180)
+			(at 121.92 48.26 180)
 			(uuid "7c4a9888-84ef-4a5a-aca1-0aedc41f0aff")
 			(effects
 				(font
@@ -5086,6 +5076,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "CAM_GPIO[0..1]" bidirectional
+			(at 121.92 27.94 180)
+			(uuid "6885e90e-432c-47c3-830c-0b1ab8b6a131")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -5214,7 +5214,7 @@
 	)
 	(sheet
 		(at 71.12 25.4)
-		(size 25.4 22.86)
+		(size 25.4 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5240,7 +5240,7 @@
 			)
 		)
 		(property "Sheetfile" "mipi-connectors.kicad_sch"
-			(at 71.12 48.8446 0)
+			(at 71.12 51.3846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5250,18 +5250,8 @@
 				(justify left top)
 			)
 		)
-		(pin "CAM_GPIO[0..1]" bidirectional
-			(at 96.52 33.02 0)
-			(uuid "22ffb185-d73c-4e98-a275-84c67ee373d9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "MIPI0{MIPI}" bidirectional
-			(at 96.52 27.94 0)
+			(at 96.52 38.1 0)
 			(uuid "871a862a-f5a8-46c1-876d-37cfeab82c53")
 			(effects
 				(font
@@ -5271,7 +5261,7 @@
 			)
 		)
 		(pin "MIPI1{MIPI}" bidirectional
-			(at 96.52 43.18 0)
+			(at 96.52 45.72 0)
 			(uuid "d326750b-2a18-4ac3-99a8-7f297d8d0178")
 			(effects
 				(font
@@ -5281,7 +5271,7 @@
 			)
 		)
 		(pin "MIPI0{I2C}" bidirectional
-			(at 96.52 30.48 0)
+			(at 96.52 40.64 0)
 			(uuid "21dc0462-c25c-49c8-84db-f024db479082")
 			(effects
 				(font
@@ -5291,8 +5281,18 @@
 			)
 		)
 		(pin "MIPI1{I2C}" bidirectional
-			(at 96.52 45.72 0)
+			(at 96.52 48.26 0)
 			(uuid "f92c7e03-2bea-448a-8583-7f788bd41f58")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAM_GPIO[0..2]" bidirectional
+			(at 96.52 27.94 0)
+			(uuid "865f2137-8c39-4175-86a3-9edf6379d726")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5309,8 +5309,8 @@
 		)
 	)
 	(sheet
-		(at 71.12 60.96)
-		(size 25.4 33.02)
+		(at 71.12 63.5)
+		(size 25.4 27.94)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5325,7 +5325,7 @@
 		)
 		(uuid "adc0b005-3094-4656-96e7-4ee9fb2ab719")
 		(property "Sheetname" "CM5IO"
-			(at 71.12 60.2484 0)
+			(at 71.12 62.7884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5336,7 +5336,7 @@
 			)
 		)
 		(property "Sheetfile" "cm5io.kicad_sch"
-			(at 71.12 94.5646 0)
+			(at 71.12 92.0246 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

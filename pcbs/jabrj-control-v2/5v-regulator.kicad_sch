@@ -3374,8 +3374,8 @@
 	)
 	(text_box "60uF of input capacitance required for 10mV ripple at 24V -> 5V and 2.2MHz"
 		(exclude_from_sim no)
-		(at 76.2 32.0439 0)
-		(size 27.94 11.1361)
+		(at 73.66 32.044 0)
+		(size 30.48 8.596)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -3388,7 +3388,7 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left top)
+			(justify left)
 		)
 		(uuid "f3c2b453-8270-4be2-9552-bc58772bbb7b")
 	)
@@ -6939,7 +6939,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "project_footprints:C_0402"
+		(property "Footprint" "project_footprints:LED_0402"
 			(at 228.6 109.22 90)
 			(hide yes)
 			(show_name no)
@@ -18438,7 +18438,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "project_footprints:C_0402"
+		(property "Footprint" "project_footprints:LED_0402"
 			(at 254 109.22 90)
 			(hide yes)
 			(show_name no)

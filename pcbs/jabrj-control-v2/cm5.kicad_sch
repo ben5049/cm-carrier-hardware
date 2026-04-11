@@ -7471,7 +7471,7 @@
 	)
 	(text_box "Test points for flashing when IO broken off."
 		(exclude_from_sim no)
-		(at 365.76 22.86 0)
+		(at 360.68 22.86 0)
 		(size 20.32 7.62)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -8324,6 +8324,15 @@
 		(uuid "322fb7cf-9963-4390-9ea2-f17e01a3b08f")
 	)
 	(bus_entry
+		(at 91.44 251.46)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d0d77ef-4cf7-4ab1-a9c6-11b9c6d02790")
+	)
+	(bus_entry
 		(at 76.2 60.96)
 		(size 2.54 2.54)
 		(stroke
@@ -8403,15 +8412,6 @@
 			(type default)
 		)
 		(uuid "5f404220-4b25-41d5-b2d3-a4d16258a121")
-	)
-	(bus_entry
-		(at 203.2 208.28)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f41d86b-1fc3-4581-acb9-00db68a37621")
 	)
 	(bus_entry
 		(at 203.2 142.24)
@@ -8540,15 +8540,6 @@
 		(uuid "a645568b-a138-4cdf-83fe-26384d14df89")
 	)
 	(bus_entry
-		(at 203.2 205.74)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a73f845a-0767-4997-b386-57f2e6ab58d3")
-	)
-	(bus_entry
 		(at 160.02 172.72)
 		(size -2.54 2.54)
 		(stroke
@@ -8621,6 +8612,15 @@
 		(uuid "bf200fbf-9edc-4866-bda7-a9a19f570ead")
 	)
 	(bus_entry
+		(at 91.44 254)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd879c61-e94b-4ddc-8dd9-1c0259276ac0")
+	)
+	(bus_entry
 		(at 203.2 139.7)
 		(size 2.54 2.54)
 		(stroke
@@ -8655,6 +8655,15 @@
 			(type default)
 		)
 		(uuid "d62b5fb7-d4b7-400e-a9e8-99a8ffab440c")
+	)
+	(bus_entry
+		(at 91.44 248.92)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd7850f2-07bd-436b-b7ed-814fd278d637")
 	)
 	(bus_entry
 		(at 160.02 200.66)
@@ -8867,6 +8876,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 106.68) (xy 86.36 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07e17966-47b4-49e6-a3bd-228d333d9467")
+	)
+	(wire
+		(pts
 			(xy 345.44 111.76) (xy 347.98 111.76)
 		)
 		(stroke
@@ -9027,7 +9046,7 @@
 	)
 	(wire
 		(pts
-			(xy 368.3 43.18) (xy 368.3 40.64)
+			(xy 363.22 43.18) (xy 363.22 40.64)
 		)
 		(stroke
 			(width 0)
@@ -9044,6 +9063,16 @@
 			(type default)
 		)
 		(uuid "1a84cca3-ee30-4d7c-95b5-dd4f94ce0948")
+	)
+	(wire
+		(pts
+			(xy 93.98 254) (xy 109.22 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b01fdf1-6a1c-490c-bca0-bcde503d220c")
 	)
 	(bus
 		(pts
@@ -9207,7 +9236,7 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 43.18) (xy 368.3 43.18)
+			(xy 347.98 43.18) (xy 363.22 43.18)
 		)
 		(stroke
 			(width 0)
@@ -9247,7 +9276,7 @@
 	)
 	(wire
 		(pts
-			(xy 375.92 45.72) (xy 375.92 40.64)
+			(xy 370.84 45.72) (xy 370.84 40.64)
 		)
 		(stroke
 			(width 0)
@@ -9445,16 +9474,6 @@
 		)
 		(uuid "33b9b2f2-8e6d-4503-9c6e-bc9c6c5107d7")
 	)
-	(bus
-		(pts
-			(xy 200.66 205.74) (xy 203.2 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35ff12e3-eb8c-4d6e-ba95-7c9ceacef935")
-	)
 	(wire
 		(pts
 			(xy 309.88 160.02) (xy 327.66 160.02)
@@ -9477,7 +9496,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 210.82) (xy 223.52 210.82)
+			(xy 208.28 210.82) (xy 223.52 210.82)
 		)
 		(stroke
 			(width 0)
@@ -9634,16 +9653,6 @@
 			(type default)
 		)
 		(uuid "426a1fa5-88e4-4fc7-a3bc-d8c7755ff5c4")
-	)
-	(wire
-		(pts
-			(xy 205.74 208.28) (xy 223.52 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42aa2812-5955-4374-89e7-96f58eb9ef4a")
 	)
 	(wire
 		(pts
@@ -9987,7 +9996,7 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 45.72) (xy 375.92 45.72)
+			(xy 347.98 45.72) (xy 370.84 45.72)
 		)
 		(stroke
 			(width 0)
@@ -10007,13 +10016,13 @@
 	)
 	(bus
 		(pts
-			(xy 203.2 205.74) (xy 203.2 208.28)
+			(xy 91.44 251.46) (xy 91.44 254)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5e7e8070-ad01-47ab-ab58-6ca4768af717")
+		(uuid "5e404470-1615-4619-b44a-22d69be2a6be")
 	)
 	(wire
 		(pts
@@ -10204,6 +10213,16 @@
 			(type default)
 		)
 		(uuid "6ce4cce7-128d-4dcf-a079-31d0e8f2d3fc")
+	)
+	(wire
+		(pts
+			(xy 208.28 208.28) (xy 223.52 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d283c9c-4986-4a5a-a6ca-79992b2f07ea")
 	)
 	(bus
 		(pts
@@ -11297,7 +11316,7 @@
 	)
 	(wire
 		(pts
-			(xy 383.54 40.64) (xy 383.54 43.18)
+			(xy 378.46 40.64) (xy 378.46 43.18)
 		)
 		(stroke
 			(width 0)
@@ -11515,6 +11534,16 @@
 		)
 		(uuid "c2a610a6-cde5-4b0c-93ec-f0b35670400a")
 	)
+	(bus
+		(pts
+			(xy 88.9 248.92) (xy 91.44 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2b69980-0806-4dbd-aeef-300d45791430")
+	)
 	(wire
 		(pts
 			(xy 396.24 111.76) (xy 393.7 111.76)
@@ -11574,6 +11603,16 @@
 			(type default)
 		)
 		(uuid "c740017d-a61a-4054-957b-7df684ef36e8")
+	)
+	(bus
+		(pts
+			(xy 91.44 248.92) (xy 91.44 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c86b2e23-85a6-4a8f-b351-59b322f85c6e")
 	)
 	(bus
 		(pts
@@ -12157,6 +12196,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 251.46) (xy 109.22 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f56b33fd-e9ba-4940-b049-ba4ab865836a")
+	)
+	(wire
+		(pts
 			(xy 162.56 71.12) (xy 162.56 68.58)
 		)
 		(stroke
@@ -12164,6 +12213,16 @@
 			(type default)
 		)
 		(uuid "f5e9cf33-8338-455e-beec-836b16f551b1")
+	)
+	(wire
+		(pts
+			(xy 93.98 256.54) (xy 109.22 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6074a86-78b5-4646-aa1f-53f23e9955e0")
 	)
 	(wire
 		(pts
@@ -12326,7 +12385,7 @@
 		(uuid "100d48ac-6f4a-4b5f-864c-ef763d6834b6")
 	)
 	(label "USB2_DEV.DN"
-		(at 353.06 45.72 0)
+		(at 347.98 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12505,6 +12564,16 @@
 		)
 		(uuid "43580503-f548-49eb-98ca-74c3bb3e2d31")
 	)
+	(label "CAM_GPIO2"
+		(at 109.22 256.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4b34f086-0b26-46b2-8c31-94277cb5cb79")
+	)
 	(label "~{BOOT}"
 		(at 335.28 160.02 0)
 		(effects
@@ -12574,6 +12643,16 @@
 			(justify left bottom)
 		)
 		(uuid "60a89e67-ef6a-4dea-a49c-29a327a9e5ff")
+	)
+	(label "CAM_GPIO2"
+		(at 71.12 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "63d72d2f-a28c-4637-bff2-cb7e9df74065")
 	)
 	(label "DN"
 		(at 223.52 66.04 0)
@@ -12855,6 +12934,16 @@
 		)
 		(uuid "a5cff68a-d105-4d75-8a8d-ed8cf7df65ef")
 	)
+	(label "CAM_GPIO1"
+		(at 109.22 254 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ad714e49-51a5-4c77-b82a-144b54c9db74")
+	)
 	(label "USB3_1.DP"
 		(at 142.24 114.3 0)
 		(effects
@@ -12946,7 +13035,7 @@
 		(uuid "cbe07425-4447-4a6c-a8e5-5ef776f1a80e")
 	)
 	(label "USB2_DEV.DP"
-		(at 353.06 43.18 0)
+		(at 347.98 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13044,6 +13133,16 @@
 			(justify right bottom)
 		)
 		(uuid "e36352d9-0499-469b-8b63-9ebcfee997a8")
+	)
+	(label "CAM_GPIO0"
+		(at 109.22 251.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e7a79608-2ec0-4951-99cc-62b94d0df12c")
 	)
 	(label "~{PERST}"
 		(at 86.36 185.42 0)
@@ -13145,17 +13244,6 @@
 			(justify left)
 		)
 		(uuid "09ef2cbb-0eeb-46da-8598-0e5f3dfcac0f")
-	)
-	(hierarchical_label "CAM_GPIO[0..1]"
-		(shape bidirectional)
-		(at 200.66 205.74 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "135b8ad0-2de0-4ec3-bea7-acb58cf9a1ce")
 	)
 	(hierarchical_label "ETH_LED[2..3]"
 		(shape output)
@@ -13332,6 +13420,17 @@
 			(justify left)
 		)
 		(uuid "ed161736-443a-4de9-adb3-3db72692e73a")
+	)
+	(hierarchical_label "CAM_GPIO[0..1]"
+		(shape bidirectional)
+		(at 88.9 248.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f834e5e6-3fdf-4cbd-8d47-a6a686deee14")
 	)
 	(hierarchical_label "USB2_HOST{USB}"
 		(shape bidirectional)
@@ -14187,7 +14286,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Small")
-		(at 375.92 40.64 0)
+		(at 370.84 40.64 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -14198,7 +14297,7 @@
 		(dnp no)
 		(uuid "2276e4f4-d7e7-492b-9849-05659665e8dd")
 		(property "Reference" "TP703"
-			(at 375.92 35.56 0)
+			(at 370.84 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14208,7 +14307,7 @@
 			)
 		)
 		(property "Value" "1.5mm"
-			(at 375.92 38.1 0)
+			(at 370.84 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14218,7 +14317,7 @@
 			)
 		)
 		(property "Footprint" "project_footprints:TestPoint_Pad_D1.5mm"
-			(at 381 40.64 0)
+			(at 375.92 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14229,7 +14328,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 381 40.64 0)
+			(at 375.92 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14240,7 +14339,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 375.92 40.64 0)
+			(at 370.84 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14251,7 +14350,7 @@
 			)
 		)
 		(property "Field6" ""
-			(at 375.92 40.64 0)
+			(at 370.84 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14262,7 +14361,7 @@
 			)
 		)
 		(property "Field7" ""
-			(at 375.92 40.64 0)
+			(at 370.84 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14273,7 +14372,7 @@
 			)
 		)
 		(property "Part Description" ""
-			(at 375.92 40.64 0)
+			(at 370.84 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14284,7 +14383,7 @@
 			)
 		)
 		(property "Critical Parameter" ""
-			(at 375.92 40.64 0)
+			(at 370.84 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14295,7 +14394,7 @@
 			)
 		)
 		(property "IRP,40K (A)" ""
-			(at 375.92 40.64 0)
+			(at 370.84 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14306,7 +14405,7 @@
 			)
 		)
 		(property "ISAT,10% (A)" ""
-			(at 375.92 40.64 0)
+			(at 370.84 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14317,7 +14416,7 @@
 			)
 		)
 		(property "ISAT,30% (A)" ""
-			(at 375.92 40.64 0)
+			(at 370.84 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14328,7 +14427,7 @@
 			)
 		)
 		(property "L (µH)" ""
-			(at 375.92 40.64 0)
+			(at 370.84 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14339,7 +14438,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 375.92 40.64 0)
+			(at 370.84 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14350,7 +14449,7 @@
 			)
 		)
 		(property "Manufacturer URL" ""
-			(at 375.92 40.64 0)
+			(at 370.84 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14361,7 +14460,7 @@
 			)
 		)
 		(property "Match Code" ""
-			(at 375.92 40.64 0)
+			(at 370.84 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14372,7 +14471,7 @@
 			)
 		)
 		(property "Mounting Technology" ""
-			(at 375.92 40.64 0)
+			(at 370.84 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14383,7 +14482,7 @@
 			)
 		)
 		(property "Part Number" ""
-			(at 375.92 40.64 0)
+			(at 370.84 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14394,7 +14493,7 @@
 			)
 		)
 		(property "Published Date" ""
-			(at 375.92 40.64 0)
+			(at 370.84 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14405,7 +14504,7 @@
 			)
 		)
 		(property "RDC max. (mΩ)" ""
-			(at 375.92 40.64 0)
+			(at 370.84 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14416,7 +14515,7 @@
 			)
 		)
 		(property "RDC typ. (mΩ)" ""
-			(at 375.92 40.64 0)
+			(at 370.84 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14427,7 +14526,7 @@
 			)
 		)
 		(property "Size" ""
-			(at 375.92 40.64 0)
+			(at 370.84 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14438,7 +14537,7 @@
 			)
 		)
 		(property "Type/Size" ""
-			(at 375.92 40.64 0)
+			(at 370.84 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14449,7 +14548,7 @@
 			)
 		)
 		(property "VOP (V)" ""
-			(at 375.92 40.64 0)
+			(at 370.84 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14460,7 +14559,7 @@
 			)
 		)
 		(property "fres (MHz)" ""
-			(at 375.92 40.64 0)
+			(at 370.84 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16346,8 +16445,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 312.42 134.62 270)
-		(mirror x)
+		(at 312.42 134.62 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16357,7 +16455,7 @@
 		(dnp no)
 		(uuid "3f438c13-e803-4595-adce-a7ffa1bebacc")
 		(property "Reference" "D704"
-			(at 309.88 133.2864 90)
+			(at 314.96 133.2864 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16368,7 +16466,7 @@
 			)
 		)
 		(property "Value" "GREEN"
-			(at 309.88 135.8264 90)
+			(at 314.96 135.8264 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16826,7 +16924,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Small")
-		(at 383.54 40.64 0)
+		(at 378.46 40.64 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -16837,7 +16935,7 @@
 		(dnp no)
 		(uuid "44768831-070c-40b9-8b71-43c30d852ecb")
 		(property "Reference" "TP705"
-			(at 383.54 35.56 0)
+			(at 378.46 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16847,7 +16945,7 @@
 			)
 		)
 		(property "Value" "1.5mm"
-			(at 383.54 38.1 0)
+			(at 378.46 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16857,7 +16955,7 @@
 			)
 		)
 		(property "Footprint" "project_footprints:TestPoint_Pad_D1.5mm"
-			(at 388.62 40.64 0)
+			(at 383.54 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16868,7 +16966,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 388.62 40.64 0)
+			(at 383.54 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16879,7 +16977,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 383.54 40.64 0)
+			(at 378.46 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16890,7 +16988,7 @@
 			)
 		)
 		(property "Field6" ""
-			(at 383.54 40.64 0)
+			(at 378.46 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16901,7 +16999,7 @@
 			)
 		)
 		(property "Field7" ""
-			(at 383.54 40.64 0)
+			(at 378.46 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16912,7 +17010,7 @@
 			)
 		)
 		(property "Part Description" ""
-			(at 383.54 40.64 0)
+			(at 378.46 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16923,7 +17021,7 @@
 			)
 		)
 		(property "Critical Parameter" ""
-			(at 383.54 40.64 0)
+			(at 378.46 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16934,7 +17032,7 @@
 			)
 		)
 		(property "IRP,40K (A)" ""
-			(at 383.54 40.64 0)
+			(at 378.46 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16945,7 +17043,7 @@
 			)
 		)
 		(property "ISAT,10% (A)" ""
-			(at 383.54 40.64 0)
+			(at 378.46 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16956,7 +17054,7 @@
 			)
 		)
 		(property "ISAT,30% (A)" ""
-			(at 383.54 40.64 0)
+			(at 378.46 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16967,7 +17065,7 @@
 			)
 		)
 		(property "L (µH)" ""
-			(at 383.54 40.64 0)
+			(at 378.46 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16978,7 +17076,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 383.54 40.64 0)
+			(at 378.46 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16989,7 +17087,7 @@
 			)
 		)
 		(property "Manufacturer URL" ""
-			(at 383.54 40.64 0)
+			(at 378.46 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17000,7 +17098,7 @@
 			)
 		)
 		(property "Match Code" ""
-			(at 383.54 40.64 0)
+			(at 378.46 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17011,7 +17109,7 @@
 			)
 		)
 		(property "Mounting Technology" ""
-			(at 383.54 40.64 0)
+			(at 378.46 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17022,7 +17120,7 @@
 			)
 		)
 		(property "Part Number" ""
-			(at 383.54 40.64 0)
+			(at 378.46 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17033,7 +17131,7 @@
 			)
 		)
 		(property "Published Date" ""
-			(at 383.54 40.64 0)
+			(at 378.46 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17044,7 +17142,7 @@
 			)
 		)
 		(property "RDC max. (mΩ)" ""
-			(at 383.54 40.64 0)
+			(at 378.46 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17055,7 +17153,7 @@
 			)
 		)
 		(property "RDC typ. (mΩ)" ""
-			(at 383.54 40.64 0)
+			(at 378.46 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17066,7 +17164,7 @@
 			)
 		)
 		(property "Size" ""
-			(at 383.54 40.64 0)
+			(at 378.46 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17077,7 +17175,7 @@
 			)
 		)
 		(property "Type/Size" ""
-			(at 383.54 40.64 0)
+			(at 378.46 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17088,7 +17186,7 @@
 			)
 		)
 		(property "VOP (V)" ""
-			(at 383.54 40.64 0)
+			(at 378.46 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17099,7 +17197,7 @@
 			)
 		)
 		(property "fres (MHz)" ""
-			(at 383.54 40.64 0)
+			(at 378.46 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17510,7 +17608,6 @@
 	(symbol
 		(lib_id "DEV:R_SMALL")
 		(at 312.42 121.92 0)
-		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17520,7 +17617,7 @@
 		(dnp no)
 		(uuid "50ab8654-98c0-402f-adbf-785774bbf2e3")
 		(property "Reference" "R703"
-			(at 309.88 120.6499 0)
+			(at 314.96 120.6499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17531,7 +17628,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 309.88 123.1899 0)
+			(at 314.96 123.1899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19044,7 +19141,6 @@
 	(symbol
 		(lib_id "DEV:R_SMALL")
 		(at 325.12 121.92 0)
-		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19054,7 +19150,7 @@
 		(dnp no)
 		(uuid "71bae831-92e7-47f7-b066-214dfbab2564")
 		(property "Reference" "R704"
-			(at 322.58 120.6499 0)
+			(at 327.66 120.6499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19065,7 +19161,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 322.58 123.1899 0)
+			(at 327.66 123.1899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19345,8 +19441,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 325.12 134.62 270)
-		(mirror x)
+		(at 325.12 134.62 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19356,7 +19451,7 @@
 		(dnp no)
 		(uuid "8589989f-3479-483b-9e96-cdb2cb7b7d7a")
 		(property "Reference" "D705"
-			(at 322.58 133.2864 90)
+			(at 327.66 133.2864 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19367,7 +19462,7 @@
 			)
 		)
 		(property "Value" "RED"
-			(at 322.58 135.8264 90)
+			(at 327.66 135.8264 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22174,7 +22269,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 383.54 43.18 0)
+		(at 378.46 43.18 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -22186,7 +22281,7 @@
 		(fields_autoplaced yes)
 		(uuid "9773cb4f-be8e-4aa8-a237-29ebb61f0327")
 		(property "Reference" "#PWR0714"
-			(at 383.54 49.53 0)
+			(at 378.46 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22197,7 +22292,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 383.54 48.26 0)
+			(at 378.46 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22207,7 +22302,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 383.54 43.18 0)
+			(at 378.46 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22218,7 +22313,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 383.54 43.18 0)
+			(at 378.46 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22229,7 +22324,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 383.54 43.18 0)
+			(at 378.46 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25411,7 +25506,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Small")
-		(at 368.3 40.64 0)
+		(at 363.22 40.64 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -25422,7 +25517,7 @@
 		(dnp no)
 		(uuid "e631f8b7-6c22-486d-bb1b-e1965c58f477")
 		(property "Reference" "TP702"
-			(at 368.3 35.56 0)
+			(at 363.22 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25432,7 +25527,7 @@
 			)
 		)
 		(property "Value" "1.5mm"
-			(at 368.3 38.1 0)
+			(at 363.22 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25442,7 +25537,7 @@
 			)
 		)
 		(property "Footprint" "project_footprints:TestPoint_Pad_D1.5mm"
-			(at 373.38 40.64 0)
+			(at 368.3 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25453,7 +25548,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 373.38 40.64 0)
+			(at 368.3 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25464,7 +25559,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 368.3 40.64 0)
+			(at 363.22 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25475,7 +25570,7 @@
 			)
 		)
 		(property "Field6" ""
-			(at 368.3 40.64 0)
+			(at 363.22 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25486,7 +25581,7 @@
 			)
 		)
 		(property "Field7" ""
-			(at 368.3 40.64 0)
+			(at 363.22 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25497,7 +25592,7 @@
 			)
 		)
 		(property "Part Description" ""
-			(at 368.3 40.64 0)
+			(at 363.22 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25508,7 +25603,7 @@
 			)
 		)
 		(property "Critical Parameter" ""
-			(at 368.3 40.64 0)
+			(at 363.22 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25519,7 +25614,7 @@
 			)
 		)
 		(property "IRP,40K (A)" ""
-			(at 368.3 40.64 0)
+			(at 363.22 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25530,7 +25625,7 @@
 			)
 		)
 		(property "ISAT,10% (A)" ""
-			(at 368.3 40.64 0)
+			(at 363.22 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25541,7 +25636,7 @@
 			)
 		)
 		(property "ISAT,30% (A)" ""
-			(at 368.3 40.64 0)
+			(at 363.22 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25552,7 +25647,7 @@
 			)
 		)
 		(property "L (µH)" ""
-			(at 368.3 40.64 0)
+			(at 363.22 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25563,7 +25658,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 368.3 40.64 0)
+			(at 363.22 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25574,7 +25669,7 @@
 			)
 		)
 		(property "Manufacturer URL" ""
-			(at 368.3 40.64 0)
+			(at 363.22 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25585,7 +25680,7 @@
 			)
 		)
 		(property "Match Code" ""
-			(at 368.3 40.64 0)
+			(at 363.22 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25596,7 +25691,7 @@
 			)
 		)
 		(property "Mounting Technology" ""
-			(at 368.3 40.64 0)
+			(at 363.22 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25607,7 +25702,7 @@
 			)
 		)
 		(property "Part Number" ""
-			(at 368.3 40.64 0)
+			(at 363.22 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25618,7 +25713,7 @@
 			)
 		)
 		(property "Published Date" ""
-			(at 368.3 40.64 0)
+			(at 363.22 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25629,7 +25724,7 @@
 			)
 		)
 		(property "RDC max. (mΩ)" ""
-			(at 368.3 40.64 0)
+			(at 363.22 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25640,7 +25735,7 @@
 			)
 		)
 		(property "RDC typ. (mΩ)" ""
-			(at 368.3 40.64 0)
+			(at 363.22 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25651,7 +25746,7 @@
 			)
 		)
 		(property "Size" ""
-			(at 368.3 40.64 0)
+			(at 363.22 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25662,7 +25757,7 @@
 			)
 		)
 		(property "Type/Size" ""
-			(at 368.3 40.64 0)
+			(at 363.22 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25673,7 +25768,7 @@
 			)
 		)
 		(property "VOP (V)" ""
-			(at 368.3 40.64 0)
+			(at 363.22 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25684,7 +25779,7 @@
 			)
 		)
 		(property "fres (MHz)" ""
-			(at 368.3 40.64 0)
+			(at 363.22 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

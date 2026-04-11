@@ -5197,7 +5197,7 @@
 	)
 	(text "Single Pair Ethernet PHY & Connector"
 		(exclude_from_sim no)
-		(at 182.88 25.4 0)
+		(at 172.72 25.4 0)
 		(effects
 			(font
 				(size 2.54 2.54)
