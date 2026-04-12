@@ -12319,8 +12319,8 @@
 		)
 		(uuid "a23593cf-c0a4-4718-bc92-6a21ef1795eb")
 	)
-	(label "~{OE}"
-		(at 223.52 73.66 0)
+	(label "~{USB2_OE}"
+		(at 220.98 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
