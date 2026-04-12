@@ -3680,12 +3680,6 @@
 		(color 0 0 0 0)
 		(uuid "f7a44423-149c-4ad5-8a24-55c7a76491ba")
 	)
-	(junction
-		(at 86.36 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fc4ca2fc-3e25-4f70-bcd1-c0e02266c142")
-	)
 	(no_connect
 		(at 182.88 58.42)
 		(uuid "7262ab20-9016-4c9f-9e43-5d235d96a033")
@@ -4890,16 +4884,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 104.14) (xy 88.9 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bdb94003-fb8d-436b-b842-03dd9940121b")
-	)
-	(wire
-		(pts
 			(xy 83.82 83.82) (xy 86.36 83.82)
 		)
 		(stroke
@@ -5478,17 +5462,6 @@
 			(justify right)
 		)
 		(uuid "ce1df2f1-12f3-4c34-9049-c24242f95c7a")
-	)
-	(hierarchical_label "VIN_PG"
-		(shape output)
-		(at 88.9 104.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d756fd5a-8e0e-4f53-8547-c569f508682a")
 	)
 	(symbol
 		(lib_id "power:+5V")

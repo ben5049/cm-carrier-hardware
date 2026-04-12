@@ -1094,6 +1094,12 @@
 		(uuid "0ca050bf-df9e-4465-96b4-d2f1b5c9e517")
 	)
 	(junction
+		(at 38.1 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a59c395-ab35-4504-87ae-e44aef41ac10")
+	)
+	(junction
 		(at 172.72 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1148,6 +1154,12 @@
 		(uuid "81f03052-a463-4dd6-9bef-138ecf9a71fa")
 	)
 	(junction
+		(at 147.32 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a88dd28f-f6e9-4fb6-81fc-a06062335e27")
+	)
+	(junction
 		(at 172.72 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1192,22 +1204,6 @@
 	(no_connect
 		(at 170.18 114.3)
 		(uuid "40adee86-19a1-43f8-a340-422076d7ef48")
-	)
-	(no_connect
-		(at 149.86 121.92)
-		(uuid "72aab479-963f-4ad3-9590-d0aa216d76e0")
-	)
-	(no_connect
-		(at 40.64 121.92)
-		(uuid "ae5f75f6-612c-404d-a528-6debed6737fe")
-	)
-	(no_connect
-		(at 149.86 124.46)
-		(uuid "ca299d82-7bf9-4685-9073-6e2cbca7ede9")
-	)
-	(no_connect
-		(at 40.64 124.46)
-		(uuid "d5dafd08-ef86-4643-80f1-38c298f92a02")
 	)
 	(bus_entry
 		(at 88.9 71.12)
@@ -1512,6 +1508,16 @@
 		)
 		(uuid "0c019c5f-cb01-4435-af9b-20892ee52e14")
 	)
+	(wire
+		(pts
+			(xy 147.32 124.46) (xy 149.86 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d22f699-5ef3-4ec8-a496-1c7b9da7edd1")
+	)
 	(bus
 		(pts
 			(xy 88.9 86.36) (xy 88.9 88.9)
@@ -1594,6 +1600,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 124.46) (xy 147.32 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25196479-1881-4373-8832-bd11370bb0d5")
+	)
+	(wire
+		(pts
 			(xy 231.14 38.1) (xy 246.38 38.1)
 		)
 		(stroke
@@ -1671,6 +1687,16 @@
 			(type default)
 		)
 		(uuid "365be7d1-fba8-41c3-be36-3e32fe36ef95")
+	)
+	(wire
+		(pts
+			(xy 38.1 121.92) (xy 40.64 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "390df180-3ced-4f52-ab0f-148772b63aa6")
 	)
 	(wire
 		(pts
@@ -1954,6 +1980,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 121.92) (xy 149.86 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "865cf08f-2953-4341-b6f4-ff4a2c2b6a66")
+	)
+	(wire
+		(pts
 			(xy 170.18 96.52) (xy 195.58 96.52)
 		)
 		(stroke
@@ -2074,6 +2110,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 124.46) (xy 40.64 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a2c8b2e-32ba-4d72-b333-c72718f73766")
+	)
+	(wire
+		(pts
 			(xy 172.72 71.12) (xy 172.72 78.74)
 		)
 		(stroke
@@ -2181,6 +2227,16 @@
 			(type default)
 		)
 		(uuid "b5bd581e-a445-45b1-a81c-41e9cf8c9e13")
+	)
+	(wire
+		(pts
+			(xy 38.1 127) (xy 38.1 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b796b938-bd92-434b-a623-8267b0e4379b")
 	)
 	(bus
 		(pts
@@ -2371,6 +2427,26 @@
 			(type default)
 		)
 		(uuid "ecbb7fef-7cc1-4e93-9f1d-469ce652af6c")
+	)
+	(wire
+		(pts
+			(xy 147.32 127) (xy 147.32 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee94d1f8-212b-46d8-914d-dc24e18829c9")
+	)
+	(wire
+		(pts
+			(xy 38.1 124.46) (xy 38.1 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f14ce4be-33a7-4176-beb5-4a8123328280")
 	)
 	(wire
 		(pts
@@ -4557,6 +4633,84 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 38.1 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af651ecf-4250-4e53-a8f9-2fe76a4fa0ab")
+		(property "Reference" "#PWR0909"
+			(at 38.1 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 38.1 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 38.1 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "33268f02-70c3-44a0-947e-0bd36ef58c95")
+		)
+		(instances
+			(project "jabrj-control-v2"
+				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/80b60915-5ccb-4842-b09a-a259b4f355b7"
+					(reference "#PWR0909")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 251.46 134.62 0)
 		(unit 1)
 		(body_style 1)
@@ -4930,6 +5084,84 @@
 			(project "jabrj-control-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/80b60915-5ccb-4842-b09a-a259b4f355b7"
 					(reference "R903")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 147.32 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f94ce107-6e64-4953-ae6c-98d3c1982f5e")
+		(property "Reference" "#PWR0908"
+			(at 147.32 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 147.32 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 147.32 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "69b11547-b70d-42d0-8bb8-9bc9986c9bd0")
+		)
+		(instances
+			(project "jabrj-control-v2"
+				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/80b60915-5ccb-4842-b09a-a259b4f355b7"
+					(reference "#PWR0908")
 					(unit 1)
 				)
 			)

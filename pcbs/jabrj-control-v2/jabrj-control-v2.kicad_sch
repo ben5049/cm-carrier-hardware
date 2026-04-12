@@ -620,7 +620,7 @@
 	)
 	(text "Can be broken off\nif IO isn't needed"
 		(exclude_from_sim no)
-		(at 58.42 81.28 0)
+		(at 58.42 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -724,7 +724,7 @@
 	)
 	(bus
 		(pts
-			(xy 96.52 66.04) (xy 121.92 66.04)
+			(xy 96.52 71.12) (xy 121.92 71.12)
 		)
 		(stroke
 			(width 0)
@@ -824,7 +824,7 @@
 	)
 	(bus
 		(pts
-			(xy 96.52 86.36) (xy 121.92 86.36)
+			(xy 96.52 81.28) (xy 121.92 81.28)
 		)
 		(stroke
 			(width 0)
@@ -864,7 +864,7 @@
 	)
 	(bus
 		(pts
-			(xy 96.52 78.74) (xy 121.92 78.74)
+			(xy 96.52 66.04) (xy 121.92 66.04)
 		)
 		(stroke
 			(width 0)
@@ -944,7 +944,7 @@
 	)
 	(bus
 		(pts
-			(xy 96.52 88.9) (xy 121.92 88.9)
+			(xy 96.52 83.82) (xy 121.92 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1154,7 +1154,7 @@
 	)
 	(bus
 		(pts
-			(xy 96.52 68.58) (xy 121.92 68.58)
+			(xy 96.52 73.66) (xy 121.92 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1364,7 +1364,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 71.12) (xy 121.92 71.12)
+			(xy 96.52 76.2) (xy 121.92 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1541,6 +1541,16 @@
 			(type default)
 		)
 		(uuid "c7effd94-dd45-48b2-b0ec-9bf70efe9eda")
+	)
+	(bus
+		(pts
+			(xy 96.52 88.9) (xy 121.92 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6d5a734-7b4d-4cd1-bac0-db0bb043b145")
 	)
 	(polyline
 		(pts
@@ -4959,7 +4969,7 @@
 			)
 		)
 		(pin "ETH_LED[2..3]" output
-			(at 121.92 88.9 180)
+			(at 121.92 83.82 180)
 			(uuid "2fcf9ae6-0f94-4a4d-86e7-28694c2a4946")
 			(effects
 				(font
@@ -4969,7 +4979,7 @@
 			)
 		)
 		(pin "ETH{MDI}" bidirectional
-			(at 121.92 86.36 180)
+			(at 121.92 81.28 180)
 			(uuid "85cc4cc7-1ad9-4bd7-b858-b6568f0f2c26")
 			(effects
 				(font
@@ -4979,7 +4989,7 @@
 			)
 		)
 		(pin "VBUS_EN" output
-			(at 121.92 71.12 180)
+			(at 121.92 76.2 180)
 			(uuid "112ded3d-50eb-42d8-a6de-9cc254d33475")
 			(effects
 				(font
@@ -4999,7 +5009,7 @@
 			)
 		)
 		(pin "USB2_DEV{USB}" bidirectional
-			(at 121.92 78.74 180)
+			(at 121.92 66.04 180)
 			(uuid "e36ad476-4ceb-4d53-8a68-2a523ebbdb7c")
 			(effects
 				(font
@@ -5039,7 +5049,7 @@
 			)
 		)
 		(pin "USB3_0{USB3}" bidirectional
-			(at 121.92 66.04 180)
+			(at 121.92 71.12 180)
 			(uuid "6757cf81-d6b1-499b-bed5-2c87064fb2db")
 			(effects
 				(font
@@ -5049,7 +5059,7 @@
 			)
 		)
 		(pin "USB3_1{USB3}" bidirectional
-			(at 121.92 68.58 180)
+			(at 121.92 73.66 180)
 			(uuid "a9b6794a-f338-450b-8177-50bfe1397ba0")
 			(effects
 				(font
@@ -5111,6 +5121,16 @@
 		(pin "I2C3{I2C}" bidirectional
 			(at 121.92 106.68 180)
 			(uuid "57ea89c8-daf4-4ee4-8720-8eb827097554")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART2{UART}" bidirectional
+			(at 121.92 88.9 180)
+			(uuid "071f3b68-350d-4c12-b4b8-61d64945a80c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5377,7 +5397,7 @@
 			)
 		)
 		(pin "ETH_LED[2..3]" input
-			(at 96.52 88.9 0)
+			(at 96.52 83.82 0)
 			(uuid "63dfdccb-f8a5-4543-ab8b-4c0aa068d43b")
 			(effects
 				(font
@@ -5387,7 +5407,7 @@
 			)
 		)
 		(pin "ETH{MDI}" bidirectional
-			(at 96.52 86.36 0)
+			(at 96.52 81.28 0)
 			(uuid "8e47ab3e-c146-4b4a-9b6e-1ef9426ee7cd")
 			(effects
 				(font
@@ -5397,7 +5417,7 @@
 			)
 		)
 		(pin "USB{USB}" bidirectional
-			(at 96.52 78.74 0)
+			(at 96.52 66.04 0)
 			(uuid "e4b39588-3275-4772-866a-2e5275500a98")
 			(effects
 				(font
@@ -5407,7 +5427,7 @@
 			)
 		)
 		(pin "USB3_0{USB3}" bidirectional
-			(at 96.52 66.04 0)
+			(at 96.52 71.12 0)
 			(uuid "e82423aa-c123-4c52-a457-25811184b400")
 			(effects
 				(font
@@ -5417,7 +5437,7 @@
 			)
 		)
 		(pin "USB3_1{USB3}" bidirectional
-			(at 96.52 68.58 0)
+			(at 96.52 73.66 0)
 			(uuid "9859c4d7-5995-4830-91d3-9d9030d5aa78")
 			(effects
 				(font
@@ -5427,8 +5447,18 @@
 			)
 		)
 		(pin "VBUS_EN" input
-			(at 96.52 71.12 0)
+			(at 96.52 76.2 0)
 			(uuid "a3a80dbb-4da5-4c27-9648-430ff313c2eb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{UART}" bidirectional
+			(at 96.52 88.9 0)
+			(uuid "6955dd6c-2b9e-4e51-981a-08d24d62e354")
 			(effects
 				(font
 					(size 1.27 1.27)
