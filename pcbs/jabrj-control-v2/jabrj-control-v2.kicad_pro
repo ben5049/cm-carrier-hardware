@@ -50,7 +50,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.2
+          "min_clearance": 0.15
         }
       },
       "diff_pair_dimensions": [
@@ -598,6 +598,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.108,
         "tuning_profile": "",
         "via_diameter": 0.4,
         "via_drill": 0.3,
@@ -613,6 +614,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.108,
         "tuning_profile": "",
         "via_diameter": 0.4,
         "via_drill": 0.3,
@@ -628,6 +630,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.161,
         "tuning_profile": "",
         "via_diameter": 0.4,
         "via_drill": 0.3,
@@ -643,6 +646,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.141,
         "tuning_profile": "",
         "via_diameter": 0.4,
         "via_drill": 0.3,
@@ -658,6 +662,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.141,
         "tuning_profile": "",
         "via_diameter": 0.4,
         "via_drill": 0.3,
@@ -673,6 +678,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.141,
         "tuning_profile": "",
         "via_diameter": 0.4,
         "via_drill": 0.3,
@@ -1498,7 +1504,7 @@
           "show": false
         }
       ],
-      "filter_string": "d",
+      "filter_string": "r",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
@@ -1663,7 +1669,7 @@
         "uuid": "f91ec272-d09a-4038-bbbb-962739a92c51"
       }
     ],
-    "used_designators": "TP603",
+    "used_designators": "TP401,TP603,R306-311,R417,R1301-1303,#PWR305-308,#PWR1301-1304,NT401,U303,U1301,C302,C1301",
     "variants": []
   },
   "sheets": [

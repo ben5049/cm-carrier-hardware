@@ -1012,6 +1012,16 @@
 		)
 		(uuid "4320d526-1962-49d2-b1eb-3e82d11b3d88")
 	)
+	(bus
+		(pts
+			(xy 96.52 106.68) (xy 121.92 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "439042fe-4cc6-4e76-a129-fc9e56e68723")
+	)
 	(polyline
 		(pts
 			(xy 130.81 176.53) (xy 130.81 179.07)
@@ -1184,7 +1194,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 109.22) (xy 121.92 109.22)
+			(xy 96.52 111.76) (xy 121.92 111.76)
 		)
 		(stroke
 			(width 0)
@@ -4597,8 +4607,18 @@
 			)
 		)
 		(pin "PCIE_PWR_EN" input
-			(at 96.52 109.22 0)
+			(at 96.52 111.76 0)
 			(uuid "1fcc243a-8efc-48d3-9245-74b70dd629cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{I2C}" bidirectional
+			(at 96.52 106.68 0)
+			(uuid "62df81b2-fad4-44dc-9366-7e0cf08eb31f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4919,7 +4939,7 @@
 			)
 		)
 		(pin "PCIE_PWR_EN" output
-			(at 121.92 109.22 180)
+			(at 121.92 111.76 180)
 			(uuid "905c75a8-4708-47ec-b4f2-84c9ad8fc59d")
 			(effects
 				(font
@@ -5078,9 +5098,19 @@
 				(justify right)
 			)
 		)
-		(pin "CAM_GPIO[0..1]" bidirectional
+		(pin "CAM_GPIO[0..2]" bidirectional
 			(at 121.92 27.94 180)
 			(uuid "6885e90e-432c-47c3-830c-0b1ab8b6a131")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C3{I2C}" bidirectional
+			(at 121.92 106.68 180)
+			(uuid "57ea89c8-daf4-4ee4-8720-8eb827097554")
 			(effects
 				(font
 					(size 1.27 1.27)

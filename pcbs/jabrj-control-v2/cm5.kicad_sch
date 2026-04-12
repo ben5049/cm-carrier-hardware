@@ -7371,7 +7371,7 @@
 	)
 	(text_box "GPIO27 Connects to the PCI11010C's PTP_IO6. PTP_IO6 can be configured to be a PPS output and GPIO27 as a PPS input."
 		(exclude_from_sim no)
-		(at 48.26 116.84 0)
+		(at 22.86 127 0)
 		(size 38.1 10.16)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -8006,10 +8006,6 @@
 		(uuid "372d8a47-4a2f-4aee-98f5-a48698facdc2")
 	)
 	(no_connect
-		(at 93.98 124.46)
-		(uuid "424c0d71-0d1f-42f0-8e04-995816c8eae5")
-	)
-	(no_connect
 		(at 170.18 256.54)
 		(uuid "459bd00c-b4c7-4dc1-9912-24582af49722")
 	)
@@ -8102,20 +8098,12 @@
 		(uuid "971d67b6-3565-401a-818b-4e9d43135dd9")
 	)
 	(no_connect
-		(at 93.98 121.92)
-		(uuid "9ad71d74-bc8b-48d6-898d-094cc1212c91")
-	)
-	(no_connect
 		(at 93.98 116.84)
 		(uuid "a19e0ebc-719e-482e-a1a0-1275631630f3")
 	)
 	(no_connect
 		(at 269.24 121.92)
 		(uuid "a6f51c23-9694-4698-9b04-fa4fe2eed7c7")
-	)
-	(no_connect
-		(at 93.98 68.58)
-		(uuid "a7ac4dd2-010b-4e89-8aeb-5c303ea013a8")
 	)
 	(no_connect
 		(at 93.98 91.44)
@@ -8140,10 +8128,6 @@
 	(no_connect
 		(at 347.98 208.28)
 		(uuid "b8b4db6c-e842-4666-86ed-81c7fd7d690c")
-	)
-	(no_connect
-		(at 93.98 119.38)
-		(uuid "b8e9d984-3c7d-49ca-a2bd-f38c9d71ecc0")
 	)
 	(no_connect
 		(at 347.98 167.64)
@@ -8270,6 +8254,15 @@
 		(uuid "25f92b3e-0009-4162-8ccb-813ee2847fb4")
 	)
 	(bus_entry
+		(at 76.2 116.84)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "285bffd4-6991-40e3-a977-666e9266fefb")
+	)
+	(bus_entry
 		(at 203.2 157.48)
 		(size 2.54 2.54)
 		(stroke
@@ -8295,6 +8288,15 @@
 			(type default)
 		)
 		(uuid "2bff40f7-ba80-4be4-a376-e3aac7c682a9")
+	)
+	(bus_entry
+		(at 76.2 121.92)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c888289-3a92-4919-969a-f45545b00313")
 	)
 	(bus_entry
 		(at 160.02 93.98)
@@ -8612,6 +8614,15 @@
 		(uuid "bf200fbf-9edc-4866-bda7-a9a19f570ead")
 	)
 	(bus_entry
+		(at 76.2 119.38)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c558e399-0346-4393-90c9-fc504eb48ab6")
+	)
+	(bus_entry
 		(at 91.44 254)
 		(size 2.54 2.54)
 		(stroke
@@ -8876,7 +8887,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 106.68) (xy 86.36 106.68)
+			(xy 81.28 68.58) (xy 93.98 68.58)
 		)
 		(stroke
 			(width 0)
@@ -8913,6 +8924,16 @@
 			(type default)
 		)
 		(uuid "0a8f21b9-e0f0-49d0-8807-cb1eaad7bd5c")
+	)
+	(bus
+		(pts
+			(xy 76.2 119.38) (xy 76.2 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ac22f87-1e5b-4d1a-9c1a-330803b80720")
 	)
 	(wire
 		(pts
@@ -9846,6 +9867,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 124.46) (xy 93.98 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53df9548-511a-4818-bfbd-3ce3fe3a4343")
+	)
+	(wire
+		(pts
 			(xy 205.74 190.5) (xy 223.52 190.5)
 		)
 		(stroke
@@ -10036,6 +10067,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 119.38) (xy 93.98 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61a28256-bd07-417b-a370-ddb3d2363cc1")
+	)
+	(wire
+		(pts
 			(xy 396.24 162.56) (xy 393.7 162.56)
 		)
 		(stroke
@@ -10223,6 +10264,16 @@
 			(type default)
 		)
 		(uuid "6d283c9c-4986-4a5a-a6ca-79992b2f07ea")
+	)
+	(wire
+		(pts
+			(xy 78.74 121.92) (xy 93.98 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e0b1025-bb88-4971-b754-8818e301153f")
 	)
 	(bus
 		(pts
@@ -10703,6 +10754,16 @@
 			(type default)
 		)
 		(uuid "8fd5001f-57e6-4bbf-9c34-8a652f852b5d")
+	)
+	(bus
+		(pts
+			(xy 73.66 116.84) (xy 76.2 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ff7cd02-77b1-48de-b9ed-353f625c15fb")
 	)
 	(wire
 		(pts
@@ -11724,6 +11785,16 @@
 		)
 		(uuid "d08194a9-cae4-4507-b848-bc35c497ca5c")
 	)
+	(bus
+		(pts
+			(xy 76.2 116.84) (xy 76.2 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d209ee19-3104-498d-b7fd-dc5d1c60bc65")
+	)
 	(wire
 		(pts
 			(xy 396.24 147.32) (xy 393.7 147.32)
@@ -12645,7 +12716,7 @@
 		(uuid "60a89e67-ef6a-4dea-a49c-29a327a9e5ff")
 	)
 	(label "CAM_GPIO2"
-		(at 71.12 106.68 0)
+		(at 81.28 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12934,6 +13005,16 @@
 		)
 		(uuid "a5cff68a-d105-4d75-8a8d-ed8cf7df65ef")
 	)
+	(label "I2C3.SDA"
+		(at 81.28 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ac1af1a8-52d7-438d-a8fe-b943c50093c9")
+	)
 	(label "CAM_GPIO1"
 		(at 109.22 254 180)
 		(effects
@@ -13064,6 +13145,16 @@
 		)
 		(uuid "ce244be4-7558-4d0d-931f-458d91c1abc9")
 	)
+	(label "I2C3.INT"
+		(at 81.28 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d58c2097-3096-4b8d-bdb1-783d89e678d5")
+	)
 	(label "MIPI1.D1_N"
 		(at 208.28 177.8 0)
 		(effects
@@ -13153,6 +13244,16 @@
 			(justify left bottom)
 		)
 		(uuid "f5f6708c-2bff-4547-b20f-7b3e17645c2c")
+	)
+	(label "I2C3.SCL"
+		(at 81.28 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f73a8825-85e0-4406-a603-54b08e6f85c8")
 	)
 	(label "MIPI0.D0_N"
 		(at 208.28 129.54 0)
@@ -13366,6 +13467,17 @@
 		)
 		(uuid "a3694735-87ff-437c-a34c-869caa50d4a7")
 	)
+	(hierarchical_label "I2C3{I2C}"
+		(shape bidirectional)
+		(at 73.66 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "adab151b-fc57-4fe2-b2aa-72c46ee77654")
+	)
 	(hierarchical_label "I2C2{I2C}"
 		(shape bidirectional)
 		(at 73.66 91.44 180)
@@ -13421,7 +13533,7 @@
 		)
 		(uuid "ed161736-443a-4de9-adb3-3db72692e73a")
 	)
-	(hierarchical_label "CAM_GPIO[0..1]"
+	(hierarchical_label "CAM_GPIO[0..2]"
 		(shape bidirectional)
 		(at 88.9 248.92 180)
 		(effects

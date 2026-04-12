@@ -4005,6 +4005,26 @@
 		)
 		(uuid "d6f0ef7c-e55d-4a4a-a424-5b38f836c802")
 	)
+	(text_box "Superspeed pairs are allowed to swap + and - to ease routing"
+		(exclude_from_sim no)
+		(at -48.26 192.6224 0)
+		(size 25.4 8.0376)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0f716209-91cc-4440-b0cb-e50d9c303027")
+	)
 	(text_box "I_{LIM} = 2185mA"
 		(exclude_from_sim no)
 		(at 248.92 142.24 0)
@@ -6935,7 +6955,7 @@
 		(uuid "ffcc4e91-a1a4-426f-9054-f130cc89b880")
 	)
 	(label "USB3_1.DN"
-		(at -17.78 149.86 180)
+		(at -17.78 157.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6965,7 +6985,7 @@
 		(uuid "0a15803d-601b-4d56-8a92-bdddd53cd7a0")
 	)
 	(label "USB3_0.DP"
-		(at -17.78 124.46 180)
+		(at -17.78 134.62 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6975,7 +6995,7 @@
 		(uuid "10405873-155e-4e98-b97e-14af7068c0c4")
 	)
 	(label "USB3_1.RX_N"
-		(at 137.16 149.86 0)
+		(at 137.16 147.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6995,7 +7015,7 @@
 		(uuid "14d29ee6-60bf-4da5-b21d-a26dcc8bc703")
 	)
 	(label "USB3_0.TX_N"
-		(at 20.32 185.42 0)
+		(at 20.32 180.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7005,7 +7025,7 @@
 		(uuid "17042a7f-84b4-403f-bcd9-e58aade52c0a")
 	)
 	(label "USB3_0.DN"
-		(at 58.42 142.24 0)
+		(at 58.42 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7015,7 +7035,7 @@
 		(uuid "1a8442ee-1710-4803-a737-5a0b712ced3d")
 	)
 	(label "USB3_1.DP"
-		(at 71.12 182.88 0)
+		(at 71.12 177.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7025,7 +7045,7 @@
 		(uuid "1be71dec-dcfb-41c8-a145-42f94a31daf9")
 	)
 	(label "USB3_1.TX_P"
-		(at -17.78 162.56 180)
+		(at -17.78 165.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7075,7 +7095,7 @@
 		(uuid "3302b220-97af-440d-8dec-07f1746cd7ef")
 	)
 	(label "USB3_1.TX_N"
-		(at 137.16 157.48 0)
+		(at 137.16 154.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7115,7 +7135,7 @@
 		(uuid "45e93d01-6c97-44ef-8972-fcc6046f2497")
 	)
 	(label "USB3_0.DP"
-		(at 58.42 139.7 0)
+		(at 58.42 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7135,7 +7155,7 @@
 		(uuid "58d8496e-d379-4b44-b4ac-cae765ddb081")
 	)
 	(label "USB3_1.DP"
-		(at 137.16 139.7 0)
+		(at 137.16 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7145,7 +7165,7 @@
 		(uuid "5c5331c2-3483-490e-beb8-8676038a4b3a")
 	)
 	(label "USB3_1.TX_P"
-		(at 121.92 182.88 0)
+		(at 71.12 185.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7175,7 +7195,7 @@
 		(uuid "7093f9b0-9e39-4795-b23d-44d98aa7a00f")
 	)
 	(label "USB3_1.DP"
-		(at -17.78 147.32 180)
+		(at -17.78 154.94 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7205,7 +7225,7 @@
 		(uuid "832a0cd9-9062-4004-b545-9cb149e41439")
 	)
 	(label "USB3_1.DN"
-		(at 71.12 185.42 0)
+		(at 71.12 180.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7215,7 +7235,7 @@
 		(uuid "87583658-976e-4b29-b3e7-697393cd137b")
 	)
 	(label "USB3_0.DP"
-		(at 121.92 177.8 0)
+		(at 20.32 185.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7225,7 +7245,7 @@
 		(uuid "895c83ac-7943-4e3a-b86a-1f4b1b623053")
 	)
 	(label "USB3_0.TX_N"
-		(at -17.78 142.24 180)
+		(at -17.78 127 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7235,7 +7255,7 @@
 		(uuid "8da9921a-1625-4912-a12c-7455b92c69e1")
 	)
 	(label "USB3_1.TX_P"
-		(at 137.16 154.94 0)
+		(at 137.16 157.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7255,7 +7275,7 @@
 		(uuid "940044b0-7f28-4a95-b771-64a7c57751fd")
 	)
 	(label "USB3_0.TX_P"
-		(at -17.78 139.7 180)
+		(at -17.78 124.46 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7275,7 +7295,7 @@
 		(uuid "9939f51d-cbb3-4701-8cd1-6fe58faf47d0")
 	)
 	(label "USB3_0.RX_N"
-		(at -17.78 134.62 180)
+		(at -17.78 142.24 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7285,7 +7305,7 @@
 		(uuid "99545551-1739-46a5-89d1-1ed89bc50214")
 	)
 	(label "USB3_1.RX_P"
-		(at -17.78 154.94 180)
+		(at -17.78 149.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7295,7 +7315,7 @@
 		(uuid "9cd0003f-5051-4478-a6ac-519be483405a")
 	)
 	(label "USB3_0.RX_P"
-		(at 20.32 177.8 0)
+		(at 121.92 177.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7315,7 +7335,7 @@
 		(uuid "a9248acb-7b16-4826-bd94-21f52946c627")
 	)
 	(label "USB3_0.TX_P"
-		(at 20.32 182.88 0)
+		(at 20.32 177.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7335,7 +7355,7 @@
 		(uuid "b6d51bd6-304c-42d9-82af-18604e01f53c")
 	)
 	(label "USB3_1.RX_N"
-		(at -17.78 157.48 180)
+		(at -17.78 147.32 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7345,7 +7365,7 @@
 		(uuid "b740a0a8-28ad-42de-830f-89c7447bcbbb")
 	)
 	(label "USB3_1.DN"
-		(at 137.16 142.24 0)
+		(at 137.16 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7355,7 +7375,7 @@
 		(uuid "bcf9cc99-42d1-419a-845f-0623d0a33b66")
 	)
 	(label "USB3_1.RX_P"
-		(at 137.16 147.32 0)
+		(at 137.16 149.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7365,7 +7385,7 @@
 		(uuid "c1abdad3-2c2f-4a29-9c81-0a73d567419d")
 	)
 	(label "USB3_0.RX_N"
-		(at 20.32 180.34 0)
+		(at 121.92 180.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7375,7 +7395,7 @@
 		(uuid "c95debd0-2238-493a-90ee-a6f9112c547d")
 	)
 	(label "USB3_1.RX_P"
-		(at 71.12 177.8 0)
+		(at 121.92 185.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7405,7 +7425,7 @@
 		(uuid "cf6f3a1d-6324-4e9a-8c5b-d8088586d32a")
 	)
 	(label "USB3_0.RX_P"
-		(at -17.78 132.08 180)
+		(at -17.78 139.7 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7415,7 +7435,7 @@
 		(uuid "dc380524-36d9-4be7-a1f3-a3826f77ae9f")
 	)
 	(label "USB3_0.DN"
-		(at 121.92 180.34 0)
+		(at 20.32 182.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7425,7 +7445,7 @@
 		(uuid "e01ed2c6-6132-4090-84b2-575abed392e5")
 	)
 	(label "USB3_0.RX_P"
-		(at 58.42 147.32 0)
+		(at 58.42 149.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7435,7 +7455,7 @@
 		(uuid "e0e418ee-736e-4dbb-904b-52c5e8afe952")
 	)
 	(label "USB3_0.TX_P"
-		(at 58.42 154.94 0)
+		(at 58.42 157.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7455,7 +7475,7 @@
 		(uuid "ea0d46f2-45b3-458b-89fd-3fcac0812147")
 	)
 	(label "USB3_1.TX_N"
-		(at -17.78 165.1 180)
+		(at -17.78 162.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7485,7 +7505,7 @@
 		(uuid "eefde072-2595-43fd-bce0-024f06005dea")
 	)
 	(label "USB3_1.TX_N"
-		(at 121.92 185.42 0)
+		(at 71.12 182.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7495,7 +7515,7 @@
 		(uuid "f21079cc-eed4-4b62-84fe-31190a1ddb62")
 	)
 	(label "USB3_0.TX_N"
-		(at 58.42 157.48 0)
+		(at 58.42 154.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7505,7 +7525,7 @@
 		(uuid "f3de943f-a47d-4229-a646-c8446f66d3ec")
 	)
 	(label "USB3_1.RX_N"
-		(at 71.12 180.34 0)
+		(at 121.92 182.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7525,7 +7545,7 @@
 		(uuid "f69b7cc9-d23f-47dc-8d23-e4dae3f5ee01")
 	)
 	(label "USB3_0.DN"
-		(at -17.78 127 180)
+		(at -17.78 132.08 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7535,7 +7555,7 @@
 		(uuid "f6a13ca7-fa63-4ce7-8add-f40744793fd8")
 	)
 	(label "USB3_0.RX_N"
-		(at 58.42 149.86 0)
+		(at 58.42 147.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)

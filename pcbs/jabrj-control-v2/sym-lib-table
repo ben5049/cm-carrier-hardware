@@ -32,4 +32,5 @@
 	(lib (name "EEPROM") (type "KiCad") (uri "${KIPRJMOD}/../component-library/project_symbols/EEPROM.kicad_sym") (options "") (descr ""))
 	(lib (name "MOSFET") (type "KiCad") (uri "${KIPRJMOD}/../component-library/project_symbols/MOSFET.kicad_sym") (options "") (descr ""))
 	(lib (name "DIODE") (type "KiCad") (uri "${KIPRJMOD}/../component-library/project_symbols/DIODE.kicad_sym") (options "") (descr ""))
+	(lib (name "ADC") (type "KiCad") (uri "${KIPRJMOD}/../component-library/project_symbols/ADC.kicad_sym") (options "") (descr ""))
 )
