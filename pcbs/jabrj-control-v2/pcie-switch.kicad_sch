@@ -13277,6 +13277,16 @@
 		)
 		(uuid "bae2f63e-76a3-49aa-9f40-539100361d79")
 	)
+	(label "SERIAL_SEL_STRAP"
+		(at 198.12 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bf6531f0-b8db-42e8-b48f-753898756fff")
+	)
 	(label "TX_D0_R"
 		(at 198.12 121.92 0)
 		(effects
