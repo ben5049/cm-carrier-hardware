@@ -86,14 +86,6 @@
           ""
         ],
         [
-          "shorting_items|133000000|64675000|17d1b3cf-7086-4626-9f95-661d00dc4f6b|9bc206f6-1f67-4e2e-9e8c-51fc5d5a05a3",
-          ""
-        ],
-        [
-          "shorting_items|166000000|112675000|4ce80164-f162-43de-b5c1-fea98471a574|6d255ddb-6cc6-44ea-ae60-9f6b7145a2da",
-          ""
-        ],
-        [
           "shorting_items|166000000|64675000|6344ab55-fdab-462f-9a11-5aae42afe67b|7b790aaa-30b8-4b38-918a-bf59cd065727",
           ""
         ],
@@ -1803,7 +1795,7 @@
         "uuid": "f91ec272-d09a-4038-bbbb-962739a92c51"
       }
     ],
-    "used_designators": "",
+    "used_designators": "TP403",
     "variants": []
   },
   "sheets": [
