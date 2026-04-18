@@ -6,3 +6,5 @@ Compact CM5 carrier board with an M.2 E-key connector and a 1000BASE-T1 Ethernet
 - V2 Uses the PCI11010C which integrates a PCIe switch and Ethernet MAC, leading to space and power savings compared to V1
 
 ![top-render](/media/top-render.png)
+
+![bottom-render](/media/bottom-render.png)
