@@ -162,7 +162,7 @@
 		)
 		(uuid "05c166ec-b814-4d7e-aa62-5e2831c79a2c")
 	)
-	(text "<411mA"
+	(text "<415mA"
 		(exclude_from_sim no)
 		(at 129.54 63.5 0)
 		(effects
@@ -348,6 +348,17 @@
 			(justify left)
 		)
 		(uuid "5366126b-001e-4835-b5a3-ca1a58df30a2")
+	)
+	(text "I2C"
+		(exclude_from_sim no)
+		(at 243.84 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5c6953f3-b2b1-44bf-9d1d-f740fc49d459")
 	)
 	(text "1V1"
 		(exclude_from_sim no)
@@ -568,7 +579,7 @@
 		)
 		(uuid "92d68490-3881-43d7-a5a9-416842f2b441")
 	)
-	(text "<60uA"
+	(text "<5mA"
 		(exclude_from_sim no)
 		(at 231.14 68.58 0)
 		(effects
@@ -887,6 +898,17 @@
 		)
 		(uuid "f5626c9a-2f15-495a-8e66-5993f52d9004")
 	)
+	(text "ADC"
+		(exclude_from_sim no)
+		(at 243.84 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f5bb6a6c-d00e-4bdc-b642-baf0fe35f6ed")
+	)
 	(text "MIPI Power"
 		(exclude_from_sim no)
 		(at 243.84 66.04 0)
@@ -1091,6 +1113,16 @@
 			(type default)
 		)
 		(uuid "03f4929e-2b68-442c-9ef8-acf8559fda73")
+	)
+	(polyline
+		(pts
+			(xy 228.6 71.12) (xy 228.6 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06693345-ef52-498d-b979-c09ce563bbcc")
 	)
 	(polyline
 		(pts
@@ -1541,6 +1573,16 @@
 			(type default)
 		)
 		(uuid "6a2b42ca-b2bd-4f7e-a560-834739942371")
+	)
+	(polyline
+		(pts
+			(xy 241.3 76.2) (xy 228.6 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c54e372-e73a-496d-89e4-fd3a74a34690")
 	)
 	(polyline
 		(pts

@@ -679,16 +679,22 @@
 		(uuid "c20e3b06-dd07-4890-923d-e7cede60b53f")
 	)
 	(junction
-		(at 160.02 53.34)
+		(at 111.76 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "091ff131-ed56-439f-8a13-eae1e48f9f8e")
+		(uuid "1bd99e67-f055-4f68-96ca-24694095db24")
 	)
 	(junction
-		(at 162.56 50.8)
+		(at 160.02 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "44e82da8-48dd-4050-b189-7d2fada3903b")
+		(uuid "8259ca8c-d593-4eaa-92bc-b5814998e32c")
+	)
+	(junction
+		(at 157.48 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b436403e-95ce-41f7-850b-f5d664ba5ea4")
 	)
 	(no_connect
 		(at 111.76 152.4)
@@ -834,6 +840,16 @@
 	)
 	(bus
 		(pts
+			(xy 96.52 88.9) (xy 111.76 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2180eaa4-df70-4fe8-b6d6-28ce27bd1d19")
+	)
+	(bus
+		(pts
 			(xy 147.32 33.02) (xy 223.52 33.02)
 		)
 		(stroke
@@ -871,16 +887,6 @@
 			(type default)
 		)
 		(uuid "279ebcfe-3034-4598-a4f2-1da06da2ce35")
-	)
-	(wire
-		(pts
-			(xy 162.56 50.8) (xy 223.52 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29b00aa7-5d53-4cf5-97dc-8a105ba28dd1")
 	)
 	(polyline
 		(pts
@@ -974,7 +980,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 73.66) (xy 162.56 73.66)
+			(xy 172.72 73.66) (xy 160.02 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1014,7 +1020,7 @@
 	)
 	(bus
 		(pts
-			(xy 96.52 106.68) (xy 121.92 106.68)
+			(xy 96.52 106.68) (xy 111.76 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1134,17 +1140,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 53.34) (xy 223.52 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "675b341d-ce9e-47fc-a4d5-50defad252c9")
-	)
-	(wire
-		(pts
-			(xy 162.56 50.8) (xy 162.56 73.66)
+			(xy 160.02 50.8) (xy 160.02 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1184,7 +1180,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 50.8) (xy 162.56 50.8)
+			(xy 147.32 50.8) (xy 160.02 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1314,7 +1310,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 53.34) (xy 160.02 76.2)
+			(xy 157.48 53.34) (xy 157.48 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1362,6 +1358,16 @@
 		)
 		(uuid "a3857369-802a-4447-b90b-5777b94c5817")
 	)
+	(bus
+		(pts
+			(xy 111.76 88.9) (xy 121.92 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a737aa2a-9da6-4b50-92c2-b8836b43fc78")
+	)
 	(wire
 		(pts
 			(xy 96.52 76.2) (xy 121.92 76.2)
@@ -1394,7 +1400,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 76.2) (xy 160.02 76.2)
+			(xy 172.72 76.2) (xy 157.48 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1492,6 +1498,16 @@
 		)
 		(uuid "b905ac3b-9c7e-48ca-b022-365d8f83e26e")
 	)
+	(wire
+		(pts
+			(xy 160.02 50.8) (xy 223.52 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbdf0fe0-716b-4f89-b027-463e89b5d696")
+	)
 	(bus
 		(pts
 			(xy 198.12 66.04) (xy 223.52 66.04)
@@ -1541,16 +1557,6 @@
 			(type default)
 		)
 		(uuid "c7effd94-dd45-48b2-b0ec-9bf70efe9eda")
-	)
-	(bus
-		(pts
-			(xy 96.52 88.9) (xy 121.92 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6d5a734-7b4d-4cd1-bac0-db0bb043b145")
 	)
 	(polyline
 		(pts
@@ -1642,6 +1648,16 @@
 		)
 		(uuid "e067e56d-8177-42bb-b50b-8098f65fe33f")
 	)
+	(bus
+		(pts
+			(xy 111.76 88.9) (xy 111.76 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e10e8320-4953-44e5-aaf3-ac25af3d5ec3")
+	)
 	(polyline
 		(pts
 			(xy 134.62 148.59) (xy 134.62 173.99)
@@ -1664,7 +1680,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 53.34) (xy 160.02 53.34)
+			(xy 147.32 53.34) (xy 157.48 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1721,6 +1737,16 @@
 			(type default)
 		)
 		(uuid "f03eb857-38db-43f7-9f0c-f30cf63e8c75")
+	)
+	(wire
+		(pts
+			(xy 157.48 53.34) (xy 223.52 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f71f423c-d1cd-4d7e-ab61-9597caec81d4")
 	)
 	(wire
 		(pts
@@ -1925,7 +1951,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c926a08-cafa-4580-bd45-b31e57b610b6")
-		(property "Reference" "H107"
+		(property "Reference" "H106"
 			(at 154.94 147.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2206,7 +2232,7 @@
 		(instances
 			(project "cm5-carrier-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51"
-					(reference "H107")
+					(reference "H106")
 					(unit 1)
 				)
 			)
@@ -2488,7 +2514,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9fda8472-93fe-444d-ab3b-827613d33fac")
-		(property "Reference" "H106"
+		(property "Reference" "H108"
 			(at 154.94 187.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2769,7 +2795,7 @@
 		(instances
 			(project "cm5-carrier-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51"
-					(reference "H106")
+					(reference "H108")
 					(unit 1)
 				)
 			)
@@ -4145,7 +4171,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f78daabb-ecf9-4f1c-9858-71787fa41a84")
-		(property "Reference" "H108"
+		(property "Reference" "H107"
 			(at 154.94 172.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4426,7 +4452,7 @@
 		(instances
 			(project "cm5-carrier-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51"
-					(reference "H108")
+					(reference "H107")
 					(unit 1)
 				)
 			)
@@ -5119,18 +5145,8 @@
 			)
 		)
 		(pin "I2C3{I2C}" bidirectional
-			(at 121.92 106.68 180)
-			(uuid "57ea89c8-daf4-4ee4-8720-8eb827097554")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "UART2{UART}" bidirectional
 			(at 121.92 88.9 180)
-			(uuid "071f3b68-350d-4c12-b4b8-61d64945a80c")
+			(uuid "57ea89c8-daf4-4ee4-8720-8eb827097554")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5456,9 +5472,9 @@
 				(justify right)
 			)
 		)
-		(pin "{UART}" bidirectional
+		(pin "{I2C}" bidirectional
 			(at 96.52 88.9 0)
-			(uuid "6955dd6c-2b9e-4e51-981a-08d24d62e354")
+			(uuid "f8527f1f-7888-4e3c-8a7e-3ac52be65ae1")
 			(effects
 				(font
 					(size 1.27 1.27)

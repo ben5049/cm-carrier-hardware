@@ -2975,7 +2975,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e5d220c-dffd-4644-8e6a-54b5cb2dc503")
-		(property "Reference" "#PWR0902"
+		(property "Reference" "#PWR0903"
 			(at 109.22 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -3035,7 +3035,7 @@
 		(instances
 			(project "cm5-carrier-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/80b60915-5ccb-4842-b09a-a259b4f355b7"
-					(reference "#PWR0902")
+					(reference "#PWR0903")
 					(unit 1)
 				)
 			)
@@ -3355,7 +3355,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39ac6767-336b-4c81-b902-f3458cf055f0")
-		(property "Reference" "#PWR0903"
+		(property "Reference" "#PWR0904"
 			(at 109.22 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -3415,7 +3415,7 @@
 		(instances
 			(project "cm5-carrier-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/80b60915-5ccb-4842-b09a-a259b4f355b7"
-					(reference "#PWR0903")
+					(reference "#PWR0904")
 					(unit 1)
 				)
 			)
@@ -3433,7 +3433,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4de9e86c-e77b-4bc0-9fc4-6e59c38ec303")
-		(property "Reference" "#PWR0906"
+		(property "Reference" "#PWR0908"
 			(at 251.46 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -3493,7 +3493,7 @@
 		(instances
 			(project "cm5-carrier-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/80b60915-5ccb-4842-b09a-a259b4f355b7"
-					(reference "#PWR0906")
+					(reference "#PWR0908")
 					(unit 1)
 				)
 			)
@@ -3658,7 +3658,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "629fb976-bdcf-4ef3-a88a-9b8b303c793a")
-		(property "Reference" "#PWR0905"
+		(property "Reference" "#PWR0907"
 			(at 218.44 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -3718,7 +3718,7 @@
 		(instances
 			(project "cm5-carrier-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/80b60915-5ccb-4842-b09a-a259b4f355b7"
-					(reference "#PWR0905")
+					(reference "#PWR0907")
 					(unit 1)
 				)
 			)
@@ -4038,7 +4038,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "866d8dd5-7fbe-40a4-bd39-7eda938e70ed")
-		(property "Reference" "#PWR0901"
+		(property "Reference" "#PWR0902"
 			(at 63.5 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -4098,7 +4098,7 @@
 		(instances
 			(project "cm5-carrier-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/80b60915-5ccb-4842-b09a-a259b4f355b7"
-					(reference "#PWR0901")
+					(reference "#PWR0902")
 					(unit 1)
 				)
 			)
@@ -4116,7 +4116,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9693ad3b-4124-441d-b1bb-187a00b604e2")
-		(property "Reference" "#PWR0904"
+		(property "Reference" "#PWR0906"
 			(at 172.72 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -4176,7 +4176,7 @@
 		(instances
 			(project "cm5-carrier-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/80b60915-5ccb-4842-b09a-a259b4f355b7"
-					(reference "#PWR0904")
+					(reference "#PWR0906")
 					(unit 1)
 				)
 			)
@@ -4194,7 +4194,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a96cf887-fb1b-4e10-8f35-9fb11552c0a6")
-		(property "Reference" "R902"
+		(property "Reference" "R901"
 			(at 208.28 113.0299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4478,7 +4478,7 @@
 		(instances
 			(project "cm5-carrier-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/80b60915-5ccb-4842-b09a-a259b4f355b7"
-					(reference "R902")
+					(reference "R901")
 					(unit 1)
 				)
 			)
@@ -4643,7 +4643,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af651ecf-4250-4e53-a8f9-2fe76a4fa0ab")
-		(property "Reference" "#PWR0909"
+		(property "Reference" "#PWR0901"
 			(at 38.1 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -4703,7 +4703,7 @@
 		(instances
 			(project "cm5-carrier-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/80b60915-5ccb-4842-b09a-a259b4f355b7"
-					(reference "#PWR0909")
+					(reference "#PWR0901")
 					(unit 1)
 				)
 			)
@@ -4721,7 +4721,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cdea66b5-17b7-4a43-9427-f49173c5841c")
-		(property "Reference" "#PWR0907"
+		(property "Reference" "#PWR0909"
 			(at 251.46 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -4781,7 +4781,7 @@
 		(instances
 			(project "cm5-carrier-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/80b60915-5ccb-4842-b09a-a259b4f355b7"
-					(reference "#PWR0907")
+					(reference "#PWR0909")
 					(unit 1)
 				)
 			)
@@ -4799,7 +4799,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5b3c598-0837-4e2d-b207-49a0c503c735")
-		(property "Reference" "R903"
+		(property "Reference" "R902"
 			(at 220.98 113.0299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5083,7 +5083,7 @@
 		(instances
 			(project "cm5-carrier-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/80b60915-5ccb-4842-b09a-a259b4f355b7"
-					(reference "R903")
+					(reference "R902")
 					(unit 1)
 				)
 			)
@@ -5101,7 +5101,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f94ce107-6e64-4953-ae6c-98d3c1982f5e")
-		(property "Reference" "#PWR0908"
+		(property "Reference" "#PWR0905"
 			(at 147.32 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -5161,7 +5161,7 @@
 		(instances
 			(project "cm5-carrier-v2"
 				(path "/f91ec272-d09a-4038-bbbb-962739a92c51/80b60915-5ccb-4842-b09a-a259b4f355b7"
-					(reference "#PWR0908")
+					(reference "#PWR0905")
 					(unit 1)
 				)
 			)
