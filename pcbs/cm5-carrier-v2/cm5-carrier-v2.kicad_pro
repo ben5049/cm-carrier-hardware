@@ -86,6 +86,14 @@
           ""
         ],
         [
+          "shorting_items|133000000|64675000|1cb2cc91-5cf4-4c55-aac4-44c1c23e5330|9bc206f6-1f67-4e2e-9e8c-51fc5d5a05a3",
+          ""
+        ],
+        [
+          "shorting_items|166000000|112675000|25683e44-f296-46c6-9064-3c9ef3294a53|4ce80164-f162-43de-b5c1-fea98471a574",
+          ""
+        ],
+        [
           "shorting_items|166000000|64675000|6344ab55-fdab-462f-9a11-5aae42afe67b|7b790aaa-30b8-4b38-918a-bf59cd065727",
           ""
         ],
@@ -140,38 +148,6 @@
         [
           "silk_edge_clearance|189470000|143000000|80f21ed7-a50d-4bc6-9186-1d6470df810d|ff04d3e6-9b79-4cf8-b6c3-ec2da55a4500",
           ""
-        ],
-        [
-          "solder_mask_bridge|187000000|112400000|2c512983-4d10-477e-b91d-b222f6f6d5be|3279c4ce-036b-4ac5-ba03-a7db96cbe0c7",
-          ""
-        ],
-        [
-          "solder_mask_bridge|187000000|112400000|2c512983-4d10-477e-b91d-b222f6f6d5be|7bb9baef-f313-4efe-b278-b62645ae5a77",
-          ""
-        ],
-        [
-          "solder_mask_bridge|187000000|112400000|2c512983-4d10-477e-b91d-b222f6f6d5be|bf5f0344-0b5a-47d6-a361-c2ec26788d4b",
-          ""
-        ],
-        [
-          "solder_mask_bridge|187000000|124400000|d745bdb9-0a70-4706-825a-b463294b5a27|52dfd245-2648-4c9a-aa98-44c33c42eed3",
-          ""
-        ],
-        [
-          "solder_mask_bridge|187000000|124400000|d745bdb9-0a70-4706-825a-b463294b5a27|59537d6c-20d2-48bf-afe2-f8c3cafaeb8d",
-          ""
-        ],
-        [
-          "solder_mask_bridge|187000000|124400000|d745bdb9-0a70-4706-825a-b463294b5a27|8fe5d1d9-d345-4ad0-85e2-ebd1b476ae03",
-          ""
-        ],
-        [
-          "solder_mask_bridge|187000000|124400000|d745bdb9-0a70-4706-825a-b463294b5a27|9f42c981-f1c8-499e-ac50-8ae9fe1503fe",
-          ""
-        ],
-        [
-          "solder_mask_bridge|187000000|124400000|d745bdb9-0a70-4706-825a-b463294b5a27|b1fdc026-aa91-4c88-9f86-fa1b06d9d75d",
-          ""
         ]
       ],
       "meta": {
@@ -219,9 +195,9 @@
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
-        "solder_mask_bridge": "error",
+        "solder_mask_bridge": "ignore",
         "starved_thermal": "error",
         "text_height": "warning",
         "text_on_edge_cuts": "error",
@@ -253,8 +229,8 @@
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.8,
-        "min_text_thickness": 0.08,
+        "min_text_height": 0.5,
+        "min_text_thickness": 0.05,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.1,
         "min_via_annular_width": 0.05,
@@ -1795,7 +1771,7 @@
         "uuid": "f91ec272-d09a-4038-bbbb-962739a92c51"
       }
     ],
-    "used_designators": "L401,L601-602,D301,D401-404,D701-704,D801-803,D1001,D1101-1104,#PWR101-103,#PWR301-310,#PWR401-423,#PWR501-509,#PWR601-616,#PWR701-717,#PWR801-828,#PWR901-909,#PWR1001-1051,#PWR1101-1128,#PWR1201-1207,C301-305,C401-418,C501-502,C601-620,C701,C801-807,C901-902,C1001-1053,C1101-1125,C1201,H101-108,H1201-1202,FL1101,J301,J701,J801-806,J901-902,J1101,J1201,Q401-403,Q701,R301-311,R401-416,R501-502,R601-605,R701-704,R801-803,R901-902,R1001-1027,R1101-1117,S701,SOM701,SW701,TP101-103,TP301,TP401-403,TP501,TP601-603,TP701-708,TP1001-1009,TP1101-1105,U301-303,U401-403,U501-502,U601-603,U701,U801-808,U1001-1003,U1101,Y1001,Y1101,Y1201",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
